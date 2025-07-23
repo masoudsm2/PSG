@@ -99,7 +99,6 @@
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 11",
                 "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -127,7 +126,6 @@
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 11",
                 "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -382,29 +380,6 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🟢 | vless | @msv2flyng | 11",
-            "type": "vless",
-            "server": "210.16.123.120",
-            "server_port": 26036,
-            "uuid": "4f6b21b4-0137-4e31-966d-078a04ad4c6c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "icloud.cdn-apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w",
                     "short_id": ""
                 }
             }
