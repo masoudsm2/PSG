@@ -92,7 +92,7 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 15",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -114,7 +114,7 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 15",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -190,20 +190,11 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 15",
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
             "type": "trojan",
-            "server": "stirring-parakeet.shiner427.skin",
-            "server_port": 443,
-            "password": "74260628090146500",
-            "tls": {
-                "enabled": true,
-                "server_name": "stirring-parakeet.shiner427.skin",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
+            "server_port": 15229,
+            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
