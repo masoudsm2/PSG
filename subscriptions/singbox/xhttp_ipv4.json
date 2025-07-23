@@ -92,9 +92,9 @@
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
-                "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 102",
+                "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 103",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 8",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
@@ -106,6 +106,7 @@
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 5",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
@@ -146,9 +147,9 @@
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
-                "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 102",
+                "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 103",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 8",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
@@ -160,6 +161,7 @@
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 5",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
@@ -251,16 +253,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 102",
+            "tag": "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 103",
             "type": "vless",
-            "server": "157.180.88.180",
-            "server_port": 32576,
-            "uuid": "e48e946e-1048-45d4-a54f-a5153e3dfd6c",
+            "server": "159.65.24.214",
+            "server_port": 44486,
+            "uuid": "bddee8f2-784e-47b4-a7a5-65557bf813ff",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "zhaket.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -268,8 +270,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6OUmhwQ8yUnRmQuUpeUj4tiKdgR42tqXd0zzrTbmcTs",
-                    "short_id": "6b63"
+                    "public_key": "4Iu8Qa-XePGCSkg0_W_KEUV7bJj7ysmfAYsOJvZsFxM",
+                    "short_id": "1b74288a"
                 }
             }
         },
@@ -292,7 +294,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 8",
             "type": "vless",
             "server": "138.199.168.187",
             "server_port": 28153,
@@ -519,6 +521,29 @@
             "uuid": "turboo-server",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @lranonline_new | 5",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "0a806f40-bd95-42c3-8457-f520f80bfd61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
