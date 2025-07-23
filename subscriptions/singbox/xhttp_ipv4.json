@@ -92,7 +92,7 @@
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
-                "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
+                "🇺🇸 US | 🟢 | vless | @elfv2ray | 1",
                 "🇩🇪 DE | 🟢 | vless | @falcunargo | 5",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
@@ -124,7 +124,7 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
-                "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 3",
+                "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 2",
                 "🇺🇸 US | 🔴 | vless | @v2rayngfreee | 2",
                 "🇺🇸 US | 🔴 | vless | @v2rayngfreee | 3",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngfreee | 4",
@@ -141,7 +141,7 @@
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
-                "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
+                "🇺🇸 US | 🟢 | vless | @elfv2ray | 1",
                 "🇩🇪 DE | 🟢 | vless | @falcunargo | 5",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
@@ -173,7 +173,7 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
-                "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 3",
+                "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 2",
                 "🇺🇸 US | 🔴 | vless | @v2rayngfreee | 2",
                 "🇺🇸 US | 🔴 | vless | @v2rayngfreee | 3",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngfreee | 4",
@@ -241,7 +241,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
+            "tag": "🇺🇸 US | 🟢 | vless | @elfv2ray | 1",
             "type": "vless",
             "server": "104.21.48.1",
             "server_port": 2083,
@@ -811,7 +811,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 3",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 2",
             "type": "vless",
             "server": "91.99.181.7",
             "server_port": 443,
