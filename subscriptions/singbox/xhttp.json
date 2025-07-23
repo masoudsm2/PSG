@@ -91,7 +91,7 @@
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
-                "🇫🇷 FR | 🟢 | vless | @config_proxy | 18",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 9",
@@ -120,14 +120,12 @@
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 9",
                 "🇺🇸 US | 🔴 | vless | @v2trayproxy | 11",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 17",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
-                "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 112",
+                "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 102",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @falcunargo | 11",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
@@ -178,7 +176,7 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
-                "🇫🇷 FR | 🟢 | vless | @config_proxy | 18",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 9",
@@ -207,14 +205,12 @@
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 9",
                 "🇺🇸 US | 🔴 | vless | @v2trayproxy | 11",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 17",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
-                "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 112",
+                "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 102",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @falcunargo | 11",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
@@ -299,27 +295,13 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @config_proxy | 18",
+            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
             "type": "vless",
-            "server": "hp.mastertunnel.shop",
-            "server_port": 2096,
-            "uuid": "474494eb-e8ef-402e-be1c-f9670fcf3f33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Un5haKCXEnekiryaRDLmOHCGEufZfseV6IpdKHnav3M",
-                    "short_id": "089604fd79ac01fd"
-                }
-            }
+            "server": "server2.ultra-irancell.com",
+            "server_port": 80,
+            "uuid": "454a0861-1b7c-4b20-bc91-16c1a2266654",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -606,15 +588,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
             "type": "vless",
             "server": "netmeli.noytads.ir",
@@ -631,24 +604,6 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 17",
-            "type": "vless",
-            "server": "198.58.116.209",
-            "server_port": 443,
-            "uuid": "2a0e68d1-56e9-43cc-802f-5cbc617e8e98",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "198.58.116.209",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configfa | 40",
@@ -701,7 +656,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 112",
+            "tag": "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 102",
             "type": "vless",
             "server": "157.180.88.180",
             "server_port": 32576,

@@ -10,6 +10,7 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔ XX | 🟢 | ss | @chestertm | 19 = ss, freakconfig94.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15 = ss, azure-sto.edgeservers.org, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
 🇳🇱 NL | 🟢 | ss | @outline_ir | 19 = ss, switcher-nick-croquet.freesocks.work, 443, encrypt-method = chacha20-ietf-poly1305, password = 9tqhMdIrTkgQ46PvhyAtMH
@@ -20,9 +21,9 @@ DIRECT = direct
 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0 = ss, admin.c1.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = 1xO2cqPazqjGfCfd
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | ss | @chestertm | 19, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, 🇳🇱 NL | 🟢 | ss | @outline_ir | 19, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
-PSG-AUTO = url-test, ❔ XX | 🟢 | ss | @chestertm | 19, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, 🇳🇱 NL | 🟢 | ss | @outline_ir | 19, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
-PSG-FALLBACK = fallback, ❔ XX | 🟢 | ss | @chestertm | 19, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, 🇳🇱 NL | 🟢 | ss | @outline_ir | 19, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | ss | @chestertm | 19, 🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, 🇳🇱 NL | 🟢 | ss | @outline_ir | 19, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
+PSG-AUTO = url-test, ❔ XX | 🟢 | ss | @chestertm | 19, 🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, 🇳🇱 NL | 🟢 | ss | @outline_ir | 19, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
+PSG-FALLBACK = fallback, ❔ XX | 🟢 | ss | @chestertm | 19, 🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, 🇳🇱 NL | 🟢 | ss | @outline_ir | 19, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
 
 [Rule]
 GEOIP,IR,DIRECT

@@ -112,13 +112,14 @@
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
+                "🇩🇪 DE | 🔴 | vmess | @netmellianti | 16",
                 "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
                 "❔ XX | 🟢 | vmess | @prooxyk | 4",
                 "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 129",
                 "❔ XX | 🔴 | vmess | @pydriclub | 3",
                 "🇦🇹 AT | 🔴 | vmess | @rnrifci | 5",
                 "🇺🇸 US | 🔴 | vmess | @royal_shop87 | 17",
-                "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
+                "❔ XX | 🔴 | vmess | @savagenet | 1",
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
                 "🇺🇸 US | 🟢 | vmess | @shadowsocksservers | 12",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
@@ -131,7 +132,7 @@
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
-                "🇷🇴 RO | 🔴 | vmess | @vpnfail_v2ray | 19",
+                "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
@@ -166,13 +167,14 @@
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
+                "🇩🇪 DE | 🔴 | vmess | @netmellianti | 16",
                 "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
                 "❔ XX | 🟢 | vmess | @prooxyk | 4",
                 "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 129",
                 "❔ XX | 🔴 | vmess | @pydriclub | 3",
                 "🇦🇹 AT | 🔴 | vmess | @rnrifci | 5",
                 "🇺🇸 US | 🔴 | vmess | @royal_shop87 | 17",
-                "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
+                "❔ XX | 🔴 | vmess | @savagenet | 1",
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
                 "🇺🇸 US | 🟢 | vmess | @shadowsocksservers | 12",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
@@ -185,7 +187,7 @@
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
-                "🇷🇴 RO | 🔴 | vmess | @vpnfail_v2ray | 19",
+                "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
@@ -564,6 +566,15 @@
             "alter_id": 0
         },
         {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @netmellianti | 16",
+            "type": "vmess",
+            "server": "prom.learn-new.ir",
+            "server_port": 80,
+            "uuid": "f56b1d07-2c00-4cac-91e4-6d49a8f9051b",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
             "tag": "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
             "type": "vmess",
             "server": "185.143.233.120",
@@ -659,7 +670,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
+            "tag": "❔ XX | 🔴 | vmess | @savagenet | 1",
             "type": "vmess",
             "server": "ir.svgspeedtest.net",
             "server_port": 38960,
@@ -852,13 +863,20 @@
             "alter_id": 0
         },
         {
-            "tag": "🇷🇴 RO | 🔴 | vmess | @vpnfail_v2ray | 19",
+            "tag": "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 18",
             "type": "vmess",
-            "server": "5.182.37.231",
-            "server_port": 49664,
-            "uuid": "9395474c-e2a1-4565-ba56-c16e7373c4c4",
+            "server": "2112e4.7d79233c.shop",
+            "server_port": 80,
+            "uuid": "952797b6-21a0-4e66-9239-30ef5c0efcdf",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
