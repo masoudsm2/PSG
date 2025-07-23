@@ -219,8 +219,8 @@
     "config_proxy": {
         "types": [
             "vless",
-            "ss",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -299,9 +299,8 @@
     "configshubplus": {
         "types": [
             "vless",
-            "ss",
-            "trojan",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -545,8 +544,8 @@
     },
     "expressvpn_420": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "𝗩2𝗥𝗔𝗬 | 𝗩𝗣𝗡| بکاپ کلاینت پرو فیلتر‌شکن",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/expressvpn_420.jpg"
@@ -1114,10 +1113,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
-            "trojan",
             "vmess",
-            "ss"
+            "trojan",
+            "ss",
+            "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1393,9 +1392,9 @@
     },
     "kurdistan_vpn_perfectt": {
         "types": [
-            "ss",
             "vless",
-            "trojan"
+            "trojan",
+            "ss"
         ],
         "title": "Kurdistan_Vpn",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/kurdistan_vpn_perfectt.jpg"
@@ -1711,8 +1710,9 @@
     },
     "mowjproxy": {
         "types": [
+            "vless",
             "vmess",
-            "vless"
+            "ss"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1857,8 +1857,8 @@
     },
     "netmellianti": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "VPN | V2rayNG | نت ملی",
@@ -2107,8 +2107,9 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
+            "vmess",
             "vless",
-            "vmess"
+            "ss"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
@@ -2620,10 +2621,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "trojan",
             "vmess",
             "vless",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2717,9 +2718,8 @@
     },
     "v2raych": {
         "types": [
-            "vmess",
             "vless",
-            "trojan"
+            "vmess"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -2747,8 +2747,9 @@
     },
     "v2rayfree": {
         "types": [
+            "vmess",
             "vless",
-            "vmess"
+            "ss"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfree.jpg"
@@ -3034,7 +3035,8 @@
     "v2ry_proxy": {
         "types": [
             "vless",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "V2ry | Proxy | رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ry_proxy.jpg"

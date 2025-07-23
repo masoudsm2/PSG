@@ -91,8 +91,8 @@
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 14",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 12",
@@ -111,7 +111,7 @@
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 1",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 23",
-                "🇺🇸 US | 🔴 | vless | @proxy_v2box | 4",
+                "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
@@ -151,7 +151,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 126",
+                "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
@@ -176,8 +176,8 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 14",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 9",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 12",
@@ -196,7 +196,7 @@
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 1",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 23",
-                "🇺🇸 US | 🔴 | vless | @proxy_v2box | 4",
+                "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
@@ -236,7 +236,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 126",
+                "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
@@ -295,20 +295,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
-            "type": "vless",
-            "server": "server2.ultra-irancell.com",
-            "server_port": 80,
-            "uuid": "454a0861-1b7c-4b20-bc91-16c1a2266654",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 14",
+            "type": "vless",
+            "server": "CoNFiGLiNE.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "80172ff8-708e-4a71-aa85-42eea7171ba9",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -475,7 +475,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @proxy_v2box | 4",
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
             "type": "vless",
             "server": "bos.lebasnoo.ir",
             "server_port": 80,
@@ -1121,7 +1121,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 126",
+            "tag": "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
             "type": "vless",
             "server": "199.247.28.17",
             "server_port": 44914,
