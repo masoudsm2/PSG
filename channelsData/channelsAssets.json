@@ -218,8 +218,8 @@
     },
     "config_proxy": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -297,8 +297,8 @@
     },
     "configshubplus": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -717,7 +717,6 @@
     },
     "free1_vpn": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "Free_VPN √ v2ray √ NapsternetV √ custom √ injector √",
@@ -1104,10 +1103,10 @@
     },
     "ip_cf_config": {
         "types": [
+            "ss",
             "vmess",
-            "vless",
             "trojan",
-            "ss"
+            "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2611,8 +2610,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
             "ss",
+            "vmess",
             "trojan",
             "vless"
         ],
@@ -2708,9 +2707,10 @@
     },
     "v2raych": {
         "types": [
-            "vmess",
             "vless",
-            "trojan"
+            "trojan",
+            "ss",
+            "vmess"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -3159,8 +3159,9 @@
     },
     "vmesc": {
         "types": [
+            "vless",
             "ss",
-            "vless"
+            "trojan"
         ],
         "title": "Free V2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmesc.jpg"

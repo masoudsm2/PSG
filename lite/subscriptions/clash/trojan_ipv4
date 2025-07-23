@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 16","type":"trojan","server":"15.236.28.202","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12","type":"trojan","server":"104.25.165.81","port":8443,"password":"123456","skip-cert-verify":false}
   - {"name":"🇸🇬 SG | 🟢 | trojan | @mpmehi | 0","type":"trojan","server":"146.190.87.238","port":443,"password":"oZAugtgF5T","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15","type":"trojan","server":"176.32.39.29","port":443,"password":"8OXD5VVt8s","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @orange_vpns | 18","type":"trojan","server":"172.67.181.173","port":443,"password":"f282b878-8711-45a1-8c69-5564172123c1","skip-cert-verify":false}
@@ -46,7 +45,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 16'
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
       - '🇺🇸 US | 🟢 | trojan | @orange_vpns | 18'
