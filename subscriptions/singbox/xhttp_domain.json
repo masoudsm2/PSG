@@ -107,7 +107,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 2",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 23",
                 "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
@@ -144,7 +144,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 2",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 23",
                 "🇺🇸 US | 🔴 | vless | @proxy_v2box | 3",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
@@ -343,7 +343,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 2",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
             "server_port": 443,
