@@ -112,7 +112,7 @@
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "❔ XX | 🔴 | vless | @elitevpnv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
@@ -130,7 +130,6 @@
                 "❔ XX | 🔴 | vless | @goodbyefiltering | 7",
                 "❔ XX | 🔴 | vless | @guard_revil | 3",
                 "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 13",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 12",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -170,6 +169,7 @@
                 "🇩🇪 DE | 🔴 | vless | @nofilter_v2rayng | 6",
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
+                "🇺🇸 US | 🔴 | vless | @outlinev2rayng | 15",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
@@ -209,6 +209,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
+                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -244,7 +245,7 @@
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "❔ XX | 🔴 | vless | @elitevpnv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
@@ -262,7 +263,6 @@
                 "❔ XX | 🔴 | vless | @goodbyefiltering | 7",
                 "❔ XX | 🔴 | vless | @guard_revil | 3",
                 "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 13",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 12",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -302,6 +302,7 @@
                 "🇩🇪 DE | 🔴 | vless | @nofilter_v2rayng | 6",
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
+                "🇺🇸 US | 🔴 | vless | @outlinev2rayng | 15",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
@@ -341,6 +342,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
+                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -695,7 +697,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
+            "tag": "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
             "type": "vless",
             "server": "Evay.fast.hosting-ip.com",
             "server_port": 80,
@@ -975,29 +977,6 @@
             "uuid": "19478a08-9239-40b9-b550-4cfa58df58a7",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 12",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
-                }
-            }
         },
         {
             "tag": "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
@@ -1709,6 +1688,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @outlinev2rayng | 15",
+            "type": "vless",
+            "server": "small-meal.oneeat.co",
+            "server_port": 80,
+            "uuid": "d1e44075-8c92-4698-9db0-e71d7015b757",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "small-meal.oneeat.co"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔴 | vless | @proxy48 | 14",
             "type": "vless",
             "server": "www.forcepower.monster",
@@ -2406,6 +2401,29 @@
             "uuid": "0eab9ab8-d0f0-4823-8af9-d1f95db842e8",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🟢 | vless | @vpnwlf | 10",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
