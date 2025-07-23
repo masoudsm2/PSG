@@ -130,7 +130,6 @@
                 "❔ XX | 🔴 | vless | @goodbyefiltering | 7",
                 "❔ XX | 🔴 | vless | @guard_revil | 3",
                 "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 13",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -203,6 +202,7 @@
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇩🇪 DE | 🔴 | vless | @v2trayproxy | 13",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 19",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇩🇪 DE | 🔴 | vless | @vpn_meliii | 8",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
@@ -211,6 +211,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
+                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -264,7 +265,6 @@
                 "❔ XX | 🔴 | vless | @goodbyefiltering | 7",
                 "❔ XX | 🔴 | vless | @guard_revil | 3",
                 "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 13",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -337,6 +337,7 @@
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇩🇪 DE | 🔴 | vless | @v2trayproxy | 13",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 19",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇩🇪 DE | 🔴 | vless | @vpn_meliii | 8",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
@@ -345,6 +346,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
+                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -979,29 +981,6 @@
             "uuid": "19478a08-9239-40b9-b550-4cfa58df58a7",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 14",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
-                }
-            }
         },
         {
             "tag": "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
@@ -2301,6 +2280,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 19",
+            "type": "vless",
+            "server": "creativE-coMPUter.Oneeat.Co",
+            "server_port": 80,
+            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "creativE-coMPUter.Oneeat.Co"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @vp22ray | 10",
             "type": "vless",
             "server": "German.vp22ray.site",
@@ -2435,6 +2430,29 @@
             "uuid": "0eab9ab8-d0f0-4823-8af9-d1f95db842e8",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🟢 | vless | @vpnwlf | 10",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",

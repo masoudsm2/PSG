@@ -123,6 +123,7 @@ proxies:
   - {"name":"🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0","type":"vless","server":"www.speedtest.net","port":80,"uuid":"df9025d2-d8a6-4451-9e90-f8d7644d06ee","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@custom_config?ed=2048","headers":{"Host":"mihanyas.ir.www.zula.ir.xn--4all.king4usd.shop."}}}
   - {"name":"❔ XX | 🟢 | vless | @v2rayvpnclub | 20","type":"vless","server":"freee.outline-vpn.cloud","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"w1.sylar8.eu.org","ws-opts":{"path":"/?ed","headers":{"Host":"w1.sylar8.eu.org"}}}
   - {"name":"🇩🇪 DE | 🔴 | vless | @v2trayproxy | 13","type":"vless","server":"sn.lunarmc.ir","port":8082,"uuid":"c5faf134-bade-4e16-96de-a33a24c51cce","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"sn.lunarmc.ir"}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @vmess_ir | 19","type":"vless","server":"creativE-coMPUter.Oneeat.Co","port":80,"uuid":"f1fe4963-66f7-4f71-a038-9e07ea6cf20f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"creativE-coMPUter.Oneeat.Co"}}}
   - {"name":"❔ XX | 🟢 | vless | @vp22ray | 10","type":"vless","server":"German.vp22ray.site","port":40130,"uuid":"eb7f17f3-4715-4b2d-87e5-39d12b1c962c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"Seed.cloudflare.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY","short-id":"d90b293e"}}
   - {"name":"🇩🇪 DE | 🔴 | vless | @vpn_meliii | 8","type":"vless","server":"meli_proxyy.vip-plan.org","port":29947,"uuid":"7ad891be-5fad-4cca-b6d6-d67a3a881590","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @vpn_storm | 0","type":"vless","server":"cv.rxteam.xyz","port":28020,"uuid":"7bbd9383-9b76-4b2f-8d01-a2a0ce1ff3a8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2048","headers":{"Host":"cv.rxteam.xyz"}}}
@@ -247,6 +248,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0'
       - '❔ XX | 🟢 | vless | @v2rayvpnclub | 20'
       - '🇩🇪 DE | 🔴 | vless | @v2trayproxy | 13'
+      - '🇺🇸 US | 🔴 | vless | @vmess_ir | 19'
       - '❔ XX | 🟢 | vless | @vp22ray | 10'
       - '🇩🇪 DE | 🔴 | vless | @vpn_meliii | 8'
       - '❔ XX | 🟢 | vless | @vpn_storm | 0'

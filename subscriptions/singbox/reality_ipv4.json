@@ -93,7 +93,6 @@
                 "🇸🇬 SG | 🟢 | vless | @abiidar_server | 1",
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 9",
                 "🇫🇮 FI | 🟢 | vless | @appsooner | 11",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 43",
@@ -102,8 +101,8 @@
                 "🇫🇷 FR | 🟢 | vless | @darkfiilter | 0",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 4",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 7",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 5",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 3",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 7",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇺🇸 US | 🟢 | vless | @filtershekan_channel | 9",
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
@@ -137,7 +136,7 @@
                 "🇬🇧 GB | 🟢 | vless | @jokerv2ray | 14",
                 "🇬🇧 GB | 🟢 | vless | @jokerv2ray | 15",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 10",
+                "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 8",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 0",
                 "🇨🇭 CH | 🟢 | vless | @kingofilter | 2",
                 "🇺🇸 US | 🟢 | vless | @kkkkkoabvbbvbvv | 10",
@@ -199,7 +198,6 @@
                 "🇸🇬 SG | 🟢 | vless | @abiidar_server | 1",
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 9",
                 "🇫🇮 FI | 🟢 | vless | @appsooner | 11",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 43",
@@ -208,8 +206,8 @@
                 "🇫🇷 FR | 🟢 | vless | @darkfiilter | 0",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 4",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 7",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 5",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 3",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 7",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇺🇸 US | 🟢 | vless | @filtershekan_channel | 9",
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
@@ -243,7 +241,7 @@
                 "🇬🇧 GB | 🟢 | vless | @jokerv2ray | 14",
                 "🇬🇧 GB | 🟢 | vless | @jokerv2ray | 15",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 10",
+                "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 8",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 0",
                 "🇨🇭 CH | 🟢 | vless | @kingofilter | 2",
                 "🇺🇸 US | 🟢 | vless | @kkkkkoabvbbvbvv | 10",
@@ -393,29 +391,6 @@
                     "enabled": true,
                     "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
                     "short_id": "33"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
-            "type": "vless",
-            "server": "65.109.181.75",
-            "server_port": 20325,
-            "uuid": "563fe87b-307e-4383-bda4-f0fa05dd3792",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pAAVEQ7tYPYnNtw1GH_hWFFKa0xrRUeZb5mpaqPMcxg",
-                    "short_id": "012c53f58269"
                 }
             }
         },
@@ -616,7 +591,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 5",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 3",
             "type": "vless",
             "server": "138.199.168.187",
             "server_port": 28153,
@@ -639,7 +614,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 7",
             "type": "vless",
             "server": "91.107.254.202",
             "server_port": 443,
@@ -1469,7 +1444,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 10",
+            "tag": "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 8",
             "type": "vless",
             "server": "103.71.23.210",
             "server_port": 443,

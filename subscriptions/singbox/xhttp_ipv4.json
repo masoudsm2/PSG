@@ -93,8 +93,8 @@
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 5",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 3",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 7",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 14",
@@ -143,8 +143,8 @@
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 5",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 3",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 7",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 14",
@@ -261,7 +261,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 5",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 3",
             "type": "vless",
             "server": "138.199.168.187",
             "server_port": 28153,
@@ -284,7 +284,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 7",
             "type": "vless",
             "server": "91.107.254.202",
             "server_port": 443,
