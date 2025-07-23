@@ -94,7 +94,7 @@
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
-                "🇫🇷 FR | 🟢 | ss | @free1ss | 13",
+                "🇫🇷 FR | 🟢 | ss | @free1ss | 12",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
@@ -133,7 +133,7 @@
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
-                "🇫🇷 FR | 🟢 | ss | @free1ss | 13",
+                "🇫🇷 FR | 🟢 | ss | @free1ss | 12",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
@@ -211,7 +211,7 @@
             "password": "f8f7aCzcPKbsF8p3"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | ss | @free1ss | 13",
+            "tag": "🇫🇷 FR | 🟢 | ss | @free1ss | 12",
             "type": "shadowsocks",
             "server": "62.210.88.22",
             "server_port": 443,

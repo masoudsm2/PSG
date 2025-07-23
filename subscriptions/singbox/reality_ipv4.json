@@ -146,7 +146,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 13",
+                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 10",
                 "🇱🇰 LK | 🟢 | vless | @mtpv2ray | 8",
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 3",
@@ -163,8 +163,9 @@
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 5",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
-                "🇺🇸 US | 🟢 | vless | @v2ray_sub | 7",
+                "🇺🇸 US | 🟢 | vless | @v2ray_sub | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
+                "🇯🇵 JP | 🟢 | vless | @v2raych | 15",
                 "🇩🇪 DE | 🟢 | vless | @v2rayexpress | 7",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
@@ -251,7 +252,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 13",
+                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 10",
                 "🇱🇰 LK | 🟢 | vless | @mtpv2ray | 8",
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 3",
@@ -268,8 +269,9 @@
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 5",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
-                "🇺🇸 US | 🟢 | vless | @v2ray_sub | 7",
+                "🇺🇸 US | 🟢 | vless | @v2ray_sub | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
+                "🇯🇵 JP | 🟢 | vless | @v2raych | 15",
                 "🇩🇪 DE | 🟢 | vless | @v2rayexpress | 7",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
@@ -1693,7 +1695,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vless | @msv2flyng | 13",
+            "tag": "🇭🇰 HK | 🟢 | vless | @msv2flyng | 10",
             "type": "vless",
             "server": "210.16.123.120",
             "server_port": 26036,
@@ -2124,7 +2126,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2ray_sub | 7",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2ray_sub | 6",
             "type": "vless",
             "server": "198.23.206.26",
             "server_port": 59814,
@@ -2166,6 +2168,29 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🟢 | vless | @v2raych | 15",
+            "type": "vless",
+            "server": "13.158.46.137",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
                 }
             }
         },

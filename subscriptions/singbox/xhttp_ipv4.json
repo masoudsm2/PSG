@@ -90,6 +90,7 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
+                "🇩🇪 DE | 🔴 | vless | @configshubplus | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
@@ -116,6 +117,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
+                "🇹🇷 TR | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
                 "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
@@ -123,6 +125,8 @@
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
+                "🇺🇸 US | 🔴 | vless | @v2raych | 16",
+                "🇩🇪 DE | 🔴 | vless | @v2raych | 17",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
@@ -140,6 +144,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
+                "🇩🇪 DE | 🔴 | vless | @configshubplus | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
@@ -166,6 +171,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
+                "🇹🇷 TR | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
                 "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
@@ -173,6 +179,8 @@
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
+                "🇺🇸 US | 🔴 | vless | @v2raych | 16",
+                "🇩🇪 DE | 🔴 | vless | @v2raych | 17",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
@@ -209,6 +217,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @configshubplus | 16",
+            "type": "vless",
+            "server": "91.99.98.90",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
@@ -676,6 +693,15 @@
             }
         },
         {
+            "tag": "🇹🇷 TR | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
+            "type": "vless",
+            "server": "188.132.141.247",
+            "server_port": 6666,
+            "uuid": "b6a3e8a6-bf5d-4ca5-b286-30e42f7a4bbe",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
             "type": "vless",
             "server": "138.199.168.187",
@@ -793,6 +819,33 @@
                     "short_id": "5426024033df45"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2raych | 16",
+            "type": "vless",
+            "server": "173.230.140.31",
+            "server_port": 443,
+            "uuid": "63317fb1-b61a-45f1-a306-007399d2334b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "173.230.140.31",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @v2raych | 17",
+            "type": "vless",
+            "server": "91.99.222.180",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
