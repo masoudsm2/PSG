@@ -106,7 +106,7 @@
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🟢 | vless | @deragv2ray | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
@@ -149,7 +149,6 @@
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "🇺🇸 US | 🔴 | vless | @magicvpn_shop | 1",
@@ -160,11 +159,12 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
+                "🇫🇮 FI | 🟢 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
-                "🇩🇪 DE | 🔴 | vless | @netmellianti | 16",
+                "🇸🇬 SG | 🟢 | vless | @netmellianti | 16",
                 "❔ XX | 🔴 | vless | @next_serverpanel | 4",
                 "🇮🇷 IR | 🔴 | vless | @nitroserver_ir | 1",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
@@ -242,7 +242,7 @@
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🟢 | vless | @deragv2ray | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
@@ -285,7 +285,6 @@
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "🇺🇸 US | 🔴 | vless | @magicvpn_shop | 1",
@@ -296,11 +295,12 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
+                "🇫🇮 FI | 🟢 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
-                "🇩🇪 DE | 🔴 | vless | @netmellianti | 16",
+                "🇸🇬 SG | 🟢 | vless | @netmellianti | 16",
                 "❔ XX | 🔴 | vless | @next_serverpanel | 4",
                 "🇮🇷 IR | 🔴 | vless | @nitroserver_ir | 1",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
@@ -626,7 +626,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -1350,15 +1350,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2086,
-            "uuid": "053e4db3-351c-4b6e-a832-d715a4ba5a8c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
             "type": "vless",
             "server": "paris.get.raskolnikov.ir",
@@ -1492,6 +1483,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇫🇮 FI | 🟢 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "app.streamingpower.sbs",
+            "server_port": 7035,
+            "uuid": "8a13bad5-adcd-4c59-99d4-1c04cdfb0803",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4X80HEtvcxcASRtuYDfGhuGlokJv3YkN1L94HJqo2QA",
+                    "short_id": "f37098f11937f897"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1591,13 +1605,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @netmellianti | 16",
+            "tag": "🇸🇬 SG | 🟢 | vless | @netmellianti | 16",
             "type": "vless",
-            "server": "em-4.webnama.com.tr",
-            "server_port": 3789,
-            "uuid": "faeba5b7-b0a4-4e49-b017-35088ebe0d4e",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "amazon-15.cristiano.name.ng",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔴 | vless | @next_serverpanel | 4",

@@ -297,7 +297,6 @@
     },
     "configshubplus": {
         "types": [
-            "vmess",
             "vless",
             "ss",
             "trojan"
@@ -1115,10 +1114,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
-            "vless",
             "ss",
-            "trojan"
+            "trojan",
+            "vless",
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1714,9 +1713,9 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
             "vmess",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1861,7 +1860,6 @@
     },
     "netmellianti": {
         "types": [
-            "ss",
             "vless",
             "vmess"
         ],
@@ -2111,8 +2109,9 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
+            "ss",
             "vless",
-            "ss"
+            "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
@@ -2722,8 +2721,8 @@
     "v2raych": {
         "types": [
             "vless",
-            "trojan",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -2751,8 +2750,9 @@
     },
     "v2rayfree": {
         "types": [
+            "ss",
             "vless",
-            "ss"
+            "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfree.jpg"
@@ -3127,13 +3127,6 @@
         ],
         "title": "✨🇻​🇮​🇵✨🇻​🇵​🇳​​✨",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vip_vpn_2022.jpg"
-    },
-    "vipnetmeli": {
-        "types": [
-            "vless"
-        ],
-        "title": "🚀Vip internet🚀",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vipnetmeli.jpg"
     },
     "vipv2rayvip": {
         "types": [
@@ -3531,8 +3524,8 @@
     "zerobaipiao": {
         "types": [
             "vmess",
-            "trojan",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": "免费节点 🏆【1小时前更新】",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zerobaipiao.jpg"

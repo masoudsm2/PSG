@@ -136,6 +136,7 @@
                 "🇺🇸 US | 🟢 | vless | @limootuursh | 0",
                 "🇮🇷 IR | 🔴 | vless | @loatvpn | 5",
                 "🇩🇪 DE | 🔴 | vless | @lombo_channel | 3",
+                "🇺🇸 US | 🟢 | vless | @lranonline_new | 5",
                 "🇺🇸 US | 🟢 | vless | @mahdivpn2 | 4",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
@@ -145,7 +146,7 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
-                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 12",
+                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 14",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
                 "🇮🇷 IR | 🔴 | vless | @mtproxy22_v2ray | 64",
                 "🇱🇰 LK | 🔴 | vless | @mtpv2ray | 11",
@@ -187,7 +188,7 @@
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
                 "🇺🇸 US | 🔴 | vless | @vpn_bal0uch | 3",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 17",
                 "🇺🇸 US | 🟢 | vless | @vpn_ocean | 1",
@@ -253,6 +254,7 @@
                 "🇺🇸 US | 🟢 | vless | @limootuursh | 0",
                 "🇮🇷 IR | 🔴 | vless | @loatvpn | 5",
                 "🇩🇪 DE | 🔴 | vless | @lombo_channel | 3",
+                "🇺🇸 US | 🟢 | vless | @lranonline_new | 5",
                 "🇺🇸 US | 🟢 | vless | @mahdivpn2 | 4",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
@@ -262,7 +264,7 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
-                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 12",
+                "🇭🇰 HK | 🟢 | vless | @msv2flyng | 14",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
                 "🇮🇷 IR | 🔴 | vless | @mtproxy22_v2ray | 64",
                 "🇱🇰 LK | 🔴 | vless | @mtpv2ray | 11",
@@ -304,7 +306,7 @@
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
                 "🇺🇸 US | 🔴 | vless | @vpn_bal0uch | 3",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 17",
                 "🇺🇸 US | 🟢 | vless | @vpn_ocean | 1",
@@ -1171,6 +1173,31 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @lranonline_new | 5",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 8443,
+            "uuid": "616997f9-fff3-4280-8760-adddf9048203",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pishgam.pinpen.ir.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "pishgam.pinpen.ir."
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @mahdivpn2 | 4",
             "type": "vless",
             "server": "190.93.247.155",
@@ -1314,7 +1341,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vless | @msv2flyng | 12",
+            "tag": "🇭🇰 HK | 🟢 | vless | @msv2flyng | 14",
             "type": "vless",
             "server": "210.16.123.120",
             "server_port": 26036,
@@ -2045,7 +2072,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
             "type": "vless",
             "server": "18.153.120.71",
             "server_port": 22224,
