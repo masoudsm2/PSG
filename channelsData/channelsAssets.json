@@ -219,8 +219,8 @@
     "config_proxy": {
         "types": [
             "vless",
-            "vmess",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -299,8 +299,8 @@
     "configshubplus": {
         "types": [
             "vless",
-            "vmess",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -559,7 +559,8 @@
     },
     "falcunargo": {
         "types": [
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "کانفیگ ایرانسل همراه اول کانفینگ اینستاگرام فیلترشکن سرور پروکسی رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/falcunargo.jpg"
@@ -727,8 +728,8 @@
     },
     "free1_vpn": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "Free_VPN √ v2ray √ NapsternetV √ custom √ injector √",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1_vpn.jpg"
@@ -1042,7 +1043,8 @@
     "hope_net": {
         "types": [
             "trojan",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1088,7 +1090,6 @@
     },
     "info_2it_channel": {
         "types": [
-            "ss",
             "vless",
             "vmess"
         ],
@@ -1113,9 +1114,9 @@
     },
     "ip_cf_config": {
         "types": [
+            "ss",
             "vmess",
             "trojan",
-            "ss",
             "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -1131,7 +1132,9 @@
     },
     "ipv2rayng": {
         "types": [
-            "vmess"
+            "vmess",
+            "ss",
+            "vless"
         ],
         "title": "ipV2rayNG",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ipv2rayng.jpg"
@@ -1311,9 +1314,9 @@
     },
     "kanfig_majani": {
         "types": [
+            "vless",
             "ss",
-            "vmess",
-            "vless"
+            "vmess"
         ],
         "title": "کانفیگ رایگان | کانفیگ مجانی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/kanfig_majani.jpg"
@@ -2107,7 +2110,6 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
-            "vmess",
             "vless",
             "ss"
         ],
@@ -2536,8 +2538,8 @@
     },
     "v2aryng_vpn": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "🌐 V2ray | proxy 🌐",
@@ -2621,10 +2623,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
             "vless",
-            "ss",
-            "trojan"
+            "trojan",
+            "vmess",
+            "ss"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2719,6 +2721,8 @@
     "v2raych": {
         "types": [
             "vless",
+            "ss",
+            "trojan",
             "vmess"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
@@ -2747,7 +2751,6 @@
     },
     "v2rayfree": {
         "types": [
-            "vmess",
             "vless",
             "ss"
         ],
@@ -3096,8 +3099,8 @@
     },
     "vaynora": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "VayNora",
