@@ -93,12 +93,11 @@
                 "🇸🇬 SG | 🟢 | vless | @abiidar_server | 1",
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 9",
                 "🇫🇮 FI | 🟢 | vless | @appsooner | 11",
-                "🇩🇪 DE | 🟢 | vless | @config_proxy | 58",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 43",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
-                "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 103",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
                 "🇫🇷 FR | 🟢 | vless | @darkfiilter | 0",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 4",
@@ -122,7 +121,7 @@
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 6",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
+                "🇺🇸 US | 🟢 | vless | @hope_net | 17",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 2",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @injectormconf | 35",
@@ -187,7 +186,7 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
                 "🇷🇺 RU | 🟢 | vless | @vpnod | 14",
-                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 10",
+                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 9",
                 "🇳🇴 NO | 🟢 | vless | @vpnv2rayonline | 8",
                 "🇫🇮 FI | 🟢 | vless | @x4azadi | 11",
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
@@ -204,12 +203,11 @@
                 "🇸🇬 SG | 🟢 | vless | @abiidar_server | 1",
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 9",
                 "🇫🇮 FI | 🟢 | vless | @appsooner | 11",
-                "🇩🇪 DE | 🟢 | vless | @config_proxy | 58",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 43",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
-                "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 103",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
                 "🇫🇷 FR | 🟢 | vless | @darkfiilter | 0",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 4",
@@ -233,7 +231,7 @@
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 6",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
+                "🇺🇸 US | 🟢 | vless | @hope_net | 17",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 2",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @injectormconf | 35",
@@ -298,7 +296,7 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
                 "🇷🇺 RU | 🟢 | vless | @vpnod | 14",
-                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 10",
+                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 9",
                 "🇳🇴 NO | 🟢 | vless | @vpnv2rayonline | 8",
                 "🇫🇮 FI | 🟢 | vless | @x4azadi | 11",
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
@@ -407,29 +405,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @config_proxy | 58",
-            "type": "vless",
-            "server": "5.178.106.30",
-            "server_port": 2055,
-            "uuid": "5990e261-1942-4983-aa40-3f585a699fae",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "kifpool.me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uUxB4kGyHwy-oKZ6mKoXTIWsXJGsDLop9NiRd0B36zI",
-                    "short_id": "54994c92a0"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🟢 | vless | @configasli | 4",
             "type": "vless",
             "server": "91.107.183.90",
@@ -507,6 +482,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
+            "type": "vless",
+            "server": "91.107.170.231",
+            "server_port": 24070,
+            "uuid": "444fe3a5-6248-452d-be68-eac48c461a10",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk",
+                    "short_id": "93"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
             "type": "vless",
             "server": "91.107.254.202",
@@ -526,29 +528,6 @@
                     "enabled": true,
                     "public_key": "4Xu_jqRD-mbhEwNyntlz_6zU4VhsE0-QWCxAbhEL_H4",
                     "short_id": "7ab467"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 103",
-            "type": "vless",
-            "server": "159.65.24.214",
-            "server_port": 44486,
-            "uuid": "bddee8f2-784e-47b4-a7a5-65557bf813ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4Iu8Qa-XePGCSkg0_W_KEUV7bJj7ysmfAYsOJvZsFxM",
-                    "short_id": "1b74288a"
                 }
             }
         },
@@ -1110,7 +1089,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @hope_net | 19",
+            "tag": "🇺🇸 US | 🟢 | vless | @hope_net | 17",
             "type": "vless",
             "server": "172.233.185.119",
             "server_port": 80,
@@ -2711,7 +2690,7 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 10",
+            "tag": "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 9",
             "type": "vless",
             "server": "130.185.122.252",
             "server_port": 28964,
