@@ -38,7 +38,7 @@ proxies:
   - {"name":"🇬🇧 GB | 🟢 | ss | @novinology | 16","type":"ss","server":"13.87.74.71","port":14564,"password":"Q1qlRknoN9PwGeExWVyTKg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺 RU | 🟢 | ss | @outline_ir | 19","type":"ss","server":"185.126.239.250","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @outlineopenkey | 12","type":"ss","server":"89.185.84.185","port":443,"password":"6VQmWIkuYAHJFSHiYhdk6p","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇮 FI | 🟢 | ss | @outlinereleasedkey | 19","type":"ss","server":"93.152.207.167","port":443,"password":"aNYshRb3mzp7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🟢 | ss | @outlinereleasedkey | 19","type":"ss","server":"46.226.163.225","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪 AE | 🟢 | ss | @proxy_net_meli | 9","type":"ss","server":"217.138.193.10","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @shadowsockskeys | 17","type":"ss","server":"89.35.119.87","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🟢 | ss | @strongprotocol | 10","type":"ss","server":"45.12.135.36","port":47076,"password":"WrNAsbtcuoeEEQdoSOcPgO","cipher":"chacha20-ietf-poly1305"}
@@ -47,7 +47,6 @@ proxies:
   - {"name":"🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27","type":"ss","server":"94.131.123.147","port":7383,"password":"eSHEdJz96rqNkOCAzd5Csv","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @vipufovpn | 19","type":"ss","server":"54.36.174.181","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19","type":"ss","server":"45.87.175.10","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @vpn451 | 12","type":"ss","server":"80.71.157.175","port":38211,"password":"oq7r6MFgH5MROIUWEPAp7w","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇹 LT | 🟢 | ss | @vpn_ioss | 16","type":"ss","server":"78.153.131.96","port":443,"password":"7jvHHF5SaFob","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
@@ -77,7 +76,7 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇷🇺 RU | 🟢 | ss | @outline_ir | 19'
       - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 12'
-      - '🇫🇮 FI | 🟢 | ss | @outlinereleasedkey | 19'
+      - '🇬🇧 GB | 🟢 | ss | @outlinereleasedkey | 19'
       - '🇦🇪 AE | 🟢 | ss | @proxy_net_meli | 9'
       - '🇩🇪 DE | 🟢 | ss | @shadowsockskeys | 17'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 10'
@@ -86,7 +85,6 @@ proxy-groups:
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
       - '🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19'
-      - '🇩🇪 DE | 🟢 | ss | @vpn451 | 12'
       - '🇱🇹 LT | 🟢 | ss | @vpn_ioss | 16'
 
   - name: 🌍 Global Media

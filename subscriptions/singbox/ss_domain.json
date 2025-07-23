@@ -113,7 +113,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
-                "🇵🇱 PL | 🟢 | ss | @vmesc | 17",
+                "🇵🇱 PL | 🟢 | ss | @vmesc | 15",
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 9"
             ],
             "tag": "proxy",
@@ -146,7 +146,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
-                "🇵🇱 PL | 🟢 | ss | @vmesc | 17",
+                "🇵🇱 PL | 🟢 | ss | @vmesc | 15",
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 9"
             ],
             "tag": "auto",
@@ -351,7 +351,7 @@
             "password": "WVU27LquAMOeXmYeStI897"
         },
         {
-            "tag": "🇵🇱 PL | 🟢 | ss | @vmesc | 17",
+            "tag": "🇵🇱 PL | 🟢 | ss | @vmesc | 15",
             "type": "shadowsocks",
             "server": "pr.fastsoonlink.com",
             "server_port": 40030,

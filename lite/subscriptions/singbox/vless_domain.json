@@ -130,6 +130,7 @@
                 "❔ XX | 🔴 | vless | @goodbyefiltering | 7",
                 "❔ XX | 🔴 | vless | @guard_revil | 3",
                 "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 13",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -148,13 +149,14 @@
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "🇺🇸 US | 🔴 | vless | @magicvpn_shop | 1",
                 "❔ XX | 🔴 | vless | @marzazad | 1",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "❔ XX | 🔴 | vless | @maxvpnc | 9",
-                "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
+                "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
@@ -209,7 +211,6 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
-                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -263,6 +264,7 @@
                 "❔ XX | 🔴 | vless | @goodbyefiltering | 7",
                 "❔ XX | 🔴 | vless | @guard_revil | 3",
                 "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 13",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -281,13 +283,14 @@
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "🇺🇸 US | 🔴 | vless | @magicvpn_shop | 1",
                 "❔ XX | 🔴 | vless | @marzazad | 1",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "❔ XX | 🔴 | vless | @maxvpnc | 9",
-                "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
+                "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
@@ -342,7 +345,6 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
-                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -979,6 +981,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 14",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
+            }
+        },
+        {
             "tag": "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
             "type": "vless",
             "server": "uae.kitten-tube.com",
@@ -1331,6 +1356,15 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "15afc020-bec1-4e06-dbdb-75f89a2c1a67",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
             "type": "vless",
             "server": "paris.get.raskolnikov.ir",
@@ -1412,11 +1446,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
+            "tag": "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "8d10333a-edf1-4474-a2d9-576a30fdf44a",
+            "uuid": "8d10333a-edf1-4475-a2d9-576a30fdf44a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -2401,29 +2435,6 @@
             "uuid": "0eab9ab8-d0f0-4823-8af9-d1f95db842e8",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @vpnwlf | 10",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",

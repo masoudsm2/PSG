@@ -297,7 +297,9 @@
     },
     "configshubplus": {
         "types": [
-            "vless"
+            "vless",
+            "trojan",
+            "ss"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -1698,8 +1700,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2303,7 +2305,8 @@
     },
     "selinc": {
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "فیلترشکنV2rayng",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/selinc.jpg"
@@ -2523,8 +2526,8 @@
     },
     "v2aryng_vpn": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "🌐 V2ray | proxy 🌐",
@@ -2609,8 +2612,8 @@
     "v2ray_free_conf": {
         "types": [
             "ss",
-            "vmess",
             "trojan",
+            "vmess",
             "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
@@ -2706,7 +2709,9 @@
     "v2raych": {
         "types": [
             "vless",
-            "trojan"
+            "vmess",
+            "trojan",
+            "ss"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -2775,14 +2780,14 @@
     },
     "v2rayng_1378": {
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "فیتلرشکن V2RAYNG",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayng_1378.jpg"
     },
     "v2rayng_fars": {
         "types": [
-            "trojan",
             "vless",
             "ss"
         ],
@@ -3020,8 +3025,8 @@
     },
     "v2ry_proxy": {
         "types": [
-            "vless",
             "vmess",
+            "vless",
             "ss"
         ],
         "title": "V2ry | Proxy | رایگان",
@@ -3164,8 +3169,8 @@
     },
     "vmess_ir": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "🚀سرور رایگان و اختصاصی vmess_ir🚀",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmess_ir.jpg"
