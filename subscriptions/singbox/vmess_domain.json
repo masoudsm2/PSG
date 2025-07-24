@@ -96,16 +96,18 @@
                 "🇺🇸 US | 🔴 | vmess | @buffalo_vpn | 3",
                 "❔ XX | 🔴 | vmess | @buffalo_vpn | 4",
                 "🇺🇸 US | 🟢 | vmess | @bypass_filter | 0",
-                "🇦🇺 AU | 🔴 | vmess | @config_proxy | 31",
-                "🇩🇪 DE | 🟢 | vmess | @config_proxy | 34",
-                "🇨🇳 CN | 🔴 | vmess | @config_proxy | 35",
-                "🇳🇱 NL | 🔴 | vmess | @configfast | 1",
+                "🇫🇷 FR | 🟢 | vmess | @config_proxy | 33",
+                "🇺🇸 US | 🔴 | vmess | @config_proxy | 34",
+                "🇹🇷 TR | 🔴 | vmess | @configfast | 1",
                 "❔ XX | 🟢 | vmess | @configforvpn | 8",
                 "❔ XX | 🔴 | vmess | @configforvpn | 9",
-                "🇫🇷 FR | 🟢 | vmess | @configsstore | 3",
-                "🇫🇷 FR | 🟢 | vmess | @configsstore | 5",
-                "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
-                "🇳🇱 NL | 🔴 | vmess | @custom_14 | 5",
+                "🇺🇸 US | 🔴 | vmess | @configshubplus | 16",
+                "🇯🇵 JP | 🔴 | vmess | @configshubplus | 17",
+                "🇵🇭 PH | 🔴 | vmess | @configshubplus | 18",
+                "🇷🇺 RU | 🟢 | vmess | @configsstore | 3",
+                "🇷🇺 RU | 🟢 | vmess | @configsstore | 5",
+                "🇷🇺 RU | 🟢 | vmess | @configsstore | 7",
+                "🇹🇼 TW | 🔴 | vmess | @custom_14 | 5",
                 "❔ XX | 🟢 | vmess | @dailyv2ray | 28",
                 "🇩🇪 DE | 🔴 | vmess | @dailyv2ray | 29",
                 "❔ XX | 🔴 | vmess | @dailyv2ray | 30",
@@ -127,7 +129,7 @@
                 "🇭🇰 HK | 🔴 | vmess | @freev2rays | 15",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 16",
                 "❔ XX | 🔴 | vmess | @freev2rays | 17",
-                "🇺🇸 US | 🔴 | vmess | @freev2rays | 18",
+                "❔ XX | 🔴 | vmess | @freev2rays | 18",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 0",
                 "🇫🇮 FI | 🔴 | vmess | @freevmess | 2",
@@ -136,155 +138,145 @@
                 "🇩🇪 DE | 🔴 | vmess | @game_file2020 | 7",
                 "🇫🇷 FR | 🔴 | vmess | @garnet_free | 9",
                 "🇺🇸 US | 🔴 | vmess | @ghotb_scarf | 6",
-                "🇮🇷 IR | 🔴 | vmess | @goldenvpn_v2rayy | 1",
-                "🇮🇷 IR | 🔴 | vmess | @hope_net | 18",
-                "🇭🇰 HK | 🔴 | vmess | @ip_cf_config | 9",
-                "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12",
-                "🇺🇸 US | 🔴 | vmess | @ipv2rayng | 12",
-                "🇯🇵 JP | 🔴 | vmess | @ipv2rayng | 14",
-                "🇯🇵 JP | 🔴 | vmess | @ipv2rayng | 15",
+                "❔ XX | 🔴 | vmess | @goldenvpn_v2rayy | 1",
+                "❔ XX | 🔴 | vmess | @ipv2rayng | 7",
+                "❔ XX | 🔴 | vmess | @ipv2rayng | 10",
                 "🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9",
-                "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10",
-                "🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11",
-                "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
-                "🇺🇸 US | 🟢 | vmess | @iran_mehr_vpn | 16",
-                "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
-                "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
+                "❔ XX | 🔴 | vmess | @ir_netproxy | 10",
+                "❔ XX | 🔴 | vmess | @ir_netproxy | 11",
+                "❔ XX | 🔴 | vmess | @ir_netproxy | 13",
+                "❔ XX | 🟢 | vmess | @iran_mehr_vpn | 16",
+                "❔ XX | 🔴 | vmess | @iran_mehr_vpn | 17",
+                "❔ XX | 🟢 | vmess | @iranvpnet | 0",
                 "❔ XX | 🔴 | vmess | @jedal_vpn | 1",
                 "❔ XX | 🔴 | vmess | @jedal_vpn | 2",
                 "❔ XX | 🔴 | vmess | @jedal_vpn | 4",
-                "🇮🇷 IR | 🔴 | vmess | @jetupnet | 1",
-                "🇩🇪 DE | 🔴 | vmess | @khoneproxy | 10",
-                "🇩🇪 DE | 🔴 | vmess | @khoneproxy | 11",
-                "🇳🇱 NL | 🔴 | vmess | @khoneproxy | 12",
+                "❔ XX | 🔴 | vmess | @jetupnet | 1",
+                "❔ XX | 🔴 | vmess | @khoneproxy | 10",
+                "❔ XX | 🔴 | vmess | @khoneproxy | 11",
+                "❔ XX | 🔴 | vmess | @khoneproxy | 12",
                 "❔ XX | 🔴 | vmess | @khoneproxy | 13",
-                "🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14",
-                "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
+                "❔ XX | 🔴 | vmess | @khoneproxy | 14",
+                "❔ XX | 🔴 | vmess | @komail315 | 3",
                 "🇺🇸 US | 🟢 | vmess | @kopltall_vpn | 5",
-                "🇳🇱 NL | 🔴 | vmess | @lazarus2050 | 0",
+                "❔ XX | 🔴 | vmess | @lazarus2050 | 0",
                 "❔ XX | 🔴 | vmess | @lemonshopvpn | 5",
-                "🇳🇱 NL | 🔴 | vmess | @lexernet | 9",
-                "🇩🇪 DE | 🔴 | vmess | @magickey_shop | 1",
-                "🇺🇸 US | 🟢 | vmess | @mahanfix | 14",
-                "🇲🇽 MX | 🔴 | vmess | @mahanfix | 15",
-                "🇫🇷 FR | 🔴 | vmess | @mahanfix | 16",
-                "🇺🇸 US | 🔴 | vmess | @mahanfix | 17",
-                "🇺🇸 US | 🔴 | vmess | @mahdivpn2 | 0",
-                "🇩🇪 DE | 🔴 | vmess | @mahdivpn2 | 1",
+                "❔ XX | 🔴 | vmess | @lexernet | 9",
+                "❔ XX | 🔴 | vmess | @magickey_shop | 1",
+                "❔ XX | 🟢 | vmess | @mahanfix | 14",
+                "❔ XX | 🔴 | vmess | @mahanfix | 15",
+                "❔ XX | 🔴 | vmess | @mahanfix | 16",
+                "❔ XX | 🔴 | vmess | @mahanfix | 17",
+                "❔ XX | 🟢 | vmess | @mahanfix | 18",
+                "❔ XX | 🔴 | vmess | @mahdivpn2 | 0",
+                "❔ XX | 🔴 | vmess | @mahdivpn2 | 1",
                 "❔ XX | 🔴 | vmess | @mahsaproxy | 0",
                 "❔ XX | 🔴 | vmess | @mahsaproxy | 2",
-                "🇫🇷 FR | 🟢 | vmess | @mahsaproxy | 3",
-                "🇩🇪 DE | 🟢 | vmess | @mainmat | 4",
-                "🇸🇪 SE | 🔴 | vmess | @mainmat | 5",
+                "❔ XX | 🟢 | vmess | @mahsaproxy | 3",
+                "❔ XX | 🟢 | vmess | @mainmat | 4",
+                "❔ XX | 🔴 | vmess | @mainmat | 5",
                 "🇺🇸 US | 🟢 | vmess | @manstervpn | 73",
                 "🇺🇸 US | 🟢 | vmess | @manstervpn | 74",
-                "🇨🇳 CN | 🔴 | vmess | @mftizi | 15",
-                "🇯🇵 JP | 🔴 | vmess | @mftizi | 18",
-                "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
-                "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 0",
+                "❔ XX | 🔴 | vmess | @mftizi | 15",
+                "❔ XX | 🔴 | vmess | @mftizi | 18",
+                "❔ XX | 🔴 | vmess | @mftizi | 19",
+                "❔ XX | 🟢 | vmess | @mi_pn_official | 0",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 1",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "❔ XX | 🔴 | vmess | @migping | 0",
-                "🇺🇸 US | 🟢 | vmess | @minovpnch | 10",
+                "❔ XX | 🟢 | vmess | @minovpnch | 10",
                 "🇺🇸 US | 🟢 | vmess | @mowjproxy | 0",
-                "🇩🇪 DE | 🔴 | vmess | @mrvpn1403 | 1",
-                "🇸🇪 SE | 🔴 | vmess | @mtpv2ray | 11",
+                "❔ XX | 🔴 | vmess | @mrvpn1403 | 1",
+                "❔ XX | 🔴 | vmess | @mtpv2ray | 11",
                 "❔ XX | 🔴 | vmess | @napsterntvtm | 0",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 8",
-                "🇺🇸 US | 🔴 | vmess | @nn_vpn | 1",
-                "🇮🇷 IR | 🔴 | vmess | @nofilter_v2rayng | 3",
+                "🇨🇦 CA | 🔴 | vmess | @nn_vpn | 1",
+                "❔ XX | 🔴 | vmess | @nofilter_v2rayng | 3",
                 "❔ XX | 🟢 | vmess | @persian_proxy6 | 1",
                 "🇮🇷 IR | 🔴 | vmess | @pistachiovpn | 0",
-                "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
-                "🇳🇱 NL | 🟢 | vmess | @prooxyk | 1",
-                "🇩🇪 DE | 🔴 | vmess | @prooxyk | 2",
+                "❔ XX | 🔴 | vmess | @pro_chaneel | 1",
+                "❔ XX | 🟢 | vmess | @prooxyk | 1",
+                "❔ XX | 🔴 | vmess | @prooxyk | 2",
                 "❔ XX | 🔴 | vmess | @prooxyk | 3",
                 "❔ XX | 🟢 | vmess | @prooxyk | 4",
-                "🇮🇷 IR | 🔴 | vmess | @proxse11 | 0",
-                "🇩🇪 DE | 🔴 | vmess | @proxygodratmand | 7",
-                "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
-                "🇮🇷 IR | 🟢 | vmess | @public504 | 10",
+                "❔ XX | 🔴 | vmess | @proxse11 | 0",
+                "❔ XX | 🔴 | vmess | @proxygodratmand | 7",
+                "❔ XX | 🔴 | vmess | @prrofile_purple | 122",
+                "❔ XX | 🟢 | vmess | @public504 | 10",
                 "❔ XX | 🔴 | vmess | @pydriclub | 3",
-                "🇺🇸 US | 🟢 | vmess | @qeshmserver | 8",
-                "🇺🇸 US | 🟢 | vmess | @qeshmserver | 9",
-                "🇺🇸 US | 🟢 | vmess | @qeshmserver | 10",
-                "🇺🇸 US | 🟢 | vmess | @qeshmserver | 11",
+                "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 8",
+                "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 9",
+                "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 10",
+                "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 11",
                 "🇺🇸 US | 🔴 | vmess | @red2ray | 9",
-                "🇺🇸 US | 🔴 | vmess | @red2ray | 11",
-                "🇦🇹 AT | 🔴 | vmess | @rnrifci | 1",
-                "🇦🇹 AT | 🔴 | vmess | @rnrifci | 3",
-                "🇦🇹 AT | 🔴 | vmess | @rnrifci | 5",
+                "❔ XX | 🔴 | vmess | @red2ray | 11",
+                "❔ XX | 🔴 | vmess | @rnrifci | 1",
+                "❔ XX | 🔴 | vmess | @rnrifci | 3",
+                "❔ XX | 🔴 | vmess | @rnrifci | 5",
                 "❔ XX | 🔴 | vmess | @savagenet | 1",
-                "🇩🇪 DE | 🔴 | vmess | @selinc | 4",
+                "❔ XX | 🔴 | vmess | @selinc | 4",
                 "🇺🇸 US | 🟢 | vmess | @serverv2ray00 | 16",
                 "🇺🇸 US | 🟢 | vmess | @serverv2ray00 | 17",
                 "🇺🇸 US | 🟢 | vmess | @serverv2ray00 | 18",
-                "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
-                "🇺🇸 US | 🔴 | vmess | @sharecentrepro | 0",
-                "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 2",
-                "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
-                "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 3",
-                "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
-                "🇮🇷 IR | 🔴 | vmess | @toucan_vpn | 1",
-                "🇬🇧 GB | 🔴 | vmess | @v222ray | 8",
-                "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 7",
-                "🇺🇸 US | 🟢 | vmess | @v2graphy | 11",
-                "🇬🇧 GB | 🟢 | vmess | @v2ray4win | 4",
-                "🇺🇸 US | 🟢 | vmess | @v2ray4win | 5",
+                "❔ XX | 🔴 | vmess | @sezar_sec | 1",
+                "❔ XX | 🔴 | vmess | @sharecentrepro | 0",
+                "❔ XX | 🔴 | vmess | @sharecentrepro | 2",
+                "❔ XX | 🔴 | vmess | @sharecentrepro | 3",
+                "❔ XX | 🟢 | vmess | @tehranfreevpn | 3",
+                "❔ XX | 🟢 | vmess | @tehranfreevpn | 7",
+                "❔ XX | 🔴 | vmess | @toucan_vpn | 1",
+                "❔ XX | 🔴 | vmess | @v222ray | 8",
+                "❔ XX | 🔴 | vmess | @v2aryng_vpn | 7",
+                "❔ XX | 🟢 | vmess | @v2graphy | 11",
+                "🇷🇴 RO | 🟢 | vmess | @v2ray4win | 4",
+                "🇨🇦 CA | 🟢 | vmess | @v2ray4win | 5",
                 "❔ XX | 🟢 | vmess | @v2ray4win | 6",
-                "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
-                "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
-                "🇩🇰 DK | 🔴 | vmess | @v2ray_free_conf | 18",
-                "❔ XX | 🔴 | vmess | @v2ray_free_conf | 19",
-                "🇺🇸 US | 🔴 | vmess | @v2ray_n | 16",
+                "❔ XX | 🔴 | vmess | @v2ray4win | 7",
+                "🇨🇦 CA | 🟢 | vmess | @v2ray_fd | 0",
+                "🇺🇸 US | 🔴 | vmess | @v2ray_free_conf | 17",
+                "❔ XX | 🔴 | vmess | @v2ray_n | 16",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 17",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 18",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 19",
-                "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
-                "🏳️  | 🔴 | vmess | @v2raych | 17",
+                "❔ XX | 🔴 | vmess | @v2ray_sub | 9",
                 "🇺🇸 US | 🔴 | vmess | @v2rayng3 | 3",
-                "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
-                "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 0",
-                "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 1",
-                "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 2",
-                "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
-                "🇵🇱 PL | 🔴 | vmess | @v2rayngc | 15",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 1",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 2",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 3",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 4",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
-                "🇩🇪 DE | 🔴 | vmess | @v2rayturbo | 6",
-                "🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13",
+                "❔ XX | 🔴 | vmess | @v2rayng3 | 6",
+                "❔ XX | 🔴 | vmess | @v2rayngc | 15",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 1",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 2",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 3",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 4",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 5",
+                "❔ XX | 🔴 | vmess | @v2rayturbo | 6",
+                "❔ XX | 🔴 | vmess | @v2rayvmess | 13",
                 "❔ XX | 🔴 | vmess | @v2rayvmess | 15",
-                "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
+                "❔ XX | 🔴 | vmess | @vipv2rayvip | 0",
                 "❔ XX | 🔴 | vmess | @vipvpn_v2ray | 6",
                 "❔ XX | 🔴 | vmess | @vpn_proxy_v2ry | 3",
                 "❔ XX | 🔴 | vmess | @vpncostume | 4",
                 "❔ XX | 🟢 | vmess | @vpncostume | 5",
-                "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 15",
-                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 16",
-                "🇭🇰 HK | 🔴 | vmess | @vpnfail_v2ray | 17",
-                "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 18",
-                "🇮🇷 IR | 🔴 | vmess | @vpnfree_irann | 3",
-                "🇦🇺 AU | 🟢 | vmess | @vpngate_config | 14",
+                "❔ XX | 🟢 | vmess | @vpnfail_v2ray | 16",
+                "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 17",
+                "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 18",
+                "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 19",
+                "❔ XX | 🔴 | vmess | @vpnfree_irann | 3",
+                "❔ XX | 🟢 | vmess | @vpngate_config | 14",
                 "❔ XX | 🟢 | vmess | @vpngate_config | 15",
                 "❔ XX | 🟢 | vmess | @vpngate_config | 16",
-                "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
-                "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
-                "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
-                "🇮🇷 IR | 🟢 | vmess | @x4azadi | 10",
-                "🇩🇪 DE | 🔴 | vmess | @x4azadi | 13",
+                "❔ XX | 🔴 | vmess | @vpngate_config | 18",
+                "❔ XX | 🟢 | vmess | @vpnv2rayonline | 10",
+                "❔ XX | 🔴 | vmess | @vpnzamin | 3",
+                "❔ XX | 🟢 | vmess | @x4azadi | 10",
+                "❔ XX | 🔴 | vmess | @x4azadi | 13",
                 "❔ XX | 🔴 | vmess | @xrayzxn | 5",
                 "❔ XX | 🔴 | vmess | @yaney_01 | 1",
                 "❔ XX | 🔴 | vmess | @yaney_01 | 2",
-                "🇺🇸 US | 🟢 | vmess | @yaney_01 | 3",
-                "🇳🇱 NL | 🟢 | vmess | @yaney_01 | 4",
-                "🇭🇰 HK | 🟢 | vmess | @zdyz2 | 1",
-                "🇮🇳 IN | 🔴 | vmess | @zerobaipiao | 38",
-                "🇺🇸 US | 🔴 | vmess | @zerobaipiao | 39",
-                "🇺🇸 US | 🔴 | vmess | @zerobaipiao | 40",
-                "🇷🇺 RU | 🔴 | vmess | @zerobaipiao | 41"
+                "❔ XX | 🟢 | vmess | @yaney_01 | 3",
+                "❔ XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔ XX | 🟢 | vmess | @zdyz2 | 1",
+                "❔ XX | 🔴 | vmess | @zerobaipiao | 40",
+                "❔ XX | 🔴 | vmess | @zerobaipiao | 41",
+                "❔ XX | 🟢 | vmess | @zerobaipiao | 43"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -299,16 +291,18 @@
                 "🇺🇸 US | 🔴 | vmess | @buffalo_vpn | 3",
                 "❔ XX | 🔴 | vmess | @buffalo_vpn | 4",
                 "🇺🇸 US | 🟢 | vmess | @bypass_filter | 0",
-                "🇦🇺 AU | 🔴 | vmess | @config_proxy | 31",
-                "🇩🇪 DE | 🟢 | vmess | @config_proxy | 34",
-                "🇨🇳 CN | 🔴 | vmess | @config_proxy | 35",
-                "🇳🇱 NL | 🔴 | vmess | @configfast | 1",
+                "🇫🇷 FR | 🟢 | vmess | @config_proxy | 33",
+                "🇺🇸 US | 🔴 | vmess | @config_proxy | 34",
+                "🇹🇷 TR | 🔴 | vmess | @configfast | 1",
                 "❔ XX | 🟢 | vmess | @configforvpn | 8",
                 "❔ XX | 🔴 | vmess | @configforvpn | 9",
-                "🇫🇷 FR | 🟢 | vmess | @configsstore | 3",
-                "🇫🇷 FR | 🟢 | vmess | @configsstore | 5",
-                "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
-                "🇳🇱 NL | 🔴 | vmess | @custom_14 | 5",
+                "🇺🇸 US | 🔴 | vmess | @configshubplus | 16",
+                "🇯🇵 JP | 🔴 | vmess | @configshubplus | 17",
+                "🇵🇭 PH | 🔴 | vmess | @configshubplus | 18",
+                "🇷🇺 RU | 🟢 | vmess | @configsstore | 3",
+                "🇷🇺 RU | 🟢 | vmess | @configsstore | 5",
+                "🇷🇺 RU | 🟢 | vmess | @configsstore | 7",
+                "🇹🇼 TW | 🔴 | vmess | @custom_14 | 5",
                 "❔ XX | 🟢 | vmess | @dailyv2ray | 28",
                 "🇩🇪 DE | 🔴 | vmess | @dailyv2ray | 29",
                 "❔ XX | 🔴 | vmess | @dailyv2ray | 30",
@@ -330,7 +324,7 @@
                 "🇭🇰 HK | 🔴 | vmess | @freev2rays | 15",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 16",
                 "❔ XX | 🔴 | vmess | @freev2rays | 17",
-                "🇺🇸 US | 🔴 | vmess | @freev2rays | 18",
+                "❔ XX | 🔴 | vmess | @freev2rays | 18",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 0",
                 "🇫🇮 FI | 🔴 | vmess | @freevmess | 2",
@@ -339,155 +333,145 @@
                 "🇩🇪 DE | 🔴 | vmess | @game_file2020 | 7",
                 "🇫🇷 FR | 🔴 | vmess | @garnet_free | 9",
                 "🇺🇸 US | 🔴 | vmess | @ghotb_scarf | 6",
-                "🇮🇷 IR | 🔴 | vmess | @goldenvpn_v2rayy | 1",
-                "🇮🇷 IR | 🔴 | vmess | @hope_net | 18",
-                "🇭🇰 HK | 🔴 | vmess | @ip_cf_config | 9",
-                "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12",
-                "🇺🇸 US | 🔴 | vmess | @ipv2rayng | 12",
-                "🇯🇵 JP | 🔴 | vmess | @ipv2rayng | 14",
-                "🇯🇵 JP | 🔴 | vmess | @ipv2rayng | 15",
+                "❔ XX | 🔴 | vmess | @goldenvpn_v2rayy | 1",
+                "❔ XX | 🔴 | vmess | @ipv2rayng | 7",
+                "❔ XX | 🔴 | vmess | @ipv2rayng | 10",
                 "🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9",
-                "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10",
-                "🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11",
-                "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
-                "🇺🇸 US | 🟢 | vmess | @iran_mehr_vpn | 16",
-                "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
-                "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
+                "❔ XX | 🔴 | vmess | @ir_netproxy | 10",
+                "❔ XX | 🔴 | vmess | @ir_netproxy | 11",
+                "❔ XX | 🔴 | vmess | @ir_netproxy | 13",
+                "❔ XX | 🟢 | vmess | @iran_mehr_vpn | 16",
+                "❔ XX | 🔴 | vmess | @iran_mehr_vpn | 17",
+                "❔ XX | 🟢 | vmess | @iranvpnet | 0",
                 "❔ XX | 🔴 | vmess | @jedal_vpn | 1",
                 "❔ XX | 🔴 | vmess | @jedal_vpn | 2",
                 "❔ XX | 🔴 | vmess | @jedal_vpn | 4",
-                "🇮🇷 IR | 🔴 | vmess | @jetupnet | 1",
-                "🇩🇪 DE | 🔴 | vmess | @khoneproxy | 10",
-                "🇩🇪 DE | 🔴 | vmess | @khoneproxy | 11",
-                "🇳🇱 NL | 🔴 | vmess | @khoneproxy | 12",
+                "❔ XX | 🔴 | vmess | @jetupnet | 1",
+                "❔ XX | 🔴 | vmess | @khoneproxy | 10",
+                "❔ XX | 🔴 | vmess | @khoneproxy | 11",
+                "❔ XX | 🔴 | vmess | @khoneproxy | 12",
                 "❔ XX | 🔴 | vmess | @khoneproxy | 13",
-                "🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14",
-                "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
+                "❔ XX | 🔴 | vmess | @khoneproxy | 14",
+                "❔ XX | 🔴 | vmess | @komail315 | 3",
                 "🇺🇸 US | 🟢 | vmess | @kopltall_vpn | 5",
-                "🇳🇱 NL | 🔴 | vmess | @lazarus2050 | 0",
+                "❔ XX | 🔴 | vmess | @lazarus2050 | 0",
                 "❔ XX | 🔴 | vmess | @lemonshopvpn | 5",
-                "🇳🇱 NL | 🔴 | vmess | @lexernet | 9",
-                "🇩🇪 DE | 🔴 | vmess | @magickey_shop | 1",
-                "🇺🇸 US | 🟢 | vmess | @mahanfix | 14",
-                "🇲🇽 MX | 🔴 | vmess | @mahanfix | 15",
-                "🇫🇷 FR | 🔴 | vmess | @mahanfix | 16",
-                "🇺🇸 US | 🔴 | vmess | @mahanfix | 17",
-                "🇺🇸 US | 🔴 | vmess | @mahdivpn2 | 0",
-                "🇩🇪 DE | 🔴 | vmess | @mahdivpn2 | 1",
+                "❔ XX | 🔴 | vmess | @lexernet | 9",
+                "❔ XX | 🔴 | vmess | @magickey_shop | 1",
+                "❔ XX | 🟢 | vmess | @mahanfix | 14",
+                "❔ XX | 🔴 | vmess | @mahanfix | 15",
+                "❔ XX | 🔴 | vmess | @mahanfix | 16",
+                "❔ XX | 🔴 | vmess | @mahanfix | 17",
+                "❔ XX | 🟢 | vmess | @mahanfix | 18",
+                "❔ XX | 🔴 | vmess | @mahdivpn2 | 0",
+                "❔ XX | 🔴 | vmess | @mahdivpn2 | 1",
                 "❔ XX | 🔴 | vmess | @mahsaproxy | 0",
                 "❔ XX | 🔴 | vmess | @mahsaproxy | 2",
-                "🇫🇷 FR | 🟢 | vmess | @mahsaproxy | 3",
-                "🇩🇪 DE | 🟢 | vmess | @mainmat | 4",
-                "🇸🇪 SE | 🔴 | vmess | @mainmat | 5",
+                "❔ XX | 🟢 | vmess | @mahsaproxy | 3",
+                "❔ XX | 🟢 | vmess | @mainmat | 4",
+                "❔ XX | 🔴 | vmess | @mainmat | 5",
                 "🇺🇸 US | 🟢 | vmess | @manstervpn | 73",
                 "🇺🇸 US | 🟢 | vmess | @manstervpn | 74",
-                "🇨🇳 CN | 🔴 | vmess | @mftizi | 15",
-                "🇯🇵 JP | 🔴 | vmess | @mftizi | 18",
-                "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
-                "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 0",
+                "❔ XX | 🔴 | vmess | @mftizi | 15",
+                "❔ XX | 🔴 | vmess | @mftizi | 18",
+                "❔ XX | 🔴 | vmess | @mftizi | 19",
+                "❔ XX | 🟢 | vmess | @mi_pn_official | 0",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 1",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "❔ XX | 🔴 | vmess | @migping | 0",
-                "🇺🇸 US | 🟢 | vmess | @minovpnch | 10",
+                "❔ XX | 🟢 | vmess | @minovpnch | 10",
                 "🇺🇸 US | 🟢 | vmess | @mowjproxy | 0",
-                "🇩🇪 DE | 🔴 | vmess | @mrvpn1403 | 1",
-                "🇸🇪 SE | 🔴 | vmess | @mtpv2ray | 11",
+                "❔ XX | 🔴 | vmess | @mrvpn1403 | 1",
+                "❔ XX | 🔴 | vmess | @mtpv2ray | 11",
                 "❔ XX | 🔴 | vmess | @napsterntvtm | 0",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 8",
-                "🇺🇸 US | 🔴 | vmess | @nn_vpn | 1",
-                "🇮🇷 IR | 🔴 | vmess | @nofilter_v2rayng | 3",
+                "🇨🇦 CA | 🔴 | vmess | @nn_vpn | 1",
+                "❔ XX | 🔴 | vmess | @nofilter_v2rayng | 3",
                 "❔ XX | 🟢 | vmess | @persian_proxy6 | 1",
                 "🇮🇷 IR | 🔴 | vmess | @pistachiovpn | 0",
-                "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
-                "🇳🇱 NL | 🟢 | vmess | @prooxyk | 1",
-                "🇩🇪 DE | 🔴 | vmess | @prooxyk | 2",
+                "❔ XX | 🔴 | vmess | @pro_chaneel | 1",
+                "❔ XX | 🟢 | vmess | @prooxyk | 1",
+                "❔ XX | 🔴 | vmess | @prooxyk | 2",
                 "❔ XX | 🔴 | vmess | @prooxyk | 3",
                 "❔ XX | 🟢 | vmess | @prooxyk | 4",
-                "🇮🇷 IR | 🔴 | vmess | @proxse11 | 0",
-                "🇩🇪 DE | 🔴 | vmess | @proxygodratmand | 7",
-                "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
-                "🇮🇷 IR | 🟢 | vmess | @public504 | 10",
+                "❔ XX | 🔴 | vmess | @proxse11 | 0",
+                "❔ XX | 🔴 | vmess | @proxygodratmand | 7",
+                "❔ XX | 🔴 | vmess | @prrofile_purple | 122",
+                "❔ XX | 🟢 | vmess | @public504 | 10",
                 "❔ XX | 🔴 | vmess | @pydriclub | 3",
-                "🇺🇸 US | 🟢 | vmess | @qeshmserver | 8",
-                "🇺🇸 US | 🟢 | vmess | @qeshmserver | 9",
-                "🇺🇸 US | 🟢 | vmess | @qeshmserver | 10",
-                "🇺🇸 US | 🟢 | vmess | @qeshmserver | 11",
+                "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 8",
+                "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 9",
+                "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 10",
+                "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 11",
                 "🇺🇸 US | 🔴 | vmess | @red2ray | 9",
-                "🇺🇸 US | 🔴 | vmess | @red2ray | 11",
-                "🇦🇹 AT | 🔴 | vmess | @rnrifci | 1",
-                "🇦🇹 AT | 🔴 | vmess | @rnrifci | 3",
-                "🇦🇹 AT | 🔴 | vmess | @rnrifci | 5",
+                "❔ XX | 🔴 | vmess | @red2ray | 11",
+                "❔ XX | 🔴 | vmess | @rnrifci | 1",
+                "❔ XX | 🔴 | vmess | @rnrifci | 3",
+                "❔ XX | 🔴 | vmess | @rnrifci | 5",
                 "❔ XX | 🔴 | vmess | @savagenet | 1",
-                "🇩🇪 DE | 🔴 | vmess | @selinc | 4",
+                "❔ XX | 🔴 | vmess | @selinc | 4",
                 "🇺🇸 US | 🟢 | vmess | @serverv2ray00 | 16",
                 "🇺🇸 US | 🟢 | vmess | @serverv2ray00 | 17",
                 "🇺🇸 US | 🟢 | vmess | @serverv2ray00 | 18",
-                "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
-                "🇺🇸 US | 🔴 | vmess | @sharecentrepro | 0",
-                "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 2",
-                "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
-                "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 3",
-                "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
-                "🇮🇷 IR | 🔴 | vmess | @toucan_vpn | 1",
-                "🇬🇧 GB | 🔴 | vmess | @v222ray | 8",
-                "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 7",
-                "🇺🇸 US | 🟢 | vmess | @v2graphy | 11",
-                "🇬🇧 GB | 🟢 | vmess | @v2ray4win | 4",
-                "🇺🇸 US | 🟢 | vmess | @v2ray4win | 5",
+                "❔ XX | 🔴 | vmess | @sezar_sec | 1",
+                "❔ XX | 🔴 | vmess | @sharecentrepro | 0",
+                "❔ XX | 🔴 | vmess | @sharecentrepro | 2",
+                "❔ XX | 🔴 | vmess | @sharecentrepro | 3",
+                "❔ XX | 🟢 | vmess | @tehranfreevpn | 3",
+                "❔ XX | 🟢 | vmess | @tehranfreevpn | 7",
+                "❔ XX | 🔴 | vmess | @toucan_vpn | 1",
+                "❔ XX | 🔴 | vmess | @v222ray | 8",
+                "❔ XX | 🔴 | vmess | @v2aryng_vpn | 7",
+                "❔ XX | 🟢 | vmess | @v2graphy | 11",
+                "🇷🇴 RO | 🟢 | vmess | @v2ray4win | 4",
+                "🇨🇦 CA | 🟢 | vmess | @v2ray4win | 5",
                 "❔ XX | 🟢 | vmess | @v2ray4win | 6",
-                "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
-                "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
-                "🇩🇰 DK | 🔴 | vmess | @v2ray_free_conf | 18",
-                "❔ XX | 🔴 | vmess | @v2ray_free_conf | 19",
-                "🇺🇸 US | 🔴 | vmess | @v2ray_n | 16",
+                "❔ XX | 🔴 | vmess | @v2ray4win | 7",
+                "🇨🇦 CA | 🟢 | vmess | @v2ray_fd | 0",
+                "🇺🇸 US | 🔴 | vmess | @v2ray_free_conf | 17",
+                "❔ XX | 🔴 | vmess | @v2ray_n | 16",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 17",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 18",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 19",
-                "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
-                "🏳️  | 🔴 | vmess | @v2raych | 17",
+                "❔ XX | 🔴 | vmess | @v2ray_sub | 9",
                 "🇺🇸 US | 🔴 | vmess | @v2rayng3 | 3",
-                "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
-                "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 0",
-                "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 1",
-                "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 2",
-                "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
-                "🇵🇱 PL | 🔴 | vmess | @v2rayngc | 15",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 1",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 2",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 3",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 4",
-                "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
-                "🇩🇪 DE | 🔴 | vmess | @v2rayturbo | 6",
-                "🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13",
+                "❔ XX | 🔴 | vmess | @v2rayng3 | 6",
+                "❔ XX | 🔴 | vmess | @v2rayngc | 15",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 1",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 2",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 3",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 4",
+                "❔ XX | 🟢 | vmess | @v2rayngchannelll | 5",
+                "❔ XX | 🔴 | vmess | @v2rayturbo | 6",
+                "❔ XX | 🔴 | vmess | @v2rayvmess | 13",
                 "❔ XX | 🔴 | vmess | @v2rayvmess | 15",
-                "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
+                "❔ XX | 🔴 | vmess | @vipv2rayvip | 0",
                 "❔ XX | 🔴 | vmess | @vipvpn_v2ray | 6",
                 "❔ XX | 🔴 | vmess | @vpn_proxy_v2ry | 3",
                 "❔ XX | 🔴 | vmess | @vpncostume | 4",
                 "❔ XX | 🟢 | vmess | @vpncostume | 5",
-                "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 15",
-                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 16",
-                "🇭🇰 HK | 🔴 | vmess | @vpnfail_v2ray | 17",
-                "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 18",
-                "🇮🇷 IR | 🔴 | vmess | @vpnfree_irann | 3",
-                "🇦🇺 AU | 🟢 | vmess | @vpngate_config | 14",
+                "❔ XX | 🟢 | vmess | @vpnfail_v2ray | 16",
+                "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 17",
+                "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 18",
+                "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 19",
+                "❔ XX | 🔴 | vmess | @vpnfree_irann | 3",
+                "❔ XX | 🟢 | vmess | @vpngate_config | 14",
                 "❔ XX | 🟢 | vmess | @vpngate_config | 15",
                 "❔ XX | 🟢 | vmess | @vpngate_config | 16",
-                "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
-                "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
-                "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
-                "🇮🇷 IR | 🟢 | vmess | @x4azadi | 10",
-                "🇩🇪 DE | 🔴 | vmess | @x4azadi | 13",
+                "❔ XX | 🔴 | vmess | @vpngate_config | 18",
+                "❔ XX | 🟢 | vmess | @vpnv2rayonline | 10",
+                "❔ XX | 🔴 | vmess | @vpnzamin | 3",
+                "❔ XX | 🟢 | vmess | @x4azadi | 10",
+                "❔ XX | 🔴 | vmess | @x4azadi | 13",
                 "❔ XX | 🔴 | vmess | @xrayzxn | 5",
                 "❔ XX | 🔴 | vmess | @yaney_01 | 1",
                 "❔ XX | 🔴 | vmess | @yaney_01 | 2",
-                "🇺🇸 US | 🟢 | vmess | @yaney_01 | 3",
-                "🇳🇱 NL | 🟢 | vmess | @yaney_01 | 4",
-                "🇭🇰 HK | 🟢 | vmess | @zdyz2 | 1",
-                "🇮🇳 IN | 🔴 | vmess | @zerobaipiao | 38",
-                "🇺🇸 US | 🔴 | vmess | @zerobaipiao | 39",
-                "🇺🇸 US | 🔴 | vmess | @zerobaipiao | 40",
-                "🇷🇺 RU | 🔴 | vmess | @zerobaipiao | 41"
+                "❔ XX | 🟢 | vmess | @yaney_01 | 3",
+                "❔ XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔ XX | 🟢 | vmess | @zdyz2 | 1",
+                "❔ XX | 🔴 | vmess | @zerobaipiao | 40",
+                "❔ XX | 🔴 | vmess | @zerobaipiao | 41",
+                "❔ XX | 🟢 | vmess | @zerobaipiao | 43"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -617,13 +601,13 @@
             }
         },
         {
-            "tag": "🇦🇺 AU | 🔴 | vmess | @config_proxy | 31",
+            "tag": "🇫🇷 FR | 🟢 | vmess | @config_proxy | 33",
             "type": "vmess",
-            "server": "172.105.172.209",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "uk-v2ray.freevmess.com",
+            "server_port": 2083,
+            "uuid": "d67d3e32-6988-4b13-974d-29751dc59556",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
                 "server_name": "",
@@ -632,51 +616,26 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @config_proxy | 34",
+            "tag": "🇺🇸 US | 🔴 | vmess | @config_proxy | 34",
             "type": "vmess",
-            "server": "57.129.28.69",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "103.160.204.241",
+            "server_port": 8880,
+            "uuid": "248be52b-35d9-34cb-9b73-e12b78bc1301",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/dabai.in",
                 "headers": {
-                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                    "Host": "103.160.204.241"
                 }
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | vmess | @config_proxy | 35",
-            "type": "vmess",
-            "server": "183.249.207.249",
-            "server_port": 40180,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vmess | @configfast | 1",
+            "tag": "🇹🇷 TR | 🔴 | vmess | @configfast | 1",
             "type": "vmess",
             "server": "ee1.daallygold.com",
             "server_port": 52262,
@@ -726,7 +685,55 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vmess | @configsstore | 3",
+            "tag": "🇺🇸 US | 🔴 | vmess | @configshubplus | 16",
+            "type": "vmess",
+            "server": "45.8.146.129",
+            "server_port": 80,
+            "uuid": "0704016f-5435-4655-be6a-771a5aba52c3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔴 | vmess | @configshubplus | 17",
+            "type": "vmess",
+            "server": "172.111.146.64",
+            "server_port": 80,
+            "uuid": "05b8c783-7f59-47f9-9923-06a465679f6a",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇵🇭 PH | 🔴 | vmess | @configshubplus | 18",
+            "type": "vmess",
+            "server": "61.245.11.60",
+            "server_port": 80,
+            "uuid": "6924182f-90ec-4b11-b056-fc50195e3359",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | vmess | @configsstore | 3",
             "type": "vmess",
             "server": "193.187.175.111",
             "server_port": 8080,
@@ -742,7 +749,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vmess | @configsstore | 5",
+            "tag": "🇷🇺 RU | 🟢 | vmess | @configsstore | 5",
             "type": "vmess",
             "server": "193.187.175.111",
             "server_port": 8080,
@@ -758,7 +765,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
+            "tag": "🇷🇺 RU | 🟢 | vmess | @configsstore | 7",
             "type": "vmess",
             "server": "193.187.175.111",
             "server_port": 8080,
@@ -774,7 +781,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vmess | @custom_14 | 5",
+            "tag": "🇹🇼 TW | 🔴 | vmess | @custom_14 | 5",
             "type": "vmess",
             "server": "45.199.138.152",
             "server_port": 45886,
@@ -1144,7 +1151,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @freev2rays | 18",
+            "tag": "❔ XX | 🔴 | vmess | @freev2rays | 18",
             "type": "vmess",
             "server": "time.is",
             "server_port": 443,
@@ -1285,7 +1292,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @goldenvpn_v2rayy | 1",
+            "tag": "❔ XX | 🔴 | vmess | @goldenvpn_v2rayy | 1",
             "type": "vmess",
             "server": "mrgold.iranman.shop",
             "server_port": 52065,
@@ -1294,57 +1301,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @hope_net | 18",
-            "type": "vmess",
-            "server": "185.14.160.200",
-            "server_port": 55910,
-            "uuid": "4f80820e-f433-447f-87c8-3ee6dfafe1b1",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇭🇰 HK | 🔴 | vmess | @ip_cf_config | 9",
-            "type": "vmess",
-            "server": "76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com",
-            "server_port": 80,
-            "uuid": "5acc7a7c-d7ea-11eb-8673-f23c9164ca5d",
-            "security": "auto",
-            "alter_id": 2,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "broadcastlv.chat.bilibili.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12",
-            "type": "vmess",
-            "server": "104.18.149.76",
-            "server_port": 443,
-            "uuid": "de94cc0a-0592-4969-b1fc-97ea8f0ea0b3",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "us.kkp.me.eu.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/aa",
-                "headers": {
-                    "Host": "us.kkp.me.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @ipv2rayng | 12",
+            "tag": "❔ XX | 🔴 | vmess | @ipv2rayng | 7",
             "type": "vmess",
             "server": "141.193.213.223",
             "server_port": 2086,
@@ -1360,23 +1317,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔴 | vmess | @ipv2rayng | 14",
-            "type": "vmess",
-            "server": "172.111.146.64",
-            "server_port": 80,
-            "uuid": "05b8c783-7f59-47f9-9923-06a465679f6a",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/vmess/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵 JP | 🔴 | vmess | @ipv2rayng | 15",
+            "tag": "❔ XX | 🔴 | vmess | @ipv2rayng | 10",
             "type": "vmess",
             "server": "47.79.41.14",
             "server_port": 15924,
@@ -1417,7 +1358,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10",
+            "tag": "❔ XX | 🔴 | vmess | @ir_netproxy | 10",
             "type": "vmess",
             "server": "89.116.38.174",
             "server_port": 3456,
@@ -1426,7 +1367,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11",
+            "tag": "❔ XX | 🔴 | vmess | @ir_netproxy | 11",
             "type": "vmess",
             "server": "142.4.125.84",
             "server_port": 59614,
@@ -1435,7 +1376,7 @@
             "alter_id": 64
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
+            "tag": "❔ XX | 🔴 | vmess | @ir_netproxy | 13",
             "type": "vmess",
             "server": "89.116.38.184",
             "server_port": 3456,
@@ -1444,7 +1385,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @iran_mehr_vpn | 16",
+            "tag": "❔ XX | 🟢 | vmess | @iran_mehr_vpn | 16",
             "type": "vmess",
             "server": "1000site.ir",
             "server_port": 443,
@@ -1462,7 +1403,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
+            "tag": "❔ XX | 🔴 | vmess | @iran_mehr_vpn | 17",
             "type": "vmess",
             "server": "1000site.ir",
             "server_port": 80,
@@ -1471,7 +1412,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
+            "tag": "❔ XX | 🟢 | vmess | @iranvpnet | 0",
             "type": "vmess",
             "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV",
             "server_port": 443,
@@ -1537,7 +1478,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @jetupnet | 1",
+            "tag": "❔ XX | 🔴 | vmess | @jetupnet | 1",
             "type": "vmess",
             "server": "46.38.146.68",
             "server_port": 38585,
@@ -1546,7 +1487,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @khoneproxy | 10",
+            "tag": "❔ XX | 🔴 | vmess | @khoneproxy | 10",
             "type": "vmess",
             "server": "78.47.120.173",
             "server_port": 443,
@@ -1564,7 +1505,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @khoneproxy | 11",
+            "tag": "❔ XX | 🔴 | vmess | @khoneproxy | 11",
             "type": "vmess",
             "server": "78.47.131.39",
             "server_port": 8443,
@@ -1573,7 +1514,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vmess | @khoneproxy | 12",
+            "tag": "❔ XX | 🔴 | vmess | @khoneproxy | 12",
             "type": "vmess",
             "server": "142.93.238.178",
             "server_port": 80,
@@ -1605,7 +1546,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14",
+            "tag": "❔ XX | 🔴 | vmess | @khoneproxy | 14",
             "type": "vmess",
             "server": "144.126.224.206",
             "server_port": 9020,
@@ -1614,7 +1555,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
+            "tag": "❔ XX | 🔴 | vmess | @komail315 | 3",
             "type": "vmess",
             "server": "sv20.warzone1.in",
             "server_port": 31195,
@@ -1648,7 +1589,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vmess | @lazarus2050 | 0",
+            "tag": "❔ XX | 🔴 | vmess | @lazarus2050 | 0",
             "type": "vmess",
             "server": "93.115.172.175",
             "server_port": 12540,
@@ -1673,7 +1614,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vmess | @lexernet | 9",
+            "tag": "❔ XX | 🔴 | vmess | @lexernet | 9",
             "type": "vmess",
             "server": "channel.dollardoon.com",
             "server_port": 15709,
@@ -1682,7 +1623,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @magickey_shop | 1",
+            "tag": "❔ XX | 🔴 | vmess | @magickey_shop | 1",
             "type": "vmess",
             "server": "168.119.174.229",
             "server_port": 443,
@@ -1700,7 +1641,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @mahanfix | 14",
+            "tag": "❔ XX | 🟢 | vmess | @mahanfix | 14",
             "type": "vmess",
             "server": "38.14.107.225",
             "server_port": 38003,
@@ -1725,7 +1666,7 @@
             }
         },
         {
-            "tag": "🇲🇽 MX | 🔴 | vmess | @mahanfix | 15",
+            "tag": "❔ XX | 🔴 | vmess | @mahanfix | 15",
             "type": "vmess",
             "server": "79.127.229.54",
             "server_port": 18000,
@@ -1734,7 +1675,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vmess | @mahanfix | 16",
+            "tag": "❔ XX | 🔴 | vmess | @mahanfix | 16",
             "type": "vmess",
             "server": "az05.beyondy.cfd",
             "server_port": 443,
@@ -1759,7 +1700,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @mahanfix | 17",
+            "tag": "❔ XX | 🔴 | vmess | @mahanfix | 17",
             "type": "vmess",
             "server": "38.54.94.122",
             "server_port": 2053,
@@ -1784,7 +1725,32 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @mahdivpn2 | 0",
+            "tag": "❔ XX | 🟢 | vmess | @mahanfix | 18",
+            "type": "vmess",
+            "server": "57.129.28.69",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | vmess | @mahdivpn2 | 0",
             "type": "vmess",
             "server": "40.160.6.81",
             "server_port": 34535,
@@ -1793,7 +1759,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @mahdivpn2 | 1",
+            "tag": "❔ XX | 🔴 | vmess | @mahdivpn2 | 1",
             "type": "vmess",
             "server": "91.107.137.195",
             "server_port": 29164,
@@ -1834,7 +1800,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vmess | @mahsaproxy | 3",
+            "tag": "❔ XX | 🟢 | vmess | @mahsaproxy | 3",
             "type": "vmess",
             "server": "152.228.229.14",
             "server_port": 443,
@@ -1852,7 +1818,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @mainmat | 4",
+            "tag": "❔ XX | 🟢 | vmess | @mainmat | 4",
             "type": "vmess",
             "server": "cf2.serikadeh.ir",
             "server_port": 443,
@@ -1874,7 +1840,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔴 | vmess | @mainmat | 5",
+            "tag": "❔ XX | 🔴 | vmess | @mainmat | 5",
             "type": "vmess",
             "server": "www.serikadeh.ir",
             "server_port": 80,
@@ -1933,7 +1899,7 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | vmess | @mftizi | 15",
+            "tag": "❔ XX | 🔴 | vmess | @mftizi | 15",
             "type": "vmess",
             "server": "120.232.153.123",
             "server_port": 45402,
@@ -1942,7 +1908,7 @@
             "alter_id": 64
         },
         {
-            "tag": "🇯🇵 JP | 🔴 | vmess | @mftizi | 18",
+            "tag": "❔ XX | 🔴 | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "45.159.51.116",
             "server_port": 48019,
@@ -1951,7 +1917,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
+            "tag": "❔ XX | 🔴 | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "183.236.51.38",
             "server_port": 49302,
@@ -1960,7 +1926,7 @@
             "alter_id": 64
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 0",
+            "tag": "❔ XX | 🟢 | vmess | @mi_pn_official | 0",
             "type": "vmess",
             "server": "auth.speedtest.net",
             "server_port": 443,
@@ -2044,7 +2010,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @minovpnch | 10",
+            "tag": "❔ XX | 🟢 | vmess | @minovpnch | 10",
             "type": "vmess",
             "server": "151.101.66.219",
             "server_port": 443,
@@ -2094,7 +2060,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @mrvpn1403 | 1",
+            "tag": "❔ XX | 🔴 | vmess | @mrvpn1403 | 1",
             "type": "vmess",
             "server": "23.88.99.37",
             "server_port": 54114,
@@ -2103,7 +2069,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇸🇪 SE | 🔴 | vmess | @mtpv2ray | 11",
+            "tag": "❔ XX | 🔴 | vmess | @mtpv2ray | 11",
             "type": "vmess",
             "server": "46.253.4.214",
             "server_port": 8080,
@@ -2130,7 +2096,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @nn_vpn | 1",
+            "tag": "🇨🇦 CA | 🔴 | vmess | @nn_vpn | 1",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -2146,7 +2112,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @nofilter_v2rayng | 3",
+            "tag": "❔ XX | 🔴 | vmess | @nofilter_v2rayng | 3",
             "type": "vmess",
             "server": "germany-solution.bniwring.xyz",
             "server_port": 7977,
@@ -2173,7 +2139,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
+            "tag": "❔ XX | 🔴 | vmess | @pro_chaneel | 1",
             "type": "vmess",
             "server": "185.143.233.120",
             "server_port": 2095,
@@ -2189,7 +2155,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vmess | @prooxyk | 1",
+            "tag": "❔ XX | 🟢 | vmess | @prooxyk | 1",
             "type": "vmess",
             "server": "77.v2ray1.xyz",
             "server_port": 443,
@@ -2214,7 +2180,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @prooxyk | 2",
+            "tag": "❔ XX | 🔴 | vmess | @prooxyk | 2",
             "type": "vmess",
             "server": "49.12.73.179",
             "server_port": 443,
@@ -2273,7 +2239,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @proxse11 | 0",
+            "tag": "❔ XX | 🔴 | vmess | @proxse11 | 0",
             "type": "vmess",
             "server": "188.213.67.214",
             "server_port": 20883,
@@ -2282,7 +2248,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @proxygodratmand | 7",
+            "tag": "❔ XX | 🔴 | vmess | @proxygodratmand | 7",
             "type": "vmess",
             "server": "159.89.22.229",
             "server_port": 8080,
@@ -2291,7 +2257,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
+            "tag": "❔ XX | 🔴 | vmess | @prrofile_purple | 122",
             "type": "vmess",
             "server": "51.68.191.233",
             "server_port": 80,
@@ -2307,7 +2273,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vmess | @public504 | 10",
+            "tag": "❔ XX | 🟢 | vmess | @public504 | 10",
             "type": "vmess",
             "server": "94.182.136.40",
             "server_port": 25832,
@@ -2325,7 +2291,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @qeshmserver | 8",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 8",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -2341,7 +2307,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @qeshmserver | 9",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 9",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -2357,7 +2323,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @qeshmserver | 10",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 10",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -2373,7 +2339,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @qeshmserver | 11",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @qeshmserver | 11",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -2405,7 +2371,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @red2ray | 11",
+            "tag": "❔ XX | 🔴 | vmess | @red2ray | 11",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 80,
@@ -2421,7 +2387,7 @@
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔴 | vmess | @rnrifci | 1",
+            "tag": "❔ XX | 🔴 | vmess | @rnrifci | 1",
             "type": "vmess",
             "server": "45.138.74.173",
             "server_port": 13700,
@@ -2434,7 +2400,7 @@
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔴 | vmess | @rnrifci | 3",
+            "tag": "❔ XX | 🔴 | vmess | @rnrifci | 3",
             "type": "vmess",
             "server": "45.138.74.173",
             "server_port": 13700,
@@ -2447,7 +2413,7 @@
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔴 | vmess | @rnrifci | 5",
+            "tag": "❔ XX | 🔴 | vmess | @rnrifci | 5",
             "type": "vmess",
             "server": "45.138.74.173",
             "server_port": 13700,
@@ -2469,7 +2435,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @selinc | 4",
+            "tag": "❔ XX | 🔴 | vmess | @selinc | 4",
             "type": "vmess",
             "server": "panel3.ipyar.org",
             "server_port": 32017,
@@ -2553,7 +2519,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
+            "tag": "❔ XX | 🔴 | vmess | @sezar_sec | 1",
             "type": "vmess",
             "server": "panel3.ipyar.org",
             "server_port": 32017,
@@ -2562,7 +2528,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @sharecentrepro | 0",
+            "tag": "❔ XX | 🔴 | vmess | @sharecentrepro | 0",
             "type": "vmess",
             "server": "cs.flha.ru",
             "server_port": 2082,
@@ -2578,7 +2544,7 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 2",
+            "tag": "❔ XX | 🔴 | vmess | @sharecentrepro | 2",
             "type": "vmess",
             "server": "157.255.56.93",
             "server_port": 30514,
@@ -2587,7 +2553,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
+            "tag": "❔ XX | 🔴 | vmess | @sharecentrepro | 3",
             "type": "vmess",
             "server": "120.233.248.133",
             "server_port": 30514,
@@ -2596,7 +2562,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 3",
+            "tag": "❔ XX | 🟢 | vmess | @tehranfreevpn | 3",
             "type": "vmess",
             "server": "199.247.30.45",
             "server_port": 8080,
@@ -2612,7 +2578,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
+            "tag": "❔ XX | 🟢 | vmess | @tehranfreevpn | 7",
             "type": "vmess",
             "server": "199.247.30.45",
             "server_port": 8080,
@@ -2628,7 +2594,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @toucan_vpn | 1",
+            "tag": "❔ XX | 🔴 | vmess | @toucan_vpn | 1",
             "type": "vmess",
             "server": "188.121.123.118",
             "server_port": 26210,
@@ -2637,7 +2603,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vmess | @v222ray | 8",
+            "tag": "❔ XX | 🔴 | vmess | @v222ray | 8",
             "type": "vmess",
             "server": "5.180.30.85",
             "server_port": 18598,
@@ -2646,7 +2612,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 7",
+            "tag": "❔ XX | 🔴 | vmess | @v2aryng_vpn | 7",
             "type": "vmess",
             "server": "47.92.152.169",
             "server_port": 50002,
@@ -2655,7 +2621,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2graphy | 11",
+            "tag": "❔ XX | 🟢 | vmess | @v2graphy | 11",
             "type": "vmess",
             "server": "sw.kalekhar.com",
             "server_port": 80,
@@ -2671,7 +2637,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vmess | @v2ray4win | 4",
+            "tag": "🇷🇴 RO | 🟢 | vmess | @v2ray4win | 4",
             "type": "vmess",
             "server": "45.85.118.88",
             "server_port": 443,
@@ -2696,7 +2662,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2ray4win | 5",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @v2ray4win | 5",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -2746,7 +2712,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
+            "tag": "❔ XX | 🔴 | vmess | @v2ray4win | 7",
             "type": "vmess",
             "server": "91.107.160.240",
             "server_port": 15795,
@@ -2755,7 +2721,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @v2ray_fd | 0",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -2780,29 +2746,23 @@
             }
         },
         {
-            "tag": "🇩🇰 DK | 🔴 | vmess | @v2ray_free_conf | 18",
+            "tag": "🇺🇸 US | 🔴 | vmess | @v2ray_free_conf | 17",
             "type": "vmess",
-            "server": "95.164.10.116",
-            "server_port": 8880,
-            "uuid": "10089a55-26c0-5214-956b-acaf3447119b",
+            "server": "188.114.96.113",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "transport": {
-                "type": "grpc",
-                "service_name": "vmess-grpc"
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vmess | @v2ray_free_conf | 19",
-            "type": "vmess",
-            "server": "hs2.multiproxy.info",
-            "server_port": 9979,
-            "uuid": "26d9ddd9-1e5d-46fc-8baa-a77475c29e68",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @v2ray_n | 16",
+            "tag": "❔ XX | 🔴 | vmess | @v2ray_n | 16",
             "type": "vmess",
             "server": "sun.prxpro.cc",
             "server_port": 80,
@@ -2875,7 +2835,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
+            "tag": "❔ XX | 🔴 | vmess | @v2ray_sub | 9",
             "type": "vmess",
             "server": "37.202.225.74",
             "server_port": 40521,
@@ -2891,15 +2851,6 @@
             }
         },
         {
-            "tag": "🏳️  | 🔴 | vmess | @v2raych | 17",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cacaabb-acba-abac-dcab-ababccacbbac",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vmess | @v2rayng3 | 3",
             "type": "vmess",
             "server": "104.19.150.10",
@@ -2909,7 +2860,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
+            "tag": "❔ XX | 🔴 | vmess | @v2rayng3 | 6",
             "type": "vmess",
             "server": "5.180.30.85",
             "server_port": 18598,
@@ -2918,91 +2869,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 0",
-            "type": "vmess",
-            "server": "104.18.203.232",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "edeen.makeup",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "edeen.makeup"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 1",
-            "type": "vmess",
-            "server": "172.67.81.238",
-            "server_port": 443,
-            "uuid": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "franc.digires.shop",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/11201",
-                "headers": {
-                    "Host": "franc.digires.shop"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2rayng_v2_ray | 2",
-            "type": "vmess",
-            "server": "188.114.97.1",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "tls": {
-                "enabled": true,
-                "server_name": "odelia.autos",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "odelia.autos"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
-            "type": "vmess",
-            "server": "57.129.7.139",
-            "server_port": 60240,
-            "uuid": "84e92b93-93d0-40e4-8b2b-123801eeda44",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇵🇱 PL | 🔴 | vmess | @v2rayngc | 15",
+            "tag": "❔ XX | 🔴 | vmess | @v2rayngc | 15",
             "type": "vmess",
             "server": "146.59.17.58",
             "server_port": 12960,
@@ -3011,7 +2878,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 1",
+            "tag": "❔ XX | 🟢 | vmess | @v2rayngchannelll | 1",
             "type": "vmess",
             "server": "185.219.220.25",
             "server_port": 59594,
@@ -3027,7 +2894,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 2",
+            "tag": "❔ XX | 🟢 | vmess | @v2rayngchannelll | 2",
             "type": "vmess",
             "server": "185.219.220.25",
             "server_port": 22098,
@@ -3043,7 +2910,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 3",
+            "tag": "❔ XX | 🟢 | vmess | @v2rayngchannelll | 3",
             "type": "vmess",
             "server": "185.219.220.25",
             "server_port": 30825,
@@ -3059,7 +2926,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 4",
+            "tag": "❔ XX | 🟢 | vmess | @v2rayngchannelll | 4",
             "type": "vmess",
             "server": "185.219.221.128",
             "server_port": 40348,
@@ -3075,7 +2942,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
+            "tag": "❔ XX | 🟢 | vmess | @v2rayngchannelll | 5",
             "type": "vmess",
             "server": "185.219.221.128",
             "server_port": 22793,
@@ -3091,7 +2958,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @v2rayturbo | 6",
+            "tag": "❔ XX | 🔴 | vmess | @v2rayturbo | 6",
             "type": "vmess",
             "server": "128.140.112.151",
             "server_port": 3030,
@@ -3100,7 +2967,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13",
+            "tag": "❔ XX | 🔴 | vmess | @v2rayvmess | 13",
             "type": "vmess",
             "server": "sg2-ctb.v2rayserv.com",
             "server_port": 80,
@@ -3132,7 +2999,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
+            "tag": "❔ XX | 🔴 | vmess | @vipv2rayvip | 0",
             "type": "vmess",
             "server": "176.120.17.67",
             "server_port": 42270,
@@ -3200,25 +3067,16 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 15",
+            "tag": "❔ XX | 🟢 | vmess | @vpnfail_v2ray | 16",
             "type": "vmess",
-            "server": "51.79.86.182",
-            "server_port": 42610,
-            "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 16",
-            "type": "vmess",
-            "server": "57.129.28.65",
+            "server": "57.129.25.25",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "kapelleng.com",
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -3229,30 +3087,39 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": "kapelleng.com"
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔴 | vmess | @vpnfail_v2ray | 17",
+            "tag": "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 17",
             "type": "vmess",
-            "server": "v7.heduian.link",
-            "server_port": 30807,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "server": "vc.fly.dev",
+            "server_port": 443,
+            "uuid": "35379219-6535-4f2e-a4fe-3e44f61e0eee",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 32,
+            "tls": {
+                "enabled": true,
+                "server_name": "vc.fly.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/oooo",
+                "path": "/vc",
                 "headers": {
-                    "Host": "v7.heduian.link"
+                    "Host": "vc.fly.dev"
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 18",
+            "tag": "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 18",
             "type": "vmess",
-            "server": "15.235.50.172",
+            "server": "23.158.56.241",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -3275,7 +3142,32 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @vpnfree_irann | 3",
+            "tag": "❔ XX | 🔴 | vmess | @vpnfail_v2ray | 19",
+            "type": "vmess",
+            "server": "57.129.24.125",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "57.129.24.125",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "57.129.24.125"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | vmess | @vpnfree_irann | 3",
             "type": "vmess",
             "server": "ir.tunneled.site",
             "server_port": 3030,
@@ -3284,7 +3176,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇦🇺 AU | 🟢 | vmess | @vpngate_config | 14",
+            "tag": "❔ XX | 🟢 | vmess | @vpngate_config | 14",
             "type": "vmess",
             "server": "amsterdam.kotick.site",
             "server_port": 443,
@@ -3359,7 +3251,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
+            "tag": "❔ XX | 🔴 | vmess | @vpngate_config | 18",
             "type": "vmess",
             "server": "5.78.103.249",
             "server_port": 3389,
@@ -3368,7 +3260,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
+            "tag": "❔ XX | 🟢 | vmess | @vpnv2rayonline | 10",
             "type": "vmess",
             "server": "sinaazizpor.cozwao.worKERs.dEv",
             "server_port": 443,
@@ -3393,7 +3285,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
+            "tag": "❔ XX | 🔴 | vmess | @vpnzamin | 3",
             "type": "vmess",
             "server": "45.77.141.170",
             "server_port": 2087,
@@ -3409,7 +3301,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vmess | @x4azadi | 10",
+            "tag": "❔ XX | 🟢 | vmess | @x4azadi | 10",
             "type": "vmess",
             "server": "snappfood.ir",
             "server_port": 443,
@@ -3434,7 +3326,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @x4azadi | 13",
+            "tag": "❔ XX | 🔴 | vmess | @x4azadi | 13",
             "type": "vmess",
             "server": "49.12.218.125",
             "server_port": 41304,
@@ -3491,7 +3383,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @yaney_01 | 3",
+            "tag": "❔ XX | 🟢 | vmess | @yaney_01 | 3",
             "type": "vmess",
             "server": "107.149.119.43",
             "server_port": 37000,
@@ -3516,7 +3408,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vmess | @yaney_01 | 4",
+            "tag": "❔ XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "45.199.138.217",
             "server_port": 41000,
@@ -3541,7 +3433,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vmess | @zdyz2 | 1",
+            "tag": "❔ XX | 🟢 | vmess | @zdyz2 | 1",
             "type": "vmess",
             "server": "118.107.245.15",
             "server_port": 443,
@@ -3566,68 +3458,43 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔴 | vmess | @zerobaipiao | 38",
+            "tag": "❔ XX | 🔴 | vmess | @zerobaipiao | 40",
             "type": "vmess",
-            "server": "148.113.6.81",
-            "server_port": 49882,
-            "uuid": "6663a422-875c-44ee-9a25-3f7b334dd9f5",
+            "server": "183.249.207.249",
+            "server_port": 40180,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 64
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @zerobaipiao | 39",
+            "tag": "❔ XX | 🔴 | vmess | @zerobaipiao | 41",
             "type": "vmess",
-            "server": "104.17.121.140",
-            "server_port": 8443,
-            "uuid": "3da5d27f-08d0-4078-f890-cf950ecb1708",
+            "server": "69.84.182.108",
+            "server_port": 80,
+            "uuid": "527a7c04-9a2c-4fdb-aa18-37337e62e917",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "104.17.121.140",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/profile/telegram@ssrsub",
                 "headers": {
-                    "Host": "104.17.121.140"
+                    "Host": "69.84.182.108"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @zerobaipiao | 40",
+            "tag": "❔ XX | 🟢 | vmess | @zerobaipiao | 43",
             "type": "vmess",
-            "server": "108.162.192.241",
-            "server_port": 8880,
-            "uuid": "248be52b-35d9-34cb-9b73-e12b78bc1301",
+            "server": "v5.heduian.link",
+            "server_port": 30805,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "transport": {
                 "type": "ws",
-                "path": "/dabai.in",
+                "path": "/oooo",
                 "headers": {
-                    "Host": "108.162.192.241"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔴 | vmess | @zerobaipiao | 41",
-            "type": "vmess",
-            "server": "45.136.245.177",
-            "server_port": 25013,
-            "uuid": "bba15f35-f16f-4b03-a50e-f864d87f26c9",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "45.136.245.177"
+                    "Host": ""
                 }
             }
         }

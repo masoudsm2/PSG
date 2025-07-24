@@ -10,18 +10,18 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔ XX | 🟢 | ss | @chestertm | 19 = ss, freakconfig94.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
+❔ XX | 🟢 | ss | @nationalproxytelegram | 2 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+❔ XX | 🟢 | ss | @ntgreenplus | 0 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
 ❔ XX | 🟢 | ss | @outlines_vpn | 5 = ss, www.outline.network.ak1915.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 8388, encrypt-method = chacha20-ietf-poly1305, password = NTdkZ
-🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🇬🇧 GB | 🟢 | ss | @v2raybe | 6 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🇬🇧 GB | 🟢 | ss | @vmess_iran | 0 = ss, admin.c1.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = 1xO2cqPazqjGfCfd
+❔ XX | 🟢 | ss | @serverv2ray00 | 19 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+❔ XX | 🟢 | ss | @v2rayang201 | 7 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+❔ XX | 🟢 | ss | @v2raybe | 6 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+❔ XX | 🟢 | ss | @vmess_iran | 0 = ss, admin.c1.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = 1xO2cqPazqjGfCfd
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | ss | @chestertm | 19, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
-PSG-AUTO = url-test, ❔ XX | 🟢 | ss | @chestertm | 19, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
-PSG-FALLBACK = fallback, ❔ XX | 🟢 | ss | @chestertm | 19, 🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2, 🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6, 🇬🇧 GB | 🟢 | ss | @vmess_iran | 0
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | ss | @chestertm | 19, ❔ XX | 🟢 | ss | @nationalproxytelegram | 2, ❔ XX | 🟢 | ss | @ntgreenplus | 0, ❔ XX | 🟢 | ss | @outlines_vpn | 5, ❔ XX | 🟢 | ss | @serverv2ray00 | 19, ❔ XX | 🟢 | ss | @v2rayang201 | 7, ❔ XX | 🟢 | ss | @v2raybe | 6, ❔ XX | 🟢 | ss | @vmess_iran | 0
+PSG-AUTO = url-test, ❔ XX | 🟢 | ss | @chestertm | 19, ❔ XX | 🟢 | ss | @nationalproxytelegram | 2, ❔ XX | 🟢 | ss | @ntgreenplus | 0, ❔ XX | 🟢 | ss | @outlines_vpn | 5, ❔ XX | 🟢 | ss | @serverv2ray00 | 19, ❔ XX | 🟢 | ss | @v2rayang201 | 7, ❔ XX | 🟢 | ss | @v2raybe | 6, ❔ XX | 🟢 | ss | @vmess_iran | 0
+PSG-FALLBACK = fallback, ❔ XX | 🟢 | ss | @chestertm | 19, ❔ XX | 🟢 | ss | @nationalproxytelegram | 2, ❔ XX | 🟢 | ss | @ntgreenplus | 0, ❔ XX | 🟢 | ss | @outlines_vpn | 5, ❔ XX | 🟢 | ss | @serverv2ray00 | 19, ❔ XX | 🟢 | ss | @v2rayang201 | 7, ❔ XX | 🟢 | ss | @v2raybe | 6, ❔ XX | 🟢 | ss | @vmess_iran | 0
 
 [Rule]
 GEOIP,IR,DIRECT

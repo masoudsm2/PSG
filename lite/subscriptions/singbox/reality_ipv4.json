@@ -89,27 +89,27 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
-                "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
-                "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
-                "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
-                "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
-                "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
-                "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
-                "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
-                "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
-                "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
-                "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇳🇱 NL | 🟢 | vless | @vpn451 | 13",
-                "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
-                "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
-                "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
+                "❔ XX | 🟢 | vless | @club_profsor | 16",
+                "❔ XX | 🟢 | vless | @customvpnserver | 10",
+                "❔ XX | 🟢 | vless | @fastfreeconfig | 0",
+                "❔ XX | 🟢 | vless | @fire_vpn_channel | 1",
+                "❔ XX | 🟢 | vless | @freevlessvpn | 0",
+                "❔ XX | 🟢 | vless | @happ_tm_official | 1",
+                "❔ XX | 🟢 | vless | @ip_ramzi | 11",
+                "❔ XX | 🟢 | vless | @iseqaro | 3",
+                "❔ XX | 🟢 | vless | @jokerv2ray | 16",
+                "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
+                "❔ XX | 🟢 | vless | @merdesert | 3",
+                "❔ XX | 🟢 | vless | @proxyandvpnofficial1 | 1",
+                "❔ XX | 🟢 | vless | @proxygrizzly | 0",
+                "❔ XX | 🟢 | vless | @speedconfig00 | 35",
+                "❔ XX | 🟢 | vless | @v2ray_inter | 8",
+                "❔ XX | 🟢 | vless | @vipnetmeli | 2",
+                "❔ XX | 🟢 | vless | @vipv2rey | 39",
+                "❔ XX | 🟢 | vless | @vpn451 | 13",
+                "❔ XX | 🟢 | vless | @vpnhouse_official | 0",
+                "❔ XX | 🟢 | vless | @vpnvg | 14",
+                "❔ XX | 🟢 | vless | @zerov2shop | 1"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -117,27 +117,27 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
-                "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
-                "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
-                "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
-                "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
-                "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
-                "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
-                "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
-                "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
-                "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
-                "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇳🇱 NL | 🟢 | vless | @vpn451 | 13",
-                "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
-                "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
-                "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
+                "❔ XX | 🟢 | vless | @club_profsor | 16",
+                "❔ XX | 🟢 | vless | @customvpnserver | 10",
+                "❔ XX | 🟢 | vless | @fastfreeconfig | 0",
+                "❔ XX | 🟢 | vless | @fire_vpn_channel | 1",
+                "❔ XX | 🟢 | vless | @freevlessvpn | 0",
+                "❔ XX | 🟢 | vless | @happ_tm_official | 1",
+                "❔ XX | 🟢 | vless | @ip_ramzi | 11",
+                "❔ XX | 🟢 | vless | @iseqaro | 3",
+                "❔ XX | 🟢 | vless | @jokerv2ray | 16",
+                "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
+                "❔ XX | 🟢 | vless | @merdesert | 3",
+                "❔ XX | 🟢 | vless | @proxyandvpnofficial1 | 1",
+                "❔ XX | 🟢 | vless | @proxygrizzly | 0",
+                "❔ XX | 🟢 | vless | @speedconfig00 | 35",
+                "❔ XX | 🟢 | vless | @v2ray_inter | 8",
+                "❔ XX | 🟢 | vless | @vipnetmeli | 2",
+                "❔ XX | 🟢 | vless | @vipv2rey | 39",
+                "❔ XX | 🟢 | vless | @vpn451 | 13",
+                "❔ XX | 🟢 | vless | @vpnhouse_official | 0",
+                "❔ XX | 🟢 | vless | @vpnvg | 14",
+                "❔ XX | 🟢 | vless | @zerov2shop | 1"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -149,7 +149,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+            "tag": "❔ XX | 🟢 | vless | @club_profsor | 16",
             "type": "vless",
             "server": "91.99.140.175",
             "server_port": 80,
@@ -172,7 +172,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
+            "tag": "❔ XX | 🟢 | vless | @customvpnserver | 10",
             "type": "vless",
             "server": "91.107.254.202",
             "server_port": 8443,
@@ -195,7 +195,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
+            "tag": "❔ XX | 🟢 | vless | @fastfreeconfig | 0",
             "type": "vless",
             "server": "37.27.191.27",
             "server_port": 2172,
@@ -222,7 +222,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
+            "tag": "❔ XX | 🟢 | vless | @fire_vpn_channel | 1",
             "type": "vless",
             "server": "82.153.220.10",
             "server_port": 443,
@@ -245,7 +245,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
+            "tag": "❔ XX | 🟢 | vless | @freevlessvpn | 0",
             "type": "vless",
             "server": "78.141.233.176",
             "server_port": 8000,
@@ -268,7 +268,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+            "tag": "❔ XX | 🟢 | vless | @happ_tm_official | 1",
             "type": "vless",
             "server": "55.55.55.55",
             "server_port": 443,
@@ -291,7 +291,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
+            "tag": "❔ XX | 🟢 | vless | @ip_ramzi | 11",
             "type": "vless",
             "server": "188.165.122.11",
             "server_port": 26877,
@@ -318,7 +318,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
+            "tag": "❔ XX | 🟢 | vless | @iseqaro | 3",
             "type": "vless",
             "server": "159.69.181.251",
             "server_port": 2087,
@@ -341,7 +341,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
+            "tag": "❔ XX | 🟢 | vless | @jokerv2ray | 16",
             "type": "vless",
             "server": "157.230.28.73",
             "server_port": 23353,
@@ -364,7 +364,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
+            "tag": "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
             "type": "vless",
             "server": "49.13.199.174",
             "server_port": 55555,
@@ -387,7 +387,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
+            "tag": "❔ XX | 🟢 | vless | @merdesert | 3",
             "type": "vless",
             "server": "188.245.61.146",
             "server_port": 8001,
@@ -410,7 +410,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
+            "tag": "❔ XX | 🟢 | vless | @proxyandvpnofficial1 | 1",
             "type": "vless",
             "server": "138.199.168.187",
             "server_port": 28153,
@@ -433,7 +433,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
+            "tag": "❔ XX | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
             "server_port": 443,
@@ -456,7 +456,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
+            "tag": "❔ XX | 🟢 | vless | @speedconfig00 | 35",
             "type": "vless",
             "server": "88.99.87.227",
             "server_port": 2090,
@@ -483,7 +483,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
+            "tag": "❔ XX | 🟢 | vless | @v2ray_inter | 8",
             "type": "vless",
             "server": "168.119.184.138",
             "server_port": 25093,
@@ -510,7 +510,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
+            "tag": "❔ XX | 🟢 | vless | @vipnetmeli | 2",
             "type": "vless",
             "server": "128.140.35.236",
             "server_port": 50713,
@@ -533,7 +533,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
+            "tag": "❔ XX | 🟢 | vless | @vipv2rey | 39",
             "type": "vless",
             "server": "143.244.207.133",
             "server_port": 46217,
@@ -556,7 +556,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @vpn451 | 13",
+            "tag": "❔ XX | 🟢 | vless | @vpn451 | 13",
             "type": "vless",
             "server": "89.110.104.14",
             "server_port": 4434,
@@ -579,7 +579,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
+            "tag": "❔ XX | 🟢 | vless | @vpnhouse_official | 0",
             "type": "vless",
             "server": "91.99.148.251",
             "server_port": 3184,
@@ -606,7 +606,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
+            "tag": "❔ XX | 🟢 | vless | @vpnvg | 14",
             "type": "vless",
             "server": "49.13.74.158",
             "server_port": 22069,
@@ -633,7 +633,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
+            "tag": "❔ XX | 🟢 | vless | @zerov2shop | 1",
             "type": "vless",
             "server": "91.99.97.7",
             "server_port": 32279,

@@ -883,10 +883,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
             "trojan",
-            "ss",
-            "vmess"
+            "vmess",
+            "vless",
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1358,14 +1358,6 @@
         "title": "Miyanbor VPN | میانبر وی‌پی‌ان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/miyanbor_vpn.jpg"
     },
-    "moiinmk": {
-        "types": [
-            "trojan",
-            "vless"
-        ],
-        "title": "مهندس پروکسی،فیلترشکن رایگان ،نت ملی",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/moiinmk.jpg"
-    },
     "moon_ping": {
         "types": [
             "vless"
@@ -1375,8 +1367,7 @@
     },
     "mowjproxy": {
         "types": [
-            "vmess",
-            "vless"
+            "vmess"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"

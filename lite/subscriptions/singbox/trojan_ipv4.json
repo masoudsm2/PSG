@@ -89,14 +89,13 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-                "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
+                "❔ XX | 🟢 | trojan | @directvpn | 15",
+                "❔ XX | 🟢 | trojan | @mpmehi | 0",
                 "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
-                "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13"
+                "❔ XX | 🟢 | trojan | @privatevpns | 15",
+                "❔ XX | 🟢 | trojan | @proxyfn | 18",
+                "❔ XX | 🟢 | trojan | @v2rayngconfig | 45",
+                "❔ XX | 🟢 | trojan | @v2rayvpnchannel | 13"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,14 +103,13 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-                "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
+                "❔ XX | 🟢 | trojan | @directvpn | 15",
+                "❔ XX | 🟢 | trojan | @mpmehi | 0",
                 "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
-                "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13"
+                "❔ XX | 🟢 | trojan | @privatevpns | 15",
+                "❔ XX | 🟢 | trojan | @proxyfn | 18",
+                "❔ XX | 🟢 | trojan | @v2rayngconfig | 45",
+                "❔ XX | 🟢 | trojan | @v2rayvpnchannel | 13"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -123,7 +121,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+            "tag": "❔ XX | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
             "server": "15.236.67.13",
             "server_port": 22223,
@@ -139,23 +137,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-            "type": "trojan",
-            "server": "192.3.107.252",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "tls": {
-                "enabled": true,
-                "server_name": "rc8.freeguard.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
+            "tag": "❔ XX | 🟢 | trojan | @mpmehi | 0",
             "type": "trojan",
             "server": "146.190.87.238",
             "server_port": 443,
@@ -201,7 +183,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+            "tag": "❔ XX | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
             "server": "15.236.67.13",
             "server_port": 22222,
@@ -217,7 +199,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+            "tag": "❔ XX | 🟢 | trojan | @proxyfn | 18",
             "type": "trojan",
             "server": "51.91.11.29",
             "server_port": 80,
@@ -233,7 +215,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
+            "tag": "❔ XX | 🟢 | trojan | @v2rayngconfig | 45",
             "type": "trojan",
             "server": "104.149.155.13",
             "server_port": 443,
@@ -249,7 +231,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+            "tag": "❔ XX | 🟢 | trojan | @v2rayvpnchannel | 13",
             "type": "trojan",
             "server": "15.236.67.13",
             "server_port": 22223,
