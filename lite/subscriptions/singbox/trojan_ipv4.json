@@ -89,13 +89,13 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | trojan | @directvpn | 15",
-                "❔ XX | 🟢 | trojan | @mpmehi | 0",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-                "❔ XX | 🟢 | trojan | @privatevpns | 15",
-                "❔ XX | 🟢 | trojan | @proxyfn | 18",
-                "❔ XX | 🟢 | trojan | @v2rayngconfig | 45",
-                "❔ XX | 🟢 | trojan | @v2rayvpnchannel | 13"
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+                "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,13 +103,13 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | trojan | @directvpn | 15",
-                "❔ XX | 🟢 | trojan | @mpmehi | 0",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-                "❔ XX | 🟢 | trojan | @privatevpns | 15",
-                "❔ XX | 🟢 | trojan | @proxyfn | 18",
-                "❔ XX | 🟢 | trojan | @v2rayngconfig | 45",
-                "❔ XX | 🟢 | trojan | @v2rayvpnchannel | 13"
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+                "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -121,7 +121,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @directvpn | 15",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
             "server": "15.236.67.13",
             "server_port": 22223,
@@ -137,7 +137,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @mpmehi | 0",
+            "tag": "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
             "type": "trojan",
             "server": "146.190.87.238",
             "server_port": 443,
@@ -183,7 +183,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @privatevpns | 15",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
             "server": "15.236.67.13",
             "server_port": 22222,
@@ -199,7 +199,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @proxyfn | 18",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
             "type": "trojan",
             "server": "51.91.11.29",
             "server_port": 80,
@@ -215,7 +215,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @v2rayngconfig | 45",
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
             "type": "trojan",
             "server": "104.149.155.13",
             "server_port": 443,
@@ -231,7 +231,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @v2rayvpnchannel | 13",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
             "type": "trojan",
             "server": "15.236.67.13",
             "server_port": 22223,

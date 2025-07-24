@@ -90,13 +90,13 @@
                 "auto",
                 "direct",
                 "❔ XX | 🟢 | ss | @chestertm | 19",
-                "❔ XX | 🟢 | ss | @nationalproxytelegram | 2",
-                "❔ XX | 🟢 | ss | @ntgreenplus | 0",
+                "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
+                "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "❔ XX | 🟢 | ss | @serverv2ray00 | 19",
-                "❔ XX | 🟢 | ss | @v2rayang201 | 7",
-                "❔ XX | 🟢 | ss | @v2raybe | 6",
-                "❔ XX | 🟢 | ss | @vmess_iran | 0"
+                "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
+                "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
+                "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
+                "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,13 +105,13 @@
             "interval": "10m",
             "outbounds": [
                 "❔ XX | 🟢 | ss | @chestertm | 19",
-                "❔ XX | 🟢 | ss | @nationalproxytelegram | 2",
-                "❔ XX | 🟢 | ss | @ntgreenplus | 0",
+                "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
+                "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "❔ XX | 🟢 | ss | @serverv2ray00 | 19",
-                "❔ XX | 🟢 | ss | @v2rayang201 | 7",
-                "❔ XX | 🟢 | ss | @v2raybe | 6",
-                "❔ XX | 🟢 | ss | @vmess_iran | 0"
+                "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
+                "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
+                "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
+                "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -131,7 +131,7 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "❔ XX | 🟢 | ss | @nationalproxytelegram | 2",
+            "tag": "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
@@ -139,7 +139,7 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
-            "tag": "❔ XX | 🟢 | ss | @ntgreenplus | 0",
+            "tag": "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
             "type": "shadowsocks",
             "server": "admin.c2.webramz.co",
             "server_port": 443,
@@ -155,7 +155,7 @@
             "password": "NTdkZ"
         },
         {
-            "tag": "❔ XX | 🟢 | ss | @serverv2ray00 | 19",
+            "tag": "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
@@ -163,7 +163,7 @@
             "password": "Bog0ELmMM9DSxDdQ"
         },
         {
-            "tag": "❔ XX | 🟢 | ss | @v2rayang201 | 7",
+            "tag": "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
@@ -171,7 +171,7 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "❔ XX | 🟢 | ss | @v2raybe | 6",
+            "tag": "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
@@ -179,7 +179,7 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
-            "tag": "❔ XX | 🟢 | ss | @vmess_iran | 0",
+            "tag": "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
             "type": "shadowsocks",
             "server": "admin.c1.webramz.co",
             "server_port": 443,

@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 52",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
@@ -100,37 +101,36 @@
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann2 | 6",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 8",
-                "❔ XX | 🟢 | vless | @grizzlyvpn | 7",
-                "❔ XX | 🟢 | vless | @grizzlyvpn | 9",
+                "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 7",
+                "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 9",
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
-                "❔ XX | 🟢 | vless | @mehduox_vpn | 0",
-                "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
-                "❔ XX | 🔴 | vless | @mehrosaboran | 7",
-                "❔ XX | 🔴 | vless | @minovpnch | 13",
-                "❔ XX | 🔴 | vless | @minovpnch | 14",
+                "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
+                "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
+                "🇺🇸 US | 🔴 | vless | @mehrosaboran | 7",
+                "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
+                "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
-                "❔ XX | 🟢 | vless | @proxygrizzly | 0",
+                "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🟢 | vless | @prrofile_purple | 125",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "❔ XX | 🔴 | vless | @server_nekobox | 2",
+                "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
-                "❔ XX | 🟢 | vless | @v2ray_vmes | 13",
-                "❔ XX | 🟢 | vless | @v2rayexpress | 8",
-                "❔ XX | 🟢 | vless | @v2rayexpress | 10",
-                "❔ XX | 🟢 | vless | @v2rayexpress | 11",
-                "❔ XX | 🟢 | vless | @v2rayn5 | 2",
+                "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
+                "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
+                "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
+                "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
+                "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 2",
                 "🇺🇸 US | 🔴 | vless | @v2rayngfreee | 2",
                 "🇺🇸 US | 🔴 | vless | @v2rayngfreee | 3",
-                "❔ XX | 🔴 | vless | @v2rayngfreee | 4",
+                "🇫🇮 FI | 🔴 | vless | @v2rayngfreee | 4",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
-                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
-                "❔ XX | 🔴 | vless | @vpnplusee_free | 8"
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -138,6 +138,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 52",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
@@ -149,37 +150,36 @@
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann2 | 6",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 8",
-                "❔ XX | 🟢 | vless | @grizzlyvpn | 7",
-                "❔ XX | 🟢 | vless | @grizzlyvpn | 9",
+                "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 7",
+                "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 9",
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
-                "❔ XX | 🟢 | vless | @mehduox_vpn | 0",
-                "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
-                "❔ XX | 🔴 | vless | @mehrosaboran | 7",
-                "❔ XX | 🔴 | vless | @minovpnch | 13",
-                "❔ XX | 🔴 | vless | @minovpnch | 14",
+                "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
+                "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
+                "🇺🇸 US | 🔴 | vless | @mehrosaboran | 7",
+                "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
+                "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
-                "❔ XX | 🟢 | vless | @proxygrizzly | 0",
+                "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🟢 | vless | @prrofile_purple | 125",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "❔ XX | 🔴 | vless | @server_nekobox | 2",
+                "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
-                "❔ XX | 🟢 | vless | @v2ray_vmes | 13",
-                "❔ XX | 🟢 | vless | @v2rayexpress | 8",
-                "❔ XX | 🟢 | vless | @v2rayexpress | 10",
-                "❔ XX | 🟢 | vless | @v2rayexpress | 11",
-                "❔ XX | 🟢 | vless | @v2rayn5 | 2",
+                "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
+                "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
+                "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
+                "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
+                "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 2",
                 "🇺🇸 US | 🔴 | vless | @v2rayngfreee | 2",
                 "🇺🇸 US | 🔴 | vless | @v2rayngfreee | 3",
-                "❔ XX | 🔴 | vless | @v2rayngfreee | 4",
+                "🇫🇮 FI | 🔴 | vless | @v2rayngfreee | 4",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
-                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
-                "❔ XX | 🔴 | vless | @vpnplusee_free | 8"
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -189,6 +189,24 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 52",
+            "type": "vless",
+            "server": "104.21.48.1",
+            "server_port": 2083,
+            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configfa | 40",
@@ -401,7 +419,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @grizzlyvpn | 7",
+            "tag": "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 7",
             "type": "vless",
             "server": "130.185.122.139",
             "server_port": 16380,
@@ -424,7 +442,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @grizzlyvpn | 9",
+            "tag": "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 9",
             "type": "vless",
             "server": "130.185.122.252",
             "server_port": 28964,
@@ -465,7 +483,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @mehduox_vpn | 0",
+            "tag": "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
             "type": "vless",
             "server": "49.13.199.174",
             "server_port": 55555,
@@ -488,7 +506,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
+            "tag": "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
             "type": "vless",
             "server": "49.13.199.174",
             "server_port": 55555,
@@ -511,7 +529,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @mehrosaboran | 7",
+            "tag": "🇺🇸 US | 🔴 | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "151.101.195.8",
             "server_port": 80,
@@ -520,7 +538,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @minovpnch | 13",
+            "tag": "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
             "type": "vless",
             "server": "151.101.204.190",
             "server_port": 80,
@@ -529,7 +547,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @minovpnch | 14",
+            "tag": "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
             "type": "vless",
             "server": "185.18.250.67",
             "server_port": 8080,
@@ -539,24 +557,6 @@
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @proxie | 11",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "8ef62fcb-038a-40ec-ae4b-bf40fc6305a0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Varda.Manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 12",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -574,7 +574,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 13",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 12",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -592,7 +592,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 14",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 13",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -610,11 +610,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 14",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
             "uuid": "8ab49bb8-ea28-4107-8b2d-d6b1a5db141a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Varda.Manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 15",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "dc4ed804-2ffb-4354-bd97-ad7b6ccf99b4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -651,7 +669,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @proxygrizzly | 0",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
             "server_port": 443,
@@ -701,7 +719,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @server_nekobox | 2",
+            "tag": "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
             "type": "vless",
             "server": "151.101.242.172",
             "server_port": 80,
@@ -719,7 +737,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @v2ray_vmes | 13",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
             "type": "vless",
             "server": "150.241.99.63",
             "server_port": 80,
@@ -742,7 +760,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @v2rayexpress | 8",
+            "tag": "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
             "type": "vless",
             "server": "217.71.204.148",
             "server_port": 2096,
@@ -765,7 +783,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @v2rayexpress | 10",
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
             "type": "vless",
             "server": "199.247.28.17",
             "server_port": 44914,
@@ -788,7 +806,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @v2rayexpress | 11",
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
             "type": "vless",
             "server": "199.247.28.17",
             "server_port": 44914,
@@ -811,7 +829,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @v2rayn5 | 2",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 2",
             "type": "vless",
             "server": "91.99.181.7",
             "server_port": 443,
@@ -852,7 +870,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @v2rayngfreee | 4",
+            "tag": "🇫🇮 FI | 🔴 | vless | @v2rayngfreee | 4",
             "type": "vless",
             "server": "65.108.247.56",
             "server_port": 80,
@@ -905,15 +923,6 @@
                     "short_id": "aa60a00122200b76"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @vpnplusee_free | 8",
-            "type": "vless",
-            "server": "188.132.141.247",
-            "server_port": 6666,
-            "uuid": "b6a3e8a6-bf5d-4ca5-b286-30e42f7a4bbe",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

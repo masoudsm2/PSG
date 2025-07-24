@@ -89,14 +89,14 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | vless | @club_profsor | 16",
-                "❔ XX | 🟢 | vless | @customvpnserver | 10",
-                "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
-                "❔ XX | 🔴 | vless | @minovpnch | 14",
+                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+                "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
+                "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
+                "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "❔ XX | 🟢 | vless | @proxyandvpnofficial1 | 1",
-                "❔ XX | 🟢 | vless | @proxygrizzly | 0",
-                "❔ XX | 🔴 | vless | @qeshmserver | 12"
+                "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
+                "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,14 +104,14 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @club_profsor | 16",
-                "❔ XX | 🟢 | vless | @customvpnserver | 10",
-                "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
-                "❔ XX | 🔴 | vless | @minovpnch | 14",
+                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+                "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
+                "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
+                "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "❔ XX | 🟢 | vless | @proxyandvpnofficial1 | 1",
-                "❔ XX | 🟢 | vless | @proxygrizzly | 0",
-                "❔ XX | 🔴 | vless | @qeshmserver | 12"
+                "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
+                "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -123,7 +123,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @club_profsor | 16",
+            "tag": "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
             "type": "vless",
             "server": "91.99.140.175",
             "server_port": 80,
@@ -146,7 +146,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @customvpnserver | 10",
+            "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
             "type": "vless",
             "server": "91.107.254.202",
             "server_port": 8443,
@@ -169,7 +169,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @mehduox_vpn | 2",
+            "tag": "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
             "type": "vless",
             "server": "49.13.199.174",
             "server_port": 55555,
@@ -192,7 +192,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @minovpnch | 14",
+            "tag": "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
             "type": "vless",
             "server": "185.18.250.67",
             "server_port": 8080,
@@ -205,7 +205,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "8ab49bb8-ea28-4107-8b2d-d6b1a5db141a",
+            "uuid": "dc4ed804-2ffb-4354-bd97-ad7b6ccf99b4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -219,7 +219,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @proxyandvpnofficial1 | 1",
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
             "type": "vless",
             "server": "138.199.168.187",
             "server_port": 28153,
@@ -242,7 +242,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @proxygrizzly | 0",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
             "server_port": 443,
@@ -265,7 +265,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @qeshmserver | 12",
+            "tag": "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,

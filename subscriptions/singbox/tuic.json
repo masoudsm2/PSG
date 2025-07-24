@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | tuic | @goodbyefiltering | 5",
-                "❔ XX | 🟢 | tuic | @vipv2rey | 35",
-                "❔ XX | 🟢 | tuic | @vipv2rey | 36",
+                "🇫🇮 FI | 🟢 | tuic | @goodbyefiltering | 5",
+                "🇳🇱 NL | 🟢 | tuic | @vipv2rey | 35",
+                "🇸🇪 SE | 🟢 | tuic | @vipv2rey | 36",
                 "❔ XX | 🟢 | tuic | @goodbyefiltering | 6"
             ],
             "tag": "proxy",
@@ -100,9 +100,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | tuic | @goodbyefiltering | 5",
-                "❔ XX | 🟢 | tuic | @vipv2rey | 35",
-                "❔ XX | 🟢 | tuic | @vipv2rey | 36",
+                "🇫🇮 FI | 🟢 | tuic | @goodbyefiltering | 5",
+                "🇳🇱 NL | 🟢 | tuic | @vipv2rey | 35",
+                "🇸🇪 SE | 🟢 | tuic | @vipv2rey | 36",
                 "❔ XX | 🟢 | tuic | @goodbyefiltering | 6"
             ],
             "tag": "auto",
@@ -115,7 +115,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | tuic | @goodbyefiltering | 5",
+            "tag": "🇫🇮 FI | 🟢 | tuic | @goodbyefiltering | 5",
             "type": "tuic",
             "server": "79.137.206.126",
             "server_port": 443,
@@ -134,7 +134,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | tuic | @vipv2rey | 35",
+            "tag": "🇳🇱 NL | 🟢 | tuic | @vipv2rey | 35",
             "type": "tuic",
             "server": "209.250.254.198",
             "server_port": 443,
@@ -152,7 +152,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | tuic | @vipv2rey | 36",
+            "tag": "🇸🇪 SE | 🟢 | tuic | @vipv2rey | 36",
             "type": "tuic",
             "server": "70.34.198.64",
             "server_port": 443,

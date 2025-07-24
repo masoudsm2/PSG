@@ -89,16 +89,16 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | vless | @configasli | 7",
+                "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "❔ XX | 🟢 | vless | @iran_access | 13",
+                "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
-                "❔ XX | 🟢 | vless | @kesslervpn | 2",
-                "❔ XX | 🟢 | vless | @lexernet | 11",
+                "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
+                "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "❔ XX | 🟢 | vless | @netmellianti | 15",
-                "❔ XX | 🟢 | vless | @nn_vpn | 3",
+                "🇺🇸 US | 🟢 | vless | @netmellianti | 15",
+                "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
@@ -112,16 +112,16 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @configasli | 7",
+                "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "❔ XX | 🟢 | vless | @iran_access | 13",
+                "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
-                "❔ XX | 🟢 | vless | @kesslervpn | 2",
-                "❔ XX | 🟢 | vless | @lexernet | 11",
+                "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
+                "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "❔ XX | 🟢 | vless | @netmellianti | 15",
-                "❔ XX | 🟢 | vless | @nn_vpn | 3",
+                "🇺🇸 US | 🟢 | vless | @netmellianti | 15",
+                "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
@@ -139,7 +139,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @configasli | 7",
+            "tag": "🇩🇪 DE | 🟢 | vless | @configasli | 7",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
             "server_port": 4450,
@@ -216,7 +216,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @iran_access | 13",
+            "tag": "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
             "type": "vless",
             "server": "uae.kitten-tube.com",
             "server_port": 443,
@@ -262,7 +262,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @kesslervpn | 2",
+            "tag": "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
             "type": "vless",
             "server": "germansana.kesslershop.ir",
             "server_port": 8997,
@@ -285,7 +285,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @lexernet | 11",
+            "tag": "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
             "type": "vless",
             "server": "freeconfig.fergalvpnmod.com",
             "server_port": 14198,
@@ -339,7 +339,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @netmellianti | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @netmellianti | 15",
             "type": "vless",
             "server": "uuk3v.tok8888.com",
             "server_port": 8443,
@@ -362,7 +362,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @nn_vpn | 3",
+            "tag": "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
             "type": "vless",
             "server": "Sadaf.Melorin.mehrdadsadaf.com",
             "server_port": 80,

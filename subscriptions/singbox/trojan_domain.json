@@ -92,19 +92,18 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 10",
-                "❔ XX | 🟢 | trojan | @ip_cf_config | 13",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 12",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 6",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 7",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "❔ XX | 🟢 | trojan | @teamvpnpro | 3",
-                "❔ XX | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
-                "❔ XX | 🟢 | trojan | @zdyz2 | 0"
+                "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,19 +114,18 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 10",
-                "❔ XX | 🟢 | trojan | @ip_cf_config | 13",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 12",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 6",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 7",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "❔ XX | 🟢 | trojan | @teamvpnpro | 3",
-                "❔ XX | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
-                "❔ XX | 🟢 | trojan | @zdyz2 | 0"
+                "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,32 +190,18 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 10",
+            "tag": "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 12",
             "type": "trojan",
-            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
-            "server_port": 15229,
-            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
-        },
-        {
-            "tag": "❔ XX | 🟢 | trojan | @ip_cf_config | 13",
-            "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
+            "server": "stirring-parakeet.shiner427.skin",
             "server_port": 443,
-            "password": "9yu6m5okr",
+            "password": "74260628090146500",
             "tls": {
                 "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
+                "server_name": "stirring-parakeet.shiner427.skin",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
                 }
             }
         },
@@ -347,7 +331,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @teamvpnpro | 3",
+            "tag": "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
             "type": "trojan",
             "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
             "server_port": 443,
@@ -370,7 +354,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @teamvpnpro | 6",
+            "tag": "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
             "type": "trojan",
             "server": "de1.test3.net",
             "server_port": 443,
@@ -425,7 +409,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @zdyz2 | 0",
+            "tag": "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0",
             "type": "trojan",
             "server": "www.visa.com.sg",
             "server_port": 2053,
