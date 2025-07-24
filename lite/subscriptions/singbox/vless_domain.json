@@ -106,7 +106,7 @@
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🟢 | vless | @deragv2ray | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
@@ -157,7 +157,6 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇫🇷 FR | 🟢 | vless | @mowjproxy | 4",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 87",
@@ -180,7 +179,6 @@
                 "❔ XX | 🔴 | vless | @red2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @rez1vpn | 1",
                 "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 14",
-                "🇮🇷 IR | 🔴 | vless | @selinc | 5",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -239,7 +237,7 @@
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🟢 | vless | @deragv2ray | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
@@ -290,7 +288,6 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇫🇷 FR | 🟢 | vless | @mowjproxy | 4",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 87",
@@ -313,7 +310,6 @@
                 "❔ XX | 🔴 | vless | @red2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @rez1vpn | 1",
                 "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 14",
-                "🇮🇷 IR | 🔴 | vless | @selinc | 5",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -620,7 +616,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+            "tag": "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -1441,31 +1437,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @mowjproxy | 4",
-            "type": "vless",
-            "server": "amir021.amir021.tech",
-            "server_port": 56817,
-            "uuid": "7b601ebe-d8ac-470a-b745-1bca7d89ee14",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "amir021.amir021.tech",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-?ed=2560",
-                "headers": {
-                    "Host": "amir021.amir021.tech"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1859,15 +1830,6 @@
             "server": "www.speedtest.net",
             "server_port": 2095,
             "uuid": "e4e82781-f854-4f5e-bfeb-8f34d8ab9fe7",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔴 | vless | @selinc | 5",
-            "type": "vless",
-            "server": "italy.v2shop2.xyz",
-            "server_port": 20927,
-            "uuid": "126f3e1f-1b07-4ce1-9da7-c95b61291125",
             "flow": "",
             "packet_encoding": "xudp"
         },
