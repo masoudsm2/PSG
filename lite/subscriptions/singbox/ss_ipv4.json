@@ -94,7 +94,7 @@
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
-                "🇳🇱 NL | 🟢 | ss | @free1ss | 14",
+                "🇫🇷 FR | 🟢 | ss | @free1ss | 13",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
@@ -125,7 +125,7 @@
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
-                "🇳🇱 NL | 🟢 | ss | @free1ss | 14",
+                "🇫🇷 FR | 🟢 | ss | @free1ss | 13",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
@@ -195,12 +195,12 @@
             "password": "f8f7aCzcPKbsF8p3"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @free1ss | 14",
+            "tag": "🇫🇷 FR | 🟢 | ss | @free1ss | 13",
             "type": "shadowsocks",
-            "server": "193.29.139.175",
-            "server_port": 8080,
+            "server": "77.105.166.12",
+            "server_port": 8594,
             "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg"
+            "password": "MBJJbuae59iV730KNKtRZj"
         },
         {
             "tag": "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",

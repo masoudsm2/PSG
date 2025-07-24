@@ -90,10 +90,10 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
@@ -108,10 +108,10 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
@@ -150,13 +150,6 @@
                     "Host": "production.tj.ojan.workers.dev"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
-            "type": "trojan",
-            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
-            "server_port": 15229,
-            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
@@ -203,6 +196,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
+            "type": "trojan",
+            "server": "192.3.107.252",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "tls": {
+                "enabled": true,
+                "server_name": "rc8.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

@@ -96,13 +96,14 @@
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @fastvpnorummobile | 0",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
-                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 13",
+                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 8",
                 "🇬🇧 GB | 🟢 | ss | @kafing_2 | 15",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
+                "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 0",
                 "❔ XX | 🟢 | ss | @public504 | 7",
@@ -130,13 +131,14 @@
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @fastvpnorummobile | 0",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
-                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 13",
+                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 8",
                 "🇬🇧 GB | 🟢 | ss | @kafing_2 | 15",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
+                "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 0",
                 "❔ XX | 🟢 | ss | @public504 | 7",
@@ -217,12 +219,12 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @ip_cf_config | 13",
+            "tag": "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 8",
             "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
+            "server": "azure-sto.edgeservers.org",
+            "server_port": 48172,
             "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @kafing_2 | 15",
@@ -271,6 +273,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "WstuSnlu4ieA9M0L"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
+            "type": "shadowsocks",
+            "server": "beesyar.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "❔ XX | 🟢 | ss | @proxy_confiingir | 1",

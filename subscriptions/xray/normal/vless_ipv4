@@ -41,10 +41,6 @@ vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=/Etb1L6YUdZ
 vless://CH_A2L__PG_A2L@185.225.201.145:18789?path=/CH_A2L__PG_A2L&security=none&encryption=none&host=CH_A2L__PG_A2L&type=ws#🇳🇱 NL | 🔴 | vless | @ch_a2l | 1
 vless://1d86846c-5a27-43c8-8981-57bb75c82195@185.153.183.101:3237?security=none&encryption=none&headerType=none&type=tcp#🇫🇷 FR | 🔴 | vless | @chestertm | 15
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@65.109.193.42:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇮 FI | 🔴 | vless | @chestertm | 16
-vless://c39a101c-0a7b-4940-8e6a-f8346d70b24b@91.99.186.0:443?host=zula.ir&security=&type=tcp&encryption=none&headerType=http#🇩🇪 DE | 🔴 | vless | @config_proxy | 51
-vless://7835948c-ac97-5c9b-ab20-ce5941ff96b5@151.101.2.219:80?security=none&type=ws&host=MOSI-MOSIV2.COM&path=/#🇺🇸 US | 🔴 | vless | @config_proxy | 53
-vless://ef27e62d-91bd-4676-b9ce-8743a73eda07@172.233.186.20:80?security=reality&sni=zula.ir&type=tcp&fp=chrome&pbk=BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU&sid=94aa1bdc#🇺🇸 US | 🟢 | vless | @config_proxy | 54
-vless://--------NORBERT-VPN--------@46.245.66.198:1232?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 IR | 🔴 | vless | @config_proxy | 55
 vless://c810c39b-105e-4381-a70a-d6184154884d@104.31.16.24:8443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=#🇺🇸 US | 🟢 | vless | @config_vip7 | 0
 vless://20ccc96a-190a-438f-a269-be3fda7b245f@104.31.16.24:8443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=@CONFIG_ViP7,&sni=configvip7.site#🇺🇸 US | 🟢 | vless | @config_vip7 | 1
 vless://83e410d7-810f-48f8-9c90-f90010642313@91.107.183.90:53234?mode=gun&security=reality&encryption=none&pbk=nHcG3w_9U-6o7Cu-IBfxt28sUm7Cge8O6va5c3oJ0y8&fp=chrome&spx=/&type=grpc&serviceName=Telegram#🇩🇪 DE | 🟢 | vless | @configasli | 4
@@ -56,8 +52,9 @@ vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.69.162:8880?path=/fgvtHUpS6R
 vless://54b4c039-7be6-448f-b704-820251b079db@5.75.197.120:2025?mode=gun&security=reality&encryption=none&pbk=AUNIYov4R2TvNmC0cF0NiKWYGqzikosOu4g2wcCALlw&fp=chrome&spx=/&type=grpc&serviceName=Telegram : @PouRia_Cheat&sni=www.cloudflare.com&sid=8d9c20be72b4#🇩🇪 DE | 🟢 | vless | @configfa | 43
 vless://5fbe83c8-8211-4a99-b0a1-653ad9930549@45.159.148.196:1106?security=none&encryption=none&host=skyroom.online,gharar.ir,igap.net&headerType=http&type=tcp#🇮🇷 IR | 🔴 | vless | @configfast | 0
 vless://148709e4-402b-48dd-8892-ed39b55ea45c@104.18.26.90:80?security=none&encryption=none&host=barayeiranmahsang.loseyourself.dpdns.org&fp=random&type=ws&sni=barayeiranmahsang.loseyourself.dpdns.org#🇺🇸 US | 🔴 | vless | @configfast | 2
-vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.19.245.206:443?type=ws&security=tls&path=/?ed=2560&host=kawaiifreevpn-7ds.pages.dev&fp=random&sni=kawaiifreevpn-7ds.pages.dev#🇺🇸 US | 🟢 | vless | @configshubplus | 13
-vless://bcacaba-baac-caba-bacd-bcaccbabcaab@127.0.0.1:8080?security=tls&type=tcp#🏳️  | 🟢 | vless | @configshubplus | 16
+vless://125e044e-abbb-49d4-99c1-30bd458ae4ff@151.101.194.133:443?security=tls&sni=mio.splashthat.com&type=ws&host=p.ir&path=/Telegram,Frev2ray,Telegram,Frev2ray,Telegram,Frev2ray,Telegram,Frev2ray,Telegram,Frev2ray,Telegram,Frev2ray,Telegram,Frev2ray,Telegram,Frev2ray?ed=2560&fp=chrome#🇺🇸 US | 🟢 | vless | @configshubplus | 16
+vless://6f5a77f9-2841-4b33-b24b-661223107a5d@51.75.155.93:8181?type=grpc&serviceName=cactusfree&authority=&security=reality&pbk=8vxZwqJ5Vyo2NFtRgsIwRQkft0OqsNyPuyzK0UAltjk&fp=chrome&sni=journalofbigdata.springeropen.com&sid=2afc&spx=/#🇩🇪 DE | 🟢 | vless | @configshubplus | 18
+vless://859bbb48-98ca-4afd-ad28-987c7cd28119@51.75.155.93:8080?type=tcp&path=/&host=fast.ir&headerType=http&security=none#🇩🇪 DE | 🔴 | vless | @configshubplus | 19
 vless://b09c332f-7ca8-4e9a-a87c-6cec90a2d28c@172.236.195.11:443?security=none&encryption=none&type=tcp&host=zula.ir&path=/&headerType=http#🇩🇪 DE | 🔴 | vless | @confing_chanel | 15
 vless://6c816599-2e8b-427f-ad2f-f342d8c20a8b@91.107.170.231:31248?security=none&encryption=none&type=tcp&host=bmw.com&path=/&headerType=http#🇩🇪 DE | 🔴 | vless | @confing_chanel | 16
 vless://269c963f-6021-4547-8303-cc764085603b@199.232.13.32:80?path=/Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry?ed=2048&security=&encryption=none&host=Apple-SIB.ir&type=ws#🇺🇸 US | 🔴 | vless | @connectshu | 11
@@ -176,6 +173,7 @@ vless://e1f692a1-5f51-4baf-b403-77f367601463@1.1.1.1:9828?security=none&type=tcp
 vless://1fb46fdc-e3e4-35d1-bd46-685d775b5762@55.55.55.55:443?encryption=none&node_id=482&headerType=none&type=tcp&security=reality&sni=booking.com&fp=chrome&pbk=YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU&sid=6ba85179e30d4fc2&flow=xtls-rprx-vision&advancedfragment=LS10bHNyZWMgMCtzbSAtZCAwOjI6MytzbQ==&xtls=2#🇺🇸 US | 🟢 | vless | @happ_tm_official | 1
 vless://1f98b5cc-140f-46b4-987f-6936da9f2238@104.26.6.95:80?path=/&security=none&encryption=none&host=crxre.ribiwa9933.workers.dev&type=ws#🇺🇸 US | 🔴 | vless | @hiddify_f | 0
 vless://698e1d97-0594-481d-8d97-f5f6f46aa32d@199.232.193.57:80?path=ViraV2ray/?ed=2560&security=none&encryption=none&host=virav2ray-alsjddhkasdasdkaslj.com&type=ws#🇺🇸 US | 🔴 | vless | @hiddify_f | 1
+vless://bcacaba-baac-caba-bacd-bcaccbabcaab@127.0.0.1:8080?security=tls&type=tcp#🏳️  | 🟢 | vless | @hope_net | 15
 vless://hopev2ray-hopev2ray-hopev2ray@91.107.167.104:23448?security=reality&encryption=none&pbk=-l-QUSLInypK65odnr_0zl9z1gsUmBni_O_Y1ReTHl4&host=Varzesh3.com&headerType=http&fp=chrome&spx=/&type=tcp&sni=Zula.ir#🇩🇪 DE | 🟢 | vless | @hopev2ray | 2
 vless://7c888d30-189e-4b68-c084-2df3944265c1@91.107.167.104:59745?mode=gun&security=reality&encryption=none&pbk=kPPcRHnxJeFfMs8LZpl-eKdlSOMxL_TitC5a4cIerFw&fp=chrome&spx=/&type=grpc&serviceName=@hopev2ray,@hopev2ray,@hopev2ray,@hopev2ray,@hopev2ray,@hopev2ray@hopev2ray,@hopev2ray,@hopev2ray,@hopev2ray,@hopev2ray,@hopev2ray&sni=Zula.ir#🇩🇪 DE | 🟢 | vless | @hopev2ray | 3
 vless://3b9ee86c-09fe-4b21-bb8c-eaaa0201e25b@217.60.236.106:187?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 IR | 🔴 | vless | @hormozvpn | 0
@@ -194,7 +192,6 @@ vless://e02208b6-2626-49ef-8b93-0d80ed33f4ac@51.89.74.164:443?type=tcp&encryptio
 vless://e02208b6-2626-49ef-8b93-0d80ed33f4ac@104.31.16.98:80?type=ws&path=/&host=lashashin.garayane.xbox.heydas.heydasgermany.name.ng#🇺🇸 US | 🔴 | vless | @injectormconf | 36
 vless://e02208b6-2626-49ef-8b93-0d80ed33f4ac@5.135.21.191:8880?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=canva.com&fp=firefox&security=reality&pbk=JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc&sid=8b62ab46#🇫🇷 FR | 🟢 | vless | @injectormconf | 37
 vless://e02208b6-2626-49ef-8b93-0d80ed33f4ac@104.31.16.98:80?type=ws&path=/&host=server-j377d.xbox.blackops1.heydasfrance.name.ng#🇺🇸 US | 🔴 | vless | @injectormconf | 38
-vless://0132166f-e702-48ed-a9e7-b07af768faf8@159.246.55.251:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=cf.d3z.net&path=/Telegram#🇺🇸 US | 🔴 | vless | @ip_cf_config | 14
 vless://7a39089c-4054-4cd5-b7d4-417d2a534d1e@54.37.6.85:2096?security=none&encryption=none&host=ghbi.ir&headerType=http&type=tcp#🇬🇧 GB | 🔴 | vless | @ip_ramzi | 7
 vless://8a702809-5224-4f84-84e2-da389fca5144@88.135.47.56:2052?path=/&security=none&encryption=none&type=ws#🇮🇷 IR | 🔴 | vless | @ip_ramzi | 8
 vless://6ec23107-119b-479c-b7fa-9d8ae9def4b8@2.189.130.94:10128?path=/&security=none&encryption=none&type=ws#🇮🇷 IR | 🔴 | vless | @ip_ramzi | 9
@@ -286,7 +283,7 @@ vless://b9ada8b3-6ad0-45cc-b72f-ace43c7de476@45.94.215.101:443?encryption=none&s
 vless://8285eef0-147d-4bb6-9d12-0e4601a36e78@151.101.204.190:80?encryption=none&security=none&type=xhttp&host=minovpnch.net&path=/awduhiawad?ed=2560&mode=auto#🇳🇱 NL | 🔴 | vless | @minovpnch | 13
 vless://4d263c1a-fbb9-4946-a639-1de531120cde@185.18.250.67:8080?encryption=none&security=none&type=xhttp&host=amazon.joingulf.lol&path=/awduhiawad?ed=2560&mode=auto#🇨🇭 CH | 🔴 | vless | @minovpnch | 14
 vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@172.67.183.26:443?path=/?ed=2048&security=tls&encryption=none&host=3k.pureboy.eu.org&type=ws&sni=3k.pureboy.eu.org#🇺🇸 US | 🟢 | vless | @miov2ray | 7
-vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=none&encryption=none&headerType=none&type=tcp#🇬🇧 GB | 🔴 | vless | @mowjproxy | 5
+vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=none&encryption=none&headerType=none&type=tcp#🇬🇧 GB | 🔴 | vless | @mowjproxy | 2
 vless://a2514b27-7d60-44b3-b440-e8a9579510fa@151.101.0.223:80?type=ws&host=JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt&path=/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480#🇺🇸 US | 🔴 | vless | @mpproxy | 10
 vless://edfeeadd-1b4f-4ed7-92ee-3233421632a2@5.160.197.120:13048?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷 IR | 🔴 | vless | @mpproxy | 11
 vless://000dec39-61ac-4ff2-97e1-5f7c003cf2e5@85.198.12.25:443?path=/telegram---v2tunnel_vpn---telegram---v2tunnel_vpn---telegram---v2tunnel_vpn---telegram---v2tunnel_vpn&security=none&encryption=none&host=zula.ir&type=ws#🇮🇷 IR | 🔴 | vless | @mpproxy | 12
@@ -430,6 +427,7 @@ vless://3824fba1-352a-44f6-89c3-66bacce658eb@104.18.26.90:443?path=/kBoXBiT5qlTK
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.122.102:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🇩🇪 DE | 🔴 | vless | @v2ray_youtube | 9
 vless://1f431db3-1918-4e7b-a855-c93485e11694@104.16.104.151:80?path=/?ed=2560&security=none&encryption=none&host=pari.parinazz.dpdns.org&type=ws#🇺🇸 US | 🔴 | vless | @v2ray_youtube | 10
 vless://689f682b-7d9a-4967-82fb-775018428644@138.201.108.13:38612?security=none&encryption=none&host=www.zula.ir&headerType=http&type=tcp#🇩🇪 DE | 🔴 | vless | @v2raybe | 5
+vless://ad966d2b-5d1a-4f03-9956-5cbd024a238a@172.66.47.97:443?security=tls&sni=3.sleepzzzz.cloudns.be&type=ws&host=3.sleepzzzz.cloudns.be&path=/?ed=2560#🇺🇸 US | 🟢 | vless | @v2raych | 18
 vless://b5e5c843-eb6b-438d-93c5-4faa71780ac4@139.162.146.9:443?type=splithttp&path=/&host=&mode=auto&security=reality&pbk=JrQipo4fliL8f9hLW49Wpr96XjYFaZPsom7hzlvaMio&fp=chrome&sni=eu.account.battle.net&sid=02#🇩🇪 DE | 🟢 | vless | @v2rayexpress | 7
 vless://977cf430-e251-4b5f-8bc4-c974fdec0df9@217.71.204.148:2096?encryption=none&security=reality&sni=WWW.speedtest.net,Speedtest.net&fp=chrome&pbk=ueUB3nxbexEGsLstcIG5w84Tqz9IiHYdVQMdy6aPO0E&sid=f8baf4dd88f32724&type=xhttp#🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8
 vless://55a4210c-e765-427f-813d-0c55b763f6b0@199.247.28.17:44914?type=xhttp&path=/&host=&mode=auto&security=reality&pbk=o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8&fp=chrome&sni=black-moai.com&sid=1ac2a2dde288&spx=/#🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10

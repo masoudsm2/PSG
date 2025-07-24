@@ -93,10 +93,10 @@
                 "🇸🇬 SG | 🟢 | vless | @abiidar_server | 1",
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 9",
                 "🇫🇮 FI | 🟢 | vless | @appsooner | 11",
-                "🇺🇸 US | 🟢 | vless | @config_proxy | 54",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 43",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 18",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 6",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
@@ -198,10 +198,10 @@
                 "🇸🇬 SG | 🟢 | vless | @abiidar_server | 1",
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 9",
                 "🇫🇮 FI | 🟢 | vless | @appsooner | 11",
-                "🇺🇸 US | 🟢 | vless | @config_proxy | 54",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 43",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 18",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 6",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
@@ -395,29 +395,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 54",
-            "type": "vless",
-            "server": "172.233.186.20",
-            "server_port": 80,
-            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
-                    "short_id": "94aa1bdc"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🟢 | vless | @configasli | 4",
             "type": "vless",
             "server": "91.107.183.90",
@@ -492,6 +469,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram : @PouRia_Cheat"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 18",
+            "type": "vless",
+            "server": "51.75.155.93",
+            "server_port": 8181,
+            "uuid": "6f5a77f9-2841-4b33-b24b-661223107a5d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8vxZwqJ5Vyo2NFtRgsIwRQkft0OqsNyPuyzK0UAltjk",
+                    "short_id": "2afc"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "cactusfree"
             }
         },
         {

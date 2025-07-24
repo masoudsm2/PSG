@@ -144,7 +144,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
-                "🇬🇧 GB | 🔴 | vless | @mowjproxy | 5",
+                "🇬🇧 GB | 🔴 | vless | @mowjproxy | 2",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇳🇱 NL | 🔴 | vless | @msv2flyng | 14",
@@ -259,7 +259,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
-                "🇬🇧 GB | 🔴 | vless | @mowjproxy | 5",
+                "🇬🇧 GB | 🔴 | vless | @mowjproxy | 2",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇳🇱 NL | 🔴 | vless | @msv2flyng | 14",
@@ -1292,7 +1292,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @mowjproxy | 5",
+            "tag": "🇬🇧 GB | 🔴 | vless | @mowjproxy | 2",
             "type": "vless",
             "server": "54.38.214.56",
             "server_port": 37171,

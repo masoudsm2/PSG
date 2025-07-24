@@ -210,7 +210,7 @@
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
-                "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
+                "❔ XX | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0"
@@ -342,7 +342,7 @@
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
-                "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
+                "❔ XX | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0"
@@ -2444,7 +2444,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
+            "tag": "❔ XX | 🔴 | vless | @womanlifefreedomvpn | 16",
             "type": "vless",
             "server": "google.wlftest.xyz",
             "server_port": 80,
