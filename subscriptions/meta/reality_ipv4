@@ -28,7 +28,8 @@ proxies:
   - {"name":"🇸🇬 SG | 🟢 | vless | @abiidar_server | 1","type":"vless","server":"5.223.59.22","port":35982,"uuid":"6cfa308a-3958-44a2-965c-eeb100b5658f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"KuCHWgz61d32lpMJ3tjd5yEzEh87pA-LqTn0UQQYAAM","short-id":"369466"}}
   - {"name":"🇮🇪 IE | 🟢 | vless | @appsooner | 9","type":"vless","server":"52.156.208.215","port":33371,"uuid":"a41ec4d6-1ef3-4a00-bd24-5abcce37a40f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"XknqXVFBQSpJEmo0oeKsLDeOGfhtmuurXd75BywgUlg","short-id":"456ad3a1b9f0"}}
   - {"name":"🇫🇮 FI | 🟢 | vless | @appsooner | 11","type":"vless","server":"5.181.20.219","port":17422,"uuid":"fe837fd0-840d-4cee-9334-0dc6c2b15c1c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA","short-id":"33"}}
-  - {"name":"🇰🇿 KZ | 🟢 | vless | @config_proxy | 48","type":"vless","server":"77.73.232.61","port":19747,"uuid":"2a9ed01e-5455-44b4-a66a-76ee8165f0ac","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM","short-id":"2001"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @config_proxy | 57","type":"vless","server":"165.227.244.151","port":1419,"uuid":"57a5d042-6618-4042-a2de-1a2169c4ce9d","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"journalofbigdata.springeropen.com","reality-opts":{"public-key":"0L-XvEVE4KLbDk-evkkxEWK3y-Nkz0E181t0PD_o4h4","short-id":"ae439107157c97"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @config_proxy | 58","type":"vless","server":"159.69.181.251","port":2087,"uuid":"ac61e5f2-94af-40a3-859a-3a671063920d","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"miro.com","reality-opts":{"public-key":"T5qZ6XUYqc9AoAGgkZrEAwOpT8AZVfDloPe_vTrcPwI","short-id":"f74c827840"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @configasli | 4","type":"vless","server":"91.107.183.90","port":53234,"uuid":"83e410d7-810f-48f8-9c90-f90010642313","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"Telegram"},"reality-opts":{"public-key":"nHcG3w_9U-6o7Cu-IBfxt28sUm7Cge8O6va5c3oJ0y8"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @configasli | 5","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🟢 | vless | @configasli | 6","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
@@ -138,7 +139,8 @@ proxy-groups:
       - '🇸🇬 SG | 🟢 | vless | @abiidar_server | 1'
       - '🇮🇪 IE | 🟢 | vless | @appsooner | 9'
       - '🇫🇮 FI | 🟢 | vless | @appsooner | 11'
-      - '🇰🇿 KZ | 🟢 | vless | @config_proxy | 48'
+      - '🇩🇪 DE | 🟢 | vless | @config_proxy | 57'
+      - '🇩🇪 DE | 🟢 | vless | @config_proxy | 58'
       - '🇩🇪 DE | 🟢 | vless | @configasli | 4'
       - '🇩🇪 DE | 🟢 | vless | @configasli | 5'
       - '🇫🇷 FR | 🟢 | vless | @configasli | 6'

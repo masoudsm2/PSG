@@ -112,6 +112,8 @@
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @gh_v2rayng | 14",
                 "🇩🇪 DE | 🟢 | ss | @hackmodvpnservers | 2",
+                "🇺🇸 US | 🟢 | ss | @hope_net | 18",
+                "🇰🇪 KE | 🟢 | ss | @hope_net | 19",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 6",
@@ -122,7 +124,6 @@
                 "🇬🇧 GB | 🟢 | ss | @key_outline | 17",
                 "🇺🇸 US | 🟢 | ss | @key_outline | 18",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
-                "🇬🇧 GB | 🟢 | ss | @kurdistan_vpn_perfectt | 4",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 12",
                 "🇬🇧 GB | 🟢 | ss | @mester_v2ray | 14",
                 "🇦🇹 AT | 🟢 | ss | @mester_v2ray | 17",
@@ -206,6 +207,8 @@
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @gh_v2rayng | 14",
                 "🇩🇪 DE | 🟢 | ss | @hackmodvpnservers | 2",
+                "🇺🇸 US | 🟢 | ss | @hope_net | 18",
+                "🇰🇪 KE | 🟢 | ss | @hope_net | 19",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 6",
@@ -216,7 +219,6 @@
                 "🇬🇧 GB | 🟢 | ss | @key_outline | 17",
                 "🇺🇸 US | 🟢 | ss | @key_outline | 18",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
-                "🇬🇧 GB | 🟢 | ss | @kurdistan_vpn_perfectt | 4",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 12",
                 "🇬🇧 GB | 🟢 | ss | @mester_v2ray | 14",
                 "🇦🇹 AT | 🟢 | ss | @mester_v2ray | 17",
@@ -465,6 +467,22 @@
             "password": "9b3b33c24f203e40"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | ss | @hope_net | 18",
+            "type": "shadowsocks",
+            "server": "38.91.100.199",
+            "server_port": 8090,
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27"
+        },
+        {
+            "tag": "🇰🇪 KE | 🟢 | ss | @hope_net | 19",
+            "type": "shadowsocks",
+            "server": "62.12.116.66",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
             "tag": "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
             "type": "shadowsocks",
             "server": "51.142.171.150",
@@ -543,14 +561,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "JBmtm26Z8wVPx44fl8ZkqG"
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | ss | @kurdistan_vpn_perfectt | 4",
-            "type": "shadowsocks",
-            "server": "83.147.18.163",
-            "server_port": 8388,
-            "method": "chacha20-ietf-poly1305",
-            "password": "YTQ0Z"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @megavpn_link | 12",
