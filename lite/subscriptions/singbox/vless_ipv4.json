@@ -131,7 +131,7 @@
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇩🇪 DE | 🔴 | vless | @kanfig_majani | 8",
+                "🇩🇪 DE | 🔴 | vless | @kanfig_majani | 11",
                 "🇺🇸 US | 🟢 | vless | @kkkkkoabvbbvbvv | 12",
                 "🇺🇸 US | 🟢 | vless | @limootuursh | 0",
                 "🇮🇷 IR | 🔴 | vless | @loatvpn | 5",
@@ -146,6 +146,7 @@
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇳🇱 NL | 🔴 | vless | @msv2flyng | 12",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
+                "🇸🇪 SE | 🔴 | vless | @mtpv2ray | 12",
                 "🇩🇪 DE | 🔴 | vless | @narco_nett | 18",
                 "🇩🇪 DE | 🔴 | vless | @narcod_ping | 14",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -178,6 +179,7 @@
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇺🇸 US | 🟢 | vless | @v2source | 19",
+                "🇳🇱 NL | 🟢 | vless | @v2trayproxy | 10",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
@@ -244,7 +246,7 @@
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇩🇪 DE | 🔴 | vless | @kanfig_majani | 8",
+                "🇩🇪 DE | 🔴 | vless | @kanfig_majani | 11",
                 "🇺🇸 US | 🟢 | vless | @kkkkkoabvbbvbvv | 12",
                 "🇺🇸 US | 🟢 | vless | @limootuursh | 0",
                 "🇮🇷 IR | 🔴 | vless | @loatvpn | 5",
@@ -259,6 +261,7 @@
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇳🇱 NL | 🔴 | vless | @msv2flyng | 12",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
+                "🇸🇪 SE | 🔴 | vless | @mtpv2ray | 12",
                 "🇩🇪 DE | 🔴 | vless | @narco_nett | 18",
                 "🇩🇪 DE | 🔴 | vless | @narcod_ping | 14",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -291,6 +294,7 @@
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇺🇸 US | 🟢 | vless | @v2source | 19",
+                "🇳🇱 NL | 🟢 | vless | @v2trayproxy | 10",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
@@ -1075,7 +1079,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @kanfig_majani | 8",
+            "tag": "🇩🇪 DE | 🔴 | vless | @kanfig_majani | 11",
             "type": "vless",
             "server": "91.99.232.132",
             "server_port": 39954,
@@ -1327,6 +1331,15 @@
                     "Host": "pages.dev"
                 }
             }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔴 | vless | @mtpv2ray | 12",
+            "type": "vless",
+            "server": "46.253.4.214",
+            "server_port": 8080,
+            "uuid": "04cf10a3-2268-4c8c-a756-e0953ee9410d",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vless | @narco_nett | 18",
@@ -1884,6 +1897,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "HarmonY-427.pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2trayproxy | 10",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "1ea87307-1d00-4c15-af3f-b363f8562ac5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
                 }
             }
         },
