@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34",
+            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
             "type": "vless",
             "server": "81.12.32.135",
             "server_port": 32990,
