@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
-                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33"
+                "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
+                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
-                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33"
+                "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
+                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
+            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
             "type": "vless",
             "server": "de.multiapvps.ir",
             "server_port": 4433,
@@ -134,7 +134,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33",
+            "tag": "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48",
             "type": "vless",
             "server": "usa.multiapvps.ir",
             "server_port": 4434,
