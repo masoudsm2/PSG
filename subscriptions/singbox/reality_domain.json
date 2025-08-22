@@ -90,7 +90,7 @@
                 "auto",
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
-                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
-                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -134,7 +134,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51",
+            "tag": "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
             "type": "vless",
             "server": "usa.multiapvps.ir",
             "server_port": 4434,
