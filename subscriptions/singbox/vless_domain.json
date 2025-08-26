@@ -91,7 +91,8 @@
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3&encryption=none&host=f1.parsa.filegear-sg.me&fp=edge&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +102,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3&encryption=none&host=f1.parsa.filegear-sg.me&fp=edge&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -159,27 +161,36 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "ovhwuxian.pai50288.uk",
-            "server_port": 8443,
-            "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
+            "server": "fierce-data.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": "fierce-data.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3&encryption=none&host=f1.parsa.filegear-sg.me&fp=edge&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "ip.sb",
+            "server_port": 443,
+            "uuid": "8df60790-c903-4661-b85d-64c0009378e5",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ovhwuxian.pai50288.uk",
+                "server_name": "ip.sb",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/57ba2ab1",
-                "headers": {
-                    "Host": "ovhwuxian.pai50288.uk"
                 }
             }
         }

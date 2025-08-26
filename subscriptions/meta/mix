@@ -28,11 +28,8 @@ proxies:
   - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"ovhwuxian.pai50288.uk","port":8443,"uuid":"57ba2ab1-a283-42eb-82ee-dc3561a805b8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ovhwuxian.pai50288.uk","ws-opts":{"path":"/57ba2ab1","headers":{"Host":"ovhwuxian.pai50288.uk"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"104.21.3.219","port":8443,"uuid":"57ba2ab1-a283-42eb-82ee-dc3561a805b8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ovhwuxian.pai50288.uk","ws-opts":{"path":"/57ba2ab1","headers":{"Host":"ovhwuxian.pai50288.uk"}}}
-  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"65.108.148.239","port":2096,"uuid":"af68ac75-7c83-4f78-bf02-555993b4f66f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"free.best-antiaging-reviews.com"}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"104.16.42.209","port":80,"uuid":"be976fd2-e487-45b6-8f83-8d095c300fd8","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560","headers":{"Host":"cold-limit-d61-ppal03.sobeyov632.workers.dev"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69","type":"vless","server":"188.114.96.6","port":443,"uuid":"8df60790-c903-4661-b85d-64c0009378e5","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"F1.paRsa.fiLegEar-Sg.Me","ws-opts":{"path":"/","headers":{"Host":"F1.paRsa.fiLegEar-Sg.Me"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"fierce-data.seotoolsforyou.co.uk","port":80,"uuid":"c313c27c-97ff-45ed-ab5c-64641af5debc","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN","headers":{"Host":"fierce-data.seotoolsforyou.co.uk"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"ip.sb","port":443,"uuid":"8df60790-c903-4661-b85d-64c0009378e5","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"F1.paRsa.fiLegEar-Sg.Me","ws-opts":{"path":"/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512","headers":{"Host":"f1.parsa.filegear-sg.me"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -51,11 +48,8 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
 
   - name: 🌍 Global Media
     type: select
