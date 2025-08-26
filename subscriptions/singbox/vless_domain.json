@@ -91,8 +91,10 @@
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3&encryption=none&host=f1.parsa.filegear-sg.me&fp=edge&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +104,10 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3&encryption=none&host=f1.parsa.filegear-sg.me&fp=edge&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -161,36 +165,66 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
+            "server": "wild-bird.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "uuid": "1d0dfde1-9f18-4557-9af8-4f3124ee5dcd",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "path": "/",
                 "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
+                    "Host": "wild-bird.seotoolsforyou.co.uk"
                 }
             }
         },
         {
-            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3&encryption=none&host=f1.parsa.filegear-sg.me&fp=edge&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "ip.sb",
-            "server_port": 443,
-            "uuid": "8df60790-c903-4661-b85d-64c0009378e5",
+            "server": "dedicated-development.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ip.sb",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dedicated-development.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "obedient-menu.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "561623c8-4983-44d3-a6ef-92b803a74ee8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "obedient-menu.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "sweet-combination.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "05020a61-3c0c-4ead-b256-7851ff905a75",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sweet-combination.seotoolsforyou.co.uk"
                 }
             }
         }

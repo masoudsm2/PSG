@@ -90,7 +90,8 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +100,8 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -136,6 +138,31 @@
             "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "8df60790-c903-4661-b85d-64c0009378e5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "F1.paRsa.fiLegEar-Sg.Me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "F1.paRsa.fiLegEar-Sg.Me"
+                }
+            }
         }
     ],
     "route": {
