@@ -91,7 +91,7 @@
                 "direct",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +101,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -140,7 +140,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "91.99.216.235",
             "server_port": 443,

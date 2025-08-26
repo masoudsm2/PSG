@@ -93,9 +93,9 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,9 +107,9 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +194,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "91.99.216.235",
             "server_port": 443,
@@ -212,7 +212,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
             "server_port": 80,
@@ -228,7 +228,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
             "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
             "server_port": 80,

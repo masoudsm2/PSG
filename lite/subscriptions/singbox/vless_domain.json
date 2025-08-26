@@ -90,7 +90,7 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -134,7 +134,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
             "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
             "server_port": 80,

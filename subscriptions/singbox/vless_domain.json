@@ -91,8 +91,8 @@
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +102,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -161,7 +161,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
             "server_port": 80,
@@ -177,7 +177,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
             "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
             "server_port": 80,
