@@ -93,8 +93,9 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 66",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,8 +107,9 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 66",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,34 +194,59 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "62.60.192.209",
+            "server": "creativE-coMPUter.Oneeat.Co",
             "server_port": 80,
-            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
+            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "62.60.192.209"
+                    "Host": "creativE-coMPUter.Oneeat.Co"
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 8080,
-            "uuid": "d3m1xvk50k",
-            "security": "auto",
-            "alter_id": 0,
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "190.93.245.232",
+            "server_port": 8443,
+            "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bitget1.asdasd.click",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/download/cdn",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": ""
+                    "Host": "bitget1.asdasd.click"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "SMALL-mEAL.oneeAt.co",
+            "server_port": 80,
+            "uuid": "d1e44075-8c92-4698-9db0-e71d7015b757",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "SMALL-mEAL.oneeAt.co"
                 }
             }
         }
