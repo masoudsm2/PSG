@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37",
+            "tag": "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
             "type": "vless",
             "server": "usa.multiapvps.ir",
             "server_port": 4434,
@@ -128,6 +130,22 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
+            "server_port": 80,
+            "uuid": "935c990a-9bcc-484b-86a2-2a402f9ad1d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk"
                 }
             }
         }

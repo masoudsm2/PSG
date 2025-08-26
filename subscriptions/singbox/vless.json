@@ -89,10 +89,13 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 33",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 35",
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 36",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37"
+                "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
+                "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +103,13 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 33",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 35",
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 36",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37"
+                "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
+                "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,7 +121,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 33",
+            "tag": "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
             "type": "vless",
             "server": "91.99.199.137",
             "server_port": 443,
@@ -133,7 +139,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 35",
+            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
             "type": "vless",
             "server": "94.182.142.28",
             "server_port": 2020,
@@ -142,7 +148,25 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 36",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
+            "type": "vless",
+            "server": "91.99.216.235",
+            "server_port": 443,
+            "uuid": "bc4f49dc-2c50-49ac-b8fa-d3020a5e65de",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.216.235",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
             "type": "vless",
             "server": "de.multiapvps.ir",
             "server_port": 4433,
@@ -165,7 +189,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37",
+            "tag": "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
             "type": "vless",
             "server": "usa.multiapvps.ir",
             "server_port": 4434,
@@ -184,6 +208,38 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+            "type": "vless",
+            "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
+            "server_port": 80,
+            "uuid": "5139af95-a453-46c6-831a-a532b6b51305",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
+            "server_port": 80,
+            "uuid": "935c990a-9bcc-484b-86a2-2a402f9ad1d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk"
                 }
             }
         }

@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 33",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 35"
+                "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 33",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 35"
+                "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 33",
+            "tag": "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
             "type": "vless",
             "server": "91.99.199.137",
             "server_port": 443,
@@ -129,13 +131,31 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 35",
+            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
             "type": "vless",
             "server": "94.182.142.28",
             "server_port": 2020,
             "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
+            "type": "vless",
+            "server": "91.99.216.235",
+            "server_port": 443,
+            "uuid": "bc4f49dc-2c50-49ac-b8fa-d3020a5e65de",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.216.235",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
