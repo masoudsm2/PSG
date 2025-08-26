@@ -28,11 +28,10 @@ proxies:
   - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64","type":"ss","server":"45.87.175.28","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"45.87.175.65","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"77.110.110.117","port":443,"password":"9JeYy8SkViXuSHVs9GFeSe","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"185.47.252.251","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"188.166.144.24","port":2053,"uuid":"e207a4a0-0237-46f5-acd5-2410f1452de5","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"188.114.96.6","port":443,"uuid":"8df60790-c903-4661-b85d-64c0009378e5","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"F1.paRsa.fiLegEar-Sg.Me","ws-opts":{"path":"/","headers":{"Host":"F1.paRsa.fiLegEar-Sg.Me"}}}
+  - {"name":"🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 68","type":"vless","server":"ssl1.komanserver.ir","port":443,"uuid":"7c64f248-eeea-4d74-8851-39aee486e287","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"am.komanserver.ir."}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 69","type":"vmess","server":"195.211.99.143","port":8443,"cipher":"auto","uuid":"2e514a36-7ae8-4b6a-9e36-9c20e7228824","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -51,11 +50,10 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 68'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 68'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select

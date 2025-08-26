@@ -50,8 +50,8 @@
             "title": "NamiraNet",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
-        "type": "ss",
-        "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.28:8080#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%9F%A2%20%7C%20ss%20%7C%20%40NamiraConfigs%20%7C%2064"
+        "type": "vless",
+        "config": "vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.239:8880?security=&encryption=none&type=grpc#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2065"
     },
     {
         "channel": {
@@ -59,8 +59,8 @@
             "title": "NamiraNet",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
-        "type": "ss",
-        "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.35:8080#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%9F%A2%20%7C%20ss%20%7C%20%40NamiraConfigs%20%7C%2065"
+        "type": "vless",
+        "config": "vless://e207a4a0-0237-46f5-acd5-2410f1452de5@188.166.144.24:2053?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2066"
     },
     {
         "channel": {
@@ -68,8 +68,8 @@
             "title": "NamiraNet",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
-        "type": "ss",
-        "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.65:8080#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%9F%A2%20%7C%20ss%20%7C%20%40NamiraConfigs%20%7C%2066"
+        "type": "vless",
+        "config": "vless://8df60790-c903-4661-b85d-64c0009378e5@188.114.96.6:443?path=%2F&security=tls&encryption=none&host=F1.paRsa.fiLegEar-Sg.Me&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2067"
     },
     {
         "channel": {
@@ -77,8 +77,8 @@
             "title": "NamiraNet",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
-        "type": "ss",
-        "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#%F0%9F%87%A6%F0%9F%87%B9%20AT%20%7C%20%F0%9F%9F%A2%20%7C%20ss%20%7C%20%40NamiraConfigs%20%7C%2067"
+        "type": "vless",
+        "config": "vless://7c64f248-eeea-4d74-8851-39aee486e287@ssl1.komanserver.ir:443?security=tls&encryption=none&headerType=none&type=tcp&sni=am.komanserver.ir.#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2068"
     },
     {
         "channel": {
@@ -86,7 +86,7 @@
             "title": "NamiraNet",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
-        "type": "ss",
-        "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.252.251:990#%F0%9F%87%B5%F0%9F%87%AA%20PE%20%7C%20%F0%9F%9F%A2%20%7C%20ss%20%7C%20%40NamiraConfigs%20%7C%2068"
+        "type": "vmess",
+        "config": "vmess://eyJhZGQiOiIxOTUuMjExLjk5LjE0MyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIyZTUxNGEzNi03YWU4LTRiNmEtOWUzNi05YzIwZTcyMjg4MjQiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBvcnQiOiI4NDQzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFVTIHwgXHVkODNkXHVkZDM0IHwgdm1lc3MgfCBATmFtaXJhQ29uZmlncyB8IDY5In0"
     }
 ]
