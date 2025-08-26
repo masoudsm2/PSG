@@ -93,9 +93,7 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,9 +105,7 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,59 +190,18 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "creativE-coMPUter.Oneeat.Co",
+            "server": "141.95.52.109",
             "server_port": 80,
-            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "creativE-coMPUter.Oneeat.Co"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "190.93.245.232",
-            "server_port": 8443,
-            "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bitget1.asdasd.click",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "bitget1.asdasd.click"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "SMALL-mEAL.oneeAt.co",
-            "server_port": 80,
-            "uuid": "d1e44075-8c92-4698-9db0-e71d7015b757",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "SMALL-mEAL.oneeAt.co"
+                    "Host": "141.95.52.109"
                 }
             }
         }
