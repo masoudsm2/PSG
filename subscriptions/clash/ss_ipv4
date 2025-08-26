@@ -23,10 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇱🇻 LV | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"216.173.70.187","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 SG | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"64.176.85.73","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"103.111.114.29","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"171.22.254.17","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64","type":"ss","server":"45.87.175.28","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"45.87.175.65","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"77.110.110.117","port":443,"password":"9JeYy8SkViXuSHVs9GFeSe","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"185.47.252.251","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇸🇬 SG | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 68'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 67'
+      - '🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 68'
 
   - name: 🌍 Global Media
     type: select

@@ -91,13 +91,8 @@
                 "direct",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,13 +102,8 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -148,40 +138,6 @@
             "server": "94.182.142.28",
             "server_port": 2020,
             "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "104.25.227.244",
-            "server_port": 443,
-            "uuid": "8df60790-c903-4661-b85d-64c0009378e5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "F1.paRsa.fiLegEar-Sg.Me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "F1.paRsa.fiLegEar-Sg.Me"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "91.107.178.242",
-            "server_port": 20087,
-            "uuid": "f2c44225-736e-45a4-9cfb-490fa34e15a0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -228,54 +184,6 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-            "type": "vless",
-            "server": "informed-location.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "5c929ec5-5b1e-447a-950c-354c5d1ba1de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "informed-location.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
-            "type": "vless",
-            "server": "fearless-change.oneeat.co",
-            "server_port": 80,
-            "uuid": "b055036a-2d81-4d46-ab18-4e1898b58cec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "fearless-change.oneeat.co"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "modern-promise.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "bd9b0366-e5dd-4665-bd5b-9896bc7327ae",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "modern-promise.seotoolsforyou.co.uk"
                 }
             }
         }
