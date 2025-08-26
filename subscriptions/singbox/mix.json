@@ -93,7 +93,8 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,7 +106,8 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,20 +192,21 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "141.95.52.109",
-            "server_port": 80,
-            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "141.95.52.109"
-                }
-            }
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
+            "type": "vmess",
+            "server": "15.204.234.200",
+            "server_port": 41100,
+            "uuid": "c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66",
+            "type": "shadowsocks",
+            "server": "45.87.175.157",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         }
     ],
     "route": {
