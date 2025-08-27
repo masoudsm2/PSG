@@ -91,8 +91,8 @@
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +102,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -161,34 +161,52 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "handsome-device.oneeat.co",
-            "server_port": 80,
-            "uuid": "2ad87f95-7a0b-4018-8497-5ecaac2f0ddf",
+            "server": "freexxx.xhamster.biz.id",
+            "server_port": 443,
+            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "freexxx.xhamster.biz.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/Free-CF-Proxy-AE19",
                 "headers": {
-                    "Host": "handsome-device.oneeat.co"
+                    "Host": "freexxx.xhamster.biz.id"
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "SMALL-mEAL.oneeAt.co",
-            "server_port": 80,
-            "uuid": "d1e44075-8c92-4698-9db0-e71d7015b757",
+            "server": "freexxx.ndeso.web.id",
+            "server_port": 443,
+            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "freexxx.ndeso.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/Free-CF-Proxy-AT24",
                 "headers": {
-                    "Host": "SMALL-mEAL.oneeAt.co"
+                    "Host": "freexxx.ndeso.web.id"
                 }
             }
         }

@@ -28,10 +28,9 @@ proxies:
   - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"handsome-device.oneeat.co","port":80,"uuid":"2ad87f95-7a0b-4018-8497-5ecaac2f0ddf","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"handsome-device.oneeat.co"}}}
-  - {"name":"🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"89.44.197.77","port":15946,"uuid":"8672bdcd-e331-464d-9ed8-93a242ca7d2e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"89.44.197.77"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"SMALL-mEAL.oneeAt.co","port":80,"uuid":"d1e44075-8c92-4698-9db0-e71d7015b757","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"SMALL-mEAL.oneeAt.co"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68","type":"vless","server":"104.21.36.57","port":443,"uuid":"6c11247b-6078-461a-93d5-22e4df284e6d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"mirror.fullmargintraders.com","ws-opts":{"path":"/wsv/6c11247b-6078-461a-93d5-22e4df284e6d","headers":{"Host":"mirror.fullmargintraders.com"}}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"freexxx.xhamster.biz.id","port":443,"uuid":"aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"freexxx.xhamster.biz.id","ws-opts":{"path":"/Free-CF-Proxy-AE19","headers":{"Host":"freexxx.xhamster.biz.id"}}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"freexxx.ndeso.web.id","port":443,"uuid":"aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"freexxx.ndeso.web.id","ws-opts":{"path":"/Free-CF-Proxy-AT24","headers":{"Host":"freexxx.ndeso.web.id"}}}
+  - {"name":"🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"45.88.183.158","port":44629,"uuid":"d3daa900-0377-4575-9ebc-c4d88cb8486c","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,10 +49,9 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select
