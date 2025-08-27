@@ -93,11 +93,10 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65",
-                "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 68",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,11 +108,10 @@
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65",
-                "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 68",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -198,57 +196,48 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "104.16.178.238",
+            "server": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk",
             "server_port": 80,
-            "uuid": "d4eddaf9-a660-4905-b835-cad98677b380",
+            "uuid": "1dd49fb8-6570-4a2a-a236-f410b63159cf",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "104.16.178.238"
+                    "Host": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"
                 }
             }
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "103.160.204.50",
-            "server_port": 443,
-            "uuid": "c98a16e4-0dc5-42f0-b3db-30f04525c123",
+            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
+            "server_port": 80,
+            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vless8-ekh.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "vless8-ekh.pages.dev"
+                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
             "type": "vless",
-            "server": "188.114.97.202",
+            "server": "104.17.147.22",
             "server_port": 8443,
-            "uuid": "c2e177d4-e610-4abd-85cd-1a869d158751",
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "teslakit1.pages.dev",
+                "server_name": "lease-15.access.name.ng",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -259,34 +248,25 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "teslakit1.pages.dev"
+                    "Host": "lease-15.access.name.ng"
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 68",
-            "type": "vmess",
-            "server": "51.79.102.253",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "fierce-data.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "flow": "",
+            "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
                 "headers": {
-                    "Host": ""
+                    "Host": "fierce-data.seotoolsforyou.co.uk"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "172.234.221.94",
-            "server_port": 56224,
-            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
