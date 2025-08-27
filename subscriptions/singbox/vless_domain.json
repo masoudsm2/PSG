@@ -91,8 +91,10 @@
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +104,10 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -161,32 +165,16 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "famous-danger.oneeat.co",
-            "server_port": 80,
-            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "famous-danger.oneeat.co"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
-            "type": "vless",
-            "server": "freexxx.ndeso.web.id",
+            "server": "freexxx.xhamster.biz.id",
             "server_port": 443,
             "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "freexxx.ndeso.web.id",
+                "server_name": "freexxx.xhamster.biz.id",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -195,9 +183,57 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/Free-CF-Proxy-AT24",
+                "path": "/Free-CF-Proxy-AE19",
                 "headers": {
-                    "Host": "freexxx.ndeso.web.id"
+                    "Host": "freexxx.xhamster.biz.id"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "wild-bird.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "1d0dfde1-9f18-4557-9af8-4f3124ee5dcd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "wild-bird.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "magical-fish.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "magical-fish.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "dedicated-development.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dedicated-development.seotoolsforyou.co.uk"
                 }
             }
         }
