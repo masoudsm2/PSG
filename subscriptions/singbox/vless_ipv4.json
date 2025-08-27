@@ -90,8 +90,7 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,8 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -138,31 +136,6 @@
             "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8443,
-            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lease-15.access.name.ng",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "lease-15.access.name.ng"
-                }
-            }
         }
     ],
     "route": {

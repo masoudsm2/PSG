@@ -6,10 +6,10 @@
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.199.137:443?security=none&encryption=none&host=zula.ir/?TELEGRAM@JOKERRVPN&headerType=http&type=tcp#🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47
 vless://1c45c08c-1177-48e9-8f92-1186f7497d65@5.253.31.129:17416?type=grpc&serviceName=&authority=&security=reality&pbk=FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw&fp=chrome&sni=sourceforge.net&sid=c427ac39e8&spx=/#🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48
 vless://32b67990-fb70-457f-8f02-c7c62e4156ca@94.182.142.28:2020?encryption=none&security=none&type=tcp&headerType=none#🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49
-vless://401374e6-df77-41fb-f638-dad8184f175b@92.53.188.36:443?mode=gun&security=tls&alpn=h3,h2,http/1.1&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 67
-vless://ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4@104.17.147.22:8443?path=/&security=tls&encryption=none&host=lease-15.access.name.ng&fp=chrome&type=ws&sni=lease-15.access.name.ng#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68
+vless://401374e6-df77-41fb-f638-dad8184f175b@103.133.1.227:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh24v3.hiddendom.shop#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68
 vless://32b67990-fb70-457f-8f02-c7c62e4156ca@de.multiapvps.ir:4433?encryption=none&security=reality&sni=docker.com&fp=firefox&pbk=LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg&type=tcp&headerType=none#❔ XX | 🟢 | vless | @Fr33C0nfig | 50
 vless://32b67990-fb70-457f-8f02-c7c62e4156ca@usa.multiapvps.ir:4434?encryption=none&security=reality&sni=docker.com&fp=firefox&pbk=LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg&type=tcp&headerType=none#🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51
-vless://1dd49fb8-6570-4a2a-a236-f410b63159cf@OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65
-vless://3cad733b-3526-476b-adf5-b7cbdd33dc6c@beLoveD-faILure.SeOtOOLsForyOu.Co.uk:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66
-vless://c313c27c-97ff-45ed-ab5c-64641af5debc@fierce-data.seotoolsforyou.co.uk:80?path=/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69
+vless://2e65577e-8fdb-4bb1-a495-96f3122099a7@tttttttttttt.222769.xyz:443?path=/sMrAaoCaOSZb9TPR&security=tls&encryption=none&alpn=http/1.1&host=tttttttttttt.222769.xyz&fp=chrome&type=ws&sni=ttTttttTTTTT.222769.xYz#🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@meli1.dashvili.ir:80?path=/&security=&encryption=none&type=ws#🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 66
+vless://1ff9dc4a-4853-4790-a81c-13e195c957e8@ov-germany6.09vpn.com:8443?path=/vless/&security=tls&encryption=none&type=ws#🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67
+vless://b55ec078-3b17-4ed1-a697-71f464cdcaaa@101reel.com:443?encryption=none&security=tls&sni=barayeiranmahsang.sabzipolobamahi.dpdns.org&fp=random&type=ws&host=barayeiranmahsang.sabzipolobamahi.dpdns.org&path=/?ed=2560#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69
