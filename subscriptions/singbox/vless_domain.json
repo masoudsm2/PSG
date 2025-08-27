@@ -92,8 +92,7 @@
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
                 "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
                 "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -165,50 +163,41 @@
         {
             "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK",
+            "server": "famous-danger.oneeat.co",
             "server_port": 80,
-            "uuid": "9926ee97-4398-48dd-b263-2863c62f5c41",
+            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK"
+                    "Host": "famous-danger.oneeat.co"
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "communal-loss.oneeat.co",
-            "server_port": 80,
-            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "communal-loss.oneeat.co"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "ssl1.komanserver.ir",
+            "server": "freexxx.ndeso.web.id",
             "server_port": 443,
-            "uuid": "7c64f248-eeea-4d74-8851-39aee486e287",
+            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "am.komanserver.ir.",
+                "server_name": "freexxx.ndeso.web.id",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Free-CF-Proxy-AT24",
+                "headers": {
+                    "Host": "freexxx.ndeso.web.id"
                 }
             }
         }
