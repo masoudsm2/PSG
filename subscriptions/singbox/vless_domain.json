@@ -90,7 +90,9 @@
                 "auto",
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +101,9 @@
             "interval": "10m",
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -153,6 +157,38 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+            "type": "vless",
+            "server": "moody-lock.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "82cdcdf0-e772-4d9a-b0a2-d6b605572ac1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "moody-lock.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
                 }
             }
         }
