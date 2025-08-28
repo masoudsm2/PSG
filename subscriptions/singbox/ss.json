@@ -88,14 +88,19 @@
         {
             "outbounds": [
                 "auto",
-                "direct"
+                "direct",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "interval": "10m",
-            "outbounds": [],
+            "outbounds": [
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66"
+            ],
             "tag": "auto",
             "tolerance": 50,
             "type": "urltest",
@@ -104,6 +109,22 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
+            "type": "shadowsocks",
+            "server": "193.29.139.235",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66",
+            "type": "shadowsocks",
+            "server": "45.87.175.171",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         }
     ],
     "route": {

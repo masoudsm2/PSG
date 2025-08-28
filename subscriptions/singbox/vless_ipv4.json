@@ -91,9 +91,7 @@
                 "direct",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 68",
-                "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,9 +101,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 68",
-                "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -142,36 +138,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "172.234.221.94",
-            "server_port": 56224,
-            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "54.37.205.0",
-            "server_port": 59332,
-            "uuid": "d2dc2527-33d5-46f3-f39c-36da72fb1a62",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "89.44.197.77",
-            "server_port": 15946,
-            "uuid": "8672bdcd-e331-464d-9ed8-93a242ca7d2e",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "89.44.197.77"
+                    "Host": "57.129.132.223"
                 }
             }
         }
