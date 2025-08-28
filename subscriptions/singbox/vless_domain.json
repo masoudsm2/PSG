@@ -91,7 +91,6 @@
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
             ],
@@ -103,7 +102,6 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
             ],
@@ -159,31 +157,6 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
-            "type": "vless",
-            "server": "ov-germany6.09vpn.com",
-            "server_port": 8443,
-            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ov-germany6.09vpn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "ov-germany6.09vpn.com"
                 }
             }
         },
