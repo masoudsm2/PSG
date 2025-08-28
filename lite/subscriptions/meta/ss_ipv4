@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"38.102.7.181","port":59719,"password":"SxCyrPsofR","cipher":"aes-256-gcm"}
+
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
+
 
   - name: 🌍 Global Media
     type: select
