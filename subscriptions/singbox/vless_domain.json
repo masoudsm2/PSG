@@ -91,8 +91,10 @@
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 65",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +104,10 @@
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 65",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -156,36 +160,66 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "ssl1.komanserver.ir",
-            "server_port": 443,
-            "uuid": "7c64f248-eeea-4d74-8851-39aee486e287",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "am.komanserver.ir.",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
-            "type": "vless",
-            "server": "FruItfUl-exchANgE.SeotOolsFORYoU.cO.Uk",
+            "server": "magical-fish.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "9570a079-f83f-4454-88d0-884057c57a35",
+            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "FruItfUl-exchANgE.SeotOolsFORYoU.cO.Uk"
+                    "Host": "magical-fish.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "www.speedtest.net.cdn.cloudflare.net",
+            "server_port": 8080,
+            "uuid": "813d7c7e-d2ea-460f-9bf7-e6fa6a073b67",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "www.speedtest.net.cdn.cloudflare.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "hopeful-appointment.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hopeful-appointment.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "narrow-passenger.oneeat.co",
+            "server_port": 80,
+            "uuid": "5a12794b-2125-46d7-a748-927a989faa04",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "narrow-passenger.oneeat.co"
                 }
             }
         }
