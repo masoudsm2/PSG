@@ -90,7 +90,8 @@
                 "auto",
                 "direct",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +100,8 @@
             "interval": "10m",
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -153,6 +155,22 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "fierce-data.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "fierce-data.seotoolsforyou.co.uk"
                 }
             }
         }
