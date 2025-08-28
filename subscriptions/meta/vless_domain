@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9","type":"vless","server":"all32-vip.f-sub.com","port":2434,"uuid":"738c5a04-817a-4f50-b327-893595010155","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"chess.com","reality-opts":{"public-key":"yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA"}}
   - {"name":"🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11","type":"vless","server":"c51.aminzing.lol","port":443,"uuid":"2de98c6e-319d-4fd1-81ba-82237c44ed36","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"c51.aminzing.lol"}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
 
   - name: 🌍 Global Media
     type: select

@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
+            "tag": "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "narrow-passenger.oneeat.co",
-            "server_port": 80,
-            "uuid": "5a12794b-2125-46d7-a748-927a989faa04",
+            "server": "89.44.197.77",
+            "server_port": 15946,
+            "uuid": "8672bdcd-e331-464d-9ed8-93a242ca7d2e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "narrow-passenger.oneeat.co"
+                    "Host": "89.44.197.77"
                 }
             }
         }
