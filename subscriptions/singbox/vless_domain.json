@@ -91,9 +91,9 @@
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,9 +103,9 @@
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -158,50 +158,43 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
+            "server": "fina.iranbuildings.com",
+            "server_port": 8444,
+            "uuid": "ac083fa9-df9a-4722-b70d-24c17bef0516",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "moody-lock.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "uuid": "82cdcdf0-e772-4d9a-b0a2-d6b605572ac1",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
+                    "Host": "moody-lock.seotoolsforyou.co.uk"
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk",
-            "server_port": 80,
-            "uuid": "1dd49fb8-6570-4a2a-a236-f410b63159cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
                 }
             }
         }
