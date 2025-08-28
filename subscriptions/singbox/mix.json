@@ -94,9 +94,10 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,9 +110,10 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -198,43 +200,77 @@
             "alter_id": 0
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "179.61.219.170",
-            "server_port": 22934,
-            "uuid": "0cd276a5-4501-413a-acf8-b51c54894f02",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "narrow-passenger.oneeat.co",
-            "server_port": 80,
-            "uuid": "5a12794b-2125-46d7-a748-927a989faa04",
+            "server": "ssl1.komanserver.ir",
+            "server_port": 443,
+            "uuid": "7c64f248-eeea-4d74-8851-39aee486e287",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "narrow-passenger.oneeat.co"
+            "tls": {
+                "enabled": true,
+                "server_name": "am.komanserver.ir.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "magical-fish.seotoolsforyou.co.uk",
+            "server": "FruItfUl-exchANgE.SeotOolsFORYoU.cO.Uk",
             "server_port": 80,
-            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
+            "uuid": "9570a079-f83f-4454-88d0-884057c57a35",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "magical-fish.seotoolsforyou.co.uk"
+                    "Host": "FruItfUl-exchANgE.SeotOolsFORYoU.cO.Uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "104.21.36.57",
+            "server_port": 443,
+            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.fullmargintraders.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
+                "headers": {
+                    "Host": "mirror.fullmargintraders.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "159.246.55.251",
+            "server_port": 8880,
+            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram",
+                "headers": {
+                    "Host": "Telegram-channel-WangCai2"
                 }
             }
         }
