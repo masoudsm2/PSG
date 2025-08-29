@@ -91,7 +91,7 @@
                 "direct",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +101,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -138,18 +138,18 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "57.129.132.223",
+            "server": "104.24.148.184",
             "server_port": 80,
-            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
+            "uuid": "01cb18d1-2062-47e7-999b-ec08e8b2ec85",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/vless/",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "57.129.132.223"
+                    "Host": "104.24.148.184"
                 }
             }
         }
