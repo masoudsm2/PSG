@@ -95,7 +95,7 @@
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
                 "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,7 +109,7 @@
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
                 "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -205,7 +205,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "dedicated-development.seotoolsforyou.co.uk",
             "server_port": 80,

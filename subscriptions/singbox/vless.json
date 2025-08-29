@@ -91,7 +91,7 @@
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65"
@@ -104,7 +104,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65"
@@ -160,7 +160,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "dedicated-development.seotoolsforyou.co.uk",
             "server_port": 80,

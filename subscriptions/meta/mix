@@ -29,7 +29,7 @@ proxies:
   - {"name":"🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12","type":"vless","server":"104.18.26.90","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN","headers":{"Host":"sib.sibzamini.dpdns.org"}}}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"179.61.219.170","port":22934,"uuid":"0cd276a5-4501-413a-acf8-b51c54894f02","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"dedicated-development.seotoolsforyou.co.uk","port":80,"uuid":"2054405e-70ff-40a2-ae27-16b63d72390a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"dedicated-development.seotoolsforyou.co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"dedicated-development.seotoolsforyou.co.uk","port":80,"uuid":"2054405e-70ff-40a2-ae27-16b63d72390a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"dedicated-development.seotoolsforyou.co.uk"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -49,7 +49,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
       - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
 
   - name: 🌍 Global Media
     type: select
