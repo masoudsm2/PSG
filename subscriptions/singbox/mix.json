@@ -94,8 +94,8 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -108,8 +108,8 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +196,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "wild-bird.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -212,7 +212,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "narrow-passenger.oneeat.co",
             "server_port": 80,
