@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"104.24.148.184","port":80,"uuid":"01cb18d1-2062-47e7-999b-ec08e8b2ec85","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560","headers":{"Host":"muddy-rain-0a28-ppal03.mitey24737.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"104.16.42.209","port":80,"uuid":"be976fd2-e487-45b6-8f83-8d095c300fd8","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560","headers":{"Host":"cold-limit-d61-ppal03.sobeyov632.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy

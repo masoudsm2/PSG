@@ -111,16 +111,16 @@
         {
             "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "104.24.148.184",
+            "server": "104.16.42.209",
             "server_port": 80,
-            "uuid": "01cb18d1-2062-47e7-999b-ec08e8b2ec85",
+            "uuid": "be976fd2-e487-45b6-8f83-8d095c300fd8",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/?ed=2560",
                 "headers": {
-                    "Host": "104.24.148.184"
+                    "Host": "104.16.42.209"
                 }
             }
         }
