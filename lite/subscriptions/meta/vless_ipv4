@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69","type":"vless","server":"104.21.36.57","port":443,"uuid":"6c11247b-6078-461a-93d5-22e4df284e6d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"mirror.fullmargintraders.com","ws-opts":{"path":"/wsv/6c11247b-6078-461a-93d5-22e4df284e6d","headers":{"Host":"mirror.fullmargintraders.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select

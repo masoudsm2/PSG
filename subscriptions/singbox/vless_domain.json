@@ -90,7 +90,9 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
-                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11"
+                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +101,9 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
-                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11"
+                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -148,6 +152,38 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk",
+            "server_port": 80,
+            "uuid": "0f4865d9-9405-4703-a282-46e326e6d9e7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
+            "server_port": 80,
+            "uuid": "5139af95-a453-46c6-831a-a532b6b51305",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK"
                 }
             }
         }
