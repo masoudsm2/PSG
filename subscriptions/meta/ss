@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇵🇱 PL | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"164.92.156.41","port":24206,"password":"zI7kiNZ0UfV9cXB73a4nRD","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"195.181.160.6","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"45.87.175.65","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select
