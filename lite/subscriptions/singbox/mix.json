@@ -90,7 +90,7 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -120,29 +120,12 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "104.21.36.57",
-            "server_port": 443,
-            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mirror.fullmargintraders.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
-                "headers": {
-                    "Host": "mirror.fullmargintraders.com"
-                }
-            }
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69",
+            "type": "shadowsocks",
+            "server": "45.87.175.35",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         }
     ],
     "route": {

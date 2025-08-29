@@ -91,11 +91,8 @@
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
-                "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,11 +102,8 @@
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
-                "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -162,38 +156,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk",
-            "server_port": 80,
-            "uuid": "0f4865d9-9405-4703-a282-46e326e6d9e7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
-            "server_port": 80,
-            "uuid": "5139af95-a453-46c6-831a-a532b6b51305",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
             "type": "vless",
             "server": "91.99.190.38",
@@ -215,31 +177,6 @@
                 "path": "/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
                 "headers": {
                     "Host": "104.18.26.90"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "104.21.36.57",
-            "server_port": 443,
-            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mirror.fullmargintraders.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
-                "headers": {
-                    "Host": "mirror.fullmargintraders.com"
                 }
             }
         }
