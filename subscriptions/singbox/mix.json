@@ -95,8 +95,7 @@
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
                 "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
-                "🇸🇮 SI | 🟢 | ss | @NamiraConfigs | 66",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -110,8 +109,7 @@
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
                 "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
-                "🇸🇮 SI | 🟢 | ss | @NamiraConfigs | 66",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -206,26 +204,18 @@
             "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
-            "tag": "🇸🇮 SI | 🟢 | ss | @NamiraConfigs | 66",
-            "type": "shadowsocks",
-            "server": "192.71.244.150",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "57.129.132.223",
+            "server": "141.95.52.109",
             "server_port": 80,
-            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/vless/",
                 "headers": {
-                    "Host": "57.129.132.223"
+                    "Host": "141.95.52.109"
                 }
             }
         }
