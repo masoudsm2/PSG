@@ -88,17 +88,14 @@
         {
             "outbounds": [
                 "auto",
-                "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 69"
+                "direct"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "interval": "10m",
-            "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 69"
-            ],
+            "outbounds": [],
             "tag": "auto",
             "tolerance": 50,
             "type": "urltest",
@@ -107,31 +104,6 @@
         {
             "tag": "direct",
             "type": "direct"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "ov-germany6.09vpn.com",
-            "server_port": 8443,
-            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ov-germany6.09vpn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "ov-germany6.09vpn.com"
-                }
-            }
         }
     ],
     "route": {
