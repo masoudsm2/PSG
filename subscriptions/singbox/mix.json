@@ -94,11 +94,8 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 65",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67",
-                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 68",
-                "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 65",
+                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,11 +108,8 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 65",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67",
-                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 68",
-                "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 65",
+                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -202,44 +196,22 @@
             "alter_id": 0
         },
         {
-            "tag": "🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 65",
-            "type": "shadowsocks",
-            "server": "77.110.110.117",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "9JeYy8SkViXuSHVs9GFeSe"
+            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 65",
+            "type": "vmess",
+            "server": "51.79.86.182",
+            "server_port": 42610,
+            "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
+            "security": "auto",
+            "alter_id": 0
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66",
-            "type": "shadowsocks",
-            "server": "103.104.247.45",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67",
-            "type": "shadowsocks",
-            "server": "45.87.175.192",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
-        },
-        {
-            "tag": "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 68",
-            "type": "shadowsocks",
-            "server": "64.74.163.130",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
-        },
-        {
-            "tag": "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 69",
-            "type": "shadowsocks",
-            "server": "193.46.56.185",
-            "server_port": 6683,
-            "method": "chacha20-ietf-poly1305",
-            "password": "iw8GoN42dciNxDBd0RwAdL"
+            "tag": "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "109.120.132.142",
+            "server_port": 40617,
+            "uuid": "d8d05386-e381-40a4-bb63-715c208b3ed3",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
