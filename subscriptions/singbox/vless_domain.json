@@ -91,8 +91,8 @@
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +102,8 @@
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -156,43 +156,34 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "ov-germany6.09vpn.com",
-            "server_port": 8443,
-            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
+            "server": "pq-unitedstates3.09vpn.com",
+            "server_port": 80,
+            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ov-germany6.09vpn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "/vless/",
                 "headers": {
-                    "Host": "ov-germany6.09vpn.com"
+                    "Host": "pq-unitedstates3.09vpn.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "light-presence.oneeat.co",
+            "server": "elegant-corporation.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "7e74ff43-3a90-48b3-8372-7d92a045c2d4",
+            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "light-presence.oneeat.co"
+                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
                 }
             }
         }

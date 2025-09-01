@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 66"
+                "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 66"
+                "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,14 +109,14 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63",
             "type": "trojan",
-            "server": "ca-full.privateip.net",
+            "server": "108.162.196.69",
             "server_port": 443,
-            "password": "99c63d3a-4499-4a5b-aad6-826a6851f304",
+            "password": "4b040268-f3a5-4136-b1a9-506012e8e3d9",
             "tls": {
                 "enabled": true,
-                "server_name": "ca-full.privateip.net",
+                "server_name": "ssp2.100896.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

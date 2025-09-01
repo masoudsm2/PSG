@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 66","type":"trojan","server":"ca-full.privateip.net","port":443,"password":"99c63d3a-4499-4a5b-aad6-826a6851f304","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63","type":"trojan","server":"108.162.196.69","port":443,"password":"4b040268-f3a5-4136-b1a9-506012e8e3d9","skip-cert-verify":false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63'
 
   - name: 🌍 Global Media
     type: select
