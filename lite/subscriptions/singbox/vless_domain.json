@@ -111,16 +111,16 @@
         {
             "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "hopeful-appointment.seotoolsforyou.co.uk",
+            "server": "famous-danger.oneeat.co",
             "server_port": 80,
-            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
+            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "hopeful-appointment.seotoolsforyou.co.uk"
+                    "Host": "famous-danger.oneeat.co"
                 }
             }
         }
