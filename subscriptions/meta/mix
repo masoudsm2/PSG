@@ -28,9 +28,8 @@ proxies:
   - {"name":"🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11","type":"vless","server":"c51.aminzing.lol","port":443,"uuid":"2de98c6e-319d-4fd1-81ba-82237c44ed36","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"c51.aminzing.lol"}
   - {"name":"🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12","type":"vless","server":"104.18.26.90","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN","headers":{"Host":"sib.sibzamini.dpdns.org"}}}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 67","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68","type":"vmess","server":"104.18.149.76","port":443,"cipher":"auto","uuid":"de94cc0a-0592-4969-b1fc-97ea8f0ea0b3","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aa","headers":{"Host":"us.kkp.me.eu.org"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":""}}}
+  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"109.120.132.142","port":40617,"uuid":"d8d05386-e381-40a4-bb63-715c208b3ed3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"ov-germany6.09vpn.com","port":8443,"uuid":"1ff9dc4a-4853-4790-a81c-13e195c957e8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"ov-germany6.09vpn.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -49,9 +48,8 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68'
-      - '🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66'
 
   - name: 🌍 Global Media
     type: select

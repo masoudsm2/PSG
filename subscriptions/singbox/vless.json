@@ -91,8 +91,10 @@
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
-                "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12"
+                "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
+                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +104,10 @@
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
-                "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12"
+                "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
+                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -156,6 +160,31 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ov-germany6.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "ov-germany6.09vpn.com"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
             "type": "vless",
             "server": "91.99.190.38",
@@ -179,6 +208,15 @@
                     "Host": "104.18.26.90"
                 }
             }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 65",
+            "type": "vless",
+            "server": "109.120.132.142",
+            "server_port": 40617,
+            "uuid": "d8d05386-e381-40a4-bb63-715c208b3ed3",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
