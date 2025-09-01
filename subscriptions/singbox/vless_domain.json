@@ -90,8 +90,7 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
-                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,8 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
-                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -150,31 +148,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "tttttttttttt.222769.xyz",
-            "server_port": 443,
-            "uuid": "2e65577e-8fdb-4bb1-a495-96f3122099a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ttTttttTTTTT.222769.xYz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sMrAaoCaOSZb9TPR",
-                "headers": {
-                    "Host": "ttTttttTTTTT.222769.xYz"
                 }
             }
         }
