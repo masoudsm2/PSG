@@ -90,8 +90,10 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 68",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
+                "🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 67",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68",
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,8 +102,10 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 68",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
+                "🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 67",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68",
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -122,7 +126,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 68",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
+            "type": "vmess",
+            "server": "15.204.11.190",
+            "server_port": 15361,
+            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 67",
             "type": "vmess",
             "server": "45.67.230.79",
             "server_port": 11052,
@@ -131,7 +144,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 69",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68",
             "type": "vmess",
             "server": "104.18.149.76",
             "server_port": 443,
@@ -152,6 +165,22 @@
                 "path": "/aa",
                 "headers": {
                     "Host": "us.kkp.me.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69",
+            "type": "vmess",
+            "server": "51.79.102.253",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
