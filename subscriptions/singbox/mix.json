@@ -93,8 +93,7 @@
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,8 +105,7 @@
                 "🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,31 +190,6 @@
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "160.153.0.11",
-            "server_port": 2083,
-            "uuid": "5e802e1a-3c82-41ec-aaca-f6371b8b86a5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "fraG2.MAhSAAmINI.cC",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/CPI",
-                "headers": {
-                    "Host": "fraG2.MAhSAAmINI.cC"
-                }
-            }
         }
     ],
     "route": {
