@@ -94,7 +94,7 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
                 "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66",
                 "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67",
                 "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68",
@@ -111,7 +111,7 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
                 "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66",
                 "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67",
                 "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68",
@@ -202,7 +202,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
             "type": "shadowsocks",
             "server": "beesyar.org",
             "server_port": 8080,
