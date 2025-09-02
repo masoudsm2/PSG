@@ -1,15 +1,8 @@
 {
-    "Fr33C0nfig": {
-        "types": [
-            "vless",
-            "vmess"
-        ],
-        "title": "کانفیگ رایگان",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/Fr33C0nfig.jpg"
-    },
     "NamiraConfigs": {
         "types": [
             "ss",
+            "trojan",
             "vless",
             "vmess"
         ],
