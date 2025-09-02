@@ -90,8 +90,7 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
-                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,8 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
-                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -150,22 +148,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "brilliant-knowledge.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "4ad29f1b-2cea-4ddc-b856-fab1ff141ac6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "brilliant-knowledge.seotoolsforyou.co.uk"
                 }
             }
         }
