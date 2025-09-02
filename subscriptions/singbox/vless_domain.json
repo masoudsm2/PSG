@@ -91,7 +91,7 @@
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +101,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -154,18 +154,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
             "type": "vless",
-            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
             "server_port": 80,
-            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
                 }
             }
         }
