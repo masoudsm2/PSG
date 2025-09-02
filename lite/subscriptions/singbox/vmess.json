@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13"
+                "❔ XX | 🔴 | vmess | @Fr33C0nfig | 13"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13"
+                "❔ XX | 🔴 | vmess | @Fr33C0nfig | 13"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
+            "tag": "❔ XX | 🔴 | vmess | @Fr33C0nfig | 13",
             "type": "vmess",
             "server": "customers.tele-shop-too.studio",
             "server_port": 33203,

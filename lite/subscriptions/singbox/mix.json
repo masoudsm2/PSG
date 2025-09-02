@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "❔ XX | 🔴 | vmess | @Fr33C0nfig | 13",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "❔ XX | 🔴 | vmess | @Fr33C0nfig | 13",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
+            "tag": "❔ XX | 🔴 | vmess | @Fr33C0nfig | 13",
             "type": "vmess",
             "server": "customers.tele-shop-too.studio",
             "server_port": 33203,
@@ -120,20 +120,13 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "famous-danger.oneeat.co",
-            "server_port": 80,
-            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
+            "server": "45.88.183.158",
+            "server_port": 44629,
+            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "famous-danger.oneeat.co"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
