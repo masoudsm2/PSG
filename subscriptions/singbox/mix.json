@@ -94,11 +94,10 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 65",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,11 +110,10 @@
                 "🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11",
                 "🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 65",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -202,109 +200,59 @@
             "alter_id": 0
         },
         {
-            "tag": "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "109.120.132.142",
-            "server_port": 40617,
-            "uuid": "d8d05386-e381-40a4-bb63-715c208b3ed3",
+            "server": "magical-fish.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "magical-fish.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "dedicated-development.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dedicated-development.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "179.61.219.170",
+            "server_port": 22934,
+            "uuid": "0cd276a5-4501-413a-acf8-b51c54894f02",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "157.245.24.38",
-            "server_port": 2087,
-            "uuid": "f475c570-eba2-4a74-9948-d22ce8492aff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ame.spsvps.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4",
-                    "short_id": "b359bc5c70c21d55"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "aliakb3435.pages.dev",
-            "server_port": 443,
-            "uuid": "97c4550f-8ecc-42fa-ae66-3b550c986cd2",
+            "server": "handsome-device.oneeat.co",
+            "server_port": 80,
+            "uuid": "2ad87f95-7a0b-4018-8497-5ecaac2f0ddf",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "aLiAkB3435.paGES.dEV",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/PLe847RCOx5eWYOx?ed=2560",
+                "path": "/",
                 "headers": {
-                    "Host": "aLiAkB3435.paGES.dEV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "tttttttttttt.222769.xyz",
-            "server_port": 443,
-            "uuid": "2e65577e-8fdb-4bb1-a495-96f3122099a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ttTttttTTTTT.222769.xYz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sMrAaoCaOSZb9TPR",
-                "headers": {
-                    "Host": "ttTttttTTTTT.222769.xYz"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "ov-germany6.09vpn.com",
-            "server_port": 8443,
-            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ov-germany6.09vpn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "ov-germany6.09vpn.com"
+                    "Host": "handsome-device.oneeat.co"
                 }
             }
         }
