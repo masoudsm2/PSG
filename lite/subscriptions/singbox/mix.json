@@ -90,7 +90,7 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -120,20 +120,12 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "handsome-device.oneeat.co",
-            "server_port": 80,
-            "uuid": "2ad87f95-7a0b-4018-8497-5ecaac2f0ddf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "handsome-device.oneeat.co"
-                }
-            }
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69",
+            "type": "shadowsocks",
+            "server": "45.87.175.164",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         }
     ],
     "route": {
