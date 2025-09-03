@@ -89,9 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66",
-                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69"
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 66",
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 67",
+                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 68",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66",
-                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69"
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 66",
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 67",
+                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 68",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,28 +117,86 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
-            "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "tag": "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 65",
+            "type": "vmess",
+            "server": "103.61.139.137",
+            "server_port": 20521,
+            "uuid": "f8d93cfb-3d5d-447c-a697-16496dd74697",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66",
-            "type": "shadowsocks",
-            "server": "51.195.119.47",
-            "server_port": 1080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "qXvO7zYU7KeaB0Md7DQLow"
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 66",
+            "type": "vmess",
+            "server": "104.18.149.76",
+            "server_port": 443,
+            "uuid": "de94cc0a-0592-4969-b1fc-97ea8f0ea0b3",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "us.kkp.me.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/aa",
+                "headers": {
+                    "Host": "us.kkp.me.eu.org"
+                }
+            }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69",
-            "type": "shadowsocks",
-            "server": "83.147.216.70",
-            "server_port": 64519,
-            "method": "chacha20-ietf-poly1305",
-            "password": "F3nY73di5onWV3gotbpI0Q"
+            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 67",
+            "type": "vmess",
+            "server": "51.79.102.253",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 68",
+            "type": "vmess",
+            "server": "51.38.64.209",
+            "server_port": 44023,
+            "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "162.19.228.119",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/http",
+                "headers": {
+                    "Host": "162.19.228.119"
+                }
+            }
         }
     ],
     "route": {
