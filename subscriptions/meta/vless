@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"famous-danger.oneeat.co","port":80,"uuid":"ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"famous-danger.oneeat.co"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"fierce-data.seotoolsforyou.co.uk","port":80,"uuid":"c313c27c-97ff-45ed-ab5c-64641af5debc","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"fierce-data.seotoolsforyou.co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"www.speedtest.net.cdn.cloudflare.net","port":8080,"uuid":"813d7c7e-d2ea-460f-9bf7-e6fa6a073b67","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2048","headers":{"Host":"TW.kKpopH4Zmc.ZUlaIr.orG"}}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"tttttttttttt.222769.xyz","port":443,"uuid":"2e65577e-8fdb-4bb1-a495-96f3122099a7","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ttTttttTTTTT.222769.xYz","ws-opts":{"path":"/sMrAaoCaOSZb9TPR","headers":{"Host":"tttttttttttt.222769.xyz"}}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 68","type":"vless","server":"ov-germany6.09vpn.com","port":8443,"uuid":"1ff9dc4a-4853-4790-a81c-13e195c957e8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"ov-germany6.09vpn.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 68'
 
   - name: 🌍 Global Media
     type: select
