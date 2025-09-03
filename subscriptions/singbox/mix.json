@@ -89,11 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66",
-                "🇲🇾 MY | 🟢 | ss | @NamiraConfigs | 67",
-                "🇰🇷 KR | 🟢 | ss | @NamiraConfigs | 68",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66",
-                "🇲🇾 MY | 🟢 | ss | @NamiraConfigs | 67",
-                "🇰🇷 KR | 🟢 | ss | @NamiraConfigs | 68",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,44 +113,45 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
-            "type": "shadowsocks",
-            "server": "45.87.175.28",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "fierce-data.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "fierce-data.seotoolsforyou.co.uk"
+                }
+            }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66",
-            "type": "shadowsocks",
-            "server": "193.29.139.177",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
+            "server_port": 80,
+            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
+                }
+            }
         },
         {
-            "tag": "🇲🇾 MY | 🟢 | ss | @NamiraConfigs | 67",
-            "type": "shadowsocks",
-            "server": "103.243.215.17",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
-        },
-        {
-            "tag": "🇰🇷 KR | 🟢 | ss | @NamiraConfigs | 68",
-            "type": "shadowsocks",
-            "server": "141.164.63.32",
-            "server_port": 30936,
-            "method": "chacha20-ietf-poly1305",
-            "password": "b25727df-15ea-453c-a006-13fe98fee1d2"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69",
-            "type": "shadowsocks",
-            "server": "45.87.175.199",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "172.234.221.94",
+            "server_port": 56224,
+            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
