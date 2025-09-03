@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
                 "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66",
                 "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69"
             ],
@@ -99,7 +99,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
                 "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66",
                 "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69"
             ],
@@ -113,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65",
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65",
             "type": "shadowsocks",
             "server": "beesyar.org",
             "server_port": 8080,
