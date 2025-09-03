@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 63",
-                "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 64",
-                "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 63",
-                "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 64",
-                "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67",
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,50 +113,50 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 63",
-            "type": "trojan",
-            "server": "94.131.20.3",
-            "server_port": 443,
-            "password": "3482c71a-d01c-4ae5-b454-fa8cb3785f66",
-            "tls": {
-                "enabled": true,
-                "server_name": "nacho-rerun-crepe.stark-industries.solutions",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65",
+            "type": "vless",
+            "server": "162.19.228.119",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/http",
+                "headers": {
+                    "Host": "162.19.228.119"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 64",
-            "type": "trojan",
-            "server": "108.162.196.69",
-            "server_port": 443,
-            "password": "4b040268-f3a5-4136-b1a9-506012e8e3d9",
-            "tls": {
-                "enabled": true,
-                "server_name": "ssp2.100896.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk",
+            "server_port": 80,
+            "uuid": "1dd49fb8-6570-4a2a-a236-f410b63159cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 65",
-            "type": "trojan",
-            "server": "141.101.120.10",
-            "server_port": 443,
-            "password": "4b040268-f3a5-4136-b1a9-506012e8e3d9",
-            "tls": {
-                "enabled": true,
-                "server_name": "ssp2.100896.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68",
+            "type": "vless",
+            "server": "communal-loss.oneeat.co",
+            "server_port": 80,
+            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "communal-loss.oneeat.co"
                 }
             }
         }
