@@ -3,8 +3,8 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handSoME-dEvice.ONEeAt.CO:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65
-vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh25v7.vetmainconf.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66
-vless://edb4c373-ac92-4430-8f42-94439ca829b9@magical-fish.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67
-vless://3cad733b-3526-476b-adf5-b7cbdd33dc6c@beLoveD-faILure.SeOtOOLsForyOu.Co.uk:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.97:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68
+vless://5e802e1a-3c82-41ec-aaca-f6371b8b86a5@160.153.0.11:2083?path=/CPI&security=tls&encryption=none&host=fraG2.MAhSAAmINI.cC&fp=chrome&type=ws&sni=fraG2.MAhSAAmINI.cC#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65
+vless://401374e6-df77-41fb-f638-dad8184f175b@92.53.188.36:443?mode=gun&security=tls&alpn=h3,h2,http/1.1&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 68
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?path=/http&security=none&encryption=none&host=google.com&type=ws#🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69
+vless://e4824193-4f54-453b-d037-88368e85ef0e@public15v7.fastipsport.com:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66
+vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@famous-danger.oneeat.co:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67
