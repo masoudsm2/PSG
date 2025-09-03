@@ -23,9 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"172.234.221.94","port":56224,"uuid":"e3d0de50-7673-4d13-be7b-e508632ed430","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"fierce-data.seotoolsforyou.co.uk","port":80,"uuid":"c313c27c-97ff-45ed-ab5c-64641af5debc","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"fierce-data.seotoolsforyou.co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"fierce-data.seotoolsforyou.co.uk","port":80,"uuid":"c313c27c-97ff-45ed-ab5c-64641af5debc","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"fierce-data.seotoolsforyou.co.uk"}}}
   - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"google.com"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"172.234.221.94","port":56224,"uuid":"e3d0de50-7673-4d13-be7b-e508632ed430","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
       - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select
