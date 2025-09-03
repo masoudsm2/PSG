@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 67"
+                "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 67"
+                "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,12 +109,12 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 67",
+            "tag": "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69",
             "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
+            "server": "45.154.206.192",
+            "server_port": 990,
             "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "password": "f8f7aCzcPKbsF8p3"
         }
     ],
     "route": {
