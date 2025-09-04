@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 68"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 68"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 68",
             "type": "vless",
-            "server": "all32-vip.f-sub.com",
-            "server_port": 2434,
-            "uuid": "738c5a04-817a-4f50-b327-893595010155",
+            "server": "157.245.24.38",
+            "server_port": 2087,
+            "uuid": "f475c570-eba2-4a74-9948-d22ce8492aff",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "chess.com",
+                "server_name": "ame.spsvps.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +126,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA",
-                    "short_id": ""
+                    "public_key": "HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4",
+                    "short_id": "b359bc5c70c21d55"
                 }
             }
         }

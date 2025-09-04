@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "famous-danger.oneeat.co",
-            "server_port": 80,
-            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
+            "server": "tttttttttttt.222769.xyz",
+            "server_port": 443,
+            "uuid": "2e65577e-8fdb-4bb1-a495-96f3122099a7",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ttTttttTTTTT.222769.xYz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/sMrAaoCaOSZb9TPR",
                 "headers": {
-                    "Host": "famous-danger.oneeat.co"
+                    "Host": "ttTttttTTTTT.222769.xYz"
                 }
             }
         }

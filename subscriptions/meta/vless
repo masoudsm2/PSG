@@ -23,10 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"109.120.132.142","port":40617,"uuid":"d8d05386-e381-40a4-bb63-715c208b3ed3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK","port":80,"uuid":"2054405e-70ff-40a2-ae27-16b63d72390a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"famous-danger.oneeat.co","port":80,"uuid":"ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"famous-danger.oneeat.co"}}}
+  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"109.120.132.142","port":40617,"uuid":"d8d05386-e381-40a4-bb63-715c208b3ed3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 68","type":"vless","server":"157.245.24.38","port":2087,"uuid":"f475c570-eba2-4a74-9948-d22ce8492aff","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ame.spsvps.com","reality-opts":{"public-key":"HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4","short-id":"b359bc5c70c21d55"}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 69","type":"vless","server":"tttttttttttt.222769.xyz","port":443,"uuid":"2e65577e-8fdb-4bb1-a495-96f3122099a7","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ttTttttTTTTT.222769.xYz","ws-opts":{"path":"/sMrAaoCaOSZb9TPR","headers":{"Host":"tttttttttttt.222769.xyz"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 68'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select
