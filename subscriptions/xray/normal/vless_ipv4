@@ -3,7 +3,4 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.114:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65
-vless://401374e6-df77-41fb-f638-dad8184f175b@94.247.142.103:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh23v5.hiddendom.shop#🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 66
-vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617?encryption=none&security=none&type=tcp&headerType=none#🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67
-vless://f475c570-eba2-4a74-9948-d22ce8492aff@157.245.24.38:2087?security=reality&encryption=none&pbk=HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4&headerType=none&fp=chrome&type=tcp&sni=ame.spsvps.com&sid=b359bc5c70c21d55#🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 68
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.80:8880?mode=gun&security=none&encryption=none&authority=/JOKERRVPN_BIA_CHANEL@JOKERRVPN&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69
