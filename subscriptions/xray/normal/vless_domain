@@ -3,8 +3,6 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@famous-danger.oneeat.co:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65
-vless://813d7c7e-d2ea-460f-9bf7-e6fa6a073b67@www.speedtest.net.cdn.cloudflare.net:8080?path=/?ed=2048&security=none&encryption=none&host=TW.kKpopH4Zmc.ZUlaIr.orG&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66
-vless://e4824193-4f54-453b-d037-88368e85ef0e@public15v7.fastipsport.com:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67
-vless://3cad733b-3526-476b-adf5-b7cbdd33dc6c@beLoveD-faILure.SeOtOOLsForyOu.Co.uk:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68
-vless://52adc6ba-b1c7-4541-a594-08fc698be640@grounded-brother.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69
+vless://2e65577e-8fdb-4bb1-a495-96f3122099a7@tttttttttttt.222769.xyz:443?path=/sMrAaoCaOSZb9TPR&security=tls&encryption=none&alpn=http/1.1&host=tttttttttttt.222769.xyz&fp=chrome&type=ws&sni=ttTttttTTTTT.222769.xYz#🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65
+vless://1ff9dc4a-4853-4790-a81c-13e195c957e8@ov-germany6.09vpn.com:8443?path=/vless/&security=tls&encryption=none&type=ws#🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67
+vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh25v7.vetmainconf.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69
