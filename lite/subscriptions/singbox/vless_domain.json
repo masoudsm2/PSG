@@ -111,16 +111,16 @@
         {
             "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
+            "server": "famous-danger.oneeat.co",
             "server_port": 80,
-            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
+            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
+                    "Host": "famous-danger.oneeat.co"
                 }
             }
         }

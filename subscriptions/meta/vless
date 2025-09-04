@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"160.153.0.11","port":2083,"uuid":"5e802e1a-3c82-41ec-aaca-f6371b8b86a5","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fraG2.MAhSAAmINI.cC","ws-opts":{"path":"/CPI","headers":{"Host":"fraG2.MAhSAAmINI.cC"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"google.com"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"famous-danger.oneeat.co","port":80,"uuid":"ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"famous-danger.oneeat.co"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"magical-fish.seotoolsforyou.co.uk","port":80,"uuid":"edb4c373-ac92-4430-8f42-94439ca829b9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"magical-fish.seotoolsforyou.co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"famous-danger.oneeat.co","port":80,"uuid":"ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"famous-danger.oneeat.co"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select
