@@ -3,7 +3,5 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://70b6b341-b859-443a-baf0-08ceabe9d1a4@178.162.245.230:2052?path=/&security=none&encryption=none&type=ws#🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.231:8880?encryption=none&security=none&type=grpc#🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 67
-vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617?encryption=none&security=none&type=tcp&headerType=none#🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 68
-vless://f475c570-eba2-4a74-9948-d22ce8492aff@157.245.24.38:2087?security=reality&encryption=none&pbk=HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4&headerType=none&fp=chrome&type=tcp&sni=ame.spsvps.com&sid=b359bc5c70c21d55#🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 69
+vless://94f51128-b5eb-4eb6-8010-12b7c55e559b@141.95.52.109:80?path=/vless/&security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&type=ws#🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 68
+vless://70b6b341-b859-443a-baf0-08ceabe9d1a4@178.162.245.230:2052?path=/&security=none&encryption=none&type=ws#🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69
