@@ -3,8 +3,7 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.231:8880?encryption=none&security=none&type=grpc#🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65
-vless://f475c570-eba2-4a74-9948-d22ce8492aff@157.245.24.38:2087?security=reality&encryption=none&pbk=HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4&headerType=none&fp=chrome&type=tcp&sni=ame.spsvps.com&sid=b359bc5c70c21d55#🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66
-vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.240:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.97:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.5:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 69
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.97:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.189:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.78:8880?mode=gun&security=none&encryption=none&authority=sinvt-sinvt&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.186:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 69
