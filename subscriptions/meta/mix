@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"pq-unitedstates3.09vpn.com","port":80,"uuid":"b6d6dcc2-640b-411f-8003-620830fbf183","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"pq-unitedstates3.09vpn.com"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK","port":80,"uuid":"2054405e-70ff-40a2-ae27-16b63d72390a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68","type":"vless","server":"172.66.44.81","port":2083,"uuid":"4d794980-54c0-4fcb-8def-c2beaecadbad","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"azadnet05.pages.dev","ws-opts":{"path":"/","headers":{"Host":"172.66.44.81"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
+
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
+
 
   - name: 🌍 Global Media
     type: select
