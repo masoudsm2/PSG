@@ -23,8 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"178.162.245.230","port":2052,"uuid":"70b6b341-b859-443a-baf0-08ceabe9d1a4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"178.162.245.230"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"pq-unitedstates3.09vpn.com","port":80,"uuid":"b6d6dcc2-640b-411f-8003-620830fbf183","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"pq-unitedstates3.09vpn.com"}}}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"45.87.175.171","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"beesyar.org","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"45.87.175.192","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"178.162.245.230","port":2052,"uuid":"70b6b341-b859-443a-baf0-08ceabe9d1a4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"178.162.245.230"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select
