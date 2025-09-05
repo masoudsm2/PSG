@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,12 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "magical-fish.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "magical-fish.seotoolsforyou.co.uk"
-                }
-            }
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69",
+            "type": "shadowsocks",
+            "server": "45.87.175.181",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u"
         }
     ],
     "route": {
