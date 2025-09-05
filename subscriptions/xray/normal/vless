@@ -3,8 +3,8 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.93:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65
-vless://401374e6-df77-41fb-f638-dad8184f175b@102.177.189.251:443?mode=gun&security=tls&alpn=h2&encryption=none&fp=chrome&type=grpc&sni=pqh23v4.hiddendom.shop#🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 66
-vless://80764883-7f6b-4c46-8ecd-887cdf541c07@172.66.44.174:2053?encryption=none&security=tls&sni=edC32e3B.bpb-PaNel-EN-87s.PAGes.dEv&fp=chrome&type=ws&host=edC32e3B.bpb-PaNel-EN-87s.PAGes.dEv#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.121:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68
-vless://c313c27c-97ff-45ed-ab5c-64641af5debc@fierce-data.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69
+vless://b6d6dcc2-640b-411f-8003-620830fbf183@pq-unitedstates3.09vpn.com:80?path=/vless/&security=none&encryption=none&type=ws#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65
+vless://2054405e-70ff-40a2-ae27-16b63d72390a@deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66
+vless://d03d8815-a06f-408f-a62f-6c84869b96a9@elegant-corporation.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69
+vless://401374e6-df77-41fb-f638-dad8184f175b@104.129.167.161:443?mode=gun&security=tls&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 67
+vless://4d794980-54c0-4fcb-8def-c2beaecadbad@172.66.44.81:2083?path=/&security=tls&encryption=none&type=ws&sni=azadnet05.pages.dev#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68
