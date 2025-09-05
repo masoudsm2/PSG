@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"57.129.132.223","port":80,"uuid":"dbb78c94-9f87-4d7d-b945-2000b60352fd","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net"}}}
-  - {"name":"🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"45.88.183.164","port":49355,"uuid":"ef246c6f-6e7d-4286-af33-5485544b0ba8","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"communal-loss.oneeat.co","port":80,"uuid":"a2af50d9-09c7-4a44-90d0-42da35923e9e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"communal-loss.oneeat.co"}}}
+  - {"name":"🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"ssl1.komanserver.ir","port":443,"uuid":"7c64f248-eeea-4d74-8851-39aee486e287","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"am.komanserver.ir."}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 67'
 
   - name: 🌍 Global Media
     type: select

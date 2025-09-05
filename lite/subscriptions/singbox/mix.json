@@ -88,14 +88,17 @@
         {
             "outbounds": [
                 "auto",
-                "direct"
+                "direct",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "interval": "10m",
-            "outbounds": [],
+            "outbounds": [
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 69"
+            ],
             "tag": "auto",
             "tolerance": 50,
             "type": "urltest",
@@ -104,6 +107,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 69",
+            "type": "vmess",
+            "server": "104.18.149.76",
+            "server_port": 443,
+            "uuid": "de94cc0a-0592-4969-b1fc-97ea8f0ea0b3",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "us.kkp.me.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/aa",
+                "headers": {
+                    "Host": "us.kkp.me.eu.org"
+                }
+            }
         }
     ],
     "route": {

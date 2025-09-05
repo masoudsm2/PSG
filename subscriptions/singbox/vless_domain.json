@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +111,36 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "pq-unitedstates3.09vpn.com",
+            "server": "communal-loss.oneeat.co",
             "server_port": 80,
-            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
+            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/vless/",
+                "path": "/",
                 "headers": {
-                    "Host": "pq-unitedstates3.09vpn.com"
+                    "Host": "communal-loss.oneeat.co"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "ssl1.komanserver.ir",
+            "server_port": 443,
+            "uuid": "7c64f248-eeea-4d74-8851-39aee486e287",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "am.komanserver.ir.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

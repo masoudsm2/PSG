@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67",
-                "🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 68"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67",
-                "🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 68"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,29 +111,38 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "57.129.132.223",
+            "server": "communal-loss.oneeat.co",
             "server_port": 80,
-            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
+            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/vless/",
+                "path": "/",
                 "headers": {
-                    "Host": "57.129.132.223"
+                    "Host": "communal-loss.oneeat.co"
                 }
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 68",
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "45.88.183.164",
-            "server_port": 49355,
-            "uuid": "ef246c6f-6e7d-4286-af33-5485544b0ba8",
+            "server": "ssl1.komanserver.ir",
+            "server_port": 443,
+            "uuid": "7c64f248-eeea-4d74-8851-39aee486e287",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "am.komanserver.ir.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
