@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +111,34 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "FruItfUl-exchANgE.SeotOolsFORYoU.cO.Uk",
-            "server_port": 80,
-            "uuid": "9570a079-f83f-4454-88d0-884057c57a35",
+            "server": "178.162.245.230",
+            "server_port": 2052,
+            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "FruItfUl-exchANgE.SeotOolsFORYoU.cO.Uk"
+                    "Host": "178.162.245.230"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "pq-unitedstates3.09vpn.com",
+            "server_port": 80,
+            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "pq-unitedstates3.09vpn.com"
                 }
             }
         }

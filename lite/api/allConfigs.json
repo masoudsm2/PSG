@@ -5,7 +5,7 @@
             "title": "NamiraNet",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
-        "type": "vmess",
-        "config": "vmess://eyJhZGQiOiIxNS4yMDQuMjM0LjIwMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJjN2YxNjlhMy0yZTlhLTQ4OTQtYmE1My03YjJmYTZmZDA4YjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQxMTAwIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOCBVUyB8IFx1ZDgzZFx1ZGQzNCB8IHZtZXNzIHwgQE5hbWlyYUNvbmZpZ3MgfCA2OSJ9"
+        "type": "vless",
+        "config": "vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.114:8880?mode=gun&security=none&encryption=none&type=grpc&sni=pqh25v1.vetdomok.shop#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2069"
     }
 ]
