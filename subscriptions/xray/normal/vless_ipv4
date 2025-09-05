@@ -3,4 +3,6 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://70b6b341-b859-443a-baf0-08ceabe9d1a4@178.162.245.230:2052?path=/&security=none&encryption=none&type=ws#🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69
+vless://dbb78c94-9f87-4d7d-b945-2000b60352fd@57.129.132.223:80?path=/vless/&security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&type=ws#🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67
+vless://ef246c6f-6e7d-4286-af33-5485544b0ba8@45.88.183.164:49355?security=none&encryption=none&headerType=none&type=tcp#🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 68
+vless://401374e6-df77-41fb-f638-dad8184f175b@103.160.204.145:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69
