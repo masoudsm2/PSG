@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 66"
+                "🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 66"
+                "🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,14 +109,14 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 66",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66",
             "type": "trojan",
-            "server": "ca-full.privateip.net",
+            "server": "on-roughy.shiner427.skin",
             "server_port": 443,
-            "password": "99c63d3a-4499-4a5b-aad6-826a6851f304",
+            "password": "74260704627805900",
             "tls": {
                 "enabled": true,
-                "server_name": "ca-full.privateip.net",
+                "server_name": "on-roughy.shiner427.skin",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
