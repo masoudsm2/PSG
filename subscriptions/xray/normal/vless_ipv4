@@ -3,4 +3,8 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.5:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65
+vless://401374e6-df77-41fb-f638-dad8184f175b@92.53.188.36:443?mode=gun&security=tls&alpn=h3,h2,http/1.1&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65
+vless://e3d0de50-7673-4d13-be7b-e508632ed430@172.234.221.94:56224#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?path=/http&security=none&encryption=none&host=google.com&type=ws#🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67
+vless://2ac2a3ac-49ec-4cf1-90fd-252b7fad9fbe@51.195.119.204:80?path=/vless/&security=none&encryption=none&host=---@ShadowProxy66&type=ws#🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 68
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.186:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 69
