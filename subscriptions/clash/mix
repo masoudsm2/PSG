@@ -23,11 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"77.110.110.117","port":443,"password":"9JeYy8SkViXuSHVs9GFeSe","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"45.158.171.146","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"193.29.139.177","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇮 SI | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"192.71.244.150","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"64.74.163.130","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"45.87.175.178","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇸🇮 SI | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select
