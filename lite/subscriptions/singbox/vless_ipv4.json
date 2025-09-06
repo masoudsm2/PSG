@@ -88,14 +88,17 @@
         {
             "outbounds": [
                 "auto",
-                "direct"
+                "direct",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "interval": "10m",
-            "outbounds": [],
+            "outbounds": [
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69"
+            ],
             "tag": "auto",
             "tolerance": 50,
             "type": "urltest",
@@ -104,6 +107,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "212.192.31.146",
+            "server_port": 443,
+            "uuid": "199a78a5-b4d4-4064-a0db-bb37c5839134",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "212.192.31.146",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panika",
+                "headers": {
+                    "Host": "212.192.31.146"
+                }
+            }
         }
     ],
     "route": {

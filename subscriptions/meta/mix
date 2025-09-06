@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"www.speedtest.net.cdn.cloudflare.net","port":8080,"uuid":"813d7c7e-d2ea-460f-9bf7-e6fa6a073b67","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2048","headers":{"Host":"TW.kKpopH4Zmc.ZUlaIr.orG"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"212.192.31.146","port":443,"uuid":"199a78a5-b4d4-4064-a0db-bb37c5839134","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/panika","headers":{"Host":"212.192.31.146"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"www.speedtest.net.cdn.cloudflare.net","port":8080,"uuid":"813d7c7e-d2ea-460f-9bf7-e6fa6a073b67","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2048","headers":{"Host":"TW.kKpopH4Zmc.ZUlaIr.orG"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"famous-danger.oneeat.co","port":80,"uuid":"ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"famous-danger.oneeat.co"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"brainy-party.seotoolsforyou.co.uk","port":80,"uuid":"34797f17-09a1-400c-9f4b-275718d62a0f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"brainy-party.seotoolsforyou.co.uk"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"212.192.31.146","port":443,"uuid":"199a78a5-b4d4-4064-a0db-bb37c5839134","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/panika","headers":{"Host":"212.192.31.146"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 🌍 Global Media
     type: select
