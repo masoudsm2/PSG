@@ -23,9 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63","type":"ss","server":"45.87.175.188","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 57","type":"ss","server":"193.29.139.177","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇻🇪 VE | 🟢 | ss | @NamiraConfigs | 58","type":"ss","server":"45.158.171.146","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"77.110.110.117","port":443,"password":"9JeYy8SkViXuSHVs9GFeSe","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 60","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64'
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 57'
+      - '🇻🇪 VE | 🟢 | ss | @NamiraConfigs | 58'
+      - '🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 59'
+      - '🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 60'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61'
 
   - name: 🌍 Global Media
     type: select
