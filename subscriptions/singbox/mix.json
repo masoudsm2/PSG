@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63",
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63",
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,43 +113,34 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "212.192.31.146",
-            "server_port": 443,
-            "uuid": "199a78a5-b4d4-4064-a0db-bb37c5839134",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "212.192.31.146",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/panika",
-                "headers": {
-                    "Host": "212.192.31.146"
-                }
-            }
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63",
+            "type": "shadowsocks",
+            "server": "45.87.175.188",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69",
-            "type": "vmess",
-            "server": "51.79.102.253",
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64",
+            "type": "shadowsocks",
+            "server": "45.87.175.164",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "elegant-corporation.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
+            "flow": "",
+            "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "path": "/",
                 "headers": {
-                    "Host": ""
+                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
                 }
             }
         }

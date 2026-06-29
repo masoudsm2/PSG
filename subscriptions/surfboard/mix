@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69 = vmess, 51.79.102.253, 80, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:""
+🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63 = ss, 45.87.175.188, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69
-PSG-AUTO = url-test, 🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69
-PSG-FALLBACK = fallback, 🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 64
 
 [Rule]
 GEOIP,IR,DIRECT
