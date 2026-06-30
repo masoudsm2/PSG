@@ -6,6 +6,6 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
         "type": "vless",
-        "config": "vless://a4cb769e-78ee-483f-8a9f-42e768ea1f1d@dalton.makanyab.app:443?path=%2Fdalton%2F&security=tls&e=#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2061"
+        "config": "vless://7e6a38f4-7150-4eff-ae68-579852357ddb@13.40.188.81:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2060"
     }
 ]
