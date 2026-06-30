@@ -111,10 +111,10 @@
         {
             "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 61",
             "type": "shadowsocks",
-            "server": "45.87.175.164",
+            "server": "103.104.247.49",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u"
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         }
     ],
     "route": {
