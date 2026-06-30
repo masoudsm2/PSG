@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +113,54 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "elegant-corporation.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
+            "server": "www.npmjs.com",
+            "server_port": 2095,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/fp",
                 "headers": {
-                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
+                    "Host": "fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "196.196.35.37",
+            "server_port": 443,
+            "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-6a20f558.noooo.win",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "5.157.51.171",
+            "server_port": 443,
+            "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-6a20f558.noooo.win",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

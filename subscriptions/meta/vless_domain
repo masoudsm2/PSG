@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"www.npmjs.com","port":2095,"uuid":"86c50e3a-5b87-49dd-bd20-03c7f2735e40","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fuckingfangbinxing.cnmfangbinxing-n.workers.dev","ws-opts":{"path":"/fp","headers":{"Host":"fuckingfangbinxing.cnmfangbinxing-n.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55'
 
   - name: 🌍 Global Media
     type: select
