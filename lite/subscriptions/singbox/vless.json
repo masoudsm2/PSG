@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
             "type": "vless",
-            "server": "104.16.75.214",
+            "server": "104.25.146.77",
             "server_port": 443,
-            "uuid": "b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c",
+            "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "server-ir-3.ariyuz.org",
+                "server_name": "khoda.ak-khoda.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/page=2",
+                "path": "/sync",
                 "headers": {
-                    "Host": "server-ir-3.ariyuz.org"
+                    "Host": "khoda.ak-khoda.workers.dev"
                 }
             }
         }
