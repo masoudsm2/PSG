@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 59",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 59",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "213.108.20.152",
             "server_port": 443,
@@ -131,32 +129,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
-            "type": "vless",
-            "server": "104.25.146.77",
-            "server_port": 443,
-            "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "khoda.ak-khoda.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "khoda.ak-khoda.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "dalton.makanyab.app",
             "server_port": 443,
