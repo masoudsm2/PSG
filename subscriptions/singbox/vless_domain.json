@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
+                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
+                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,68 +111,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
             "type": "vless",
-            "server": "my-pp.arminpixel2.workers.dev",
-            "server_port": 2095,
-            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+            "server": "sinavip6.cnavippanel.com",
+            "server_port": 8092,
+            "uuid": "67fd52ed-21a7-4f3f-8a56-3de3ec91c1db",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "my-pp.arminpixel2.workers.dev"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
-            "server": "my-pp.arminpixel2.workers.dev",
-            "server_port": 443,
-            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+            "server": "cdn-ad.th3team.ir",
+            "server_port": 2087,
+            "uuid": "cc31ea54-643d-40f1-9461-b121b53177ce",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "my-pp.arminpixel2.workers.dev",
+                "server_name": "pppp26256.th3team.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "my-pp.arminpixel2.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-            "type": "vless",
-            "server": "my-pp.arminpixel2.workers.dev",
-            "server_port": 2096,
-            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "my-pp.arminpixel2.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "my-pp.arminpixel2.workers.dev"
                 }
             }
         }
