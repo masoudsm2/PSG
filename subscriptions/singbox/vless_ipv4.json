@@ -89,7 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 63",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 64",
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 65",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 63",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 64",
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 65",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +117,107 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 63",
+            "type": "vless",
+            "server": "188.166.121.10",
+            "server_port": 2096,
+            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn47.cc.cd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vpn47.cc.cd"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 64",
+            "type": "vless",
+            "server": "88.216.223.37",
+            "server_port": 8443,
+            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn47.cc.cd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vpn47.cc.cd"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 65",
+            "type": "vless",
+            "server": "57.129.137.57",
+            "server_port": 443,
+            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn47.cc.cd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vpn47.cc.cd"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "82.64.152.55",
+            "server_port": 20304,
+            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn47.cc.cd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vpn47.cc.cd"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "161.35.217.79",
             "server_port": 2087,
