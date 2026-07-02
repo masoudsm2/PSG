@@ -25,7 +25,6 @@ dns:
 proxies: 
   - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"57.129.41.216","port":80,"uuid":"7d74eae4-8a06-4306-a923-ad686f30bf26","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"OV-Germany1.09vpn.com"}}}
   - {"name":"🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"85.234.114.53","port":22231,"uuid":"afcac633-0e1a-46c3-bef2-cc01cc0097c8","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"r1.mizulina.top","flow":"xtls-rprx-vision"}
-  - {"name":"🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"85.234.114.53","port":443,"uuid":"afcac633-0e1a-46c3-bef2-cc01cc0097c8","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"r1.mizulina.top","flow":"xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,7 +40,6 @@ proxy-groups:
     proxies: 
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53'
       - '🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 55'
 
   - name: 🌍 Global Media
     type: select

@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 55"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 55"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,10 +109,10 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "85.234.114.53",
-            "server_port": 443,
+            "server_port": 22231,
             "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",

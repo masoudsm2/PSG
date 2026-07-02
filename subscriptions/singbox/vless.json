@@ -91,8 +91,7 @@
                 "direct",
                 "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 55"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +101,7 @@
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 55"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -151,24 +149,6 @@
             "type": "vless",
             "server": "85.234.114.53",
             "server_port": 22231,
-            "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "r1.mizulina.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 55",
-            "type": "vless",
-            "server": "85.234.114.53",
-            "server_port": 443,
             "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
