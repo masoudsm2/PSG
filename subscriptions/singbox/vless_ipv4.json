@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60"
+                "🇲🇽 MX | 🔴 | vless | @NamiraConfigs | 56"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60"
+                "🇲🇽 MX | 🔴 | vless | @NamiraConfigs | 56"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60",
+            "tag": "🇲🇽 MX | 🔴 | vless | @NamiraConfigs | 56",
             "type": "vless",
-            "server": "217.144.107.202",
-            "server_port": 28831,
-            "uuid": "29c80813-35db-47ff-ab35-459f8201155d",
+            "server": "216.238.94.140",
+            "server_port": 8880,
+            "uuid": "f40e17fc-2718-4e4a-ac29-ba7e28dd3164",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/t-me-V2RayyNGvpn",
+                "headers": {
+                    "Host": "216.238.94.140"
+                }
+            }
         }
     ],
     "route": {

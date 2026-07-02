@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 56",
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58",
+                "🇲🇽 MX | 🔴 | vless | @NamiraConfigs | 56"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 56",
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58",
+                "🇲🇽 MX | 🔴 | vless | @NamiraConfigs | 56"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +115,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 56",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "rvg-production-94f3.up.railway.app",
+            "server_port": 443,
+            "uuid": "9983e0c4-c1b6-50f9-60dd-ef59f0f2d5d3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rvg-production-94f3.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/9983e0c4-c1b6-50f9-60dd-ef59f0f2d5d3",
+                "headers": {
+                    "Host": "rvg-production-94f3.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "it.fifapes.monster",
             "server_port": 29148,
@@ -122,7 +149,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "cd.pascalplus.com",
             "server_port": 8443,
@@ -140,13 +167,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60",
+            "tag": "🇲🇽 MX | 🔴 | vless | @NamiraConfigs | 56",
             "type": "vless",
-            "server": "217.144.107.202",
-            "server_port": 28831,
-            "uuid": "29c80813-35db-47ff-ab35-459f8201155d",
+            "server": "216.238.94.140",
+            "server_port": 8880,
+            "uuid": "f40e17fc-2718-4e4a-ac29-ba7e28dd3164",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/t-me-V2RayyNGvpn",
+                "headers": {
+                    "Host": "216.238.94.140"
+                }
+            }
         }
     ],
     "route": {
