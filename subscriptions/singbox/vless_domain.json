@@ -88,14 +88,19 @@
         {
             "outbounds": [
                 "auto",
-                "direct"
+                "direct",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 56",
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "interval": "10m",
-            "outbounds": [],
+            "outbounds": [
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 56",
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57"
+            ],
             "tag": "auto",
             "tolerance": 50,
             "type": "urltest",
@@ -104,6 +109,33 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "it.fifapes.monster",
+            "server_port": 29148,
+            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "cd.pascalplus.com",
+            "server_port": 8443,
+            "uuid": "ebb957fc-5a5a-4a50-b550-c05d24f5ff36",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn3.w-ert.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

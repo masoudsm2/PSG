@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 61"
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 61"
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "cdn-ad.th3team.ir",
-            "server_port": 2087,
-            "uuid": "cc31ea54-643d-40f1-9461-b121b53177ce",
+            "server": "cd.pascalplus.com",
+            "server_port": 8443,
+            "uuid": "ebb957fc-5a5a-4a50-b550-c05d24f5ff36",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pppp26256.th3team.ir",
+                "server_name": "cdn3.w-ert.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
