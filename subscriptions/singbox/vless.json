@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "tstsrat.speed1vipsarbaziclick.site",
             "server_port": 80,
@@ -129,7 +127,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
             "type": "vless",
             "server": "57.129.41.216",
             "server_port": 80,
@@ -141,24 +139,6 @@
                 "path": "/vless/",
                 "headers": {
                     "Host": "57.129.41.216"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "85.234.114.53",
-            "server_port": 22231,
-            "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "r1.mizulina.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
