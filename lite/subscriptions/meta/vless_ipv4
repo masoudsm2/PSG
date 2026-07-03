@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"104.20.34.24","port":2083,"uuid":"b632470f-2df7-4e0e-a44e-5909ec33a349","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"eZ-92A33F.LASHKar.wORkERs.DEV","ws-opts":{"path":"/eyJqdW5rIjoiUjFQOVJSMGdxQUQxRDYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560","headers":{"Host":"ez-92a33f.lashkar.workers.dev"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"150.241.94.88","port":610,"uuid":"16e7c88d-3967-484a-ba2a-1c5ba1d74f62","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
 
   - name: 🌍 Global Media
     type: select
