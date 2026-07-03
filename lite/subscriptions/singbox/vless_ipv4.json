@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "104.26.15.137",
+            "server": "104.248.23.56",
             "server_port": 443,
-            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "shegeftihaaa.net",
+                "server_name": "vpn47.cc.cd",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/rsedgws",
+                "path": "/",
                 "headers": {
-                    "Host": "shegeftihaaa.net"
+                    "Host": "vpn47.cc.cd"
                 }
             }
         }
