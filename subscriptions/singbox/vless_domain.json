@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 50",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 51"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 50",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 51"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,19 +109,10 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "usa.mohammadaz2.shop",
             "server_port": 42348,
-            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "niga.mohammadaz2sub.ir",
-            "server_port": 62803,
             "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
             "flow": "",
             "packet_encoding": "xudp"
