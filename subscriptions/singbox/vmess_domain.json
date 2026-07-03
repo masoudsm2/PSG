@@ -89,10 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 48",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 48",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,52 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 48",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45",
             "type": "vmess",
-            "server": "134.195.196.211",
-            "server_port": 18000,
-            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49",
-            "type": "vmess",
-            "server": "82.198.246.250",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50",
-            "type": "vmess",
-            "server": "69.84.182.49",
-            "server_port": 80,
-            "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51",
-            "type": "vmess",
-            "server": "69.84.182.49",
-            "server_port": 80,
-            "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
