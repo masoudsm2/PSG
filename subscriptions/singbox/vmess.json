@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 53"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 47",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 53"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 47",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +113,43 @@
             "type": "direct"
         },
         {
-            "tag": "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 47",
             "type": "vmess",
-            "server": "140.238.2.250",
-            "server_port": 443,
-            "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+            "server": "82.198.246.250",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
+            "type": "vmess",
+            "server": "69.84.182.49",
+            "server_port": 80,
+            "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49",
+            "type": "vmess",
+            "server": "69.84.182.49",
+            "server_port": 80,
+            "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
