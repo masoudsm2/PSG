@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58",
             "type": "vless",
-            "server": "104.27.7.125",
-            "server_port": 443,
-            "uuid": "72d1797c-cef8-410a-b8fd-db9104dc3cb0",
+            "server": "161.35.217.79",
+            "server_port": 2087,
+            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "amooaliii.net",
+                "server_name": "vpn47.cc.cd",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/jdhfyws",
+                "path": "/",
                 "headers": {
-                    "Host": "amooaliii.net"
+                    "Host": "vpn47.cc.cd"
                 }
             }
         }
