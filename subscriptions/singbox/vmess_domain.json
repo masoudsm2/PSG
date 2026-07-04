@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 53",
             "type": "vmess",
             "server": "hl112.cowjump.site",
             "server_port": 443,

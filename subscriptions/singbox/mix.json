@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
-                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
-                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,40 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 49",
+            "type": "shadowsocks",
+            "server": "82.38.31.193",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "104.16.72.101",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rsedgws",
+                "headers": {
+                    "Host": "shegeftihaaa.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
             "server": "104.16.72.2",
             "server_port": 443,
@@ -142,7 +175,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "104.16.72.41",
             "server_port": 443,
@@ -167,7 +200,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 53",
             "type": "vmess",
             "server": "hl112.cowjump.site",
             "server_port": 443,
@@ -190,23 +223,6 @@
                     "Host": "hl112.cowjump.site"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
-            "type": "vless",
-            "server": "abr.mohammadaz2arvan.ir",
-            "server_port": 42348,
-            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56",
-            "type": "shadowsocks",
-            "server": "98.71.81.64",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "7kxYV8faLKFy8q1S"
         }
     ],
     "route": {
