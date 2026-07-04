@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 48"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 48"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 48",
-            "type": "vmess",
-            "server": "132.145.80.230",
-            "server_port": 80,
-            "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/cctv13.m3u8",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "tekno.fusetea.ir",
+            "server_port": 555,
+            "uuid": "3ffd3381-b733-4f39-a7e5-516018b4b4d6",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

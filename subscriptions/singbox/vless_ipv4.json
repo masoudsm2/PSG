@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,25 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "91.107.150.147",
-            "server_port": 26191,
-            "uuid": "5cbc3beb-61f1-45eb-b365-9555353cdf96",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47",
-            "type": "vless",
-            "server": "108.162.193.162",
+            "server": "156.154.245.83",
             "server_port": 443,
-            "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "octopusss5.info",
+                "server_name": "vpn47.cc.cd",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -138,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/udfyfws",
+                "path": "/",
                 "headers": {
-                    "Host": "octopusss5.info"
+                    "Host": "vpn47.cc.cd"
                 }
             }
         }
