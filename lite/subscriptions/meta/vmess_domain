@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":""}}}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58","type":"vmess","server":"69.84.182.49","port":80,"cipher":"auto","uuid":"f8975871-a7a0-4906-8835-a23c1258ca1e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58'
 
   - name: 🌍 Global Media
     type: select

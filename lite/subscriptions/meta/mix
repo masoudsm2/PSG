@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"nahan-core.fatitelegram.workers.dev","port":443,"uuid":"73796e63-0000-4000-8000-000000000000","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"nahan-core.fatitelegram.workers.dev","ws-opts":{"path":"/sync","headers":{"Host":"nahan-core.fatitelegram.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58","type":"vmess","server":"69.84.182.49","port":80,"cipher":"auto","uuid":"f8975871-a7a0-4906-8835-a23c1258ca1e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58'
 
   - name: 🌍 Global Media
     type: select

@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 54",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 55",
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 57",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53",
-                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 54",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 55",
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 57",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,24 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "abr.mohammadaz2arvan.ir",
+            "server_port": 42348,
+            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 55",
+            "type": "shadowsocks",
+            "server": "98.71.81.64",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7kxYV8faLKFy8q1S"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
             "type": "vmess",
             "server": "82.198.246.97",
             "server_port": 180,
@@ -126,7 +143,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 54",
+            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 57",
             "type": "vmess",
             "server": "134.195.196.211",
             "server_port": 18000,
@@ -135,7 +152,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58",
             "type": "vmess",
             "server": "69.84.182.49",
             "server_port": 80,
@@ -147,40 +164,6 @@
                 "path": "/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
-            "type": "vmess",
-            "server": "57.151.100.27",
-            "server_port": 10086,
-            "uuid": "550e8400-e29b-41d4-a716-446655440000",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-            "type": "vless",
-            "server": "nahan-core.fatitelegram.workers.dev",
-            "server_port": 443,
-            "uuid": "73796e63-0000-4000-8000-000000000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nahan-core.fatitelegram.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "nahan-core.fatitelegram.workers.dev"
                 }
             }
         }
