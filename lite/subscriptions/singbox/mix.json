@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-            "type": "vless",
-            "server": "104.27.7.125",
-            "server_port": 443,
-            "uuid": "72d1797c-cef8-410a-b8fd-db9104dc3cb0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "amooaliii.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/jdhfyws",
-                "headers": {
-                    "Host": "amooaliii.net"
-                }
-            }
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57",
+            "type": "vmess",
+            "server": "57.151.100.27",
+            "server_port": 10086,
+            "uuid": "550e8400-e29b-41d4-a716-446655440000",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {

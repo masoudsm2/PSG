@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"104.27.7.125","port":443,"uuid":"72d1797c-cef8-410a-b8fd-db9104dc3cb0","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"amooaliii.net","ws-opts":{"path":"/jdhfyws","headers":{"Host":"amooaliii.net"}}}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57","type":"vmess","server":"57.151.100.27","port":10086,"cipher":"auto","uuid":"550e8400-e29b-41d4-a716-446655440000","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57'
 
   - name: 🌍 Global Media
     type: select

@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 48"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 48"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 48",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57",
             "type": "vmess",
-            "server": "132.145.80.230",
-            "server_port": 80,
-            "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
+            "server": "57.151.100.27",
+            "server_port": 10086,
+            "uuid": "550e8400-e29b-41d4-a716-446655440000",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/cctv13.m3u8",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         }
     ],
     "route": {
