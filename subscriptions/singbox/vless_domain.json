@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "octopusss5.info",
+            "server": "nahan-core.fatitelegram.workers.dev",
             "server_port": 443,
-            "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+            "uuid": "73796e63-0000-4000-8000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "octopusss5.info",
+                "server_name": "nahan-core.fatitelegram.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/udfyfws",
+                "path": "/sync",
                 "headers": {
-                    "Host": "octopusss5.info"
+                    "Host": "nahan-core.fatitelegram.workers.dev"
                 }
             }
         }
