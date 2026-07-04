@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 55"
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 55"
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 55",
+            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56",
             "type": "shadowsocks",
             "server": "98.71.81.64",
             "server_port": 443,
