@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "192.166.82.165",
-            "server_port": 80,
-            "uuid": "ed6297aa-aa75-46b8-fea7-98074fd0a482",
-            "flow": "",
+            "server": "5.157.51.172",
+            "server_port": 443,
+            "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/assets/js/app-v2.8.4-5f9a2b3c.js",
-                "headers": {
-                    "Host": "192.166.82.165"
+            "tls": {
+                "enabled": true,
+                "server_name": "api-6a20f558.noooo.win",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
