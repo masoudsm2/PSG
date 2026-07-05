@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +113,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "tmesubgift.up.railway.app",
+            "server_port": 443,
+            "uuid": "2fec08e2-76f8-8b7b-71cc-6b6569db7eb2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tmesubgift.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/2fec08e2-76f8-8b7b-71cc-6b6569db7eb2",
+                "headers": {
+                    "Host": "tmesubgift.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "s643.ccgfw.top",
             "server_port": 443,
@@ -129,7 +156,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "a.samrayan.ir",
             "server_port": 443,
