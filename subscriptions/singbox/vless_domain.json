@@ -89,7 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 57",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 57",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +115,40 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "tmesubgift.up.railway.app",
-            "server_port": 443,
-            "uuid": "2fec08e2-76f8-8b7b-71cc-6b6569db7eb2",
+            "server": "JDHDHDJJDHDU.DJJDHUDIISJJEJSJ.eorvexo.ir",
+            "server_port": 8080,
+            "uuid": "47e9fa2b-1146-47cb-9623-18a5343ed061",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tmesubgift.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/2fec08e2-76f8-8b7b-71cc-6b6569db7eb2",
-                "headers": {
-                    "Host": "tmesubgift.up.railway.app"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "JDHSHSHHJSHHDHJSHHSHHHSSHSH.JSHJJJJSSUJSH.mamli14.ir",
+            "server_port": 8080,
+            "uuid": "47e9fa2b-1146-47cb-9623-18a5343ed061",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "HSHSHSJSJJSHSJJSJJEJJSHE.SUUSJSJJWJ.mamli12.ir",
+            "server_port": 8080,
+            "uuid": "47e9fa2b-1146-47cb-9623-18a5343ed061",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
+            "type": "vless",
+            "server": "fn.fifapes.monster",
+            "server_port": 2090,
+            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
