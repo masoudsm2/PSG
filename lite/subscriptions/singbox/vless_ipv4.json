@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,27 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "161.35.217.79",
-            "server_port": 2087,
-            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "server": "192.166.82.165",
+            "server_port": 80,
+            "uuid": "ed6297aa-aa75-46b8-fea7-98074fd0a482",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn47.cc.cd",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/assets/js/app-v2.8.4-5f9a2b3c.js",
                 "headers": {
-                    "Host": "vpn47.cc.cd"
+                    "Host": "192.166.82.165"
                 }
             }
         }

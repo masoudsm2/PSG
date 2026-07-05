@@ -89,6 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
                 "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
             ],
@@ -98,6 +100,8 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
                 "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
             ],
@@ -109,6 +113,49 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "13.40.188.81",
+            "server_port": 443,
+            "uuid": "7e6a38f4-7150-4eff-ae68-579852357ddb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "13.40.188.81",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "172.64.40.79",
+            "server_port": 2083,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t1s1.rittbo.kdns.fr"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50",
