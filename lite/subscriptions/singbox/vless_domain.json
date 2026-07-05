@@ -88,17 +88,14 @@
         {
             "outbounds": [
                 "auto",
-                "direct",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 54"
+                "direct"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "interval": "10m",
-            "outbounds": [
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 54"
-            ],
+            "outbounds": [],
             "tag": "auto",
             "tolerance": 50,
             "type": "urltest",
@@ -107,15 +104,6 @@
         {
             "tag": "direct",
             "type": "direct"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "tekno.fusetea.ir",
-            "server_port": 555,
-            "uuid": "3ffd3381-b733-4f39-a7e5-516018b4b4d6",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
