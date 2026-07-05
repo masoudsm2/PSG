@@ -89,11 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 52",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 52",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,77 +111,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "89.39.121.54",
-            "server_port": 110,
-            "uuid": "9e1671d2-4092-4ae4-93b3-1d2db0f1a071",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "45.38.37.81",
-            "server_port": 2020,
-            "uuid": "685a93cd-bc59-4971-a0ce-1893043adf34",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "13.40.188.81",
-            "server_port": 443,
-            "uuid": "7e6a38f4-7150-4eff-ae68-579852357ddb",
+            "server": "45.86.159.134",
+            "server_port": 2085,
+            "uuid": "1ea1b30b-4114-4a5c-bd3a-9637bdae1948",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "13.40.188.81",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "172.64.40.79",
-            "server_port": 2083,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
-                }
+                "type": "grpc",
+                "service_name": "vless"
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "5.157.51.172",
+            "server": "213.108.20.152",
             "server_port": 443,
-            "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
+            "uuid": "f76412c3-abdf-4318-baf8-4a1bfa438968",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "api-6a20f558.noooo.win",
+                "server_name": "node-de-frankfurt.neverlock.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
