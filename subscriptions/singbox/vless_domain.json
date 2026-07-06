@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +111,22 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "my-pp.arminpixel2.workers.dev",
-            "server_port": 443,
-            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+            "server": "usa.mohammadaz2.shop",
+            "server_port": 42348,
+            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "my-pp.arminpixel2.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "my-pp.arminpixel2.workers.dev"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "niga.mohammadaz2sub.ir",
+            "server_port": 62803,
+            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
