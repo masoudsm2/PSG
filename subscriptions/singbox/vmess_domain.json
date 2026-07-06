@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52",
-                "🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52",
-                "🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,38 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51",
             "type": "vmess",
-            "server": "57.131.32.191",
-            "server_port": 8443,
-            "uuid": "848af33c-81f2-40c9-93b2-4681d056936b",
+            "server": "173.249.209.146",
+            "server_port": 20086,
+            "uuid": "3935c2dc-dbb0-43f7-b367-fe89abe87fdf",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "OV-Italy1.09vpn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/vmess/",
+                "path": "/",
                 "headers": {
-                    "Host": "OV-Italy1.09vpn.com"
+                    "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55",
-            "type": "vmess",
-            "server": "23.162.200.198",
-            "server_port": 18000,
-            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {

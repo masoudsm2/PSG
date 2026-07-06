@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52","type":"vmess","server":"57.131.32.191","port":8443,"cipher":"auto","uuid":"848af33c-81f2-40c9-93b2-4681d056936b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"OV-Italy1.09vpn.com"}}}
-  - {"name":"🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55","type":"vmess","server":"23.162.200.198","port":18000,"cipher":"auto","uuid":"f8c8dc3d-0d37-46b0-8b34-a7232882fcfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51","type":"vmess","server":"173.249.209.146","port":20086,"cipher":"auto","uuid":"3935c2dc-dbb0-43f7-b367-fe89abe87fdf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52'
-      - '🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
 
   - name: 🌍 Global Media
     type: select

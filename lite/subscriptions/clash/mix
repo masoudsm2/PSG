@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51","type":"vmess","server":"173.249.209.146","port":20086,"cipher":"auto","uuid":"3935c2dc-dbb0-43f7-b367-fe89abe87fdf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
 
   - name: 🌍 Global Media
     type: select
