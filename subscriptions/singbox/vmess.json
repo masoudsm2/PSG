@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57"
+                "🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52",
+                "🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57"
+                "🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52",
+                "🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,11 +111,36 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57",
+            "tag": "🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52",
             "type": "vmess",
-            "server": "82.198.246.9",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "server": "57.131.32.191",
+            "server_port": 8443,
+            "uuid": "848af33c-81f2-40c9-93b2-4681d056936b",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "OV-Italy1.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": "OV-Italy1.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55",
+            "type": "vmess",
+            "server": "23.162.200.198",
+            "server_port": 18000,
+            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
             "security": "auto",
             "alter_id": 0
         }
