@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,29 +109,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "cdnjs.com",
-            "server_port": 2095,
-            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 443,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "my-pp.arminpixel2.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/fp=randomized",
+                "path": "/sync",
                 "headers": {
-                    "Host": "cdnjs.com"
+                    "Host": "my-pp.arminpixel2.workers.dev"
                 }
             }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "JDHDHDJJDHDU.DJJDHUDIISJJEJSJ.eorvexo.ir",
-            "server_port": 8080,
-            "uuid": "47e9fa2b-1146-47cb-9623-18a5343ed061",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
