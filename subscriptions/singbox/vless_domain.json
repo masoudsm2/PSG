@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +111,22 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63",
             "type": "vless",
-            "server": "betty.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "server": "main.wrosray.shop",
+            "server_port": 2053,
+            "uuid": "7737901a-0140-447b-f9a6-85bffaae7f42",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64",
+            "type": "vless",
+            "server": "wrose.wrosray.shop",
+            "server_port": 37816,
+            "uuid": "21863ccf-29b1-4b15-86b0-2e495de80039",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
