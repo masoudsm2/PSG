@@ -23,7 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 50","type":"vless","server":"89.39.121.54","port":110,"uuid":"6480d577-197b-4d87-84dd-db01268c0514","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60","type":"vless","server":"104.16.72.50","port":443,"uuid":"b26ec0f4-6c92-45f7-b287-2a664abf1963","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"server-ir-7.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"104.16.72.50"}}}
+  - {"name":"🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 61","type":"vless","server":"45.131.209.212","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"176.222.54.252","port":26690,"uuid":"bd449f7a-95aa-4920-9af0-cd6b5d4cb5f1","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63","type":"vless","server":"104.16.75.224","port":443,"uuid":"b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"server-ir-3.ariyuz.org","ws-opts":{"path":"/page=2","headers":{"Host":"104.16.75.224"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 50'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
+      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
 
   - name: 🌍 Global Media
     type: select
