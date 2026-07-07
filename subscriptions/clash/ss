@@ -23,10 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"pasarguard.losthonor.ir","port":3033,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60","type":"ss","server":"pasarguard.losthonor.ir","port":3037,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"pasarguard.losthonor.ir","port":3046,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"pasarguard.losthonor.ir","port":3038,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"pasarguard.losthonor.ir","port":3047,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60","type":"ss","server":"pasarguard.losthonor.ir","port":3061,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"pasarguard.losthonor.ir","port":3040,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"pasarguard.losthonor.ir","port":3055,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63","type":"ss","server":"pasarguard.losthonor.ir","port":3033,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -44,6 +45,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
 
   - name: 🌍 Global Media
     type: select
