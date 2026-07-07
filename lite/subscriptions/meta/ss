@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63","type":"ss","server":"pasarguard.losthonor.ir","port":3033,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"94.156.250.148","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
+      - '🇬🇧 GB | 🟢 | ss | @NamiraConfigs | 61'
 
   - name: 🌍 Global Media
     type: select
