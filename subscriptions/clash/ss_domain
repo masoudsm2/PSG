@@ -23,11 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"pasarguard.losthonor.ir","port":3047,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60","type":"ss","server":"pasarguard.losthonor.ir","port":3061,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"pasarguard.losthonor.ir","port":3040,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"pasarguard.losthonor.ir","port":3055,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63","type":"ss","server":"pasarguard.losthonor.ir","port":3033,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54","type":"ss","server":"bot.sobhanpor.ir","port":1080,"password":"B3mkXKgRCibW_mgNFWqW7Qpgiwm_I5yB","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59'
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60'
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61'
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54'
 
   - name: 🌍 Global Media
     type: select
