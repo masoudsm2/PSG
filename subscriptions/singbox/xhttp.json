@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "cd.pascalplus.com",
+            "server": "87.107.193.242",
             "server_port": 8443,
-            "uuid": "ebb957fc-5a5a-4a50-b550-c05d24f5ff36",
+            "uuid": "bb7850af-10de-406d-a847-cf5deee939d7",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn3.w-ert.org",
+                "server_name": "f2iooen.tron2tron.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
