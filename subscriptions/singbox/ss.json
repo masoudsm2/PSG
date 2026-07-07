@@ -89,11 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59",
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60",
                 "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59",
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60",
                 "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,10 +115,26 @@
             "type": "direct"
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3033,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3037,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61",
             "type": "shadowsocks",
             "server": "pasarguard.losthonor.ir",
-            "server_port": 3043,
+            "server_port": 3046,
             "method": "chacha20-ietf-poly1305",
             "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
         },
@@ -128,31 +142,7 @@
             "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62",
             "type": "shadowsocks",
             "server": "pasarguard.losthonor.ir",
-            "server_port": 3041,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63",
-            "type": "shadowsocks",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 3034,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64",
-            "type": "shadowsocks",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 3048,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65",
-            "type": "shadowsocks",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 3042,
+            "server_port": 3038,
             "method": "chacha20-ietf-poly1305",
             "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
         }
