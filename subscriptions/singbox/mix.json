@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59",
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59",
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "x4g-production-b104.up.railway.app",
+            "server_port": 443,
+            "uuid": "eb6100e8-8f59-d6aa-c018-b3b48795fb7b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-b104.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/eb6100e8-8f59-d6aa-c018-b3b48795fb7b",
+                "headers": {
+                    "Host": "x4g-production-b104.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57",
             "type": "shadowsocks",
             "server": "mmd.radanjami.org",
             "server_port": 37309,
@@ -125,7 +150,7 @@
             "password": "b4jq8kdzbfpt7ipf"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "TurkGame.soltankabos.ir",
             "server_port": 22337,
@@ -134,7 +159,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "172.64.40.79",
             "server_port": 2083,
@@ -159,20 +184,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60",
             "type": "vmess",
             "server": "82.198.246.97",
             "server_port": 180,
             "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60",
-            "type": "vmess",
-            "server": "ir.masterlord.ir",
-            "server_port": 1900,
-            "uuid": "a5ae0167-b947-4394-a5b8-23a87b63c158",
             "security": "auto",
             "alter_id": 0
         }

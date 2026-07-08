@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56",
+            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57",
             "type": "shadowsocks",
             "server": "mmd.radanjami.org",
             "server_port": 37309,
