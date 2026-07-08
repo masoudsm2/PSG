@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60",
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 61",
-                "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59",
+                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60",
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 61",
-                "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59",
+                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,15 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
+            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56",
+            "type": "shadowsocks",
+            "server": "mmd.radanjami.org",
+            "server_port": 37309,
+            "method": "chacha20-ietf-poly1305",
+            "password": "b4jq8kdzbfpt7ipf"
+        },
+        {
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "TurkGame.soltankabos.ir",
             "server_port": 22337,
@@ -126,7 +134,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "172.64.40.79",
             "server_port": 2083,
@@ -151,7 +159,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59",
             "type": "vmess",
             "server": "82.198.246.97",
             "server_port": 180,
@@ -160,20 +168,11 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 61",
+            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60",
             "type": "vmess",
             "server": "ir.masterlord.ir",
             "server_port": 1900,
             "uuid": "a5ae0167-b947-4394-a5b8-23a87b63c158",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62",
-            "type": "vmess",
-            "server": "nlt.reata.ir",
-            "server_port": 1020,
-            "uuid": "6244c41a-f4c1-4733-a654-c38f7729b13c",
             "security": "auto",
             "alter_id": 0
         }

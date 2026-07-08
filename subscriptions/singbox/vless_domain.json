@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "TurkGame.soltankabos.ir",
             "server_port": 22337,

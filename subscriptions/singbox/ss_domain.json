@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 59"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 59"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,12 +109,12 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 59",
+            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56",
             "type": "shadowsocks",
-            "server": "bot.sobhanpor.ir",
-            "server_port": 1080,
+            "server": "mmd.radanjami.org",
+            "server_port": 37309,
             "method": "chacha20-ietf-poly1305",
-            "password": "B3mkXKgRCibW_mgNFWqW7Qpgiwm_I5yB"
+            "password": "b4jq8kdzbfpt7ipf"
         }
     ],
     "route": {
