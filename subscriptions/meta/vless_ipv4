@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"45.8.211.217","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
-  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"5.160.131.62","port":20310,"uuid":"a54eced1-17ff-49fa-aeea-2088faa26650","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"104.25.122.72","port":80,"uuid":"6cd78ec7-b715-471c-92b4-0c3842caea4b","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=","headers":{"Host":"billowing-cloud-d339.sospanel.workers.dev"}}}
-  - {"name":"🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"45.131.6.5","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"204.216.216.23","port":10086,"uuid":"9f0285ee-20ca-4953-bcdb-86a920652923","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 53'
-      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 53'
 
   - name: 🌍 Global Media
     type: select

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"45.131.6.5","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55","type":"ss","server":"82.38.31.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55'
 
   - name: 🌍 Global Media
     type: select

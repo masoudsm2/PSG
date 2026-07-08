@@ -9,12 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-
+🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 51 = vmess, ir.masterlord.ir, 1900, username = a5ae0167-b947-4394-a5b8-23a87b63c158, ws = false, tls = false
+🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 52 = vmess, nlt.reata.ir, 1020, username = 6244c41a-f4c1-4733-a654-c38f7729b13c, ws = false, tls = false
+🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 54 = ss, 82.38.31.218, 8080, encrypt-method = chacha20-ietf-poly1305, password = k1dBOmOB4oqi7Ump37a1bQ
+🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55 = ss, 82.38.31.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
-PSG-AUTO = url-test, 
-PSG-FALLBACK = fallback, 
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 51, 🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 52, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 54, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55
+PSG-AUTO = url-test, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 51, 🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 52, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 54, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55
+PSG-FALLBACK = fallback, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 51, 🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 52, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 54, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55
 
 [Rule]
 GEOIP,IR,DIRECT
