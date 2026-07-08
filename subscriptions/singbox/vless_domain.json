@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,11 +109,11 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
-            "server": "xn--sont23oo-mk75gi8a.netbazshop.ir",
-            "server_port": 2035,
-            "uuid": "96f5436d-6496-4473-b4ca-ae37f170387c",
+            "server": "TurkGame.soltankabos.ir",
+            "server_port": 22337,
+            "uuid": "fdebd2b4-4c8f-474a-851a-981082195643",
             "flow": "",
             "packet_encoding": "xudp"
         }

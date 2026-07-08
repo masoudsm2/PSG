@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55"
+                "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55"
+                "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,12 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55",
-            "type": "shadowsocks",
-            "server": "82.38.31.35",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "tag": "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62",
+            "type": "vmess",
+            "server": "nlt.reata.ir",
+            "server_port": 1020,
+            "uuid": "6244c41a-f4c1-4733-a654-c38f7729b13c",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {
