@@ -89,10 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 53",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54"
+                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 50",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 53",
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 53",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54"
+                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 50",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 53",
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,16 +117,41 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "xn--sont23oo-mk75gi8a.netbazshop.ir",
-            "server_port": 2035,
-            "uuid": "96f5436d-6496-4473-b4ca-ae37f170387c",
+            "server": "45.8.211.217",
+            "server_port": 443,
+            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vangoghhh.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rdfgtws",
+                "headers": {
+                    "Host": "vangoghhh.info"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "5.160.131.62",
+            "server_port": 20310,
+            "uuid": "a54eced1-17ff-49fa-aeea-2088faa26650",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "104.25.122.72",
             "server_port": 80,
@@ -140,7 +167,7 @@
             }
         },
         {
-            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "45.131.6.5",
             "server_port": 443,
@@ -165,29 +192,13 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "37.139.24.45",
-            "server_port": 443,
-            "uuid": "bbbde6b4-eb72-4018-b702-1c782c528927",
+            "server": "xn--sont23oo-mk75gi8a.netbazshop.ir",
+            "server_port": 2035,
+            "uuid": "96f5436d-6496-4473-b4ca-ae37f170387c",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "etppnyfi.j84lb8cxseup4s2nb3if.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "etppnyfi.j84lb8cxseup4s2nb3if.workers.dev"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
