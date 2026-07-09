@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 60",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
-                "🇪🇸 ES | 🔴 | vless | @NamiraConfigs | 63",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 58",
+                "🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 60",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
-                "🇪🇸 ES | 🔴 | vless | @NamiraConfigs | 63",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 58",
+                "🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,34 @@
             "type": "direct"
         },
         {
-            "tag": "🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 60",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "185.226.93.88",
+            "server_port": 443,
+            "uuid": "9b8a334b-e4e1-424c-99b4-4fd203ffb571",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "185.226.93.88",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 58",
+            "type": "vless",
+            "server": "65.109.209.71",
+            "server_port": 8441,
+            "uuid": "9b8a334b-e4e1-424c-99b4-4fd203ffb571",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59",
             "type": "shadowsocks",
             "server": "45.83.181.155",
             "server_port": 14475,
@@ -125,7 +152,7 @@
             "password": "j1HaUANVRdB5ltSqhLYPWm"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60",
             "type": "vless",
             "server": "185.204.170.178",
             "server_port": 443,
@@ -143,7 +170,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "104.21.74.63",
             "server_port": 443,
@@ -166,31 +193,6 @@
                     "Host": "amooaliii.net"
                 }
             }
-        },
-        {
-            "tag": "🇪🇸 ES | 🔴 | vless | @NamiraConfigs | 63",
-            "type": "vless",
-            "server": "spain.unixzone.us",
-            "server_port": 36326,
-            "uuid": "63ff4bfa-0f1d-48e4-8314-e882b14e602c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/jdiedjiedjijd",
-                "headers": {
-                    "Host": "spain.unixzone.us"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64",
-            "type": "vmess",
-            "server": "82.198.246.37",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {
