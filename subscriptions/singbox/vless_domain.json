@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58"
+                "🇪🇸 ES | 🔴 | vless | @NamiraConfigs | 63"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58"
+                "🇪🇸 ES | 🔴 | vless | @NamiraConfigs | 63"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,38 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+            "tag": "🇪🇸 ES | 🔴 | vless | @NamiraConfigs | 63",
             "type": "vless",
-            "server": "x4g-production-b104.up.railway.app",
-            "server_port": 443,
-            "uuid": "eb6100e8-8f59-d6aa-c018-b3b48795fb7b",
+            "server": "spain.unixzone.us",
+            "server_port": 36326,
+            "uuid": "63ff4bfa-0f1d-48e4-8314-e882b14e602c",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-b104.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/ws/eb6100e8-8f59-d6aa-c018-b3b48795fb7b",
+                "path": "/jdiedjiedjijd",
                 "headers": {
-                    "Host": "x4g-production-b104.up.railway.app"
+                    "Host": "spain.unixzone.us"
                 }
             }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
-            "type": "vless",
-            "server": "TurkGame.soltankabos.ir",
-            "server_port": 22337,
-            "uuid": "fdebd2b4-4c8f-474a-851a-981082195643",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
