@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 45"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 45"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
+            "type": "vless",
+            "server": "s2.cnavippanel.com",
+            "server_port": 4568,
+            "uuid": "4d712194-6765-4f4a-863b-97cc53c3260a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
             "server": "x4g-production-213b.up.railway.app",
             "server_port": 443,
@@ -136,7 +147,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 45",
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 47",
             "type": "vless",
             "server": "mypanel.unixzone.us",
             "server_port": 12068,
