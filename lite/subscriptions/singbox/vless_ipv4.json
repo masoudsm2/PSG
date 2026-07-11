@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "172.67.250.163",
-            "server_port": 80,
-            "uuid": "234c52f2-0d7b-dc4a-0d6b-b0b30000002e",
+            "server": "45.95.0.219",
+            "server_port": 46292,
+            "uuid": "ef5e8ad2-9f17-4337-b4b3-9a91ea96f115",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "billowing-surf-d251.netizo06.workers.dev"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

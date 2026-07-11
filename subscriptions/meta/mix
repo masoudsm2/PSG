@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43","type":"vless","server":"8.47.69.0","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"s2.cnavippanel.com","port":4568,"uuid":"4d712194-6765-4f4a-863b-97cc53c3260a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"germany-de-1.appcodes.ir","port":8080,"uuid":"f8cae104-2eaa-4b16-b258-65be28281b70","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"45.95.0.219","port":46292,"uuid":"ef5e8ad2-9f17-4337-b4b3-9a91ea96f115","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52'
 
   - name: 🌍 Global Media
     type: select
