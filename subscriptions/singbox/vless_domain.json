@@ -89,10 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 48",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 49",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 48",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 49",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,7 +117,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 48",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "x4g-production-213b.up.railway.app",
+            "server_port": 443,
+            "uuid": "6e475ace-9410-5f61-8ea9-f05fadd1f604",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-213b.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/6e475ace-9410-5f61-8ea9-f05fadd1f604",
+                "headers": {
+                    "Host": "x4g-production-213b.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 49",
             "type": "vless",
             "server": "gr1.fifapes.monster",
             "server_port": 8882,
@@ -124,7 +151,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
             "server": "foloki-production.up.railway.app",
             "server_port": 443,
@@ -149,7 +176,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
             "server": "rare-creation-production.up.railway.app",
             "server_port": 443,
@@ -174,7 +201,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "germany-de-1.appcodes.ir",
             "server_port": 8080,
