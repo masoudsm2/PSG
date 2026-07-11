@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46"
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46"
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,38 +111,31 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
+            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
+            "type": "vless",
+            "server": "x4g-production-13a0.up.railway.app",
+            "server_port": 443,
+            "uuid": "3a9d300b-ccd9-c036-773e-9300b21689a1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-13a0.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45",
             "type": "vless",
             "server": "s2.cnavippanel.com",
             "server_port": 4568,
             "uuid": "4d712194-6765-4f4a-863b-97cc53c3260a",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
-            "type": "vless",
-            "server": "x4g-production-213b.up.railway.app",
-            "server_port": 443,
-            "uuid": "6e475ace-9410-5f61-8ea9-f05fadd1f604",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-213b.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/6e475ace-9410-5f61-8ea9-f05fadd1f604",
-                "headers": {
-                    "Host": "x4g-production-213b.up.railway.app"
-                }
-            }
         }
     ],
     "route": {
