@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 45"
             ],
@@ -98,6 +99,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 45"
             ],
@@ -109,6 +111,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
+            "type": "vless",
+            "server": "8.47.69.0",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rsedgws",
+                "headers": {
+                    "Host": "shegeftihaaa.net"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
