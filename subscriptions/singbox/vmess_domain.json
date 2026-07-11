@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 46",
-                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 47",
-                "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 48"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 46",
-                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 47",
-                "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 48"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 46",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
             "type": "vmess",
             "server": "173.249.209.146",
             "server_port": 20086,
@@ -129,29 +127,13 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 47",
+            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 57",
             "type": "vmess",
             "server": "31.77.149.99",
             "server_port": 110,
             "uuid": "f0841ef6-a703-4248-9c69-efed21a38e65",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 48",
-            "type": "vmess",
-            "server": "47.250.45.234",
-            "server_port": 43063,
-            "uuid": "c77f48f5-4be3-4461-b52b-49998e7b897b",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki",
-                "headers": {
-                    "Host": ""
-                }
-            }
         }
     ],
     "route": {
