@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"104.16.75.207","port":443,"uuid":"b26ec0f4-6c92-45f7-b287-2a664abf1963","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"main-2.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"104.16.75.207"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"104.16.72.50","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
