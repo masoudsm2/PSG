@@ -89,7 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 64",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 64",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +115,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "cf2.danesh-bonyan.com",
-            "server_port": 8443,
-            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
+            "server": "x4g-production-c71f.up.railway.app",
+            "server_port": 443,
+            "uuid": "01200f5c-5321-d946-7028-0661ea0a2c0e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
+                "server_name": "x4g-production-c71f.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,11 +133,54 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/ws/01200f5c-5321-d946-7028-0661ea0a2c0e",
                 "headers": {
-                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
+                    "Host": "x4g-production-c71f.up.railway.app"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
+            "type": "vless",
+            "server": "free7.playon.ir",
+            "server_port": 443,
+            "uuid": "886a6c96-1d82-4b85-a792-dc9cbc1ecaf2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "free7.playon.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/fc-AOCnNa8dtvagXE1yfODtBNY1",
+                "headers": {
+                    "Host": "free7.playon.ir"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 64",
+            "type": "vless",
+            "server": "young.maxic.ir",
+            "server_port": 2110,
+            "uuid": "edd0d872-702c-42d4-bb3f-ded08ab89678",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 65",
+            "type": "vless",
+            "server": "ziba.maxic.ir",
+            "server_port": 2100,
+            "uuid": "2674a67b-b8b4-4fd3-982c-d274b6514f9f",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

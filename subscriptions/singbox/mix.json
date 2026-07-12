@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 64",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 64",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,74 +117,95 @@
             "type": "direct"
         },
         {
-            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63",
-            "type": "vmess",
-            "server": "31.77.149.99",
-            "server_port": 110,
-            "uuid": "f0841ef6-a703-4248-9c69-efed21a38e65",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
-            "type": "vmess",
-            "server": "kiri2.dlweb.info",
-            "server_port": 23793,
-            "uuid": "17483fa4-f518-4886-b85e-a5abd76f7314",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65",
-            "type": "vmess",
-            "server": "jazzghost.com",
-            "server_port": 8998,
-            "uuid": "45e6cc1d-fc2e-4c97-8633-b33caa28e130",
-            "security": "auto",
-            "alter_id": 0,
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+            "type": "vless",
+            "server": "x4g-production-c71f.up.railway.app",
+            "server_port": 443,
+            "uuid": "01200f5c-5321-d946-7028-0661ea0a2c0e",
+            "flow": "",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "jazzghost.com",
+                "server_name": "x4g-production-c71f.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/01200f5c-5321-d946-7028-0661ea0a2c0e",
+                "headers": {
+                    "Host": "x4g-production-c71f.up.railway.app"
+                }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
-            "type": "vmess",
-            "server": "165.140.216.141",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
+            "type": "vless",
+            "server": "free7.playon.ir",
             "server_port": 443,
-            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "886a6c96-1d82-4b85-a792-dc9cbc1ecaf2",
+            "flow": "",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "free7.playon.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/fc-AOCnNa8dtvagXE1yfODtBNY1",
+                "headers": {
+                    "Host": "free7.playon.ir"
+                }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67",
-            "type": "vmess",
-            "server": "165.140.216.142",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 64",
+            "type": "vless",
+            "server": "young.maxic.ir",
+            "server_port": 2110,
+            "uuid": "edd0d872-702c-42d4-bb3f-ded08ab89678",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 65",
+            "type": "vless",
+            "server": "ziba.maxic.ir",
+            "server_port": 2100,
+            "uuid": "2674a67b-b8b4-4fd3-982c-d274b6514f9f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+            "type": "vless",
+            "server": "172.67.193.253",
             "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+            "flow": "",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "165.140.216.142",
+                "server_name": "octopusss5.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/udfyfws",
+                "headers": {
+                    "Host": "octopusss5.info"
                 }
             }
         }
