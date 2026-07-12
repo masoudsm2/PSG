@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "free7.playon.ir",
+            "server": "x4g-production-c71f.up.railway.app",
             "server_port": 443,
-            "uuid": "886a6c96-1d82-4b85-a792-dc9cbc1ecaf2",
+            "uuid": "01200f5c-5321-d946-7028-0661ea0a2c0e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "free7.playon.ir",
+                "server_name": "x4g-production-c71f.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/fc-AOCnNa8dtvagXE1yfODtBNY1",
+                "path": "/ws/01200f5c-5321-d946-7028-0661ea0a2c0e",
                 "headers": {
-                    "Host": "free7.playon.ir"
+                    "Host": "x4g-production-c71f.up.railway.app"
                 }
             }
         }
