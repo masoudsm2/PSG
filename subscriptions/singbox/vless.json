@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 65",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
@@ -99,8 +98,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 65",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
             "server": "13.40.188.81",
             "server_port": 443,
@@ -131,7 +129,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "108.162.193.162",
             "server_port": 443,
@@ -152,31 +150,6 @@
                 "path": "/udfyfws",
                 "headers": {
                     "Host": "octopusss5.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "cf2.danesh-bonyan.com",
-            "server_port": 8443,
-            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
                 }
             }
         }

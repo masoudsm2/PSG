@@ -90,8 +90,8 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 63",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 65",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
@@ -101,8 +101,8 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 63",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 65",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
@@ -116,6 +116,24 @@
         },
         {
             "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 63",
+            "type": "vmess",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64",
             "type": "vmess",
             "server": "165.140.216.142",
             "server_port": 443,
@@ -133,7 +151,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
             "server": "13.40.188.81",
             "server_port": 443,
@@ -151,7 +169,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "108.162.193.162",
             "server_port": 443,
@@ -172,31 +190,6 @@
                 "path": "/udfyfws",
                 "headers": {
                     "Host": "octopusss5.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "cf2.danesh-bonyan.com",
-            "server_port": 8443,
-            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
                 }
             }
         }
