@@ -89,9 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63",
                 "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66"
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63",
                 "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66"
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +117,25 @@
             "type": "direct"
         },
         {
+            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63",
+            "type": "vmess",
+            "server": "31.77.149.99",
+            "server_port": 110,
+            "uuid": "f0841ef6-a703-4248-9c69-efed21a38e65",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
             "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
+            "type": "vmess",
+            "server": "kiri2.dlweb.info",
+            "server_port": 23793,
+            "uuid": "17483fa4-f518-4886-b85e-a5abd76f7314",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65",
             "type": "vmess",
             "server": "jazzghost.com",
             "server_port": 8998,
@@ -131,7 +153,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
             "type": "vmess",
             "server": "165.140.216.141",
             "server_port": 443,
@@ -149,7 +171,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67",
             "type": "vmess",
             "server": "165.140.216.142",
             "server_port": 443,
