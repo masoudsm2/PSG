@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 63",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 63",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,7 +115,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 63",
+            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64",
             "type": "vmess",
             "server": "jazzghost.com",
             "server_port": 8998,
@@ -133,7 +133,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 64",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
             "type": "vmess",
             "server": "165.140.216.141",
             "server_port": 443,
@@ -151,7 +151,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66",
             "type": "vmess",
             "server": "165.140.216.142",
             "server_port": 443,
@@ -169,7 +169,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "13.40.188.81",
             "server_port": 443,
