@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,27 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 64",
             "type": "vless",
-            "server": "kamo1.parsianboton.ir",
-            "server_port": 8443,
-            "uuid": "80b917d7-9a05-4cba-8a99-286dce8d9b3d",
+            "server": "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev",
+            "server_port": 2082,
+            "uuid": "febc7c0d-1c70-4fb6-9326-51da52efc483",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nanicdn.parsianboton.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "nanicdn.parsianboton.ir"
+                    "Host": "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev"
                 }
             }
         }
