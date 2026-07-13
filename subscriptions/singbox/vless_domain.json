@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68"
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,45 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "api.amirv2yats.qzz.io",
-            "server_port": 443,
-            "uuid": "5c05c433-cc31-53df-ac83-e7f8e6bc71a3",
+            "server": "it.fifapes.monster",
+            "server_port": 29148,
+            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.amirv2yats.qzz.io",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/amir",
-                "headers": {
-                    "Host": "api.amirv2yats.qzz.io"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev",
-            "server_port": 2082,
-            "uuid": "febc7c0d-1c70-4fb6-9326-51da52efc483",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
