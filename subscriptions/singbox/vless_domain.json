@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +111,38 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
             "type": "vless",
-            "server": "x4g-production-c71f.up.railway.app",
-            "server_port": 443,
-            "uuid": "01200f5c-5321-d946-7028-0661ea0a2c0e",
+            "server": "using.neobo-tooth.ru",
+            "server_port": 2083,
+            "uuid": "0c6b632a-cd96-4b74-9b51-151e3b5697db",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "x4g-production-c71f.up.railway.app",
+                "server_name": "using.neobo-tooth.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "type": "vless",
+            "server": "rvg-production-aa24.up.railway.app",
+            "server_port": 443,
+            "uuid": "3aedf221-f6c5-9f8d-49da-2547c302cb03",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rvg-production-aa24.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +151,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/01200f5c-5321-d946-7028-0661ea0a2c0e",
+                "path": "/ws/3aedf221-f6c5-9f8d-49da-2547c302cb03",
                 "headers": {
-                    "Host": "x4g-production-c71f.up.railway.app"
+                    "Host": "rvg-production-aa24.up.railway.app"
                 }
             }
         }
