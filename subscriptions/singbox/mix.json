@@ -90,7 +90,7 @@
                 "auto",
                 "direct",
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 45",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 47",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
@@ -102,7 +102,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 45",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 47",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
@@ -130,7 +130,7 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 45",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45",
             "type": "vless",
             "server": "it.fifapes.monster",
             "server_port": 29148,
