@@ -92,7 +92,7 @@
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 45"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 45"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -178,7 +178,7 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 45",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45",
             "type": "vless",
             "server": "it.fifapes.monster",
             "server_port": 29148,
