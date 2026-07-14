@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 47"
+                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 47"
+                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 47",
+            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 67",
             "type": "vmess",
             "server": "dn.torontomovie.com",
             "server_port": 8080,
