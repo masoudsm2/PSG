@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "s---w.pagess.ir",
-            "server_port": 3389,
-            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 2096,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "my-pp.arminpixel2.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "my-pp.arminpixel2.workers.dev"
+                }
+            }
         }
     ],
     "route": {

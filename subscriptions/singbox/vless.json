@@ -89,10 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-                "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-                "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 2096,
@@ -136,63 +130,6 @@
                 "path": "/sync",
                 "headers": {
                     "Host": "my-pp.arminpixel2.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63",
-            "type": "vless",
-            "server": "my-pp.arminpixel2.workers.dev",
-            "server_port": 8080,
-            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "my-pp.arminpixel2.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-            "type": "vless",
-            "server": "8.47.69.0",
-            "server_port": 443,
-            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "shegeftihaaa.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rsedgws",
-                "headers": {
-                    "Host": "shegeftihaaa.net"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66",
-            "type": "vless",
-            "server": "212.183.88.30",
-            "server_port": 8880,
-            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "212.183.88.30"
                 }
             }
         }
