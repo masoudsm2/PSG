@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇭 CH | 🔴 | vless | @NamiraConfigs | 61",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇭 CH | 🔴 | vless | @NamiraConfigs | 61",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,20 +109,11 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇭 CH | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "swiss.motorbazan.com",
-            "server_port": 2087,
-            "uuid": "5652430d-eef1-4b93-bf73-cdea9b445986",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 62",
-            "type": "vless",
-            "server": "ainet.sanaiehdasti.com",
-            "server_port": 1323,
-            "uuid": "f4766125-c009-4f7a-bd4d-4a0d514ba966",
+            "server": "dl2.ilooo.ir",
+            "server_port": 8080,
+            "uuid": "c5d32f27-dded-4b63-8d01-1693471fb044",
             "flow": "",
             "packet_encoding": "xudp"
         }
