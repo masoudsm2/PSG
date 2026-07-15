@@ -3,4 +3,5 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://631a49ec-2eb5-2215-0cac-9d292696d162@my-pp.arminpixel2.workers.dev:2096?encryption=none&security=tls&sni=my-pp.arminpixel2.workers.dev&fp=chrome&type=ws&host=my-pp.arminpixel2.workers.dev&path=/sync&allowInsecure=0#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65
+vless://5652430d-eef1-4b93-bf73-cdea9b445986@swiss.motorbazan.com:2087?encryption=none&type=tcp&headerType=http&host=play.google.com&security=none#🇨🇭 CH | 🔴 | vless | @NamiraConfigs | 61
+vless://f4766125-c009-4f7a-bd4d-4a0d514ba966@ainet.sanaiehdasti.com:1323?security=&encryption=none&host=www.icloud.com&headerType=http&type=tcp#❔ XX | 🔴 | vless | @NamiraConfigs | 62
