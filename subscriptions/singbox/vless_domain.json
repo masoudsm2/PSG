@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,16 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "media.frdmhere.com",
-            "server_port": 443,
-            "uuid": "83ddf81d-fffe-49ce-af73-5e71361ce719",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 2096,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "media.frdmhere.com",
+                "server_name": "my-pp.arminpixel2.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -129,25 +129,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/mp3/all",
+                "path": "/sync",
                 "headers": {
-                    "Host": "media.frdmhere.com"
+                    "Host": "my-pp.arminpixel2.workers.dev"
                 }
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63",
             "type": "vless",
-            "server": "sos.oakcup.ir",
-            "server_port": 2052,
-            "uuid": "83f61e10-2242-4e33-82fe-045a3e58e3d2",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 8080,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/api",
+                "path": "/sync",
                 "headers": {
-                    "Host": "sos.oakcup.ir"
+                    "Host": "my-pp.arminpixel2.workers.dev"
                 }
             }
         }
