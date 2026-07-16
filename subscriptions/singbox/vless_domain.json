@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 65",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 68",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 65",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 68",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +113,32 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "type": "vless",
+            "server": "x4gamoarsham-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "77a2daa7-5d63-a8ed-80a0-9a840a556d97",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4gamoarsham-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/77a2daa7-5d63-a8ed-80a0-9a840a556d97",
+                "headers": {
+                    "Host": "x4gamoarsham-production.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 68",
             "type": "vless",
             "server": "juso5.pastilbastani.ir",
             "server_port": 443,
@@ -129,7 +156,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
             "server": "036o7.pastilbastani.ir",
             "server_port": 443,

@@ -89,9 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 68",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69"
+                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 68",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69"
+                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,40 +109,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "18.194.133.160",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 68",
-            "type": "vless",
-            "server": "62.238.41.102",
+            "server": "43.174.246.46",
             "server_port": 443,
-            "uuid": "154c18ae-f5eb-4cfd-8429-1f582c93913b",
+            "uuid": "fd9a728d-ece1-4168-c5a4-c28ecb5a0065",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "bot.sobhanpor.ir",
+                "server_name": "sni2.irandoc.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/37807/api",
+                "headers": {
+                    "Host": "sni2.irandoc.info"
+                }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "18.194.133.160",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
