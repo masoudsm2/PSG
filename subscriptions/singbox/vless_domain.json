@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 63"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 63"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,31 +111,45 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
             "type": "vless",
-            "server": "dl1.ilooo.ir",
-            "server_port": 8080,
-            "uuid": "c5d32f27-dded-4b63-8d01-1693471fb044",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 443,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "my-pp.arminpixel2.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "my-pp.arminpixel2.workers.dev"
+                }
+            }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "runner.app20.ir",
-            "server_port": 8080,
-            "uuid": "c5d32f27-dded-4b63-8d01-1693471fb044",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 2095,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
             "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 63",
-            "type": "vless",
-            "server": "dl2.ilooo.ir",
-            "server_port": 8080,
-            "uuid": "c5d32f27-dded-4b63-8d01-1693471fb044",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "my-pp.arminpixel2.workers.dev"
+                }
+            }
         }
     ],
     "route": {
