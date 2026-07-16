@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 63"
+                "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 63"
+                "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 63",
+            "tag": "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 67",
             "type": "vmess",
             "server": "31.77.149.131",
             "server_port": 110,
