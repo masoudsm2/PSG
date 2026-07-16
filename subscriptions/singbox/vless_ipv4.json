@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 63",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 63",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 63",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62",
             "type": "vless",
             "server": "45.144.55.242",
             "server_port": 2082,
@@ -136,7 +136,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
             "type": "vless",
             "server": "172.64.150.130",
             "server_port": 443,
@@ -161,7 +161,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
             "type": "vless",
             "server": "104.21.47.19",
             "server_port": 443,
