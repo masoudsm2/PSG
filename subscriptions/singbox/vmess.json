@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67",
             "type": "vmess",
             "server": "69.46.46.71",
             "server_port": 443,
