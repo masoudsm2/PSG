@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
-                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
+                "❔ XX | 🟢 | vmess | @NamiraConfigs | 66",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
-                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 67",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
+                "❔ XX | 🟢 | vmess | @NamiraConfigs | 66",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,75 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
+            "type": "vmess",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | vmess | @NamiraConfigs | 66",
+            "type": "vmess",
+            "server": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir",
+            "server_port": 2087,
+            "uuid": "efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/mehdi",
+                "headers": {
+                    "Host": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "type": "vless",
+            "server": "x4g-production-ed65.up.railway.app",
+            "server_port": 443,
+            "uuid": "37966092-f71c-8f7a-484f-d68c68f01ab7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-ed65.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/37966092-f71c-8f7a-484f-d68c68f01ab7",
+                "headers": {
+                    "Host": "x4g-production-ed65.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68",
             "type": "vmess",
             "server": "2cdn.njkrpl.com",
             "server_port": 443,
@@ -142,7 +210,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69",
             "type": "vless",
             "server": "x4gamoarsham-production.up.railway.app",
             "server_port": 443,
@@ -163,67 +231,6 @@
                 "path": "/ws/77a2daa7-5d63-a8ed-80a0-9a840a556d97",
                 "headers": {
                     "Host": "x4gamoarsham-production.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "43.174.246.46",
-            "server_port": 443,
-            "uuid": "fd9a728d-ece1-4168-c5a4-c28ecb5a0065",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sni2.irandoc.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/37807/api",
-                "headers": {
-                    "Host": "sni2.irandoc.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68",
-            "type": "vmess",
-            "server": "165.140.216.142",
-            "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "165.140.216.142",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "juso5.pastilbastani.ir",
-            "server_port": 443,
-            "uuid": "799843c2-ebb5-4376-b402-a8f479c029b9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "juso5.pastilbastani.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
