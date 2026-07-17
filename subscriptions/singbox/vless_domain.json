@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
             "type": "vless",
             "server": "x4g-production-d4c1.up.railway.app",
             "server_port": 443,
@@ -136,7 +136,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64",
             "type": "vless",
             "server": "dash1.dequa.ir",
             "server_port": 443,
