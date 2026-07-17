@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58"
+                "🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58"
+                "🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
-            "server": "cd.pascalplus.com",
+            "server": "cdn1.portalcode.ir",
             "server_port": 8443,
-            "uuid": "ebb957fc-5a5a-4a50-b550-c05d24f5ff36",
+            "uuid": "df0e61f6-dd51-49d6-bee7-6d5ff06ae44b",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn3.w-ert.org",
+                "server_name": "434df2a384e0a10f.rainzone.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
