@@ -90,8 +90,7 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
-                "❔ XX | 🟢 | vmess | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68"
+                "❔ XX | 🟢 | vmess | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,8 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65",
-                "❔ XX | 🟢 | vmess | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68"
+                "❔ XX | 🟢 | vmess | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -152,31 +150,6 @@
                 "path": "/mehdi",
                 "headers": {
                     "Host": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 68",
-            "type": "vmess",
-            "server": "2cdn.njkrpl.com",
-            "server_port": 443,
-            "uuid": "a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "2cdn.njkrpl.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "2cdn.njkrpl.com"
                 }
             }
         }
