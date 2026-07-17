@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 68",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68",
                 "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "proxy",
@@ -101,10 +101,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 68",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 67",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68",
                 "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "tag": "auto",
@@ -117,7 +117,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65",
+            "type": "vmess",
+            "server": "2cdn.njkrpl.com",
+            "server_port": 443,
+            "uuid": "a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "2cdn.njkrpl.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "2cdn.njkrpl.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "x4gamoarsham-production.up.railway.app",
             "server_port": 443,
@@ -142,7 +167,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "43.174.246.46",
             "server_port": 443,
@@ -167,7 +192,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68",
             "type": "vmess",
             "server": "165.140.216.142",
             "server_port": 443,
@@ -185,7 +210,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 68",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
             "server": "juso5.pastilbastani.ir",
             "server_port": 443,
@@ -195,24 +220,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "juso5.pastilbastani.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "036o7.pastilbastani.ir",
-            "server_port": 443,
-            "uuid": "22a5e89c-24ff-414a-afd2-100463194a06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "036o7.pastilbastani.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
