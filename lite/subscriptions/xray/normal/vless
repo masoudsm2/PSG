@@ -3,4 +3,4 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://155e8dd4-a559-407a-9ea8-13a5e829f066@185.247.16.3:2200?path=/v1&security=none&encryption=none&host=rzd.ru&type=ws#🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 67
+vless://891710f4-45f3-41b1-99a6-6f1510f83c10@199.232.29.204:443?encryption=none&type=ws&security=tls&path=/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed&host=pan21.global.ssl.fastly.net&sni=ssl.fastly.com&insecure=0&allowInsecure=0#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67
