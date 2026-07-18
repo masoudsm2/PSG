@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 64",
-                "🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 65",
-                "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
+                "🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 67",
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 64",
-                "🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 65",
-                "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
+                "🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 67",
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,16 +115,33 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 64",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63",
             "type": "vless",
-            "server": "gr1.fifapes.monster",
-            "server_port": 8882,
-            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+            "server": "81.31.211.120",
+            "server_port": 2085,
+            "uuid": "cebf31b3-a467-4b84-9dce-62bed1c26719",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless"
+            }
         },
         {
-            "tag": "🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64",
+            "type": "vless",
+            "server": "45.86.159.140",
+            "server_port": 2085,
+            "uuid": "e6b8004d-2b34-487a-9cd2-d080c4eecf5d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless"
+            }
+        },
+        {
+            "tag": "🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
             "server": "45.130.125.207",
             "server_port": 80,
@@ -140,45 +157,13 @@
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "212.183.88.30",
-            "server_port": 8880,
-            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+            "server": "gr1.fifapes.monster",
+            "server_port": 8882,
+            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "212.183.88.30"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
-            "type": "vless",
-            "server": "199.232.29.204",
-            "server_port": 443,
-            "uuid": "891710f4-45f3-41b1-99a6-6f1510f83c10",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ssl.fastly.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed",
-                "headers": {
-                    "Host": "ssl.fastly.com"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
