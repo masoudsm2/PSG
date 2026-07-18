@@ -89,11 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
                 "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 64",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
                 "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 64",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,20 +115,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "a.samrayan.ir",
+            "server": "162.159.44.180",
             "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "a.samrayan.ir",
+                "server_name": "t1s1.rittbo.kdns.fr",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/fp=chrome",
+                "headers": {
+                    "Host": "t1s1.rittbo.kdns.fr"
                 }
             }
         },
@@ -188,31 +193,6 @@
             "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
             "server": "162.159.5.231",
-            "server_port": 443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
-            "type": "vless",
-            "server": "172.64.150.130",
             "server_port": 443,
             "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
             "flow": "",
