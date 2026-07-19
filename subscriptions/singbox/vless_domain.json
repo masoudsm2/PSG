@@ -89,10 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 62",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 59",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 60",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 62",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 59",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 60",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,7 +117,48 @@
             "type": "direct"
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 62",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "Time.is",
+            "server_port": 2096,
+            "uuid": "1a0509ce-31e5-c439-40d8-c8050000000c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.testiam13.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/v2box",
+                "headers": {
+                    "Host": "a.testiam13.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 58",
+            "type": "vless",
+            "server": "subb.biscuitnazari.ir",
+            "server_port": 8080,
+            "uuid": "c2b185f7-14bc-4b8b-a3d2-f05e69426230",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/arme",
+                "headers": {
+                    "Host": "subb.biscuitnazari.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "mabar130.mobail1010.ir",
             "server_port": 2082,
@@ -131,7 +174,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 60",
             "type": "vless",
             "server": "uspanel.unixzone.us",
             "server_port": 30016,
@@ -147,20 +190,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "jdhdjdjdjm.belamona.ir",
             "server_port": 1323,
             "uuid": "f67b7960-d5a1-4108-80c4-2adbcff716e8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66",
-            "type": "vless",
-            "server": "yamal.sav-savteam.ir",
-            "server_port": 6985,
-            "uuid": "882516d7-aa11-4dbd-962c-e72cd3c49c0b",
             "flow": "",
             "packet_encoding": "xudp"
         }
