@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61",
-                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 63"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61",
-                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 62",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 63"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 62",
             "type": "vmess",
             "server": "tg.hrmp.kdns.fr",
             "server_port": 8443,
@@ -136,18 +136,27 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 63",
             "type": "vmess",
-            "server": "152.67.8.205",
-            "server_port": 80,
-            "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+            "server": "tg.hrmp.kdns.fr",
+            "server_port": 8443,
+            "uuid": "af1ccd89-b66b-44e8-99b8-0d945078c04b",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "tg.hrmp.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/tirexvmess",
                 "headers": {
-                    "Host": "152.67.8.205"
+                    "Host": "tg.hrmp.kdns.fr"
                 }
             }
         }

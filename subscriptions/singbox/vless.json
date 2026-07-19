@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 63"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 63"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64",
             "type": "vless",
             "server": "yamal.sav-savteam.ir",
             "server_port": 6985,
@@ -120,7 +120,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 63",
+            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
             "server": "65.109.219.124",
             "server_port": 10485,
