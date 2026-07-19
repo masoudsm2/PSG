@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 61",
             "type": "vless",
-            "server": "jdhdjdjdjm.belamona.ir",
-            "server_port": 1323,
-            "uuid": "f67b7960-d5a1-4108-80c4-2adbcff716e8",
+            "server": "uspanel.unixzone.us",
+            "server_port": 30016,
+            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/usserver",
+                "headers": {
+                    "Host": "uspanel.unixzone.us"
+                }
+            }
         }
     ],
     "route": {
