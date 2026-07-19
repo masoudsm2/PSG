@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,33 +109,11 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "eventloophub.org",
-            "server_port": 8443,
-            "uuid": "aa28b265-baff-42e4-927e-7a8dee0ef623",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "eventloophub.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
-            "type": "vless",
-            "server": "YaMaL.Sav-savteAm.iR",
+            "server": "yamal.sav-savteam.ir",
             "server_port": 6985,
-            "uuid": "e39ac861-974c-4c7d-8300-97c7bbca512a",
+            "uuid": "882516d7-aa11-4dbd-962c-e72cd3c49c0b",
             "flow": "",
             "packet_encoding": "xudp"
         }
