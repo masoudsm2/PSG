@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
             ],
             "tag": "proxy",
@@ -98,7 +98,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
             ],
             "tag": "auto",
@@ -111,7 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "13.37.254.201",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "x4g-production-c124.up.railway.app",
             "server_port": 443,
@@ -132,31 +141,6 @@
                 "path": "/ws/34d473ff-7f1f-d596-e64d-1a27ab988054",
                 "headers": {
                     "Host": "x4g-production-c124.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
-            "type": "vless",
-            "server": "Time.is",
-            "server_port": 2096,
-            "uuid": "1a0509ce-31e5-c439-40d8-c8050000000c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.testiam13.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/v2box",
-                "headers": {
-                    "Host": "a.testiam13.workers.dev"
                 }
             }
         }
