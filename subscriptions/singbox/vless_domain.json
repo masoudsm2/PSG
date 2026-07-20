@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51",
-                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51",
-                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "x4g-production-8eb3.up.railway.app",
             "server_port": 443,
@@ -138,18 +136,9 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "uk-een-tswe.horlutr.ir",
-            "server_port": 2087,
-            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "UE.horlutr.ir",
             "server_port": 2087,
             "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
             "flow": "",

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 37","type":"vless","server":"UE.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"uk-een-tswe.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 37'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53'
 
   - name: 🌍 Global Media
     type: select

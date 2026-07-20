@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 37"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 37"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,9 +109,9 @@
             "type": "direct"
         },
         {
-            "tag": "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 37",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "UE.horlutr.ir",
+            "server": "uk-een-tswe.horlutr.ir",
             "server_port": 2087,
             "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
             "flow": "",
