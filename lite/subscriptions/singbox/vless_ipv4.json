@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "18.194.222.164",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "108.162.194.119",
+            "server_port": 443,
+            "uuid": "8ad6f598-cd8d-4fca-848e-05fc9be15ff3",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "deicl.redstone-vex.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sea",
+                "headers": {
+                    "Host": "deicl.redstone-vex.sbs"
+                }
+            }
         }
     ],
     "route": {
