@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 62","type":"vmess","server":"tg.hrmp.kdns.fr","port":8443,"cipher":"auto","uuid":"af1ccd89-b66b-44e8-99b8-0d945078c04b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tirexvmess","headers":{"Host":"tg.hrmp.kdns.fr"}}}
-  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 63","type":"vmess","server":"tg.hrmp.kdns.fr","port":8443,"cipher":"auto","uuid":"af1ccd89-b66b-44e8-99b8-0d945078c04b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tirexvmess","headers":{"Host":"tg.hrmp.kdns.fr"}}}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57","type":"vmess","server":"165.140.216.141","port":443,"cipher":"auto","uuid":"e7d72a8d-26f2-4b54-b366-0c43e0bcba7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57'
 
   - name: 🌍 Global Media
     type: select

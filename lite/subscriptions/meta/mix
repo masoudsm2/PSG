@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 61","type":"vless","server":"uspanel.unixzone.us","port":30016,"uuid":"03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/usserver","headers":{"Host":"uspanel.unixzone.us"}}}
+  - {"name":"🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 61","type":"vless","server":"mabar130.mobail1010.ir","port":2082,"uuid":"a9e937d6-6df5-42ef-9b14-3e1165d56c22","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"mabar130.mobail1010.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 61'
+      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 61'
 
   - name: 🌍 Global Media
     type: select
