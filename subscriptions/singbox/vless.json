@@ -89,10 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
-                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51",
+                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
-                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51",
+                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,43 +117,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "uk-een-tswe.horlutr.ir",
-            "server_port": 2087,
-            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
-            "type": "vless",
-            "server": "UE.horlutr.ir",
-            "server_port": 2087,
-            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56",
-            "type": "vless",
-            "server": "finland9011-tswe.horlutr.ir",
-            "server_port": 2087,
-            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-            "type": "vless",
-            "server": "199.232.22.39",
+            "server": "108.162.194.119",
             "server_port": 443,
-            "uuid": "891710f4-45f3-41b1-99a6-6f1510f83c10",
+            "uuid": "8ad6f598-cd8d-4fca-848e-05fc9be15ff3",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ssl.fastly.com",
+                "server_name": "deicl.redstone-vex.sbs",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -160,11 +135,63 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed",
+                "path": "/sea",
                 "headers": {
-                    "Host": "ssl.fastly.com"
+                    "Host": "deicl.redstone-vex.sbs"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "108.61.210.223",
+            "server_port": 55867,
+            "uuid": "399f7f1b-0f5e-43a1-b0b5-6f255367d778",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "x4g-production-8eb3.up.railway.app",
+            "server_port": 443,
+            "uuid": "28e3703c-b92d-ae69-c217-0fbba3f1e309",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-8eb3.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/28e3703c-b92d-ae69-c217-0fbba3f1e309",
+                "headers": {
+                    "Host": "x4g-production-8eb3.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "uk-een-tswe.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52",
+            "type": "vless",
+            "server": "UE.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
