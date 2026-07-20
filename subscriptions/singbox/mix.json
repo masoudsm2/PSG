@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
+                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
+                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,6 +113,33 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "uk-een-tswe.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "UE.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "finland9011-tswe.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
@@ -136,31 +165,6 @@
                     "Host": "ssl.fastly.com"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60",
-            "type": "vless",
-            "server": "82.115.16.211",
-            "server_port": 2082,
-            "uuid": "1c404fde-0aa5-482c-ab00-0b34db703ac8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "82.115.16.211"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
-            "type": "vless",
-            "server": "18.194.222.164",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

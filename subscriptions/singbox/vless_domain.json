@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
+                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
+                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +113,31 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "x4g-production-c124.up.railway.app",
-            "server_port": 443,
-            "uuid": "34d473ff-7f1f-d596-e64d-1a27ab988054",
+            "server": "uk-een-tswe.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-c124.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/34d473ff-7f1f-d596-e64d-1a27ab988054",
-                "headers": {
-                    "Host": "x4g-production-c124.up.railway.app"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "UE.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "finland9011-tswe.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
