@@ -23,11 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"45.86.159.131","port":2085,"uuid":"ae86f68e-84c7-41de-b69f-87285451fb71","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"vless"}}
-  - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"193.36.61.82","port":4430,"uuid":"4db03cf7-9bee-4a27-8ef2-bf95a778b96a","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"45.88.172.154","port":11594,"uuid":"0370b162-baff-4757-86cc-cce4bf07f6f1","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇵🇱 PL | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"82.109.242.198","port":2553,"uuid":"d8b42cd5-a149-4356-9e61-000000000000","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43","type":"vmess","server":"165.140.216.141","port":443,"cipher":"auto","uuid":"e7d72a8d-26f2-4b54-b366-0c43e0bcba7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 44","type":"ss","server":"0721-syah.kovira2.ir","port":25026,"password":"r2v53aul8lsaweki","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"31.192.244.42","port":12683,"uuid":"8c8d8180-a2c5-4478-a86e-4117f841e88e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"45.86.159.131","port":2085,"uuid":"ae86f68e-84c7-41de-b69f-87285451fb71","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"vless"}}
+  - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"193.36.61.82","port":4430,"uuid":"4db03cf7-9bee-4a27-8ef2-bf95a778b96a","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 45'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 46'
-      - '🇵🇱 PL | 🔴 | vless | @NamiraConfigs | 47'
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 44'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46'
+      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
 
   - name: 🌍 Global Media
     type: select

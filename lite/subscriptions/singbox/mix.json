@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,22 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.samrayan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "193.36.61.82",
+            "server_port": 4430,
+            "uuid": "4db03cf7-9bee-4a27-8ef2-bf95a778b96a",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
