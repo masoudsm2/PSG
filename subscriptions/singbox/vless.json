@@ -89,8 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 47",
+                "🇵🇱 PL | 🔴 | vless | @NamiraConfigs | 48",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 47",
+                "🇵🇱 PL | 🔴 | vless | @NamiraConfigs | 48",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,38 +117,62 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45",
             "type": "vless",
-            "server": "199.232.222.178",
-            "server_port": 443,
-            "uuid": "cbcf2255-6d66-4039-b7d6-c10d6ffc99e7",
+            "server": "45.86.159.131",
+            "server_port": 2085,
+            "uuid": "ae86f68e-84c7-41de-b69f-87285451fb71",
             "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless"
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
+            "type": "vless",
+            "server": "193.36.61.82",
+            "server_port": 4430,
+            "uuid": "4db03cf7-9bee-4a27-8ef2-bf95a778b96a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 47",
+            "type": "vless",
+            "server": "45.88.172.154",
+            "server_port": 11594,
+            "uuid": "0370b162-baff-4757-86cc-cce4bf07f6f1",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇵🇱 PL | 🔴 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "82.109.242.198",
+            "server_port": 2553,
+            "uuid": "d8b42cd5-a149-4356-9e61-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ssl.fastly.com",
+                "server_name": "a.samrayan.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed",
-                "headers": {
-                    "Host": "ssl.fastly.com"
-                }
             }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47",
-            "type": "vless",
-            "server": "15.237.47.97",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

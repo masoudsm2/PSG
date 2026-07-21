@@ -89,9 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,31 +109,22 @@
             "type": "direct"
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "cdn2.beshdash.ir",
-            "server_port": 61224,
-            "uuid": "9d564717-cee2-482f-a841-f7a3af7a08d3",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "cdn1.beshdash.ir",
-            "server_port": 21972,
-            "uuid": "9d564717-cee2-482f-a841-f7a3af7a08d3",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "MelineT4.Sav-savteAm.iR",
-            "server_port": 6985,
-            "uuid": "e044297a-304f-40a9-a9fb-d17b744fa781",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

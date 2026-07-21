@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,22 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
             "type": "vless",
-            "server": "108.162.192.192",
-            "server_port": 443,
-            "uuid": "90065690-1ddd-4cc3-ab8b-b7866b69ad97",
+            "server": "193.36.61.82",
+            "server_port": 4430,
+            "uuid": "4db03cf7-9bee-4a27-8ef2-bf95a778b96a",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mnb.dearhossein-taktaz.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
