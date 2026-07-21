@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 46",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 46",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
             "server": "104.26.15.137",
             "server_port": 443,
@@ -138,7 +138,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 46",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48",
             "type": "vless",
             "server": "87.228.122.108",
             "server_port": 4100,
@@ -154,7 +154,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 2096,
