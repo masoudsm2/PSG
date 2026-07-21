@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 45",
-                "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 48"
+                "🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 43",
+                "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 46"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 45",
-                "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 48"
+                "🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 43",
+                "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 46"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 45",
+            "tag": "🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 43",
             "type": "shadowsocks",
             "server": "103.111.114.82",
             "server_port": 28061,
@@ -119,7 +119,7 @@
             "password": "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
         },
         {
-            "tag": "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 48",
+            "tag": "🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 46",
             "type": "shadowsocks",
             "server": "38.180.113.194",
             "server_port": 8119,
