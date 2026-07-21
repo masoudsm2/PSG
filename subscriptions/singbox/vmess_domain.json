@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 59"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
+                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 49",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 59"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
+                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 49",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +113,70 @@
             "type": "direct"
         },
         {
-            "tag": "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 59",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
             "type": "vmess",
-            "server": "47.250.135.244",
-            "server_port": 10000,
-            "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
+            "server": "tg.hrmp.kdns.fr",
+            "server_port": 8443,
+            "uuid": "af1ccd89-b66b-44e8-99b8-0d945078c04b",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "tg.hrmp.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tirexvmess",
+                "headers": {
+                    "Host": "tg.hrmp.kdns.fr"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 49",
+            "type": "vmess",
+            "server": "152.67.8.205",
+            "server_port": 80,
+            "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "152.67.8.205"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50",
+            "type": "vmess",
+            "server": "tg.hrmp.kdns.fr",
+            "server_port": 8443,
+            "uuid": "af1ccd89-b66b-44e8-99b8-0d945078c04b",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "tg.hrmp.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tirexvmess",
+                "headers": {
+                    "Host": "tg.hrmp.kdns.fr"
+                }
+            }
         }
     ],
     "route": {
