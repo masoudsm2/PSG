@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
-                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 47",
+                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
-                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 47",
+                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 48",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 47",
             "type": "vmess",
             "server": "tg.hrmp.kdns.fr",
             "server_port": 8443,
@@ -138,7 +136,7 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 49",
+            "tag": "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 48",
             "type": "vmess",
             "server": "152.67.8.205",
             "server_port": 80,
@@ -150,31 +148,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "152.67.8.205"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50",
-            "type": "vmess",
-            "server": "tg.hrmp.kdns.fr",
-            "server_port": 8443,
-            "uuid": "af1ccd89-b66b-44e8-99b8-0d945078c04b",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "tg.hrmp.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/tirexvmess",
-                "headers": {
-                    "Host": "tg.hrmp.kdns.fr"
                 }
             }
         }
