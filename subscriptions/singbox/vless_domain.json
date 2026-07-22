@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41",
             "type": "vless",
-            "server": "ger.wafer.fun",
+            "server": "betty.ns.cloudflare.com",
             "server_port": 443,
-            "uuid": "5a4ea216-9597-4df7-a119-02949a3b6b82",
+            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ger.wafer.fun",
+                "server_name": "vangoghhh.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +126,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "Ts7kIzm7a8mYEa7OOaBF"
+                "type": "ws",
+                "path": "/rdfgtws",
+                "headers": {
+                    "Host": "vangoghhh.info"
+                }
             }
         }
     ],
