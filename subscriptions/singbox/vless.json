@@ -88,17 +88,14 @@
         {
             "outbounds": [
                 "auto",
-                "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
+                "direct"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "interval": "10m",
-            "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
-            ],
+            "outbounds": [],
             "tag": "auto",
             "tolerance": 50,
             "type": "urltest",
@@ -107,28 +104,6 @@
         {
             "tag": "direct",
             "type": "direct"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
-            "type": "vless",
-            "server": "ger.wafer.fun",
-            "server_port": 443,
-            "uuid": "5a4ea216-9597-4df7-a119-02949a3b6b82",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ger.wafer.fun",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Ts7kIzm7a8mYEa7OOaBF"
-            }
         }
     ],
     "route": {
