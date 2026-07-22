@@ -89,9 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 45",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 45",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,35 +109,26 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 45",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "31.192.244.42",
-            "server_port": 12683,
-            "uuid": "8c8d8180-a2c5-4478-a86e-4117f841e88e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46",
-            "type": "vless",
-            "server": "45.86.159.131",
-            "server_port": 2085,
-            "uuid": "ae86f68e-84c7-41de-b69f-87285451fb71",
+            "server": "ger.wafer.fun",
+            "server_port": 443,
+            "uuid": "5a4ea216-9597-4df7-a119-02949a3b6b82",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ger.wafer.fun",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "grpc",
-                "service_name": "vless"
+                "service_name": "Ts7kIzm7a8mYEa7OOaBF"
             }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47",
-            "type": "vless",
-            "server": "193.36.61.82",
-            "server_port": 4430,
-            "uuid": "4db03cf7-9bee-4a27-8ef2-bf95a778b96a",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

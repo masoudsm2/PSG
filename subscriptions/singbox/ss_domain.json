@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 44"
+                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 44"
+                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 44",
+            "tag": "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 48",
             "type": "shadowsocks",
             "server": "0721-syah.kovira2.ir",
             "server_port": 25026,
