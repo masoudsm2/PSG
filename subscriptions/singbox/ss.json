@@ -89,10 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 42",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 43",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 44",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45"
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 47",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 48",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 42",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 43",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 44",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45"
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 47",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 48",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,7 +117,15 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 42",
+            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46",
+            "type": "shadowsocks",
+            "server": "20.166.58.64",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "217Fg9zpgpVS4DGE"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 47",
             "type": "shadowsocks",
             "server": "92.112.126.90",
             "server_port": 443,
@@ -123,7 +133,7 @@
             "password": "9tqhMdIrTkgQ46PvhyAtMH"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 43",
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 48",
             "type": "shadowsocks",
             "server": "82.38.31.57",
             "server_port": 443,
@@ -131,7 +141,7 @@
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 44",
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 49",
             "type": "shadowsocks",
             "server": "82.38.31.3",
             "server_port": 8080,
@@ -139,7 +149,7 @@
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45",
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 50",
             "type": "shadowsocks",
             "server": "193.29.139.235",
             "server_port": 8080,
