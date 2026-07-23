@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41"
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 44",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41"
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 44",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41",
+            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 44",
+            "type": "vless",
+            "server": "cdn1.beshdash.ir",
+            "server_port": 21972,
+            "uuid": "9d564717-cee2-482f-a841-f7a3af7a08d3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
             "type": "vless",
             "server": "mci.pictureiran.ir",
             "server_port": 2087,
