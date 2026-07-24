@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 35"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 35"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 35",
             "type": "vless",
-            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+            "server": "69.46.46.89",
             "server_port": 443,
-            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
+            "uuid": "f411d02a-fff5-86a4-9f02-cfd75fa76d41",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+                "server_name": "x4g-production-ee29.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/ws/f411d02a-fff5-86a4-9f02-cfd75fa76d41",
                 "headers": {
-                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
+                    "Host": "x4g-production-ee29.up.railway.app"
                 }
             }
         }
