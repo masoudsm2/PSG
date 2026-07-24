@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "104.18.41.190",
-            "server_port": 443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "server": "63.185.120.80",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
