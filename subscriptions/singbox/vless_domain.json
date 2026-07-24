@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,34 +111,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "ip.kickfarsi.com",
-            "server_port": 8443,
-            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "server": "perplexity.ai",
+            "server_port": 2052,
+            "uuid": "74038e5c-ed59-485d-a2fb-2eb9d9891ef5",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ger2.kickfarsi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "perplexity.ai"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
-            "server_port": 443,
-            "uuid": "4908acbe-485f-4e1c-bb11-5dd04b9f7e88",
+            "server": "zxcvbnm1.roozaraa.ir",
+            "server_port": 8880,
+            "uuid": "899a5fb4-c142-4707-9199-69808f1f71e3",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "restless-base-fe24.alirezahabibi20009.workers.dev",
+                "server_name": "zxcvbnm1.roozaraa.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -149,34 +145,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/",
                 "headers": {
-                    "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-            "server_port": 443,
-            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
+                    "Host": "zxcvbnm1.roozaraa.ir"
                 }
             }
         }
