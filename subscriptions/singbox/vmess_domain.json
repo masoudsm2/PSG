@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 44",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45"
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 45",
+                "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 44",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45"
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 45",
+                "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,29 +111,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 44",
+            "tag": "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 45",
             "type": "vmess",
-            "server": "165.140.216.142",
-            "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "server": "165.154.195.38",
+            "server_port": 35034,
+            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "165.140.216.142",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45",
+            "tag": "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 48",
             "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "server": "47.250.135.244",
+            "server_port": 10000,
+            "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
             "security": "auto",
             "alter_id": 0
         }
