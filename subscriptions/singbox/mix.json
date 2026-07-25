@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 43",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 43",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,23 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
+            "type": "vless",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 8080,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "my-pp.arminpixel2.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
             "type": "vless",
             "server": "ad-004.vector2llqn.info",
             "server_port": 8443,
@@ -142,7 +158,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44",
             "type": "vless",
             "server": "104.17.58.113",
             "server_port": 8880,
@@ -158,7 +174,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 43",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 45",
             "type": "vless",
             "server": "45.13.119.219",
             "server_port": 8888,
@@ -167,20 +183,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
             "type": "vless",
             "server": "ara.public.lat",
             "server_port": 58748,
             "uuid": "21e22226-0b96-4b4e-9a91-5c7f9e3f1760",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45",
-            "type": "vless",
-            "server": "185.128.139.11",
-            "server_port": 18244,
-            "uuid": "0d543aed-4e30-4553-b5ac-211419bb0961",
             "flow": "",
             "packet_encoding": "xudp"
         }
