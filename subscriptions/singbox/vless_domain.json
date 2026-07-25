@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 8080,
@@ -129,7 +127,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
             "server": "ad-004.vector2llqn.info",
             "server_port": 8443,
@@ -152,15 +150,6 @@
                     "Host": "ad-004.vector2llqn.info"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
-            "type": "vless",
-            "server": "ara.public.lat",
-            "server_port": 58748,
-            "uuid": "21e22226-0b96-4b4e-9a91-5c7f9e3f1760",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
