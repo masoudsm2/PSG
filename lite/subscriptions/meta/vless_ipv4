@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"104.25.123.12","port":443,"uuid":"3a8aa3ad-d125-4285-8542-3a1832187f5d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"alireza10.karamzade546alireza.workers.dev","ws-opts":{"path":"/","headers":{"Host":"alireza10.karamzade546alireza.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"172.67.215.44","port":2052,"uuid":"86442a2b-417d-426d-9b42-955573b5c6e4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==","headers":{"Host":"ez-bfa272.ezaccess1d90628.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55'
 
   - name: 🌍 Global Media
     type: select

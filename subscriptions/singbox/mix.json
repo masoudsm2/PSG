@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 52",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 51",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 53",
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 52",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 51",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 53",
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,24 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 52",
+            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 51",
+            "type": "shadowsocks",
+            "server": "20.107.187.192",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "vWcimUSiT1rfVM1v"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52",
+            "type": "vless",
+            "server": "15.224.44.226",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 53",
             "type": "vmess",
             "server": "110.34.38.23",
             "server_port": 521,
@@ -126,7 +143,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 53",
+            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "5.144.179.113",
             "server_port": 2044,
@@ -135,7 +152,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
             "type": "vless",
             "server": "172.67.215.44",
             "server_port": 2052,
@@ -147,39 +164,6 @@
                 "path": "/eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==",
                 "headers": {
                     "Host": "172.67.215.44"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55",
-            "type": "shadowsocks",
-            "server": "82.38.31.185",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "k1dBOmOB4oqi7Ump37a1bQ"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
-            "type": "vless",
-            "server": "104.25.123.12",
-            "server_port": 443,
-            "uuid": "3a8aa3ad-d125-4285-8542-3a1832187f5d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "alireza10.karamzade546alireza.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "alireza10.karamzade546alireza.workers.dev"
                 }
             }
         }
