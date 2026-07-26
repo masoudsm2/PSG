@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
+            "server": "148.251.41.50",
+            "server_port": 10000,
+            "uuid": "d096c0b7-2205-478f-9e2f-0c8366e5a2b8",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "a.samrayan.ir",
+                "server_name": "3byyf8q0.qnts33mtgi0ebq9tjd34.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "3byyf8q0.qnts33mtgi0ebq9tjd34.workers.dev"
                 }
             }
         }
