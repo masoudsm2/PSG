@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,27 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "148.251.41.50",
-            "server_port": 10000,
-            "uuid": "d096c0b7-2205-478f-9e2f-0c8366e5a2b8",
+            "server": "104.21.15.212",
+            "server_port": 8880,
+            "uuid": "902fd911-ca5d-49a6-99ad-47372a266804",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "3byyf8q0.qnts33mtgi0ebq9tjd34.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/pyip=ProxyIP.JP.CMLiussss.net",
                 "headers": {
-                    "Host": "3byyf8q0.qnts33mtgi0ebq9tjd34.workers.dev"
+                    "Host": "104.21.15.212"
                 }
             }
         }
