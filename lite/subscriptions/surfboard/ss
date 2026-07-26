@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45 = ss, 82.38.31.217, 8080, encrypt-method = chacha20-ietf-poly1305, password = k1dBOmOB4oqi7Ump37a1bQ
+🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 48 = ss, coco2.farajet.net, 2020, encrypt-method = chacha20-ietf-poly1305, password = 0u47xJvp2_pGbA5c13ASHK87DxDwk5zm
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45
-PSG-AUTO = url-test, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 48
+PSG-AUTO = url-test, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 48
+PSG-FALLBACK = fallback, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 48
 
 [Rule]
 GEOIP,IR,DIRECT
