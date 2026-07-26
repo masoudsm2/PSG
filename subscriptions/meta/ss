@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50","type":"ss","server":"20.107.187.192","port":443,"password":"vWcimUSiT1rfVM1v","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51","type":"ss","server":"coco1.farajet.net","port":1010,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54","type":"ss","server":"20.107.187.192","port":443,"password":"vWcimUSiT1rfVM1v","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50'
+      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54'
 
   - name: 🌍 Global Media
     type: select

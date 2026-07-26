@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51",
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51",
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +111,15 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50",
+            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51",
+            "type": "shadowsocks",
+            "server": "coco1.farajet.net",
+            "server_port": 1010,
+            "method": "chacha20-ietf-poly1305",
+            "password": "0u47xJvp2_pGbA5c13ASHK87DxDwk5zm"
+        },
+        {
+            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54",
             "type": "shadowsocks",
             "server": "20.107.187.192",
             "server_port": 443,

@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40"
+                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,12 +109,12 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40",
+            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51",
             "type": "shadowsocks",
-            "server": "switcher-nick-croquet.freesocks.work",
-            "server_port": 443,
+            "server": "coco1.farajet.net",
+            "server_port": 1010,
             "method": "chacha20-ietf-poly1305",
-            "password": "9tqhMdIrTkgQ46PvhyAtMH"
+            "password": "0u47xJvp2_pGbA5c13ASHK87DxDwk5zm"
         }
     ],
     "route": {
