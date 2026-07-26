@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "78.154.108.136",
+            "server_port": 2552,
+            "uuid": "d8b42cd5-a149-4356-9e61-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "66.81.247.91",
             "server_port": 443,
@@ -132,22 +141,6 @@
                 "path": "/rdfgtws",
                 "headers": {
                     "Host": "vangoghhh.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "104.21.15.212",
-            "server_port": 8880,
-            "uuid": "902fd911-ca5d-49a6-99ad-47372a266804",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-                "headers": {
-                    "Host": "104.21.15.212"
                 }
             }
         }
