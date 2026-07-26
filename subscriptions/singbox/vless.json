@@ -119,6 +119,15 @@
         {
             "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47",
             "type": "vless",
+            "server": "206.189.25.29",
+            "server_port": 18795,
+            "uuid": "b01b34a5-bceb-4f06-8055-ab1a28902eb1",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48",
+            "type": "vless",
             "server": "178.128.41.28",
             "server_port": 26698,
             "uuid": "17e30aac-9958-4ae2-b96c-989852d0c0af",
@@ -126,7 +135,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 49",
             "type": "vless",
             "server": "178.62.26.14",
             "server_port": 15518,
@@ -135,7 +144,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 49",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50",
             "type": "vless",
             "server": "165.232.97.126",
             "server_port": 26698,
@@ -144,20 +153,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51",
             "type": "vless",
             "server": "167.172.59.180",
             "server_port": 26698,
             "uuid": "17e30aac-9958-4ae2-b96c-989852d0c0af",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "78.154.108.136",
-            "server_port": 2552,
-            "uuid": "d8b42cd5-a149-4356-9e61-000000000000",
             "flow": "",
             "packet_encoding": "xudp"
         }
