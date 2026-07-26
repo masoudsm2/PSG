@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,6 +111,15 @@
             "type": "direct"
         },
         {
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46",
+            "type": "vless",
+            "server": "167.172.59.180",
+            "server_port": 26698,
+            "uuid": "17e30aac-9958-4ae2-b96c-989852d0c0af",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47",
             "type": "vless",
             "server": "78.154.108.136",
@@ -118,31 +127,6 @@
             "uuid": "d8b42cd5-a149-4356-9e61-000000000000",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "66.81.247.91",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
         }
     ],
     "route": {
