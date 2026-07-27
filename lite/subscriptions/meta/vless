@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40","type":"vless","server":"159.65.27.185","port":36096,"uuid":"b97695e2-4295-45fb-8238-78a8bc9f82e0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 41","type":"vless","server":"dalton.makanyab.app","port":443,"uuid":"a4cb769e-78ee-483f-8a9f-42e768ea1f1d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 41'
 
   - name: 🌍 Global Media
     type: select
