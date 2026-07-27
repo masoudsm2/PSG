@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 37"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 37"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 37",
             "type": "vless",
-            "server": "uspanel.unixzone.us",
-            "server_port": 30016,
-            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+            "server": "dalton.makanyab.app",
+            "server_port": 443,
+            "uuid": "a4cb769e-78ee-483f-8a9f-42e768ea1f1d",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/usserver",
-                "headers": {
-                    "Host": "uspanel.unixzone.us"
+            "tls": {
+                "enabled": true,
+                "server_name": "dalton.makanyab.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

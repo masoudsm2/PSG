@@ -89,10 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 38",
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 39",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 41",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 43"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 38",
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 39",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 41",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 43"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,6 +111,15 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 38",
+            "type": "vless",
+            "server": "182.16.61.2",
+            "server_port": 45647,
+            "uuid": "caec0d8d-ab2f-4247-b97d-7fb1a34ab195",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 39",
@@ -129,24 +136,6 @@
             "server": "159.65.27.185",
             "server_port": 36096,
             "uuid": "b97695e2-4295-45fb-8238-78a8bc9f82e0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 41",
-            "type": "vless",
-            "server": "144.126.193.192",
-            "server_port": 41941,
-            "uuid": "81f9b6e0-638a-4e94-9119-f93909b6bebd",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 43",
-            "type": "vless",
-            "server": "167.99.203.130",
-            "server_port": 41941,
-            "uuid": "81f9b6e0-638a-4e94-9119-f93909b6bebd",
             "flow": "",
             "packet_encoding": "xudp"
         }
