@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 39",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40",
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 41",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 42",
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 43",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 39",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40",
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 41",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 42",
                 "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 43",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 41",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 39",
             "type": "vless",
             "server": "134.209.180.189",
             "server_port": 41941,
@@ -126,7 +126,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 42",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40",
             "type": "vless",
             "server": "159.65.27.185",
             "server_port": 36096,
@@ -135,7 +135,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 43",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 41",
             "type": "vless",
             "server": "144.126.193.192",
             "server_port": 41941,
@@ -144,7 +144,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 43",
             "type": "vless",
             "server": "167.99.203.130",
             "server_port": 41941,
@@ -153,7 +153,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42",
             "type": "vless",
             "server": "uspanel.unixzone.us",
             "server_port": 30016,
