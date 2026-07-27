@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 41"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 41"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,22 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 41",
-            "type": "vless",
-            "server": "dalton.makanyab.app",
-            "server_port": 443,
-            "uuid": "a4cb769e-78ee-483f-8a9f-42e768ea1f1d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dalton.makanyab.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43",
+            "type": "vmess",
+            "server": "74.211.102.179",
+            "server_port": 20001,
+            "uuid": "7f5f0705-3dfb-4f56-9657-c95cade2ba83",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {

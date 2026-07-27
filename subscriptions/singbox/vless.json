@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 37",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 39",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 41"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 39",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 40",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 37",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 39",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 41"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 39",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 40",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 37",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 39",
+            "type": "vless",
+            "server": "13.36.17.132",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 40",
             "type": "vless",
             "server": "13.36.17.132",
             "server_port": 22222,
@@ -122,7 +131,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 39",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
             "type": "vless",
             "server": "104.18.41.190",
             "server_port": 443,
@@ -143,24 +152,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 41",
-            "type": "vless",
-            "server": "dalton.makanyab.app",
-            "server_port": 443,
-            "uuid": "a4cb769e-78ee-483f-8a9f-42e768ea1f1d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dalton.makanyab.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
