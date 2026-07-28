@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
-            "server": "www.speedtest.org",
-            "server_port": 443,
-            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "shegeftihaaa.net",
+                "server_name": "po.fastbrokencompony.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/rsedgws",
+                "path": "/",
                 "headers": {
-                    "Host": "shegeftihaaa.net"
+                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }
