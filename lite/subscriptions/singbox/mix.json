@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
             "type": "vless",
             "server": "po.fastbrokencompony.com",
             "server_port": 2053,
