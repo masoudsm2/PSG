@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 39"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 37",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 39"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 37",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +111,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 39",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 37",
+            "type": "vless",
+            "server": "162.159.38.119",
+            "server_port": 443,
+            "uuid": "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "terazhediii.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/hdgrbws",
+                "headers": {
+                    "Host": "terazhediii.info"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38",
             "type": "vless",
             "server": "66.81.247.91",
             "server_port": 443,
