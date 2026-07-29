@@ -92,7 +92,7 @@
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 37",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 40",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41"
             ],
             "tag": "proxy",
@@ -104,7 +104,7 @@
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 37",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 40",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41"
             ],
             "tag": "auto",
@@ -183,7 +183,7 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 40",
             "type": "vless",
             "server": "d.socialxxmedia.com",
             "server_port": 200,
