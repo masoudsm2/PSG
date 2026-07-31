@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 37","type":"vless","server":"162.159.38.119","port":443,"uuid":"b2f6aa3a-2550-4a1c-b2c0-1c94b1207217","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"terazhediii.info","ws-opts":{"path":"/hdgrbws","headers":{"Host":"terazhediii.info"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38","type":"vless","server":"66.81.247.91","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 38","type":"vless","server":"81.85.78.193","port":4100,"uuid":"2aa7f4b1-e859-46d0-b8ac-8587811ab7b1","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"live.ok.ru"}}}
+  - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 39","type":"vless","server":"185.39.204.155","port":8443,"uuid":"1f29762d-3f23-4207-9e39-f774de5d49ba","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41","type":"vless","server":"162.159.38.119","port":443,"uuid":"b2f6aa3a-2550-4a1c-b2c0-1c94b1207217","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"terazhediii.info","ws-opts":{"path":"/hdgrbws","headers":{"Host":"terazhediii.info"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 37'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 38'
+      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 39'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
 
   - name: 🌍 Global Media
     type: select
