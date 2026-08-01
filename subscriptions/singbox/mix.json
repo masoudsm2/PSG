@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 48",
-                "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43",
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 48",
-                "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43",
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,34 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43",
+            "type": "vmess",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44",
+            "type": "vmess",
+            "server": "165.154.195.38",
+            "server_port": 35034,
+            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
             "type": "vless",
             "server": "one-for-all.levikogjgfdd.ir",
             "server_port": 2053,
@@ -142,7 +169,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46",
             "type": "vless",
             "server": "15.224.129.178",
             "server_port": 22222,
@@ -151,47 +178,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 48",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 47",
             "type": "vless",
             "server": "15.224.129.178",
             "server_port": 22224,
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 49",
-            "type": "vmess",
-            "server": "47.250.135.244",
-            "server_port": 10000,
-            "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-            "type": "vless",
-            "server": "162.159.137.54",
-            "server_port": 443,
-            "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "support.zoom.us.yxls.eu.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sg-melbi",
-                "headers": {
-                    "Host": "support.zoom.us.yxls.eu.cc"
-                }
-            }
         }
     ],
     "route": {
