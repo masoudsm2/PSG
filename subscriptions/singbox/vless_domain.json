@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +111,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "ddc-chr.astralweb.tech",
+            "server_port": 443,
+            "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ddc-chr.astralweb.tech",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "uspanel.unixzone.us",
             "server_port": 30016,
