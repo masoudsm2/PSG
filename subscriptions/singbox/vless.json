@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
                 "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
-                "🇨🇴 CO | 🔴 | vless | @NamiraConfigs | 58"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
+                "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
                 "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
-                "🇨🇴 CO | 🔴 | vless | @NamiraConfigs | 58"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
+                "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,6 +113,22 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "p01.parsi.sbs",
+            "server_port": 2086,
+            "uuid": "1ee1f28d-4975-4d7c-95c7-76172c20eed5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "p01.parsi.sbs"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
@@ -133,32 +149,32 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "uspanel.unixzone.us",
-            "server_port": 30016,
-            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+            "server": "104.16.72.41",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/usserver",
+                "path": "/http",
                 "headers": {
-                    "Host": "uspanel.unixzone.us"
+                    "Host": "104.16.72.41"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+            "tag": "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "45.138.100.226",
-            "server_port": 2083,
-            "uuid": "0c6b632a-cd96-4b74-9b51-151e3b5697db",
+            "server": "185.195.69.119",
+            "server_port": 2053,
+            "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "using.neobo-tooth.ru",
+                "server_name": "forfreeuse.sub-flow.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -166,18 +182,12 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "forfreeuse.sub-flow.online"
+                }
             }
-        },
-        {
-            "tag": "🇨🇴 CO | 🔴 | vless | @NamiraConfigs | 58",
-            "type": "vless",
-            "server": "157.137.228.255",
-            "server_port": 62145,
-            "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

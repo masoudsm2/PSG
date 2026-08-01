@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,6 +109,22 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "p01.parsi.sbs",
+            "server_port": 2086,
+            "uuid": "1ee1f28d-4975-4d7c-95c7-76172c20eed5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "p01.parsi.sbs"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
@@ -125,22 +141,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-            "type": "vless",
-            "server": "uspanel.unixzone.us",
-            "server_port": 30016,
-            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/usserver",
-                "headers": {
-                    "Host": "uspanel.unixzone.us"
                 }
             }
         }
