@@ -5,5 +5,5 @@
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@p01.parsi.sbs:2086?type=ws&path=/&host=parsi.parsi.sbs&security=none#🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51
 vless://3ad1d277-5715-4ca1-84db-5baea72f822d@ddc-chr.astralweb.tech:443?security=tls&type=tcp&packetEncoding=xudp&sni=ddc-chr.astralweb.tech&fp=firefox#🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@104.16.72.41:80?path=/http&security=none&encryption=none&host=de.vpnbase.net&type=ws#🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@104.16.72.41:80?path=/http&security=none&encryption=none&host=de.vpnbase.net&type=ws#🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 52
 vless://c7e9c591-2764-423a-afca-efbd010fd396@185.195.69.119:2053?path=/&security=tls&encryption=none&host=forfreeuse.sub-flow.online&fp=chrome&type=ws&sni=forfreeuse.sub-flow.online#🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 53
