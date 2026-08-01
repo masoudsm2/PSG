@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
             "server": "ddc-chr.astralweb.tech",
             "server_port": 443,
