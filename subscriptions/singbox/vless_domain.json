@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 37",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 40"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 37",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 40"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,32 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 37",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
             "type": "vless",
-            "server": "ordakbot.ir",
-            "server_port": 80,
-            "uuid": "50414e45-4c5f-5a45-5553-6d24857831b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/stream/PANEL_ZEUS/6d24857831b8?loc=0",
-                "headers": {
-                    "Host": "z-e-u-s-panel-m0yjjp.zeus-12g9x8.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 40",
-            "type": "vless",
-            "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
-            "server_port": 443,
-            "uuid": "4908acbe-485f-4e1c-bb11-5dd04b9f7e88",
+            "server": "music1000.melobitmusic1.ir",
+            "server_port": 2053,
+            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "restless-base-fe24.alirezahabibi20009.workers.dev",
+                "server_name": "music1000.melobitmusic1.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -145,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/",
                 "headers": {
-                    "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
+                    "Host": "music1000.melobitmusic1.ir"
                 }
             }
         }

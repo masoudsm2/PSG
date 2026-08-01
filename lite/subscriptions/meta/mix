@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🟢 | vless | @NamiraConfigs | 41","type":"vless","server":"162.159.38.119","port":443,"uuid":"b2f6aa3a-2550-4a1c-b2c0-1c94b1207217","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"terazhediii.info","ws-opts":{"path":"/hdgrbws","headers":{"Host":"terazhediii.info"}}}
+  - {"name":"🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"95.85.224.3","port":8443,"uuid":"1f29762d-3f23-4207-9e39-f774de5d49ba","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🟢 | vless | @NamiraConfigs | 41'
+      - '🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 45'
 
   - name: 🌍 Global Media
     type: select

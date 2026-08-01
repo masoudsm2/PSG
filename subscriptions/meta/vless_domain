@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 40","type":"vless","server":"restless-base-fe24.alirezahabibi20009.workers.dev","port":443,"uuid":"4908acbe-485f-4e1c-bb11-5dd04b9f7e88","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"restless-base-fe24.alirezahabibi20009.workers.dev","ws-opts":{"path":"/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=","headers":{"Host":"restless-base-fe24.alirezahabibi20009.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42","type":"vless","server":"music1000.melobitmusic1.ir","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"music1000.melobitmusic1.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 40'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
 
   - name: 🌍 Global Media
     type: select
