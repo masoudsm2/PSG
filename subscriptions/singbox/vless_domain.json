@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,22 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "ip.kickfarsi.com",
-            "server_port": 8443,
-            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "server": "learngerman.torexa.ir",
+            "server_port": 2090,
+            "uuid": "0103cdc9-3927-44f0-88aa-e1162b7fedaf",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ger3.kickfarsi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

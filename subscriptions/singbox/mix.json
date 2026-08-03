@@ -89,11 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 50",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 58",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 61",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 50",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 58",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 61",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,88 +115,38 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 50",
-            "type": "vmess",
-            "server": "165.140.216.142",
-            "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
-            "server": "ip.kickfarsi.com",
-            "server_port": 8443,
-            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ger3.kickfarsi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "45.131.215.61",
-            "server_port": 52315,
-            "uuid": "29498268-55f3-4b51-ba1a-1eba23f4ab63",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "45.131.215.61"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "172.67.180.173",
-            "server_port": 2053,
-            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "music1000.melobitmusic1.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "music1000.melobitmusic1.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "167.233.47.127",
+            "server": "128.140.114.57",
             "server_port": 1234,
-            "uuid": "957797d5-1710-4e4a-bf41-9f5b641503e3",
+            "uuid": "8b0c48db-c228-47d9-b634-6ea6edf81e22",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
+            "type": "vless",
+            "server": "91.99.119.155",
+            "server_port": 1234,
+            "uuid": "8b0c48db-c228-47d9-b634-6ea6edf81e22",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 61",
+            "type": "vless",
+            "server": "62.238.63.51",
+            "server_port": 1234,
+            "uuid": "8b0c48db-c228-47d9-b634-6ea6edf81e22",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 62",
+            "type": "vless",
+            "server": "learngerman.torexa.ir",
+            "server_port": 2090,
+            "uuid": "0103cdc9-3927-44f0-88aa-e1162b7fedaf",
             "flow": "",
             "packet_encoding": "xudp"
         }

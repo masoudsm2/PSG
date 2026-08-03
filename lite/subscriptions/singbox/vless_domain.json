@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 55"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 55"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,22 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "ddc-chr.astralweb.tech",
-            "server_port": 443,
-            "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
+            "server": "learngerman.torexa.ir",
+            "server_port": 2090,
+            "uuid": "0103cdc9-3927-44f0-88aa-e1162b7fedaf",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ddc-chr.astralweb.tech",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
