@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"h.telegram-tirexnet.kdns.fr","port":23961,"uuid":"8d0718bd-5b4b-4e6a-92af-669a65740869","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"learngerman.torexa.ir","port":2090,"uuid":"0103cdc9-3927-44f0-88aa-e1162b7fedaf","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"h.telegram-tirexnet.kdns.fr","port":23961,"uuid":"8d0718bd-5b4b-4e6a-92af-669a65740869","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"learngerman.torexa.ir","port":2090,"uuid":"0103cdc9-3927-44f0-88aa-e1162b7fedaf","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 60'
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 60'
+      - '🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62'
 
   - name: 🌍 Global Media
     type: select

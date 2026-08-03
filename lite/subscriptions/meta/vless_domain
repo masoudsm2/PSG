@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"learngerman.torexa.ir","port":2090,"uuid":"0103cdc9-3927-44f0-88aa-e1162b7fedaf","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"learngerman.torexa.ir","port":2090,"uuid":"0103cdc9-3927-44f0-88aa-e1162b7fedaf","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62'
 
   - name: 🌍 Global Media
     type: select

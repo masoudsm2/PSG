@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 58",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 61",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 61",
+                "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 58",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 61",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 61",
+                "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,7 +115,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 58",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "128.140.114.57",
             "server_port": 1234,
@@ -124,7 +124,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "91.99.119.155",
             "server_port": 1234,
@@ -133,7 +133,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "62.238.63.51",
             "server_port": 1234,
@@ -142,7 +142,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 62",
+            "tag": "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62",
             "type": "vless",
             "server": "learngerman.torexa.ir",
             "server_port": 2090,
