@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "182.16.61.3",
-            "server_port": 45647,
-            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
+            "server": "104.18.1.1",
+            "server_port": 8443,
+            "uuid": "a039c938-0792-424a-8a8a-d0508c7fcab1",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sweet-art-a13d.5ejrdnfcv.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sweet-art-a13d.5ejrdnfcv.workers.dev"
+                }
+            }
         }
     ],
     "route": {

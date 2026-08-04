@@ -3,5 +3,4 @@
 #subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 #support-url: https://t.me/yebekhe
 #profile-web-page-url: https://github.com/itsyebekhe/PSG
-vless://ddfe43fe-7b67-4606-b0d4-4e5339abab5d@tr2.soundfiy.ir:61169?security=none&encryption=none&headerType=http&type=tcp#🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 63
-vless://4908acbe-485f-4e1c-bb11-5dd04b9f7e88@restless-base-fe24.alirezahabibi20009.workers.dev:443?encryption=none&host=restless-base-fe24.alirezahabibi20009.workers.dev&path=/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=&security=tls&sni=restless-base-fe24.alirezahabibi20009.workers.dev&type=ws#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66
+vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@po.fastbrokencompony.com:2053?path=/&security=tls&alpn=h3,h2&encryption=none&insecure=0&host=po.fastbrokencompony.com&fp=chrome&type=ws&allowInsecure=0&sni=po.fastbrokencompony.com#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58
