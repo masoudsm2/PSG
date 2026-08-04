@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56"
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56"
+                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +115,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "mahdipok.paydar.site",
+            "server_port": 80,
+            "uuid": "116f860d-c67a-4443-b478-18e11d193592",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
             "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
             "server_port": 443,
@@ -138,7 +149,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56",
             "type": "vless",
             "server": "myip.montago-shop.ir",
             "server_port": 42542,
@@ -147,7 +158,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "deplay.montago-shop.ir",
             "server_port": 42542,
