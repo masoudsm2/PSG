@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +111,22 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "myip.montago-shop.ir",
+            "server_port": 42542,
+            "uuid": "dc780e62-11b3-4360-9401-56d3326acc2f",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "deplay.montago-shop.ir",
+            "server_port": 42542,
+            "uuid": "dc780e62-11b3-4360-9401-56d3326acc2f",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

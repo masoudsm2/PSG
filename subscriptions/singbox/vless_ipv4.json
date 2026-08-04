@@ -91,9 +91,7 @@
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 60"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,9 +101,7 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 60"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -118,6 +114,22 @@
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "173.245.59.84",
+            "server_port": 80,
+            "uuid": "dd53235d-06c2-4120-9278-b93ddc969d0d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/secure-vpn/",
+                "headers": {
+                    "Host": "173.245.59.84"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "162.159.147.159",
             "server_port": 80,
@@ -133,7 +145,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "104.17.90.38",
             "server_port": 80,
@@ -147,47 +159,6 @@
                     "Host": "104.17.90.38"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
-            "type": "vless",
-            "server": "198.41.217.64",
-            "server_port": 80,
-            "uuid": "dd53235d-06c2-4120-9278-b93ddc969d0d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/secure-vpn/",
-                "headers": {
-                    "Host": "198.41.217.64"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59",
-            "type": "vless",
-            "server": "198.41.214.104",
-            "server_port": 80,
-            "uuid": "dd53235d-06c2-4120-9278-b93ddc969d0d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/secure-vpn/",
-                "headers": {
-                    "Host": "198.41.214.104"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 60",
-            "type": "vless",
-            "server": "15.237.234.170",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
