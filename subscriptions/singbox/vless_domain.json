@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 63",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 63",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 63",
+            "type": "vless",
+            "server": "tr2.soundfiy.ir",
+            "server_port": 61169,
+            "uuid": "ddfe43fe-7b67-4606-b0d4-4e5339abab5d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
             "server_port": 443,
