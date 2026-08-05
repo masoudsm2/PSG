@@ -6,7 +6,7 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
         "type": "vless",
-        "config": "vless://d1e3c253-7d5e-4bd5-9f16-52787a63bb65@206.81.21.46:23519?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2043"
+        "config": "vless://d1e3c253-7d5e-4bd5-9f16-52787a63bb65@206.81.21.46:23519?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2044"
     },
     {
         "channel": {
@@ -15,7 +15,7 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
         "type": "vless",
-        "config": "vless://fabbb79a-013a-4c50-a0bb-ad8dd14149b8@178.128.202.10:54034?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2044"
+        "config": "vless://fabbb79a-013a-4c50-a0bb-ad8dd14149b8@178.128.202.10:54034?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2045"
     },
     {
         "channel": {
@@ -24,7 +24,7 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
         "type": "vless",
-        "config": "vless://9432b345-529f-4236-b0b8-4b57aece9a82@164.92.206.40:25619?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2045"
+        "config": "vless://9432b345-529f-4236-b0b8-4b57aece9a82@164.92.206.40:25619?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2046"
     },
     {
         "channel": {
@@ -33,7 +33,7 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
         "type": "vless",
-        "config": "vless://79b80d30-6837-48cf-8259-f284f9ec306b@165.232.111.141:42593?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2046"
+        "config": "vless://79b80d30-6837-48cf-8259-f284f9ec306b@165.232.111.141:42593?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2047"
     },
     {
         "channel": {
@@ -42,6 +42,6 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
         "type": "vless",
-        "config": "vless://6d238427-e07d-4820-9782-bfe47ecf05c9@157.230.109.99:18319?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2047"
+        "config": "vless://6d238427-e07d-4820-9782-bfe47ecf05c9@157.230.109.99:18319?type=tcp&encryption=none&path=%2F&host=play.google.com&headerType=http&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2048"
     }
 ]
