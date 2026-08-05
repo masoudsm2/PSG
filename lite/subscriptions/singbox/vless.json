@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 49"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 49"
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 49",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "nobitex.ir",
-            "server_port": 2086,
-            "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
+            "server": "nl-bl-nl.karmatel.ir",
+            "server_port": 20828,
+            "uuid": "35a6946a-2003-448f-9c1b-911efaa8c9a7",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "nobitex.ir"
+                    "Host": "nl-bl-nl.karmatel.ir"
                 }
             }
         }
