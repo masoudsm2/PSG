@@ -111,11 +111,18 @@
         {
             "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "157.230.109.99",
-            "server_port": 18319,
-            "uuid": "6d238427-e07d-4820-9782-bfe47ecf05c9",
+            "server": "nobitex.ir",
+            "server_port": 2086,
+            "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "nobitex.ir"
+                }
+            }
         }
     ],
     "route": {

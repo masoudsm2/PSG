@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,36 +113,52 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
             "type": "vless",
-            "server": "mahdipok.paydar.site",
-            "server_port": 80,
-            "uuid": "116f860d-c67a-4443-b478-18e11d193592",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+            "server": "iran-tehran.co.uk",
             "server_port": 443,
-            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
+            "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+                "server_name": "iran-tehran.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
+            "type": "vless",
+            "server": "nl-bl-nl.karmatel.ir",
+            "server_port": 20828,
+            "uuid": "35a6946a-2003-448f-9c1b-911efaa8c9a7",
+            "flow": "",
+            "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/",
                 "headers": {
-                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
+                    "Host": "nl-bl-nl.karmatel.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "nobitex.ir",
+            "server_port": 2086,
+            "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "nobitex.ir"
                 }
             }
         }

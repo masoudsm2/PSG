@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
             "type": "vless",
-            "server": "8.6.112.7",
-            "server_port": 8443,
-            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "server": "iran-tehran.co.uk",
+            "server_port": 443,
+            "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ger3.kickfarsi.com",
+                "server_name": "iran-tehran.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

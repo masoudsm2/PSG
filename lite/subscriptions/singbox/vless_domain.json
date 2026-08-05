@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,27 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-            "server_port": 443,
-            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
+            "server": "nobitex.ir",
+            "server_port": 2086,
+            "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/",
                 "headers": {
-                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
+                    "Host": "nobitex.ir"
                 }
             }
         }
