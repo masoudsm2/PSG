@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 48"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 46",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 48"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 46",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
             "server": "iran-tehran.co.uk",
             "server_port": 443,
@@ -131,7 +131,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 46",
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47",
             "type": "vless",
             "server": "nl-bl-nl.karmatel.ir",
             "server_port": 20828,
@@ -147,7 +147,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 48",
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49",
             "type": "vless",
             "server": "nobitex.ir",
             "server_port": 2086,

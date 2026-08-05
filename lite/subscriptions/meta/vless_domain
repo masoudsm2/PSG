@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 48","type":"vless","server":"nobitex.ir","port":2086,"uuid":"9ec0f053-4dd2-4511-b5f8-00257ead90d4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"iranpars.yeksancloud.ir"}}}
+  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"nobitex.ir","port":2086,"uuid":"9ec0f053-4dd2-4511-b5f8-00257ead90d4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"iranpars.yeksancloud.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 48'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 49'
 
   - name: 🌍 Global Media
     type: select
