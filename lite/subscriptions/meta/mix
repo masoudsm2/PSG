@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇵🇰 PK | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"116.204.164.5","port":7443,"uuid":"6eb831ea-8829-457b-a5d1-52f640a97486","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev","ws-opts":{"path":"/@Marisa_kristi","headers":{"Host":"jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"}}}
+  - {"name":"❔ XX | 🔴 | vmess | @NamiraConfigs | 57","type":"vmess","server":"140.235.37.128","port":32203,"cipher":"auto","uuid":"0e288730-2200-4578-8e70-bc2b562bef7f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇰 PK | 🟢 | vless | @NamiraConfigs | 57'
+      - '❔ XX | 🔴 | vmess | @NamiraConfigs | 57'
 
   - name: 🌍 Global Media
     type: select

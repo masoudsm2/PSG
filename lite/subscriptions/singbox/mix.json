@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇵🇰 PK | 🟢 | vless | @NamiraConfigs | 57"
+                "❔ XX | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇵🇰 PK | 🟢 | vless | @NamiraConfigs | 57"
+                "❔ XX | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇵🇰 PK | 🟢 | vless | @NamiraConfigs | 57",
-            "type": "vless",
-            "server": "116.204.164.5",
-            "server_port": 7443,
-            "uuid": "6eb831ea-8829-457b-a5d1-52f640a97486",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/@Marisa_kristi",
-                "headers": {
-                    "Host": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-                }
-            }
+            "tag": "❔ XX | 🔴 | vmess | @NamiraConfigs | 57",
+            "type": "vmess",
+            "server": "140.235.37.128",
+            "server_port": 32203,
+            "uuid": "0e288730-2200-4578-8e70-bc2b562bef7f",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {
