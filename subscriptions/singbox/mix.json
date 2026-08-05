@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45",
-                "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 46",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
+                "🇯🇵 JP | 🔴 | vmess | @NamiraConfigs | 56",
+                "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45",
-                "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 46",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
+                "🇯🇵 JP | 🔴 | vmess | @NamiraConfigs | 56",
+                "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,63 +117,70 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "farhang.athforce.ir",
-            "server_port": 38778,
-            "uuid": "7a74bb65-e652-4c0e-a1a7-d0bc0d963352",
+            "server": "18.194.146.225",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 45",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54",
             "type": "vmess",
-            "server": "82.198.246.233",
+            "server": "82.198.246.37",
             "server_port": 180,
             "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0
         },
         {
-            "tag": "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 46",
-            "type": "vmess",
-            "server": "5.188.190.252",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "iran-tehran.co.uk",
-            "server_port": 443,
-            "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iran-tehran.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48",
-            "type": "vless",
-            "server": "nl-bl-nl.karmatel.ir",
-            "server_port": 20828,
-            "uuid": "35a6946a-2003-448f-9c1b-911efaa8c9a7",
+            "server": "104.26.3.125",
+            "server_port": 2052,
+            "uuid": "e8d06b09-acd9-448c-9874-3c36151d36ee",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "nl-bl-nl.karmatel.ir"
+                    "Host": "104.26.3.125"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔴 | vmess | @NamiraConfigs | 56",
+            "type": "vmess",
+            "server": "140.235.37.128",
+            "server_port": 32203,
+            "uuid": "0e288730-2200-4578-8e70-bc2b562bef7f",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "116.204.164.5",
+            "server_port": 7443,
+            "uuid": "6eb831ea-8829-457b-a5d1-52f640a97486",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@Marisa_kristi",
+                "headers": {
+                    "Host": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
                 }
             }
         }

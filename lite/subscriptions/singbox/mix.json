@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48"
+                "🇵🇰 PK | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48"
+                "🇵🇰 PK | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48",
+            "tag": "🇵🇰 PK | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "nl-bl-nl.karmatel.ir",
-            "server_port": 20828,
-            "uuid": "35a6946a-2003-448f-9c1b-911efaa8c9a7",
+            "server": "116.204.164.5",
+            "server_port": 7443,
+            "uuid": "6eb831ea-8829-457b-a5d1-52f640a97486",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/@Marisa_kristi",
                 "headers": {
-                    "Host": "nl-bl-nl.karmatel.ir"
+                    "Host": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
                 }
             }
         }
