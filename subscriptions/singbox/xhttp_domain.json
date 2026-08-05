@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "iran-tehran.co.uk",
             "server_port": 443,

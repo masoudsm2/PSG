@@ -89,9 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,16 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-            "type": "vless",
-            "server": "farhang.athforce.ir",
-            "server_port": 38778,
-            "uuid": "7a74bb65-e652-4c0e-a1a7-d0bc0d963352",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "iran-tehran.co.uk",
             "server_port": 443,
@@ -136,22 +123,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 48",
-            "type": "vless",
-            "server": "nl-bl-nl.karmatel.ir",
-            "server_port": 20828,
-            "uuid": "35a6946a-2003-448f-9c1b-911efaa8c9a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "nl-bl-nl.karmatel.ir"
                 }
             }
         }
