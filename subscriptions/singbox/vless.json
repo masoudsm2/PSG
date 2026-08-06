@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
             "server": "78.159.245.32",
             "server_port": 28474,
@@ -135,7 +135,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
             "server": "104.16.75.99",
             "server_port": 443,
@@ -160,7 +160,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 50",
             "type": "vless",
             "server": "87.228.122.108",
             "server_port": 4100,
@@ -176,7 +176,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
             "type": "vless",
             "server": "de.vpnbase.net",
             "server_port": 80,
@@ -192,7 +192,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "react.dev",
             "server_port": 443,
