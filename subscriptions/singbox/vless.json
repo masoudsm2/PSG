@@ -89,10 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,7 +117,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
             "type": "vless",
             "server": "iran-tehran.co.uk",
             "server_port": 443,
@@ -133,7 +153,32 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "172.67.191.52",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "104.16.239.120",
             "server_port": 443,
@@ -158,29 +203,13 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "18.194.146.225",
             "server_port": 22224,
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-            "type": "vless",
-            "server": "104.26.3.125",
-            "server_port": 2052,
-            "uuid": "e8d06b09-acd9-448c-9874-3c36151d36ee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "104.26.3.125"
-                }
-            }
         }
     ],
     "route": {
