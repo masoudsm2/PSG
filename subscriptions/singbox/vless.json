@@ -92,7 +92,7 @@
                 "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -167,7 +167,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "104.26.3.125",
             "server_port": 2052,
