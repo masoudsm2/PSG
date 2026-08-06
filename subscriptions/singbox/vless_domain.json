@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "a.samrayan.ir",
             "server_port": 443,
@@ -121,24 +119,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "a.samrayan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
-            "type": "vless",
-            "server": "iran-tehran.co.uk",
-            "server_port": 443,
-            "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iran-tehran.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
