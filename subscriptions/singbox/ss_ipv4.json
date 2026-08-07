@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48",
                 "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50",
                 "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52"
             ],
@@ -98,6 +99,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48",
                 "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50",
                 "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52"
             ],
@@ -109,6 +111,14 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48",
+            "type": "shadowsocks",
+            "server": "104.46.88.136",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mffAKRtk8wJi8fFu"
         },
         {
             "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50",
