@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56"
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56"
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,11 +109,11 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
+            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 49",
             "type": "vmess",
-            "server": "82.198.246.37",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "server": "fj260403.freechatup.com",
+            "server_port": 27726,
+            "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6",
             "security": "auto",
             "alter_id": 0
         }
