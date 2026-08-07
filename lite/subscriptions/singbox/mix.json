@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 54"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 54"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "87.228.122.108",
-            "server_port": 4100,
-            "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-            "flow": "",
+            "server": "78.159.245.32",
+            "server_port": 28474,
+            "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "87.228.122.108"
+            "tls": {
+                "enabled": true,
+                "server_name": "secure.furrycdn.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

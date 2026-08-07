@@ -89,11 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +115,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46",
+            "type": "vless",
+            "server": "89.208.113.16",
+            "server_port": 443,
+            "uuid": "adce7c2a-3191-49ae-b61c-9b8258ea1b0e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "89.208.113.16",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
             "server": "104.18.37.228",
             "server_port": 443,
@@ -142,7 +158,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
             "server": "po.fastbrokencompony.com",
             "server_port": 2053,
@@ -167,7 +183,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
             "server": "78.159.245.32",
             "server_port": 28474,
@@ -181,47 +197,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "104.16.75.99",
-            "server_port": 443,
-            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "germany-2.ariyuz.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "germany-2.ariyuz.org"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "87.228.122.108",
-            "server_port": 4100,
-            "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "87.228.122.108"
                 }
             }
         }
