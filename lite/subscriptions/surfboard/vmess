@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔴 | vmess | @NamiraConfigs | 57 = vmess, 140.235.37.128, 32203, username = 0e288730-2200-4578-8e70-bc2b562bef7f, ws = false, tls = false
+🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53 = vmess, fj260403.freechatup.com, 27726, username = 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | vmess | @NamiraConfigs | 57
-PSG-AUTO = url-test, ❔ XX | 🔴 | vmess | @NamiraConfigs | 57
-PSG-FALLBACK = fallback, ❔ XX | 🔴 | vmess | @NamiraConfigs | 57
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53
+PSG-AUTO = url-test, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53
 
 [Rule]
 GEOIP,IR,DIRECT
