@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "78.159.245.32",
-            "server_port": 28474,
-            "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
-            "flow": "xtls-rprx-vision",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "secure.furrycdn.net",
+                "server_name": "po.fastbrokencompony.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }
