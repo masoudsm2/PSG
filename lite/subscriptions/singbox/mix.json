@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | ss | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | ss | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,12 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | ss | @NamiraConfigs | 51",
-            "type": "shadowsocks",
-            "server": "92.112.126.90",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "RFK38Cg7APneSB5cWDcpbm"
+            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50",
+            "type": "vmess",
+            "server": "91.107.157.137",
+            "server_port": 18003,
+            "uuid": "e41f1455-24f5-4d28-9588-a2cba790171c",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {
