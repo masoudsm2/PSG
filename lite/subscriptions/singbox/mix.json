@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "react.dev",
-            "server_port": 443,
-            "uuid": "c0899a53-cc3b-4066-a3b4-d6d07b4853ee",
+            "server": "87.228.122.108",
+            "server_port": 4100,
+            "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "react.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/v1",
+                "headers": {
+                    "Host": "87.228.122.108"
                 }
             }
         }

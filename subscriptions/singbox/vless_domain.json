@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,36 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "de.vpnbase.net",
-            "server_port": 80,
-            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/http",
-                "headers": {
-                    "Host": "de.vpnbase.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "react.dev",
-            "server_port": 443,
-            "uuid": "c0899a53-cc3b-4066-a3b4-d6d07b4853ee",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "react.dev",
+                "server_name": "po.fastbrokencompony.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }

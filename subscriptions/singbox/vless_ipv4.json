@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 48",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 48",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +115,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 48",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "104.18.37.228",
+            "server_port": 443,
+            "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hhlfy.twiladaphne.ndjp.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/fp",
+                "headers": {
+                    "Host": "hhlfy.twiladaphne.ndjp.net"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "78.159.245.32",
             "server_port": 28474,
@@ -131,7 +158,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "104.16.75.99",
             "server_port": 443,
@@ -156,7 +183,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 50",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "87.228.122.108",
             "server_port": 4100,

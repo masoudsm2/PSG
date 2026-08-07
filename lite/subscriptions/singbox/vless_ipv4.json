@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,27 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "172.67.191.52",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "87.228.122.108",
+            "server_port": 4100,
+            "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/v1",
                 "headers": {
-                    "Host": "po.fastbrokencompony.com"
+                    "Host": "87.228.122.108"
                 }
             }
         }
