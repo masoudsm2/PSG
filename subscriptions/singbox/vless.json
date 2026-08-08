@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 50",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 51",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 50",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 51",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 50",
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51",
             "type": "vless",
             "server": "185.143.233.122",
             "server_port": 80,
@@ -129,7 +127,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "72.56.247.70",
             "server_port": 2200,
@@ -141,24 +139,6 @@
                 "path": "/v1",
                 "headers": {
                     "Host": "72.56.247.70"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "nasnet-162191099-direct.mbghalibaf.com",
-            "server_port": 443,
-            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nasnet-162191099-direct.mbghalibaf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
