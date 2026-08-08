@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 55"
+                "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 56",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
+                "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 59"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 55"
+                "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 56",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
+                "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 59"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +115,41 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 56",
+            "type": "vmess",
+            "server": "5.188.190.252",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "104.17.66.0",
+            "server_port": 8443,
+            "uuid": "8581742d-6ec6-47be-b4f5-a6d3032d6e74",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "subsanaei.pannelman.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "subsanaei.pannelman.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "146.75.119.82",
             "server_port": 80,
@@ -129,20 +165,12 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 52",
+            "tag": "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 59",
             "type": "shadowsocks",
             "server": "140.174.184.5",
             "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
             "password": "qItG8SueYQcP"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 55",
-            "type": "shadowsocks",
-            "server": "193.42.38.209",
-            "server_port": 1080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XF0klw7870vXn3uQIxe19Q"
         }
     ],
     "route": {

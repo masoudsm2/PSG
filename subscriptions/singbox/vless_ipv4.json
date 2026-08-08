@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +111,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "104.17.66.0",
+            "server_port": 8443,
+            "uuid": "8581742d-6ec6-47be-b4f5-a6d3032d6e74",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "subsanaei.pannelman.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "subsanaei.pannelman.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "146.75.119.82",
             "server_port": 80,
