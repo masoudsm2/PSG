@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59",
@@ -100,6 +101,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59",
@@ -113,6 +115,22 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "104.16.72.101",
+            "server_port": 80,
+            "uuid": "d5598622-46b8-b017-3af3-232500000001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "104.16.72.101"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
