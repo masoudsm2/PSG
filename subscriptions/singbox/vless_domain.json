@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,38 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 55",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "ulk.lorqina.ir",
             "server_port": 40813,
             "uuid": "c47b7032-5184-4034-9a81-346c35c61fc5",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-            "type": "vless",
-            "server": "ez-6174e8.nova-970a2c.workers.dev",
-            "server_port": 443,
-            "uuid": "a140f7c4-78aa-ba57-8d45-3f2d00000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ez-6174e8.nova-970a2c.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "ez-6174e8.nova-970a2c.workers.dev"
-                }
-            }
         }
     ],
     "route": {
