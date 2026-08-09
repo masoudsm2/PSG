@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "ulk.lorqina.ir",
+            "server_port": 40813,
+            "uuid": "c47b7032-5184-4034-9a81-346c35c61fc5",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "ez-6174e8.nova-970a2c.workers.dev",
             "server_port": 443,
