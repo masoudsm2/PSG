@@ -93,7 +93,7 @@
                 "🇭🇰 HK | 🔴 | vless | @NamiraConfigs | 54",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
-                "🏳️  | 🔴 | vless | @NamiraConfigs | 53"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,7 +105,7 @@
                 "🇭🇰 HK | 🔴 | vless | @NamiraConfigs | 54",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
-                "🏳️  | 🔴 | vless | @NamiraConfigs | 53"
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -183,7 +183,7 @@
             }
         },
         {
-            "tag": "🏳️  | 🔴 | vless | @NamiraConfigs | 53",
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "95.lorqino.ir",
             "server_port": 998,

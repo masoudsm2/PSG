@@ -24,7 +24,7 @@ dns:
 
 proxies: 
   - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"87.228.122.108","port":4100,"uuid":"155e8dd4-a559-407a-9ea8-13a5e829f066","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"87.228.122.108"}}}
-  - {"name":"🏳️  | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"95.lorqino.ir","port":998,"uuid":"928cfab8-097c-4f24-9bad-0d6e2abdfc66","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/mmd","headers":{"Host":"95.lorqino.ir"}}}
+  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"95.lorqino.ir","port":998,"uuid":"928cfab8-097c-4f24-9bad-0d6e2abdfc66","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/mmd","headers":{"Host":"95.lorqino.ir"}}}
   - {"name":"🇭🇰 HK | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"39.109.117.110","port":43646,"uuid":"d92afe21-8e8b-42c7-98c2-8a33da64d28f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/d92afe21","headers":{"Host":"39.109.117.110"}}}
   - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"3.77.122.78","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
@@ -41,7 +41,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52'
-      - '🏳️  | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 53'
       - '🇭🇰 HK | 🔴 | vless | @NamiraConfigs | 54'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
 
