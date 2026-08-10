@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "104.16.75.44",
+            "server_port": 443,
+            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "de-new-1.ariyuz.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "de-new-1.ariyuz.org"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 50",
             "type": "vless",
             "server": "206.189.146.23",
             "server_port": 17658,
@@ -133,7 +158,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
             "type": "vless",
             "server": "135.125.184.182",
             "server_port": 50559,
@@ -149,7 +174,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "69.46.46.23",
             "server_port": 443,
@@ -174,31 +199,13 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "3.77.122.78",
             "server_port": 22223,
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55",
-            "type": "vless",
-            "server": "nasnet-162191099-direct.mbghalibaf.com",
-            "server_port": 443,
-            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nasnet-162191099-direct.mbghalibaf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
