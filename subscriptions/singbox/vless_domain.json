@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🏳️  | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🏳️  | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "🏳️  | 🔴 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "nasnet-162191099-direct.mbghalibaf.com",
-            "server_port": 443,
-            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-            "flow": "xtls-rprx-vision",
+            "server": "95.lorqino.ir",
+            "server_port": 998,
+            "uuid": "928cfab8-097c-4f24-9bad-0d6e2abdfc66",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nasnet-162191099-direct.mbghalibaf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/mmd",
+                "headers": {
+                    "Host": "95.lorqino.ir"
                 }
             }
         }

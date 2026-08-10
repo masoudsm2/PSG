@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
             "type": "vless",
-            "server": "3.77.122.78",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "69.46.46.12",
+            "server_port": 443,
+            "uuid": "b191c8c6-5715-fda9-0a41-9a9a1de55de1",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ppp-production-okil.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/b191c8c6-5715-fda9-0a41-9a9a1de55de1",
+                "headers": {
+                    "Host": "ppp-production-okil.up.railway.app"
+                }
+            }
         }
     ],
     "route": {
