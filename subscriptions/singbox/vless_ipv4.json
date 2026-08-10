@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53"
+                "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 51",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53"
+                "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 51",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +115,23 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇸🇬 SG | 🔴 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "206.189.146.23",
+            "server_port": 17658,
+            "uuid": "7362c389-7f4b-4c41-9594-fdb847570243",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Free By Tharuwa (0767597317)",
+                "headers": {
+                    "Host": "206.189.146.23"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "135.125.184.182",
             "server_port": 50559,
@@ -129,7 +147,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "69.46.46.23",
             "server_port": 443,
@@ -154,7 +172,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "3.77.122.78",
             "server_port": 22223,
