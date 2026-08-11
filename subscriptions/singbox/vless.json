@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 42",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 45"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 42",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 43",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 44",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 42",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 45"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 42",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 43",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 44",
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41",
+            "type": "vless",
+            "server": "172.67.152.162",
+            "server_port": 443,
+            "uuid": "07f9bc85-613f-4a33-8da1-191973c43c0a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "app-q0zc4t.user-4gfyh5.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/cmh",
+                "headers": {
+                    "Host": "app-q0zc4t.user-4gfyh5.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 42",
             "type": "vless",
             "server": "51.102.174.17",
             "server_port": 22222,
@@ -126,7 +151,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 42",
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 43",
             "type": "vless",
             "server": "185.14.160.173",
             "server_port": 8080,
@@ -135,7 +160,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 44",
             "type": "vless",
             "server": "92.42.96.240",
             "server_port": 443,
@@ -160,31 +185,13 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45",
             "type": "vless",
             "server": "169.197.113.179",
             "server_port": 20190,
             "uuid": "ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 45",
-            "type": "vless",
-            "server": "31.56.185.20",
-            "server_port": 443,
-            "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nl2-akn.astralweb.tech",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
