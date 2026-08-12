@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
             "type": "vless",
             "server": "icook.tw",
             "server_port": 8880,
@@ -129,7 +129,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
             "server": "69.46.46.195",
             "server_port": 443,
@@ -154,7 +154,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50",
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49",
             "type": "vless",
             "server": "31.15.16.154",
             "server_port": 13423,
