@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
@@ -97,6 +98,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
@@ -107,6 +109,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+            "type": "vless",
+            "server": "cctvhikvision.center",
+            "server_port": 2083,
+            "uuid": "07f82c34-bd45-4a7e-b70a-d4e73e2e5a39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "uwu.blueknight.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "uwu.blueknight.site"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
