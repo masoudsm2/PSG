@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
-                "🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 56",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
-                "🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 56",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,36 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "104.16.98.215",
+            "server_port": 8880,
+            "uuid": "23187ddc-16a5-432d-bf4e-dd42a7ae39f7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+                "headers": {
+                    "Host": "104.16.98.215"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "95.85.224.3",
+            "server_port": 8443,
+            "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51",
             "type": "vless",
             "server": "3.126.61.199",
             "server_port": 22224,
@@ -126,7 +155,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "3.126.61.199",
             "server_port": 22222,
@@ -135,40 +164,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "3.126.61.199",
             "server_port": 22223,
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 56",
-            "type": "vless",
-            "server": "204.216.216.23",
-            "server_port": 10086,
-            "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 55",
-            "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.samrayan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
