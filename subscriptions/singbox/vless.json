@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,23 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "icook.tw",
+            "server_port": 8880,
+            "uuid": "9adb120c-0cce-4b56-9023-ccf7f1e13536",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=ProxyIP.US.CMLiussss.net",
+                "headers": {
+                    "Host": "icook.tw"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
             "server": "69.46.46.195",
             "server_port": 443,
@@ -138,20 +154,11 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50",
             "type": "vless",
             "server": "31.15.16.154",
             "server_port": 13423,
             "uuid": "4a6013ef-36ed-4db7-9fde-f9a4f3171acf",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "cdn-cloudflare455.korvexe.ir",
-            "server_port": 2095,
-            "uuid": "74a025dd-c287-4acf-a5fb-e573e10feef9",
             "flow": "",
             "packet_encoding": "xudp"
         }

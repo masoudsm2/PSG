@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 54"
+                "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 54"
+                "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "cdn-cloudflare455.korvexe.ir",
-            "server_port": 2095,
-            "uuid": "74a025dd-c287-4acf-a5fb-e573e10feef9",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇹🇷 TR | 🟢 | vmess | @NamiraConfigs | 52",
+            "type": "vmess",
+            "server": "5.188.190.252",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {

@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "cdn-cloudflare455.korvexe.ir",
-            "server_port": 2095,
-            "uuid": "74a025dd-c287-4acf-a5fb-e573e10feef9",
+            "server": "icook.tw",
+            "server_port": 8880,
+            "uuid": "9adb120c-0cce-4b56-9023-ccf7f1e13536",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=ProxyIP.US.CMLiussss.net",
+                "headers": {
+                    "Host": "icook.tw"
+                }
+            }
         }
     ],
     "route": {
