@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,22 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "nasnet-162191099-direct.mbghalibaf.com",
-            "server_port": 443,
-            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nasnet-162191099-direct.mbghalibaf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "cdn-cloudflare455.korvexe.ir",
+            "server_port": 2095,
+            "uuid": "74a025dd-c287-4acf-a5fb-e573e10feef9",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
