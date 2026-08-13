@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
             "server": "c2.nyanners.ir",
             "server_port": 443,
@@ -134,15 +132,6 @@
                     "Host": "ilia1.ironmouse.ir"
                 }
             }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "tuntr.supros.ir",
-            "server_port": 2095,
-            "uuid": "bf58f3cd-7c8c-4650-bd7a-028df18b3ba0",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
