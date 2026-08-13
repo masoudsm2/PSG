@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49",
-                "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49",
-                "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,6 +115,40 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44",
+            "type": "vmess",
+            "server": "165.154.195.38",
+            "server_port": 35034,
+            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
+            "type": "vless",
+            "server": "millionaire.levikogjgfdd.ir",
+            "server_port": 2053,
+            "uuid": "d361072e-9e0e-4e2d-8ec7-2a4189b5b23a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ov.iran-servers.shop",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/J5aLQOY1R9ONWYCM",
+                "headers": {
+                    "Host": "ov.iran-servers.shop"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
@@ -181,24 +215,6 @@
                     "Host": "api-90c343-bedd79-production.up.railway.app"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49",
-            "type": "vless",
-            "server": "31.15.16.154",
-            "server_port": 13423,
-            "uuid": "4a6013ef-36ed-4db7-9fde-f9a4f3171acf",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50",
-            "type": "vmess",
-            "server": "5.188.190.252",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {

@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 47",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,6 +113,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
+            "type": "vless",
+            "server": "millionaire.levikogjgfdd.ir",
+            "server_port": 2053,
+            "uuid": "d361072e-9e0e-4e2d-8ec7-2a4189b5b23a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ov.iran-servers.shop",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/J5aLQOY1R9ONWYCM",
+                "headers": {
+                    "Host": "ov.iran-servers.shop"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
@@ -179,15 +204,6 @@
                     "Host": "api-90c343-bedd79-production.up.railway.app"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49",
-            "type": "vless",
-            "server": "31.15.16.154",
-            "server_port": 13423,
-            "uuid": "4a6013ef-36ed-4db7-9fde-f9a4f3171acf",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -134,15 +132,6 @@
                     "Host": "api-90c343-bedd79-production.up.railway.app"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 49",
-            "type": "vless",
-            "server": "31.15.16.154",
-            "server_port": 13423,
-            "uuid": "4a6013ef-36ed-4db7-9fde-f9a4f3171acf",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
