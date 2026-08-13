@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50"
+                "🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50"
+                "🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,22 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50",
+            "tag": "🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 55",
             "type": "vmess",
-            "server": "5.188.190.252",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "176.120.17.21",
+            "server_port": 1016,
+            "uuid": "40de0de7-0edc-4959-9ec2-86d938b50f0c",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "astra.iraniangamersclub.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

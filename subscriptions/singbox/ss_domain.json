@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 53"
+                "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 53"
+                "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 53",
+            "tag": "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54",
             "type": "shadowsocks",
             "server": "au1.levikogjgfdd.ir",
             "server_port": 27116,
