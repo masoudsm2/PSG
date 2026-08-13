@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 52",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56"
             ],
@@ -101,9 +101,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 52",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
                 "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56"
             ],
@@ -117,7 +117,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
             "server": "c2.nyanners.ir",
             "server_port": 443,
@@ -167,7 +167,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "tuntr.supros.ir",
             "server_port": 2095,
