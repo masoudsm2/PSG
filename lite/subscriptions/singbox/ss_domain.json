@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 48"
+                "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 48"
+                "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,12 +109,12 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 48",
+            "tag": "🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54",
             "type": "shadowsocks",
-            "server": "coco2.farajet.net",
-            "server_port": 2020,
+            "server": "au1.levikogjgfdd.ir",
+            "server_port": 27116,
             "method": "chacha20-ietf-poly1305",
-            "password": "0u47xJvp2_pGbA5c13ASHK87DxDwk5zm"
+            "password": "bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E"
         }
     ],
     "route": {

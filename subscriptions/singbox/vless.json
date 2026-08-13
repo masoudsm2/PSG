@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
                 "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 51",
                 "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 53"
             ],
@@ -98,6 +99,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
                 "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 51",
                 "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 53"
             ],
@@ -109,6 +111,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "104.16.65.1",
+            "server_port": 443,
+            "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "0h3qt.oqwt.pl0.hh.vavava.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "0h3qt.oqwt.pl0.hh.vavava.kdns.fr"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 51",
