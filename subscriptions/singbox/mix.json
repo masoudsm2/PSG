@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 50",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 52",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 53",
-                "🇵🇱 PL | 🟢 | vmess | @NamiraConfigs | 54"
+                "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 54",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 57",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 50",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
-                "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 52",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 53",
-                "🇵🇱 PL | 🟢 | vmess | @NamiraConfigs | 54"
+                "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 54",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
+                "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 57",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,58 +117,79 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 50",
+            "tag": "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "185.143.233.238",
-            "server_port": 2086,
-            "uuid": "1ee1f28d-4975-4d7c-95c7-76172c20eed5",
+            "server": "116.204.164.30",
+            "server_port": 7443,
+            "uuid": "8dd3f783-aa97-420b-8aaa-d8a6c9679dad",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/@Marisa_kristi",
                 "headers": {
-                    "Host": "185.143.233.238"
+                    "Host": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "180.178.60.253",
-            "server_port": 10000,
-            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "93.123.13.7",
-            "server_port": 15139,
-            "uuid": "ab16b404-1d3a-4ba6-a37c-67bed61e3b5d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "95.85.224.3",
-            "server_port": 8443,
-            "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
+            "server": "177.3.208.169",
+            "server_port": 443,
+            "uuid": "4f375fb4-3c95-425f-bc7b-8085487a6f3c",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "titandarkness.mooo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
+                "type": "ws",
+                "path": "/21381/0kO2id8FMQ",
+                "headers": {
+                    "Host": "titandarkness.mooo.com"
+                }
             }
         },
         {
-            "tag": "🇵🇱 PL | 🟢 | vmess | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
             "type": "vmess",
-            "server": "168.222.49.188",
-            "server_port": 80,
-            "uuid": "20e840a9-b3d6-4941-ab1f-d37cd958b0b8",
+            "server": "82.198.246.233",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 57",
+            "type": "vmess",
+            "server": "165.154.195.38",
+            "server_port": 35034,
+            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58",
+            "type": "vmess",
+            "server": "82.198.246.37",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0
         }
