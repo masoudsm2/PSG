@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51",
             "type": "vmess",
             "server": "82.198.246.37",
             "server_port": 180,
@@ -120,7 +120,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52",
             "type": "vmess",
             "server": "82.198.246.97",
             "server_port": 180,
