@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 59",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 59",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,48 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "172.67.133.170",
+            "server_port": 8080,
+            "uuid": "7c6a566b-4c4a-b8f2-1719-a3096b424141",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "172.67.133.170"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+            "type": "vless",
+            "server": "172.67.180.173",
+            "server_port": 2053,
+            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "music1000.melobitmusic1.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "music1000.melobitmusic1.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
             "type": "vless",
             "server": "172.64.150.28",
             "server_port": 443,
@@ -142,7 +183,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "89.208.113.16",
             "server_port": 443,
@@ -160,7 +201,7 @@
             }
         },
         {
-            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "95.85.224.3",
             "server_port": 8443,
@@ -170,56 +211,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "grpc"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
-            "type": "vless",
-            "server": "france.io-com-de-dev.org",
-            "server_port": 8443,
-            "uuid": "05cf7b0e-ad1a-42bb-80e7-73ae45b1019a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "france.io-com-de-dev.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/voip/updates/static/x9i2",
-                "headers": {
-                    "Host": "france.io-com-de-dev.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61",
-            "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
             }
         }
     ],
