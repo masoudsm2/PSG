@@ -23,9 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 50","type":"vless","server":"8.47.69.0","port":8880,"uuid":"a8178248-3cdf-4fb0-ab7b-87c1ab77201c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/cdn/assets/stream","headers":{"Host":"cnd.france2.gg.newwaycdn.com"}}}
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"5.129.206.54","port":989,"uuid":"767d750a-065a-4908-8447-a1ad35b7c62f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"93.123.13.7","port":15139,"uuid":"ab16b404-1d3a-4ba6-a37c-67bed61e3b5d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 50","type":"vless","server":"89.167.12.115","port":22579,"uuid":"39ad12ba-914a-4aa1-a825-3ee4db7c0a52","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"104.16.72.41","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
+  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"164.68.127.108","port":24144,"uuid":"7e85ed3f-3829-45b1-8b1c-6a2e45ebc967","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"8.47.69.0","port":8880,"uuid":"a8178248-3cdf-4fb0-ab7b-87c1ab77201c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/cdn/assets/stream","headers":{"Host":"cnd.france2.gg.newwaycdn.com"}}}
+  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"5.129.206.54","port":989,"uuid":"767d750a-065a-4908-8447-a1ad35b7c62f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 50'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 50'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54'
 
   - name: 🌍 Global Media
     type: select
