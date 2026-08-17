@@ -23,10 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇵🇱 PL | 🟢 | ss | @NamiraConfigs | 45","type":"ss","server":"54.36.174.140","port":443,"password":"ytw2awn","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇿🇦 ZA | 🟢 | ss | @NamiraConfigs | 46","type":"ss","server":"4.168.234.5","port":443,"password":"LY94CL8HouUwEPF3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 47","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"188.121.103.122","port":443,"uuid":"66843e20-96cf-4332-bb4d-45b4f5dd844b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"raw"}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"104.19.44.174","port":2083,"uuid":"56e4896e-90a9-4fe0-8480-90d3d68b9928","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"go.iranfree.de5.net","ws-opts":{"path":"/","headers":{"Host":"go.iranfree.de5.net"}}}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 55","type":"vmess","server":"57.129.132.223","port":80,"cipher":"auto","uuid":"a25cbf11-2908-4a1b-a3a8-9a571777dca3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"google.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | 🟢 | ss | @NamiraConfigs | 45'
-      - '🇿🇦 ZA | 🟢 | ss | @NamiraConfigs | 46'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 47'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54'
+      - '🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 55'
 
   - name: 🌍 Global Media
     type: select
