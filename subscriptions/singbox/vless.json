@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +113,57 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "type": "vless",
+            "server": "dash.zeneco.ir",
+            "server_port": 8443,
+            "uuid": "fdf4a9b1-3471-41a4-9a18-c1986917fe57",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.zeneco.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dash.zeneco.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "104.21.41.140",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "104.19.44.174",
             "server_port": 2083,
