@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "104.19.44.174",
-            "server_port": 2083,
-            "uuid": "56e4896e-90a9-4fe0-8480-90d3d68b9928",
+            "server": "18.157.224.206",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "go.iranfree.de5.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "go.iranfree.de5.net"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
