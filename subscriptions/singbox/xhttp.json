@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56"
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56"
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15",
             "type": "vless",
-            "server": "iran-tehran.co.uk",
+            "server": "nl-ydlod.doratbonn.fun",
             "server_port": 443,
-            "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
+            "uuid": "7d92ab01-d719-40b0-b954-420edfb61582",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "iran-tehran.co.uk",
+                "server_name": "nl-ydlod.doratbonn.fun",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

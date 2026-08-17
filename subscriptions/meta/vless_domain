@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"dash.zeneco.ir","port":8443,"uuid":"fdf4a9b1-3471-41a4-9a18-c1986917fe57","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"dash.zeneco.ir"}}}
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 13","type":"vless","server":"adgof.mgodping12.xyz","port":2086,"uuid":"257c313c-36fa-4d99-ba06-bb4a02aae70d","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15","type":"vless","server":"nl-ydlod.doratbonn.fun","port":443,"uuid":"7d92ab01-d719-40b0-b954-420edfb61582","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 13'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15'
 
   - name: 🌍 Global Media
     type: select

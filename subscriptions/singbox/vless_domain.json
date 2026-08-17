@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,27 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15",
             "type": "vless",
-            "server": "dash.zeneco.ir",
-            "server_port": 8443,
-            "uuid": "fdf4a9b1-3471-41a4-9a18-c1986917fe57",
+            "server": "nl-ydlod.doratbonn.fun",
+            "server_port": 443,
+            "uuid": "7d92ab01-d719-40b0-b954-420edfb61582",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "dash.zeneco.ir",
+                "server_name": "nl-ydlod.doratbonn.fun",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "dash.zeneco.ir"
                 }
             }
         }
