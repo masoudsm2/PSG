@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 41",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 42",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43"
+                "🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 42",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 43",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 44"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 41",
-                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 42",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43"
+                "🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 42",
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 43",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 44"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 41",
+            "tag": "🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 42",
             "type": "vmess",
             "server": "65.109.178.10",
             "server_port": 2086,
@@ -122,7 +122,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 42",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 43",
             "type": "vmess",
             "server": "cdn-cloudflare455.korvexe.ir",
             "server_port": 2095,
@@ -131,7 +131,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 44",
             "type": "vmess",
             "server": "cdn-cloudflare455.korvexe.ir",
             "server_port": 2095,
