@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
-            "type": "vless",
-            "server": "104.19.44.174",
-            "server_port": 2083,
-            "uuid": "56e4896e-90a9-4fe0-8480-90d3d68b9928",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "go.iranfree.de5.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "go.iranfree.de5.net"
-                }
-            }
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54",
+            "type": "vmess",
+            "server": "82.198.246.233",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {
