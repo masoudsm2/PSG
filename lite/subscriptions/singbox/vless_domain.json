@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 57"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 57"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "iribnewreport.watch-out.ir",
-            "server_port": 443,
-            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
+            "server": "dash.zeneco.ir",
+            "server_port": 8443,
+            "uuid": "fdf4a9b1-3471-41a4-9a18-c1986917fe57",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "iribnewreport.watch-out.ir",
+                "server_name": "dash.zeneco.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/j/47164",
+                "path": "/",
                 "headers": {
-                    "Host": "iribnewreport.watch-out.ir"
+                    "Host": "dash.zeneco.ir"
                 }
             }
         }

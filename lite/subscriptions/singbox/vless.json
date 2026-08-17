@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "104.19.44.174",
-            "server_port": 2083,
-            "uuid": "56e4896e-90a9-4fe0-8480-90d3d68b9928",
+            "server": "dash.zeneco.ir",
+            "server_port": 8443,
+            "uuid": "fdf4a9b1-3471-41a4-9a18-c1986917fe57",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "go.iranfree.de5.net",
+                "server_name": "dash.zeneco.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -129,7 +129,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "go.iranfree.de5.net"
+                    "Host": "dash.zeneco.ir"
                 }
             }
         }
