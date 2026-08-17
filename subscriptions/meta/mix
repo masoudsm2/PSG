@@ -23,11 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 42","type":"vmess","server":"65.109.178.10","port":2086,"cipher":"auto","uuid":"f6361af8-bb8f-4609-bf5d-3fc0f688f47b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 43","type":"vmess","server":"cdn-cloudflare455.korvexe.ir","port":2095,"cipher":"auto","uuid":"8000e374-6b7f-4bbf-b45f-2272657ed5f9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 44","type":"vmess","server":"cdn-cloudflare455.korvexe.ir","port":2095,"cipher":"auto","uuid":"8000e374-6b7f-4bbf-b45f-2272657ed5f9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"185.247.16.117","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"77.222.37.89","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
+  - {"name":"🇵🇱 PL | 🟢 | ss | @NamiraConfigs | 45","type":"ss","server":"54.36.174.140","port":443,"password":"ytw2awn","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇿🇦 ZA | 🟢 | ss | @NamiraConfigs | 46","type":"ss","server":"4.168.234.5","port":443,"password":"LY94CL8HouUwEPF3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 47","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"188.121.103.122","port":443,"uuid":"66843e20-96cf-4332-bb4d-45b4f5dd844b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 42'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 43'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 44'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 45'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 46'
+      - '🇵🇱 PL | 🟢 | ss | @NamiraConfigs | 45'
+      - '🇿🇦 ZA | 🟢 | ss | @NamiraConfigs | 46'
+      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 47'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49'
 
   - name: 🌍 Global Media
     type: select
