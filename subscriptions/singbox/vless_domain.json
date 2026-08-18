@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "purple-butterfly-8496.erfannull36.workers.dev",
             "server_port": 443,
