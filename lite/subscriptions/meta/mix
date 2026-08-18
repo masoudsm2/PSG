@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"45.8.211.57","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de-new-1.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"45.8.211.57"}}}
+  - {"name":"❔ XX | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"45.8.211.57","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de-new-1.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"45.8.211.57"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 54'
+      - '❔ XX | 🟢 | vless | @NamiraConfigs | 54'
 
   - name: 🌍 Global Media
     type: select
