@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
                 "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
                 "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,6 +113,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
+            "type": "vless",
+            "server": "65.109.12.58",
+            "server_port": 2053,
+            "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "forfreeuse.rtqa.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "forfreeuse.rtqa.ru"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
@@ -168,31 +193,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "po.fastbrokencompony.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61",
-            "type": "vless",
-            "server": "104.16.62.25",
-            "server_port": 443,
-            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "de-new-1.ariyuz.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "de-new-1.ariyuz.org"
                 }
             }
         }
