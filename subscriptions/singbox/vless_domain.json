@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "nl-ydlod.doratbonn.fun",
+            "server": "purple-butterfly-8496.erfannull36.workers.dev",
             "server_port": 443,
-            "uuid": "7d92ab01-d719-40b0-b954-420edfb61582",
+            "uuid": "29fb68bb-ff05-4fd4-8393-cc6c05d81a79",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "nl-ydlod.doratbonn.fun",
+                "server_name": "purple-butterfly-8496.erfannull36.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "purple-butterfly-8496.erfannull36.workers.dev"
                 }
             }
         }

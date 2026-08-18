@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 13","type":"vless","server":"adgof.mgodping12.xyz","port":2086,"uuid":"257c313c-36fa-4d99-ba06-bb4a02aae70d","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15","type":"vless","server":"nl-ydlod.doratbonn.fun","port":443,"uuid":"7d92ab01-d719-40b0-b954-420edfb61582","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"purple-butterfly-8496.erfannull36.workers.dev","port":443,"uuid":"29fb68bb-ff05-4fd4-8393-cc6c05d81a79","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"purple-butterfly-8496.erfannull36.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 13'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 15'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
 
   - name: 🌍 Global Media
     type: select
