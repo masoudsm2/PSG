@@ -6,6 +6,15 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
         },
         "type": "vless",
+        "config": "vless://099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc@87.228.122.100:2200?path=%2Fv1&security=none&encryption=none&host=rzd.ru&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2054"
+    },
+    {
+        "channel": {
+            "username": "NamiraConfigs",
+            "title": "NamiraNet",
+            "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
+        },
+        "type": "vless",
         "config": "vless://c7e9c591-2764-423a-afca-efbd010fd396@188.241.241.37:2053?path=%2F&security=tls&encryption=none&insecure=0&host=forfreeuse.rtqa.ru&type=ws&allowInsecure=0&sni=forfreeuse.rtqa.ru#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2055"
     },
     {
@@ -34,14 +43,5 @@
         },
         "type": "vless",
         "config": "vless://29fb68bb-ff05-4fd4-8393-cc6c05d81a79@purple-butterfly-8496.erfannull36.workers.dev:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&path=%2F&security=tls&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2058"
-    },
-    {
-        "channel": {
-            "username": "NamiraConfigs",
-            "title": "NamiraNet",
-            "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraConfigs.jpg"
-        },
-        "type": "vless",
-        "config": "vless://2a88091e-e3f8-4478-9751-6ce0557a7f2e@82.117.87.199:4100?path=%2Fv1&security=&encryption=none&host=live.ok.ru&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraConfigs%20%7C%2059"
     }
 ]

@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 55",
                 "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
@@ -101,10 +101,10 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 55",
                 "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
@@ -115,6 +115,22 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "87.228.122.100",
+            "server_port": 2200,
+            "uuid": "099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/v1",
+                "headers": {
+                    "Host": "87.228.122.100"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 55",
@@ -179,22 +195,6 @@
                 "path": "/pyip=ProxyIP.KR.CMLiussss.net",
                 "headers": {
                     "Host": "104.18.11.118"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59",
-            "type": "vless",
-            "server": "82.117.87.199",
-            "server_port": 4100,
-            "uuid": "2a88091e-e3f8-4478-9751-6ce0557a7f2e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "82.117.87.199"
                 }
             }
         },

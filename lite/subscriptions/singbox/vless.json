@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 59"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 59"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,18 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 58",
             "type": "vless",
-            "server": "82.117.87.199",
-            "server_port": 4100,
-            "uuid": "2a88091e-e3f8-4478-9751-6ce0557a7f2e",
+            "server": "purple-butterfly-8496.erfannull36.workers.dev",
+            "server_port": 443,
+            "uuid": "29fb68bb-ff05-4fd4-8393-cc6c05d81a79",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "purple-butterfly-8496.erfannull36.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/v1",
+                "path": "/",
                 "headers": {
-                    "Host": "82.117.87.199"
+                    "Host": "purple-butterfly-8496.erfannull36.workers.dev"
                 }
             }
         }
