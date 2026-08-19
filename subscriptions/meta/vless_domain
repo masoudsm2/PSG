@@ -24,7 +24,7 @@ dns:
 
 proxies: 
   - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"nl-ydlod.doratbonn.fun","port":443,"uuid":"7d92ab01-d719-40b0-b954-420edfb61582","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"adgof.mgodping12.xyz","port":2086,"uuid":"257c313c-36fa-4d99-ba06-bb4a02aae70d","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"adgof.mgodping12.xyz","port":2086,"uuid":"257c313c-36fa-4d99-ba06-bb4a02aae70d","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54'
 
   - name: 🌍 Global Media
     type: select
