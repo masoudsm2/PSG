@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
             "type": "vless",
             "server": "172.67.161.109",
             "server_port": 443,
@@ -133,19 +131,6 @@
                 "headers": {
                     "Host": "1-m14.aYUTTHAYa-1.KdNs.Fr"
                 }
-            }
-        },
-        {
-            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "95.85.224.3",
-            "server_port": 8443,
-            "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
             }
         }
     ],

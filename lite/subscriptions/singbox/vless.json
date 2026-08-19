@@ -88,14 +88,17 @@
         {
             "outbounds": [
                 "auto",
-                "direct"
+                "direct",
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "interval": "10m",
-            "outbounds": [],
+            "outbounds": [
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58"
+            ],
             "tag": "auto",
             "tolerance": 50,
             "type": "urltest",
@@ -104,6 +107,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58",
+            "type": "vless",
+            "server": "172.67.161.109",
+            "server_port": 443,
+            "uuid": "13da3f61-36bc-4f4f-9b49-4152de570bd3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "1-m14.aYUTTHAYa-1.KdNs.Fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/awsDCktnglce5OhBQMBK8JLBwh2V",
+                "headers": {
+                    "Host": "1-m14.aYUTTHAYa-1.KdNs.Fr"
+                }
+            }
         }
     ],
     "route": {
