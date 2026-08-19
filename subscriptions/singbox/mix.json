@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
                 "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53",
+            "type": "vless",
+            "server": "161.35.209.61",
+            "server_port": 8880,
+            "uuid": "603819a3-dd65-408a-abab-15d8dc49887f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
+            "type": "vless",
+            "server": "212.67.9.113",
+            "server_port": 2200,
+            "uuid": "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/v1",
+                "headers": {
+                    "Host": "212.67.9.113"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
             "server": "po.fastbrokencompony.com",
             "server_port": 2053,
@@ -142,7 +167,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
             "type": "vmess",
             "server": "82.198.246.97",
             "server_port": 180,
@@ -151,47 +176,13 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57",
             "type": "vmess",
             "server": "82.198.246.233",
             "server_port": 180,
             "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57",
-            "type": "vmess",
-            "server": "82.198.246.37",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-            "type": "vless",
-            "server": "172.67.161.109",
-            "server_port": 443,
-            "uuid": "13da3f61-36bc-4f4f-9b49-4152de570bd3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "1-m14.aYUTTHAYa-1.KdNs.Fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/awsDCktnglce5OhBQMBK8JLBwh2V",
-                "headers": {
-                    "Host": "1-m14.aYUTTHAYa-1.KdNs.Fr"
-                }
-            }
         }
     ],
     "route": {
