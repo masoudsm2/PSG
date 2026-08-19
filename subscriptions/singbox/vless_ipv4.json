@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,6 +113,47 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "182.16.61.2",
+            "server_port": 45647,
+            "uuid": "caec0d8d-ab2f-4247-b97d-7fb1a34ab195",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "8.47.69.0",
+            "server_port": 8880,
+            "uuid": "a8178248-3cdf-4fb0-ab7b-87c1ab77201c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/cdn/assets/stream",
+                "headers": {
+                    "Host": "8.47.69.0"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
+            "type": "vless",
+            "server": "104.21.55.229",
+            "server_port": 8880,
+            "uuid": "f55a75a7-5aa6-4df7-814a-99da0edb5c86",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=ProxyIP.US.CMLiussss.net",
+                "headers": {
+                    "Host": "104.21.55.229"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54",
@@ -127,56 +170,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
-            "type": "vless",
-            "server": "172.67.180.173",
-            "server_port": 2053,
-            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "music1000.melobitmusic1.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "music1000.melobitmusic1.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
-            "type": "vless",
-            "server": "104.21.35.235",
-            "server_port": 2053,
-            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "music1000.melobitmusic1.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "music1000.melobitmusic1.ir"
                 }
             }
         }
