@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 59"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 59"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 59",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "react.dev",
             "server_port": 443,
