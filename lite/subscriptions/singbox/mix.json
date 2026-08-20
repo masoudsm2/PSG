@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "52.59.78.15",
-            "server_port": 22224,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "usejh2.neobo-tooth.ru",
+            "server_port": 2096,
+            "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "usejh2.neobo-tooth.ru"
+                }
+            }
         }
     ],
     "route": {

@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 63",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 64"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 65",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 63",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 64"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 65",
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +113,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 63",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+            "type": "vless",
+            "server": "rvg-production-2017.up.railway.app",
+            "server_port": 443,
+            "uuid": "20a78de0-bdc3-7068-860d-441000b15836",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rvg-production-2017.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/20a78de0-bdc3-7068-860d-441000b15836",
+                "headers": {
+                    "Host": "rvg-production-2017.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
             "server": "finite-node.rtxconfigz.com",
             "server_port": 443,
@@ -136,7 +163,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 64",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "usejh2.neobo-tooth.ru",
             "server_port": 2096,
