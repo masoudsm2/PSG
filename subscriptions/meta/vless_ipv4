@@ -23,7 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"180.178.60.252","port":10000,"uuid":"431fe973-a43a-4fac-bf83-2a772e0d0625","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"3.127.126.3","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61","type":"vless","server":"63.182.189.87","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"172.67.209.127","port":8880,"uuid":"f4e6476f-40d0-40cb-841f-cc2f6909ff20","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.SG.CMLiussss.net","headers":{"Host":"calm-haze-d105.21-7cd.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"216.167.54.75","port":47212,"uuid":"cd477134-ffce-473a-8dca-8ce5fc6eb3eb","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 60'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63'
 
   - name: 🌍 Global Media
     type: select

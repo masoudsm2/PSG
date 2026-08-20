@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 64",
             "type": "vless",
             "server": "millionaire.levikogjgfdd.ir",
             "server_port": 8880,
