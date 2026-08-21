@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66"
+                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 63",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66"
+                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 63",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,54 +111,22 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 63",
             "type": "vless",
-            "server": "rvg-production-2017.up.railway.app",
-            "server_port": 443,
-            "uuid": "20a78de0-bdc3-7068-860d-441000b15836",
+            "server": "v6.ir.battlenetcp.com",
+            "server_port": 80,
+            "uuid": "ad753970-b772-473f-a10e-8c4664779472",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rvg-production-2017.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/20a78de0-bdc3-7068-860d-441000b15836",
-                "headers": {
-                    "Host": "rvg-production-2017.up.railway.app"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "finite-node.rtxconfigz.com",
-            "server_port": 443,
-            "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+            "server": "xn-de.dbsll.ir",
+            "server_port": 20017,
+            "uuid": "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "finite-node.rtxconfigz.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "finite-node.rtxconfigz.com"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
