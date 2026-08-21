@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
                 "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59"
             ],
@@ -99,7 +99,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
                 "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59"
             ],
@@ -113,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 57",
+            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "cpanel.linux-panel.com",
             "server_port": 2044,
