@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 62",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 63"
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 63",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 62",
-                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 63"
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 63",
+                "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 62",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 63",
             "type": "vless",
             "server": "135.106.193.180",
             "server_port": 54,
@@ -120,7 +120,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 63",
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 64",
             "type": "vless",
             "server": "95.38.184.199",
             "server_port": 996,

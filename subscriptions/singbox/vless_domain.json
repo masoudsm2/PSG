@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 65",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 65",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
             "server": "rvg-production-2017.up.railway.app",
             "server_port": 443,
@@ -138,7 +136,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66",
             "type": "vless",
             "server": "finite-node.rtxconfigz.com",
             "server_port": 443,
@@ -159,22 +157,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "finite-node.rtxconfigz.com"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66",
-            "type": "vless",
-            "server": "usejh2.neobo-tooth.ru",
-            "server_port": 2096,
-            "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "usejh2.neobo-tooth.ru"
                 }
             }
         }
