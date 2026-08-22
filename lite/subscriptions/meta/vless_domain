@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 61","type":"vless","server":"it2ws.wba-pn.ru","port":443,"uuid":"2b622609-bb92-49e8-9631-4ada00324f47","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"it2ws.wba-pn.ru","ws-opts":{"path":"/","headers":{"Host":"it2ws.wba-pn.ru"}}}
+
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 61'
+
 
   - name: 🌍 Global Media
     type: select
