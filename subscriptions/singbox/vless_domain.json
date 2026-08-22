@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-                "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 59"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
                 "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-                "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 59"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
             "server": "cpanel.linux-panel.com",
             "server_port": 2044,
@@ -147,7 +147,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "it2ws.wba-pn.ru",
             "server_port": 443,
