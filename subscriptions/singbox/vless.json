@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 60",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 61",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 60",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 63",
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 60",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 61",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 60",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 63",
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 64"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 60",
+            "type": "vless",
+            "server": "180.178.60.253",
+            "server_port": 10000,
+            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "63.183.163.238",
             "server_port": 22222,
@@ -126,7 +135,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62",
             "type": "vless",
             "server": "63.183.163.238",
             "server_port": 22224,
@@ -135,7 +144,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 60",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 63",
             "type": "vless",
             "server": "135.106.195.75",
             "server_port": 701,
@@ -144,7 +153,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 64",
             "type": "vless",
             "server": "95.85.224.3",
             "server_port": 8443,
@@ -154,31 +163,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "grpc"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
-            "type": "vless",
-            "server": "irhub-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "5502dc8c-1939-aa92-9436-9b8d28bb48ee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "irhub-production.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/5502dc8c-1939-aa92-9436-9b8d28bb48ee",
-                "headers": {
-                    "Host": "irhub-production.up.railway.app"
-                }
             }
         }
     ],
