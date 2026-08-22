@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 59",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 60",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 58",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 59",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
+                "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 59",
-                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 60",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 58",
+                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 59",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
+                "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,41 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "rvg-production-259b.up.railway.app",
+            "server_port": 443,
+            "uuid": "d430963f-8820-e90b-fdca-36de89291d5b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rvg-production-259b.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/d430963f-8820-e90b-fdca-36de89291d5b",
+                "headers": {
+                    "Host": "rvg-production-259b.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 58",
+            "type": "vless",
+            "server": "srh-service0.sinamabaz.ir",
+            "server_port": 5555,
+            "uuid": "aed39e80-19e2-4e6a-84a2-9755b2c17a32",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "cpanel.linux-panel.com",
             "server_port": 2044,
@@ -126,7 +160,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60",
             "type": "vless",
             "server": "k2.cloud--vpn.site",
             "server_port": 443,
@@ -151,7 +185,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 59",
+            "tag": "🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "it2ws.wba-pn.ru",
             "server_port": 443,
@@ -172,39 +206,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "it2ws.wba-pn.ru"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 60",
-            "type": "shadowsocks",
-            "server": "15.204.246.132",
-            "server_port": 7307,
-            "method": "aes-256-gcm",
-            "password": "FoOiGlkAA9yPEGP"
-        },
-        {
-            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61",
-            "type": "vless",
-            "server": "172.67.191.52",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }

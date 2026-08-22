@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
-            "server": "172.67.191.52",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "it2ws.wba-pn.ru",
+            "server_port": 443,
+            "uuid": "2b622609-bb92-49e8-9631-4ada00324f47",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
+                "server_name": "it2ws.wba-pn.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -129,7 +129,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "po.fastbrokencompony.com"
+                    "Host": "it2ws.wba-pn.ru"
                 }
             }
         }
