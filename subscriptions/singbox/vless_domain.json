@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 60",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 60"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 60",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 60"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,6 +109,15 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
+            "type": "vless",
+            "server": "tapsi-mall.topdigit.ir",
+            "server_port": 34769,
+            "uuid": "81a5be1e-aa3c-4c50-83c1-885050d8b880",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 60",
@@ -132,29 +141,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "finite-node.rtxconfigz.com"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64",
-            "type": "vless",
-            "server": "sos2.speedit.ir",
-            "server_port": 443,
-            "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cAxXNYa_hg_WJxa5jRWupnQf9J-OfShX0tqXvpWeZVc",
-                    "short_id": "203afac07a"
                 }
             }
         }
