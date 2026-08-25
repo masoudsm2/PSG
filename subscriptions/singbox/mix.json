@@ -91,7 +91,7 @@
                 "direct",
                 "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 59",
-                "🏳️  | 🟢 | vless | @NamiraConfigs | 60",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 60",
                 "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 61",
                 "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 62"
             ],
@@ -103,7 +103,7 @@
             "outbounds": [
                 "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 58",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 59",
-                "🏳️  | 🟢 | vless | @NamiraConfigs | 60",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 60",
                 "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 61",
                 "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 62"
             ],
@@ -148,7 +148,7 @@
             }
         },
         {
-            "tag": "🏳️  | 🟢 | vless | @NamiraConfigs | 60",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 60",
             "type": "vless",
             "server": "gr2.levikogjgfdd.ir",
             "server_port": 443,
