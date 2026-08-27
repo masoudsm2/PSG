@@ -90,9 +90,9 @@
                 "auto",
                 "direct",
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 61",
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
                 "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
@@ -102,9 +102,9 @@
             "interval": "10m",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59",
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 61",
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
                 "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
@@ -126,7 +126,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
             "type": "vless",
             "server": "tapsi-mall.topdigit.ir",
             "server_port": 34769,
@@ -157,7 +157,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "gr2.levikogjgfdd.ir",
             "server_port": 443,
