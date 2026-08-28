@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,7 +109,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 62",
             "type": "vless",
             "server": "95.85.224.3",
             "server_port": 8443,
