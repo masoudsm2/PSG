@@ -93,7 +93,7 @@
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
                 "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62",
                 "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 61"
+                "🏳️  | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,7 +105,7 @@
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
                 "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62",
                 "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 61"
+                "🏳️  | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -170,7 +170,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "🏳️  | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "gr2.levikogjgfdd.ir",
             "server_port": 443,
