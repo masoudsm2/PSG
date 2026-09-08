@@ -92,7 +92,7 @@
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
                 "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
-                "🏳️  | 🟢 | vless | @NamiraConfigs | 61",
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
                 "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "proxy",
@@ -104,7 +104,7 @@
                 "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
                 "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 60",
-                "🏳️  | 🟢 | vless | @NamiraConfigs | 61",
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
                 "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "tag": "auto",
@@ -157,7 +157,7 @@
             }
         },
         {
-            "tag": "🏳️  | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "gr2.levikogjgfdd.ir",
             "server_port": 443,

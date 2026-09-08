@@ -90,7 +90,7 @@
                 "auto",
                 "direct",
                 "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
-                "🏳️  | 🟢 | vless | @NamiraConfigs | 61"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
-                "🏳️  | 🟢 | vless | @NamiraConfigs | 61"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -120,7 +120,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🏳️  | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
             "server": "gr2.levikogjgfdd.ir",
             "server_port": 443,
