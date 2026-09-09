@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,25 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
             "type": "vless",
-            "server": "tapsi-mall.topdigit.ir",
-            "server_port": 34769,
-            "uuid": "81a5be1e-aa3c-4c50-83c1-885050d8b880",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 61",
-            "type": "vless",
-            "server": "gr2.levikogjgfdd.ir",
+            "server": "hphphphph-production.up.railway.app",
             "server_port": 443,
-            "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+            "uuid": "869a7792-7f60-43fb-bfaf-1510ec7bb719",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "finite-node.rtxconfigz.com",
+                "server_name": "hphphphph-production.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -138,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048",
                 "headers": {
-                    "Host": "finite-node.rtxconfigz.com"
+                    "Host": "hphphphph-production.up.railway.app"
                 }
             }
         }
