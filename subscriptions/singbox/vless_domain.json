@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 54",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 54",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +111,7 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "turk.mamadhpbot.ir",
             "server_port": 50118,
@@ -122,38 +120,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
             "type": "vless",
             "server": "germanndnew.mamadhpbot.ir",
             "server_port": 50118,
             "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "b2n.ir",
-            "server_port": 2083,
-            "uuid": "b8e0eb1a-9967-4753-b278-6ef1226dd195",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "s.dpiccolo.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/hero",
-                "headers": {
-                    "Host": "s.dpiccolo.ir"
-                }
-            }
         }
     ],
     "route": {

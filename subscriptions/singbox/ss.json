@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇰🇷 KR | 🟢 | ss | @NamiraConfigs | 57"
+                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇰🇷 KR | 🟢 | ss | @NamiraConfigs | 57"
+                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,12 +111,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇰🇷 KR | 🟢 | ss | @NamiraConfigs | 57",
+            "tag": "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 52",
             "type": "shadowsocks",
-            "server": "141.164.45.187",
-            "server_port": 6679,
+            "server": "51.222.12.127",
+            "server_port": 445,
             "method": "aes-256-gcm",
-            "password": "TEzjfAYq2IjtuoS"
+            "password": "zDNVedRFPQexG9v"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraConfigs | 53",
+            "type": "shadowsocks",
+            "server": "15.204.247.124",
+            "server_port": 2375,
+            "method": "aes-256-gcm",
+            "password": "faBAoD54k87UJG7"
         }
     ],
     "route": {
