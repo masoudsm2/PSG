@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 51",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 51",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,41 +113,34 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "web-production-7bd3d.up.railway.app",
-            "server_port": 443,
-            "uuid": "f5507df1-ba48-4dea-aba1-d3770aac4e1d",
+            "server": "turk.mamadhpbot.ir",
+            "server_port": 50118,
+            "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "web-production-7bd3d.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/vless/f5507df1-ba48-4dea-aba1-d3770aac4e1d?ed=2048",
-                "headers": {
-                    "Host": "web-production-7bd3d.up.railway.app"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "hphphphph-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "869a7792-7f60-43fb-bfaf-1510ec7bb719",
+            "server": "germanndnew.mamadhpbot.ir",
+            "server_port": 50118,
+            "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "type": "vless",
+            "server": "b2n.ir",
+            "server_port": 2083,
+            "uuid": "b8e0eb1a-9967-4753-b278-6ef1226dd195",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "hphphphph-production.up.railway.app",
+                "server_name": "s.dpiccolo.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -154,9 +149,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048",
+                "path": "/hero",
                 "headers": {
-                    "Host": "hphphphph-production.up.railway.app"
+                    "Host": "s.dpiccolo.ir"
                 }
             }
         }
