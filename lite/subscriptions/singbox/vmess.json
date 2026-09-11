@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 42"
+                "❔ XX | 🔴 | vmess | @NamiraConfigs | 41"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 42"
+                "❔ XX | 🔴 | vmess | @NamiraConfigs | 41"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,10 +109,10 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 42",
+            "tag": "❔ XX | 🔴 | vmess | @NamiraConfigs | 41",
             "type": "vmess",
             "server": "tun-1.veraspeed.ir",
-            "server_port": 2002,
+            "server_port": 1003,
             "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e",
             "security": "auto",
             "alter_id": 0
