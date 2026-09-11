@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 35",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 36",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 37",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 38",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39"
+                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 34",
+                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 35",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 36",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 37",
+                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 38"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 35",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 36",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 37",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 38",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39"
+                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 34",
+                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 35",
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 36",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 37",
+                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 38"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,7 +117,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 35",
+            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 34",
             "type": "vmess",
             "server": "94.184.21.218",
             "server_port": 80,
@@ -126,7 +126,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 36",
+            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 35",
             "type": "vmess",
             "server": "57.129.132.223",
             "server_port": 80,
@@ -142,7 +142,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 37",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 36",
             "type": "vmess",
             "server": "82.198.246.233",
             "server_port": 180,
@@ -151,7 +151,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 38",
+            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 37",
             "type": "vmess",
             "server": "newrelax.relaxedboy.online",
             "server_port": 110,
@@ -160,7 +160,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39",
+            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 38",
             "type": "vmess",
             "server": "57.129.132.223",
             "server_port": 80,
