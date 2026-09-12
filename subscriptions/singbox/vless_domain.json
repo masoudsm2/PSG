@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 36"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 36"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,22 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 36",
             "type": "vless",
-            "server": "xnforo.ir",
-            "server_port": 2087,
-            "uuid": "c75775e9-cf53-47b6-9d1d-29c3a46633fd",
+            "server": "1.spotify24.ir",
+            "server_port": 8080,
+            "uuid": "034be838-d28a-4bdb-9116-cedfc244359b",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "xnforo.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

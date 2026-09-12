@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 38"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 40"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 38"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 40"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 38",
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 40",
             "type": "vmess",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "server": "newrelax.relaxedboy.online",
+            "server_port": 110,
+            "uuid": "8e9687fc-a3a7-414a-8676-8e2136797cfe",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/vmess/",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         }
     ],
     "route": {
