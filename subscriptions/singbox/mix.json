@@ -90,8 +90,8 @@
                 "auto",
                 "direct",
                 "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46"
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,8 +100,8 @@
             "interval": "10m",
             "outbounds": [
                 "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46"
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -129,22 +129,29 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
+            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43",
+            "type": "vmess",
+            "server": "47.244.120.197",
+            "server_port": 23026,
+            "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45",
             "type": "vless",
             "server": "91.107.179.8",
             "server_port": 15003,
             "uuid": "69d8dc73-20ff-4241-bdd8-a9d6d07553b6",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46",
-            "type": "vmess",
-            "server": "66.163.117.58",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {

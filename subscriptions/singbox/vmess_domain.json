@@ -90,7 +90,7 @@
                 "auto",
                 "direct",
                 "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46"
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +99,7 @@
             "interval": "10m",
             "outbounds": [
                 "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42",
-                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46"
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -127,13 +127,20 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46",
+            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43",
             "type": "vmess",
-            "server": "66.163.117.58",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "47.244.120.197",
+            "server_port": 23026,
+            "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki",
+                "headers": {
+                    "Host": ""
+                }
+            }
         }
     ],
     "route": {

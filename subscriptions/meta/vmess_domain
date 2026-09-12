@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name":"🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42","type":"vmess","server":"47.244.120.197","port":23026,"cipher":"auto","uuid":"b9de1bc9-baa7-41ac-86f7-ccd59695cb21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":""}}}
+  - {"name":"🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43","type":"vmess","server":"47.244.120.197","port":23026,"cipher":"auto","uuid":"b9de1bc9-baa7-41ac-86f7-ccd59695cb21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":""}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43'
 
   - name: 🌍 Global Media
     type: select
