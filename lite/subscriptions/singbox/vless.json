@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,29 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
             "type": "vless",
-            "server": "172.67.217.10",
-            "server_port": 443,
-            "uuid": "bfea31b5-371b-48d9-a9fa-4767ed6a5973",
+            "server": "1.spotify24.ir",
+            "server_port": 8080,
+            "uuid": "034be838-d28a-4bdb-9116-cedfc244359b",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bluerocketway-bcc.lat",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/jetiona",
-                "headers": {
-                    "Host": "bluerocketway-bcc.lat"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
