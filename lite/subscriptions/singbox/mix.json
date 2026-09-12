@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44"
+                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44"
+                "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,13 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
-            "type": "vless",
-            "server": "1.spotify24.ir",
-            "server_port": 8080,
-            "uuid": "034be838-d28a-4bdb-9116-cedfc244359b",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 46",
+            "type": "vmess",
+            "server": "66.163.117.58",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {

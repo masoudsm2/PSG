@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"1.spotify24.ir","port":8080,"uuid":"034be838-d28a-4bdb-9116-cedfc244359b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
+
 
   - name: 🌍 Global Media
     type: select
