@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43",
-                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44"
+                "🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 43",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 45"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43",
-                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44"
+                "🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 43",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 45"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,7 +113,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43",
+            "tag": "🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 43",
+            "type": "vmess",
+            "server": "212.95.34.195",
+            "server_port": 443,
+            "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "renderer-stream-2-62.mirra.now",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api/v1/gpu-stream/socket",
+                "headers": {
+                    "Host": "renderer-stream-2-62.mirra.now"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44",
             "type": "vmess",
             "server": "47.244.120.197",
             "server_port": 23026,
@@ -127,7 +154,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44",
+            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 45",
             "type": "vmess",
             "server": "47.244.120.197",
             "server_port": 23026,

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42","type":"vless","server":"172.67.217.10","port":443,"uuid":"bfea31b5-371b-48d9-a9fa-4767ed6a5973","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"bluerocketway-bcc.lat","ws-opts":{"path":"/jetiona","headers":{"Host":"bluerocketway-bcc.lat"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"91.107.179.8","port":15003,"uuid":"69d8dc73-20ff-4241-bdd8-a9d6d07553b6","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47'
 
   - name: 🌍 Global Media
     type: select
