@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,25 +113,71 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64",
+            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "sos2.speedit.ir",
+            "server": "uk.axnode.net",
             "server_port": 443,
-            "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
+            "uuid": "1a63104d-0961-4881-91ef-3d243243f048",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "uk.axnode.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "cAxXNYa_hg_WJxa5jRWupnQf9J-OfShX0tqXvpWeZVc",
-                    "short_id": "203afac07a"
+                    "public_key": "SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU",
+                    "short_id": "75"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "www.pexqelo.ir",
+            "server_port": 443,
+            "uuid": "84f84fea-b9fd-4ae8-8b9a-c4dbcb61d2cc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "opensuse.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EMMr7Eqwy3wpgbatnOaAmym5Tm4nXyJlC83iVvCadmk",
+                    "short_id": "f3f00787a8b3f471"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "cdn.yemnaro.ir",
+            "server_port": 443,
+            "uuid": "84f84fea-b9fd-4ae8-8b9a-c4dbcb61d2cc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "opensuse.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EMMr7Eqwy3wpgbatnOaAmym5Tm4nXyJlC83iVvCadmk",
+                    "short_id": "f3f00787a8b3f471"
                 }
             }
         }

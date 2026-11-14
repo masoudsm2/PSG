@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 42","type":"vless","server":"ww6.levikogjgfdd.ir","port":443,"uuid":"cf990ae8-ee77-4436-aa3a-bbc2fb040c53","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"1.spotify24.ir","port":8080,"uuid":"034be838-d28a-4bdb-9116-cedfc244359b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"uk.axnode.net","port":443,"uuid":"1a63104d-0961-4881-91ef-3d243243f048","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"uk.axnode.net","reality-opts":{"public-key":"SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU","short-id":"75"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 42'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47'
 
   - name: 🌍 Global Media
     type: select

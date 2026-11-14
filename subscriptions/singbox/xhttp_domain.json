@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 52"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 52"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "nl-ydlod.doratbonn.fun",
+            "server": "uk.axnode.net",
             "server_port": 443,
-            "uuid": "7d92ab01-d719-40b0-b954-420edfb61582",
-            "flow": "",
+            "uuid": "1a63104d-0961-4881-91ef-3d243243f048",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "nl-ydlod.doratbonn.fun",
+                "server_name": "uk.axnode.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU",
+                    "short_id": "75"
                 }
             }
         }
