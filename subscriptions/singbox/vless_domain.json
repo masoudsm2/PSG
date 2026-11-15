@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "PSGspropowutc",
+                "PSGjugifltfge",
                 "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49"
@@ -100,7 +100,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "PSGspropowutc",
+                "PSGjugifltfge",
                 "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49"
@@ -115,7 +115,7 @@
             "type": "direct"
         },
         {
-            "tag": "PSGspropowutc",
+            "tag": "PSGjugifltfge",
             "type": "vless",
             "server": "mr-production-39e7ee40.up.railway.app",
             "server_port": 443,
