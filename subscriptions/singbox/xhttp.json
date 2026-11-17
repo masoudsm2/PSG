@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,25 +111,38 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "afshin.daltoonserver.ir",
-            "server_port": 8989,
-            "uuid": "36079649-5841-485b-ba94-0f7b427db146",
-            "flow": "xtls-rprx-vision",
+            "server": "render.com",
+            "server_port": 2096,
+            "uuid": "49fe1f7b-e6f6-43dc-a67d-caade85128ba",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "s6-sms-cdn.ecom-stg.samsung.con",
+                "server_name": "Org-frc-soeiwhshal-bssutudhdahhese-beqhjdwter.maniyadg7shard.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "216.24.57.1",
+            "server_port": 2083,
+            "uuid": "49fe1f7b-e6f6-43dc-a67d-caade85128ba",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "enorgg.maniyadg7shard.ir",
+                "insecure": true,
+                "utls": {
                     "enabled": true,
-                    "public_key": "5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo",
-                    "short_id": "4210c5901a6ba9da"
+                    "fingerprint": "chrome"
                 }
             }
         }
