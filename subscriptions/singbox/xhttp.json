@@ -89,9 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "93.183.127.54",
-            "server_port": 24447,
-            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+            "server": "afshin.daltoonserver.ir",
+            "server_port": 8989,
+            "uuid": "36079649-5841-485b-ba94-0f7b427db146",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "lakes.blog-forme.ru",
+                "server_name": "s6-sms-cdn.ecom-stg.samsung.con",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -130,54 +126,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
-                    "short_id": "3258252d44113e23"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
-            "type": "vless",
-            "server": "122.8.92.4",
-            "server_port": 443,
-            "uuid": "0e23fd15-184f-9c40-4f25-9a488061cff4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.steamstatic.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "93.183.127.54",
-            "server_port": 24447,
-            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lakes.blog-forme.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
-                    "short_id": "3258252d44113e23"
+                    "public_key": "5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo",
+                    "short_id": "4210c5901a6ba9da"
                 }
             }
         }

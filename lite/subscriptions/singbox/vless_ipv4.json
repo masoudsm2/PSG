@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,25 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "93.183.127.54",
-            "server_port": 24447,
-            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+            "server": "72.56.19.142",
+            "server_port": 443,
+            "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "lakes.blog-forme.ru",
+                "server_name": "app.streamru5.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
-                    "short_id": "3258252d44113e23"
+                    "fingerprint": "chrome"
                 }
             }
         }

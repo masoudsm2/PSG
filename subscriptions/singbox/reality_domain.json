@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
+                "🇨🇿 CZ | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
+                "🇨🇿 CZ | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,16 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "uk.axnode.net",
-            "server_port": 443,
-            "uuid": "1a63104d-0961-4881-91ef-3d243243f048",
+            "server": "afshin.daltoonserver.ir",
+            "server_port": 8989,
+            "uuid": "36079649-5841-485b-ba94-0f7b427db146",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "uk.axnode.net",
+                "server_name": "s6-sms-cdn.ecom-stg.samsung.con",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -130,54 +128,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU",
-                    "short_id": "75"
+                    "public_key": "5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo",
+                    "short_id": "4210c5901a6ba9da"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+            "tag": "🇨🇿 CZ | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "www.pexqelo.ir",
+            "server": "chs.luna-nodes.com",
             "server_port": 443,
-            "uuid": "84f84fea-b9fd-4ae8-8b9a-c4dbcb61d2cc",
+            "uuid": "f0cd939d-966a-4dc9-9454-ea0b4907f3ca",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "opensuse.org",
+                "server_name": "www.zalando.de",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "edge"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EMMr7Eqwy3wpgbatnOaAmym5Tm4nXyJlC83iVvCadmk",
-                    "short_id": "f3f00787a8b3f471"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
-            "type": "vless",
-            "server": "cdn.yemnaro.ir",
-            "server_port": 443,
-            "uuid": "84f84fea-b9fd-4ae8-8b9a-c4dbcb61d2cc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "opensuse.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EMMr7Eqwy3wpgbatnOaAmym5Tm4nXyJlC83iVvCadmk",
-                    "short_id": "f3f00787a8b3f471"
+                    "public_key": "GpLubTQ3oydi4lmzzkG14GQLVFZbt8rdSTDy684rkn8",
+                    "short_id": "5d710a72f5"
                 }
             }
         }

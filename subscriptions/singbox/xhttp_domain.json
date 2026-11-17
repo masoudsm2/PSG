@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "uk.axnode.net",
-            "server_port": 443,
-            "uuid": "1a63104d-0961-4881-91ef-3d243243f048",
+            "server": "afshin.daltoonserver.ir",
+            "server_port": 8989,
+            "uuid": "36079649-5841-485b-ba94-0f7b427db146",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "uk.axnode.net",
+                "server_name": "s6-sms-cdn.ecom-stg.samsung.con",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +126,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU",
-                    "short_id": "75"
+                    "public_key": "5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo",
+                    "short_id": "4210c5901a6ba9da"
                 }
             }
         }

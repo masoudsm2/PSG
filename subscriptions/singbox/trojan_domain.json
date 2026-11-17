@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66"
+                "🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66"
+                "🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,11 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66",
+            "tag": "🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46",
             "type": "trojan",
-            "server": "on-roughy.shiner427.skin",
-            "server_port": 443,
-            "password": "74260704627805900",
-            "tls": {
-                "enabled": true,
-                "server_name": "on-roughy.shiner427.skin",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "nexianetwork.anymor.org",
+            "server_port": 6565,
+            "password": "og7z59up8iv4afom"
         }
     ],
     "route": {
