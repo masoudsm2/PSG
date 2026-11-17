@@ -89,7 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +115,39 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "45.144.55.242",
-            "server_port": 2082,
-            "uuid": "67987ef9-513f-46c8-a7a3-e9c079fd220b",
+            "server": "93.183.127.54",
+            "server_port": 24447,
+            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.yahoo.com",
+                "server_name": "lakes.blog-forme.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+                    "short_id": "3258252d44113e23"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "122.8.92.4",
+            "server_port": 443,
+            "uuid": "0e23fd15-184f-9c40-4f25-9a488061cff4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.steamstatic.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +155,58 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6MDFX0qhhDPj0AMWrWvPt4O_96o2um_tcwx-tvZO0j0",
-                    "short_id": "a515f3864f836e6a"
+                    "public_key": "3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "48.102.160.14",
+            "server_port": 443,
+            "uuid": "882b1d03-f43c-4adf-abe7-4ace93d7e37b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "node1.vazza.ratcraft.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "w8Rd8PWysfYdCgaSwlhJxedwn3xor_CD2cWv_lIRIDE",
+                    "short_id": "acd68c16677b6967"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "93.183.127.54",
+            "server_port": 24447,
+            "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lakes.blog-forme.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+                    "short_id": "3258252d44113e23"
                 }
             }
         }
