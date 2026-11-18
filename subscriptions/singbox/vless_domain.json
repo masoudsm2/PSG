@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇱🇺 LU | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇱🇺 LU | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,70 +113,57 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "static.107.217.233.167.clients.your-server.de",
-            "server_port": 8443,
-            "uuid": "fb5a900b-9678-4182-8972-fe8a095ec157",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "42455d33-3ca0-48f4-afee-1b1b7621adb1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "static.107.217.233.167.clients.your-server.de",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "karemddert-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "5ce30b34-b2ca-4651-8600-ad217f62e866",
+            "server": "fb73e849da5c3163.bluebleu.ir",
+            "server_port": 48007,
+            "uuid": "9ccaa02e-508c-4175-91a2-17a1e512bb6e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "karemddert-production.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/mVNPPb",
-                "headers": {
-                    "Host": "karemddert-production.up.railway.app"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇱🇺 LU | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "subgift.gcorecdn.com",
-            "server_port": 443,
-            "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
-            "flow": "",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "ef500b05-a5e8-4446-bbe3-cb836cc4fc46",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "subgift.gcorecdn.com",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/t.me-SubGift",
-                "headers": {
-                    "Host": "subgift.gcorecdn.com"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
                 }
             }
         }

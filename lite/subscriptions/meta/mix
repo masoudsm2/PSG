@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53","type":"trojan","server":"pationgfdder-production.up.railway.app","port":443,"password":"5rHKGD3yFVHXNW6L","skip-cert-verify":false}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"ef500b05-a5e8-4446-bbe3-cb836cc4fc46","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
 
   - name: 🌍 Global Media
     type: select

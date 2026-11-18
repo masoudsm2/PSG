@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +113,62 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "48.103.120.21",
-            "server_port": 443,
-            "uuid": "a30903dc-1bf0-0002-8b1b-603a3a56211c",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "42455d33-3ca0-48f4-afee-1b1b7621adb1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "net-svc-io.galioncc.com",
+                "server_name": "in.tradingview.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "ef500b05-a5e8-4446-bbe3-cb836cc4fc46",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "in.tradingview.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "77.90.47.14",
+            "server_port": 8443,
+            "uuid": "483c6187-3c8d-436b-8413-536c2c87b70c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "badewelt-sinsheim.de",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +176,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-                    "short_id": "868419504747f6de"
+                    "public_key": "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA",
+                    "short_id": "1d151a49"
                 }
             }
         }

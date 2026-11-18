@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
-            "server": "103.116.7.10",
-            "server_port": 2053,
-            "uuid": "50414e45-4c5f-5a45-5553-9c45f3fee7fb",
+            "server": "153.52.255.50",
+            "server_port": 443,
+            "uuid": "d19bb6e1-4e37-e3af-1411-b1b938ba86f3",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "dzzxiyeku44s.mahdihonarvar5.workers.dev",
+                "server_name": "crowpanel-production.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +129,32 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/stream/PANEL_ZEUS/9c45f3fee7fb",
+                "path": "/ws/d19bb6e1-4e37-e3af-1411-b1b938ba86f3",
                 "headers": {
-                    "Host": "dzzxiyeku44s.mahdihonarvar5.workers.dev"
+                    "Host": "crowpanel-production.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "77.90.47.14",
+            "server_port": 8443,
+            "uuid": "483c6187-3c8d-436b-8413-536c2c87b70c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "badewelt-sinsheim.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA",
+                    "short_id": "1d151a49"
                 }
             }
         }
