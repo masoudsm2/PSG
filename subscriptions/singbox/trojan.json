@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,11 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53",
             "type": "trojan",
-            "server": "nexianetwork.anymor.org",
-            "server_port": 6565,
-            "password": "og7z59up8iv4afom"
+            "server": "pationgfdder-production.up.railway.app",
+            "server_port": 443,
+            "password": "5rHKGD3yFVHXNW6L",
+            "tls": {
+                "enabled": true,
+                "server_name": "pationgfdder-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api/uBwwBj",
+                "headers": {
+                    "Host": "pationgfdder-production.up.railway.app"
+                }
+            }
         }
     ],
     "route": {

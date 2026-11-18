@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"216.24.57.1","port":2083,"uuid":"49fe1f7b-e6f6-43dc-a67d-caade85128ba","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"enorgg.maniyadg7shard.ir"}
+
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
+
 
   - name: 🌍 Global Media
     type: select

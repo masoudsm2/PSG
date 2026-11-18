@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,43 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "216.24.57.1",
-            "server_port": 2083,
-            "uuid": "49fe1f7b-e6f6-43dc-a67d-caade85128ba",
+            "server": "103.116.7.10",
+            "server_port": 2053,
+            "uuid": "50414e45-4c5f-5a45-5553-9c45f3fee7fb",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "enorgg.maniyadg7shard.ir",
+                "server_name": "dzzxiyeku44s.mahdihonarvar5.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "48.103.120.21",
-            "server_port": 443,
-            "uuid": "a30903dc-1bf0-0002-8b1b-603a3a56211c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "net-svc-io.galioncc.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-                    "short_id": "868419504747f6de"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/stream/PANEL_ZEUS/9c45f3fee7fb",
+                "headers": {
+                    "Host": "dzzxiyeku44s.mahdihonarvar5.workers.dev"
                 }
             }
         }
