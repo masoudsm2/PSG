@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,34 +109,11 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "panel.jorvexo.ir",
             "server_port": 1152,
-            "uuid": "42455d33-3ca0-48f4-afee-1b1b7621adb1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "in.tradingview.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
-            "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "ef500b05-a5e8-4446-bbe3-cb836cc4fc46",
+            "uuid": "0ec134d1-307a-42ca-880c-4a7a09c7450d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {

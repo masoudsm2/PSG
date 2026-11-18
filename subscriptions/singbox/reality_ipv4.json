@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "77.90.47.14",
-            "server_port": 8443,
-            "uuid": "483c6187-3c8d-436b-8413-536c2c87b70c",
+            "server": "185.92.180.124",
+            "server_port": 60005,
+            "uuid": "178b6a10-50ed-4de4-af64-c6da7192722a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "badewelt-sinsheim.de",
+                "server_name": "aparat.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +126,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA",
-                    "short_id": "1d151a49"
+                    "public_key": "Tgc-ojZhTTRr-NhluOSFQ0xx3PmPg_EUg-AoUOO2rmU",
+                    "short_id": "97"
                 }
             }
         }

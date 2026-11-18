@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"77.90.47.14","port":8443,"uuid":"483c6187-3c8d-436b-8413-536c2c87b70c","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"badewelt-sinsheim.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA","short-id":"1d151a49"}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"185.92.180.124","port":60005,"uuid":"178b6a10-50ed-4de4-af64-c6da7192722a","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"aparat.com","reality-opts":{"public-key":"Tgc-ojZhTTRr-NhluOSFQ0xx3PmPg_EUg-AoUOO2rmU","short-id":"97"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
 
   - name: 🌍 Global Media
     type: select

@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,25 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 52",
             "type": "trojan",
-            "server": "pationgfdder-production.up.railway.app",
+            "server": "208.69.78.208",
             "server_port": 443,
-            "password": "5rHKGD3yFVHXNW6L",
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
-                "server_name": "pationgfdder-production.up.railway.app",
+                "server_name": "resources.yourultimateprofessionalcareerhub.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/uBwwBj",
-                "headers": {
-                    "Host": "pationgfdder-production.up.railway.app"
                 }
             }
         }
