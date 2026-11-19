@@ -89,7 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
+                "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
+                "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +117,39 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47",
             "type": "vless",
-            "server": "185.92.180.124",
-            "server_port": 60005,
-            "uuid": "178b6a10-50ed-4de4-af64-c6da7192722a",
+            "server": "191.217.254.79",
+            "server_port": 443,
+            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "aparat.com",
+                "server_name": "marl.wey-land.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9hQqQ_bM1ftkGXwoXUeSmGOSeRj0YVV6n_7p0dtLSjk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "191.217.254.43",
+            "server_port": 443,
+            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rust.wey-land.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +157,77 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Tgc-ojZhTTRr-NhluOSFQ0xx3PmPg_EUg-AoUOO2rmU",
-                    "short_id": "97"
+                    "public_key": "VURcAloJHML3VLB1VsWGsvnL8yJ_Kf4lvWXxzscHEHI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "191.217.244.72",
+            "server_port": 443,
+            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "calandra2.wey-land.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I-mcHKT5Ut7G41sSmHNH8zdpUjLTT3dZjocq_Nhchwk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "191.217.254.49",
+            "server_port": 443,
+            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "certhost.wey-land.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "S7CF5seUPq-TZNUskaxs6TPjBeIphw4SdYlKb__DMwc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "191.217.254.109",
+            "server_port": 443,
+            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "timeml.wey-land.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EoEAz1uDO0SptP_zf4KBh7HyfgbTwBpOidZiNgyQF1M",
+                    "short_id": "05f37a191ec7a2ad"
                 }
             }
         }
