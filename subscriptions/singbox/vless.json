@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 50",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51",
-                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 52",
-                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 53",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 50",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51",
-                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 52",
-                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 53",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,57 +117,39 @@
             "type": "direct"
         },
         {
-            "tag": "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "deployedhazde.shimobile.net",
-            "server_port": 8443,
-            "uuid": "1b0b1650-5125-43a1-a6bb-9886623f4bf9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "static.shimobile.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "2e736de6-ad2b-4f40-b188-8af209c5aa02",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "in.tradingview.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "tieredhazde.shimobile.net",
+            "server": "48.102.174.211",
             "server_port": 443,
-            "uuid": "1b0b1650-5125-43a1-a6bb-9886623f4bf9",
+            "uuid": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tieredhazde.shimobile.net",
+                "server_name": "polandchuzhoi.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iBEesuOsglmAW2h0Cts7hsATNKhXkHnZq2dbR7Xn0HY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "195.206.235.234",
+            "server_port": 443,
+            "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "4935e4t.de25.h1clayd.click",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -175,40 +157,22 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Atef5tNC2-l9NKDVnOFrXVRlW0MKUX4GwFY3V1cI2VM",
-                    "short_id": "804a9e96a68f1c01"
+                    "public_key": "MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw",
+                    "short_id": "6976d670818644cc"
                 }
             }
         },
         {
-            "tag": "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "nativehazde.shimobile.net",
-            "server_port": 8443,
-            "uuid": "1b0b1650-5125-43a1-a6bb-9886623f4bf9",
+            "server": "104.18.151.231",
+            "server_port": 443,
+            "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sync.shimobile.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "144.31.214.68",
-            "server_port": 8443,
-            "uuid": "12910384-1ef8-40a3-818a-57277063ea66",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "kk-fr2-21468.testkknegr.online",
+                "server_name": "steep-lake-615e.xeremed6978165.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -216,8 +180,54 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "vlgrpc"
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "steep-lake-615e.xeremed6978165.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+            "type": "vless",
+            "server": "tether.dev",
+            "server_port": 443,
+            "uuid": "dd2525ab-e5b7-58c4-a9b4-511100000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "xtdp.akaram-5624-cba.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "xtdp.akaram-5624-cba.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "type": "vless",
+            "server": "render.com",
+            "server_port": 2087,
+            "uuid": "316acccc-720d-499e-a92d-9caa7a26c495",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "n5r.droonix.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         }
     ],
