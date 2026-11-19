@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54"
+                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 50",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51",
+                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 52",
+                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54"
+                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 50",
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51",
+                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 52",
+                "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,34 +115,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "fdh8.gmax12.ir",
-            "server_port": 8080,
-            "uuid": "68c221ef-5582-4770-a30c-483e52410c9a",
-            "flow": "xtls-rprx-vision",
+            "server": "deployedhazde.shimobile.net",
+            "server_port": 8443,
+            "uuid": "1b0b1650-5125-43a1-a6bb-9886623f4bf9",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "static.shimobile.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc",
-                    "short_id": "eb11f7630faaaf60"
+                    "fingerprint": "chrome"
                 }
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
             "server": "panel.jorvexo.ir",
             "server_port": 1152,
-            "uuid": "0ec134d1-307a-42ca-880c-4a7a09c7450d",
+            "uuid": "2e736de6-ad2b-4f40-b188-8af209c5aa02",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -159,25 +156,43 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "alb1.angelsleep9.com",
+            "server": "tieredhazde.shimobile.net",
             "server_port": 443,
-            "uuid": "df97ce68-477f-4484-94c7-79eccab7319d",
+            "uuid": "1b0b1650-5125-43a1-a6bb-9886623f4bf9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "alb1.angelsleep9.com",
+                "server_name": "tieredhazde.shimobile.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tXhsg663V1Ia_YWMtQMWQRaZouyONXknQ16OLMAdFXs",
-                    "short_id": "28ffd89d510a739b"
+                    "public_key": "Atef5tNC2-l9NKDVnOFrXVRlW0MKUX4GwFY3V1cI2VM",
+                    "short_id": "804a9e96a68f1c01"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇴 RO | 🟢 | vless | @NamiraConfigs | 53",
+            "type": "vless",
+            "server": "nativehazde.shimobile.net",
+            "server_port": 8443,
+            "uuid": "1b0b1650-5125-43a1-a6bb-9886623f4bf9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sync.shimobile.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
