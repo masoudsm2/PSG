@@ -89,9 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,62 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "48.102.174.211",
+            "server": "94.72.100.12",
             "server_port": 443,
-            "uuid": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "polandchuzhoi.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iBEesuOsglmAW2h0Cts7hsATNKhXkHnZq2dbR7Xn0HY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 50",
-            "type": "vless",
-            "server": "195.206.235.234",
-            "server_port": 443,
-            "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "4935e4t.de25.h1clayd.click",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw",
-                    "short_id": "6976d670818644cc"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "104.18.151.231",
-            "server_port": 443,
-            "uuid": "eaf76557-2219-4799-8171-d7020adfefd0",
+            "uuid": "b004e898-f6cf-54a5-d281-f063d741ad53",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "steep-lake-615e.xeremed6978165.workers.dev",
+                "server_name": "xray-ckc68nno-swift-harbor-8.cloady.io",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -177,9 +127,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws",
+                "path": "/3e0261245277336d",
                 "headers": {
-                    "Host": "steep-lake-615e.xeremed6978165.workers.dev"
+                    "Host": "xray-ckc68nno-swift-harbor-8.cloady.io"
                 }
             }
         }
