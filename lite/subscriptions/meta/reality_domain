@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"alb1.angelsleep9.com","port":443,"uuid":"df97ce68-477f-4484-94c7-79eccab7319d","tls":true,"network":"raw","client-fingerprint":"firefox","udp":true,"servername":"alb1.angelsleep9.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tXhsg663V1Ia_YWMtQMWQRaZouyONXknQ16OLMAdFXs","short-id":"28ffd89d510a739b"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"slot1.ipoxxo.online","port":443,"uuid":"140ae4d4-9b80-41b5-9667-289cb4053aaa","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"github.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs","short-id":"f150baf0f97c7aed"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
 
   - name: 🌍 Global Media
     type: select

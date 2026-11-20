@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56",
             "type": "vless",
-            "server": "render.com",
-            "server_port": 2087,
-            "uuid": "316acccc-720d-499e-a92d-9caa7a26c495",
-            "flow": "",
+            "server": "slot1.ipoxxo.online",
+            "server_port": 443,
+            "uuid": "140ae4d4-9b80-41b5-9667-289cb4053aaa",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "n5r.droonix.ir",
+                "server_name": "github.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs",
+                    "short_id": "f150baf0f97c7aed"
                 }
             }
         }
