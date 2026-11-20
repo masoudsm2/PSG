@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 50"
+                "🇩🇪 DE | 🔴 | trojan | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 50"
+                "🇩🇪 DE | 🔴 | trojan | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,25 +109,18 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 50",
+            "tag": "🇩🇪 DE | 🔴 | trojan | @NamiraConfigs | 49",
             "type": "trojan",
-            "server": "ldjfrfhvdvfg-production.up.railway.app",
+            "server": "193.108.119.96",
             "server_port": 443,
-            "password": "J312MA7LbSkAk--8",
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
-                "server_name": "ldjfrfhvdvfg-production.up.railway.app",
+                "server_name": "learn.iloverussia2026.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/00utMY",
-                "headers": {
-                    "Host": "ldjfrfhvdvfg-production.up.railway.app"
                 }
             }
         }

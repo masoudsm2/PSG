@@ -89,9 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
-                "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 51",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 52"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
-                "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 51",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 52"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,66 +109,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "golf-production-a1757e78.up.railway.app",
+            "server": "71b840t.de7.h1clayd.click",
             "server_port": 443,
-            "uuid": "a82f191d-401f-4ca7-ae1b-f7c656d671aa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "golf-production-a1757e78.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "ch.outforyou.ir",
-            "server_port": 46280,
-            "uuid": "6f82218b-ab3d-4ff2-b3c9-4547c43cf531",
+            "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "amp-api-edge.apps.apple.com",
+                "server_name": "71b840t.de7.h1clayd.click",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ",
-                    "short_id": "e53690af52736850"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "6cc3b8a3-e359-4bd3-a6f0-bf97ef87e4b1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "in.tradingview.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
+                    "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
+                    "short_id": "e572b6579ea525d4"
                 }
             }
         }
