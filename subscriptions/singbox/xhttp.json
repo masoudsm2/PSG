@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 52"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 52"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,25 +109,20 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "5952962f-6a85-4ff2-9d45-c51de43fa843",
-            "flow": "xtls-rprx-vision",
+            "server": "92.223.124.62",
+            "server_port": 443,
+            "uuid": "10e60745-9685-4b7e-8539-a1fd06ce0d4e",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "in.tradingview.com",
+                "server_name": "api.gcore.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
                 }
             }
         }
