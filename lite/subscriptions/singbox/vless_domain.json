@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "n4.topingr.ir",
-            "server_port": 8080,
-            "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab",
+            "server": "frn3.mobileemdad.top",
+            "server_port": 443,
+            "uuid": "d01a1295-f5c1-4aa1-a595-06e68f77c157",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "delivery.mp.microsoft.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +126,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk",
-                    "short_id": "433e30cfbff1b1da"
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "070a23aed243"
                 }
             }
         }
