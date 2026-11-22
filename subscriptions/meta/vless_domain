@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 45","type":"vless","server":"welovefoxy.ir","port":27418,"uuid":"88cf0e4f-b329-48ad-848e-452a2fb29f10","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"www.sony.com.sg","flow":"xtls-rprx-vision","reality-opts":{"public-key":"K4WYWOj2q4513ku5iJ5d-2qjnWmmiCBMfw4ThkQEVmA","short-id":"0112935d"}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46","type":"vless","server":"chatgpt.com","port":8443,"uuid":"e88c423d-9f23-4d25-aef0-940571858d58","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"sinavm2.soft10.ir"}
+  - {"name":"🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"poland.biznes.lol","port":443,"uuid":"7d43670b-6b08-45b9-8a24-8f3971abc132","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"poland.biznes.lol","flow":"xtls-rprx-vision","reality-opts":{"public-key":"j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk"}}
+  - {"name":"🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"rt.velnix-services.ir","port":17550,"uuid":"4690521d-18a6-47de-bdef-85fd353e270e","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"play.google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI","short-id":"9ab3bfdd8ec94f3f"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 45'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 51'
 
   - name: 🌍 Global Media
     type: select

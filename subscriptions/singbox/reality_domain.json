@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 45",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 49"
+                "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 50",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 45",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 49"
+                "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 50",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,48 +111,48 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 45",
+            "tag": "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "welovefoxy.ir",
-            "server_port": 27418,
-            "uuid": "88cf0e4f-b329-48ad-848e-452a2fb29f10",
+            "server": "poland.biznes.lol",
+            "server_port": 443,
+            "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.sony.com.sg",
+                "server_name": "poland.biznes.lol",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "K4WYWOj2q4513ku5iJ5d-2qjnWmmiCBMfw4ThkQEVmA",
-                    "short_id": "0112935d"
+                    "public_key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "frn3.mobileemdad.top",
-            "server_port": 443,
-            "uuid": "d01a1295-f5c1-4aa1-a595-06e68f77c157",
+            "server": "rt.velnix-services.ir",
+            "server_port": 17550,
+            "uuid": "4690521d-18a6-47de-bdef-85fd353e270e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
+                "server_name": "play.google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
-                    "short_id": "070a23aed243"
+                    "public_key": "11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI",
+                    "short_id": "9ab3bfdd8ec94f3f"
                 }
             }
         }
