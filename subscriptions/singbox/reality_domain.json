@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 46"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 46"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,48 +111,48 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 45",
             "type": "vless",
-            "server": "n1.topingr.ir",
+            "server": "fdn4.gmax12.ir",
             "server_port": 8080,
-            "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab",
+            "uuid": "e34e3a48-bdde-4fd0-ac17-c60c00d7000b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk",
-                    "short_id": "433e30cfbff1b1da"
+                    "public_key": "tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc",
+                    "short_id": "eb11f7630faaaf60"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
-            "server": "n4.topingr.ir",
-            "server_port": 8080,
-            "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab",
+            "server": "vip.xoamrz.ir",
+            "server_port": 35464,
+            "uuid": "e848d0b5-ef9a-4f04-8085-38a432f7151b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "au2-images.shop.samsung.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk",
-                    "short_id": "433e30cfbff1b1da"
+                    "public_key": "IV5mtlwbCtW7uS0_v6dfoCRVzEeKmB0d9V4wIK2K-UQ",
+                    "short_id": "c3ab7073b6fed589"
                 }
             }
         }
