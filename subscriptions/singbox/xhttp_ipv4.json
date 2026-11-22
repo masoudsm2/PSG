@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "92.223.124.62",
-            "server_port": 443,
-            "uuid": "10e60745-9685-4b7e-8539-a1fd06ce0d4e",
-            "flow": "",
+            "server": "31.77.144.255",
+            "server_port": 8444,
+            "uuid": "95580a09-cce7-4b62-af74-a514083ba9e4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "api.gcore.com",
+                "server_name": "www.amd.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+                    "short_id": "635a76c25a4b1820"
                 }
             }
         }

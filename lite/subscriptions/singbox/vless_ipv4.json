@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 53"
+                "🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @NamiraConfigs | 53"
+                "🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,25 +109,25 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "153.56.229.218",
-            "server_port": 443,
-            "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
+            "server": "212.192.3.63",
+            "server_port": 9543,
+            "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "71b840t.de7.h1clayd.click",
+                "server_name": "storage.yandexcloud.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
-                    "short_id": "e572b6579ea525d4"
+                    "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
+                    "short_id": "123abcdf"
                 }
             }
         }

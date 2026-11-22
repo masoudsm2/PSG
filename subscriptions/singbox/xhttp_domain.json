@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,20 +109,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "chatgpt.com",
-            "server_port": 8443,
-            "uuid": "e88c423d-9f23-4d25-aef0-940571858d58",
-            "flow": "",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "4440dbe9-ec73-4852-a10b-387b0d39c6ad",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sinavm2.soft10.ir",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
                 }
             }
         }

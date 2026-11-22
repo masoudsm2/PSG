@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 50",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 51"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 50",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 51"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,16 +111,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "poland.biznes.lol",
-            "server_port": 443,
-            "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "4440dbe9-ec73-4852-a10b-387b0d39c6ad",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "poland.biznes.lol",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -128,22 +128,22 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
-                    "short_id": ""
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
                 }
             }
         },
         {
-            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "rt.velnix-services.ir",
-            "server_port": 17550,
-            "uuid": "4690521d-18a6-47de-bdef-85fd353e270e",
+            "server": "sto.edgeptr.org",
+            "server_port": 443,
+            "uuid": "0e366659-5f34-4e2c-96ba-9b934574bc61",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "play.google.com",
+                "server_name": "www.lovelive-anime.jp",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -151,8 +151,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI",
-                    "short_id": "9ab3bfdd8ec94f3f"
+                    "public_key": "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0",
+                    "short_id": "f0eb800bd980b00b"
                 }
             }
         }
