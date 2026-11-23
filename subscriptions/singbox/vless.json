@@ -89,11 +89,11 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51",
-                "🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 53"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,11 +101,11 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51",
-                "🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 53"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,39 +117,39 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "panel.jorvexo.ir",
-            "server_port": 1152,
-            "uuid": "4440dbe9-ec73-4852-a10b-387b0d39c6ad",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "in.tradingview.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-                    "short_id": "ead6bdba606219a2"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "sto.edgeptr.org",
+            "server": "n2.fernstatic.com",
             "server_port": 443,
-            "uuid": "0e366659-5f34-4e2c-96ba-9b934574bc61",
+            "uuid": "ad295072-0049-4981-a9aa-6314c43e87e5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.lovelive-anime.jp",
+                "server_name": "n2.fernstatic.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xRIN4AZSp2c_yaCurN9DNoh0q8zSj-AlMCflpb1pwBA",
+                    "short_id": "00a9d4acc75cf31c"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "nldirect.mehchannel.ir",
+            "server_port": 2095,
+            "uuid": "40597883-f773-4a6b-b305-3a6bebfee563",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -157,77 +157,62 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0",
-                    "short_id": "f0eb800bd980b00b"
+                    "public_key": "Jm58PVXROqNIP6cVW-QchyzIjvxvDMxTaA3uLyl3Bgc",
+                    "short_id": "5a84a6fcc2f484a6"
                 }
             }
         },
         {
-            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "31.77.144.255",
-            "server_port": 8444,
-            "uuid": "95580a09-cce7-4b62-af74-a514083ba9e4",
+            "server": "ofjz337a.coreping.ir",
+            "server_port": 8443,
+            "uuid": "ccb4f3c0-3ac6-0001-9bf9-a12e86e0cc07",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.amd.com",
+                "server_name": "48dbe9596b336828.freeino.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
-                    "short_id": "635a76c25a4b1820"
+                    "fingerprint": "chrome"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "146.103.42.165",
-            "server_port": 9543,
-            "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
+            "server": "hageh.starmizban.ir",
+            "server_port": 2087,
+            "uuid": "ccb4f3c0-3ac6-402b-9bf9-a12e86e0cc07",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "storage.yandexcloud.net",
+                "server_name": "ca55679ab64740e0.fekr-nakonam.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
-                    "short_id": "123abcdf"
+                    "fingerprint": "chrome"
                 }
             }
         },
         {
-            "tag": "🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "212.192.3.63",
-            "server_port": 9543,
-            "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
+            "server": "uqrxjbu.arvono.ir",
+            "server_port": 2096,
+            "uuid": "ccb4f3c0-3ac6-0001-9bf9-a12e86e0cc07",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "storage.yandexcloud.net",
+                "server_name": "2d8b4d198c830fe2.moeinconsert.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
-                    "short_id": "123abcdf"
+                    "fingerprint": "chrome"
                 }
             }
         }
