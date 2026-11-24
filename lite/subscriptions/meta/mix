@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54","type":"trojan","server":"170.101.101.19","port":443,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false}
+  - {"name":"❔ XX | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"193.106.221.121","port":777,"uuid":"5fa77250-c3c3-48a2-b432-1f9c6e718571","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"it.nvidia.com","reality-opts":{"public-key":"5Cf3coHU6y-v8Sn3avXr7v5fw4s5AdPMu1_RNITmqTQ","short-id":"14"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54'
+      - '❔ XX | 🟢 | vless | @NamiraConfigs | 52'
 
   - name: 🌍 Global Media
     type: select
