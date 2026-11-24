@@ -89,7 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50"
+                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 46",
+                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50"
+                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 46",
+                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,25 +111,38 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
-            "server": "homestead-walloping.sports-streams.org",
+            "server": "api.ferrin.uk",
             "server_port": 443,
-            "uuid": "f579e279-cdff-4175-a92d-350374fc14dc",
-            "flow": "xtls-rprx-vision",
+            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "blog.worldoftanks.eu",
+                "server_name": "7d1a74fd.ferrin.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
+                }
+            }
+        },
+        {
+            "tag": "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "api.ferrin.uk",
+            "server_port": 443,
+            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "7d1a74fd.ferrin.uk",
+                "insecure": true,
+                "utls": {
                     "enabled": true,
-                    "public_key": "iQCvXMQZR-eT2MVmXP7c99cvcle22mVWuKem_345BWM",
-                    "short_id": ""
+                    "fingerprint": "chrome"
                 }
             }
         }
