@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇧🇾 BY | 🟢 | vless | @NamiraConfigs | 47",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 48",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
+                "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇧🇾 BY | 🟢 | vless | @NamiraConfigs | 47",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 48",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
+                "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50",
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,71 +111,48 @@
             "type": "direct"
         },
         {
-            "tag": "🇧🇾 BY | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "178.172.227.124",
-            "server_port": 10444,
-            "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
+            "server": "185.227.137.69",
+            "server_port": 443,
+            "uuid": "8b2db5b1-e042-44b1-891a-220f948fe827",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ads.x5.ru",
+                "server_name": "www.google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
-                    "short_id": "8debcf36f1cc69ff"
+                    "public_key": "ygBHinch-Hdr9jq11BOT0pQqVEcRFrZ0y9_1jYeF0H8",
+                    "short_id": "11e2da7275c7dff3"
                 }
             }
         },
         {
-            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 48",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "169.40.42.231",
+            "server": "y2wh6v.salamatradio.net",
             "server_port": 443,
-            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+            "uuid": "36019976-8d8c-451c-a1d4-cb412d6fbcc9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "www.mozilla.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-                    "short_id": "c39cc7310a"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
-            "type": "vless",
-            "server": "93.123.101.198",
-            "server_port": 443,
-            "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "de14-r.bankai.party",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-                    "short_id": ""
+                    "public_key": "Um2DEwDkZRQboYGov-IChhlWbKRmQ1P8B2FVEcTrzUE",
+                    "short_id": "e8d7e3da0692598d"
                 }
             }
         }

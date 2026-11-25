@@ -89,9 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
+                "🇵🇱 PL | 🟢 | trojan | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 52",
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53",
-                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
+                "🇵🇱 PL | 🟢 | trojan | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,50 +109,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 52",
+            "tag": "🇵🇱 PL | 🟢 | trojan | @NamiraConfigs | 48",
             "type": "trojan",
-            "server": "170.101.101.131",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "server": "78.17.171.140",
+            "server_port": 2053,
+            "password": "t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX",
             "tls": {
                 "enabled": true,
-                "server_name": "blog.explorecreativejobsandenhanceyourcareerportfolio.com",
+                "server_name": "ra-p1.victorycloud.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53",
-            "type": "trojan",
-            "server": "170.101.101.237",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54",
-            "type": "trojan",
-            "server": "170.101.101.19",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/2fc2ec03a65d451dffa4592d68c43a29?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM",
+                "headers": {
+                    "Host": "ra-p1.victorycloud.ru"
                 }
             }
         }
