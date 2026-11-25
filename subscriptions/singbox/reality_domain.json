@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "y2wh6v.salamatradio.net",
-            "server_port": 443,
-            "uuid": "36019976-8d8c-451c-a1d4-cb412d6fbcc9",
+            "server": "de2.fusetea.ir",
+            "server_port": 5050,
+            "uuid": "09c439fd-489e-4ae3-9264-ee9f08996c53",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.mozilla.org",
+                "server_name": "app.stiga.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +126,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Um2DEwDkZRQboYGov-IChhlWbKRmQ1P8B2FVEcTrzUE",
-                    "short_id": "e8d7e3da0692598d"
+                    "public_key": "hgshDDK6SMiUnehNsuzhP5vQA0kDgCfW2LIw1zLft20",
+                    "short_id": "3a774e5fbeb5d406"
                 }
             }
         }

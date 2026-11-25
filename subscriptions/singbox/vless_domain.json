@@ -90,9 +90,8 @@
                 "auto",
                 "direct",
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,9 +100,8 @@
             "interval": "10m",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52"
+                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -117,47 +115,59 @@
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "static.69.71.203.116.clients.your-server.de",
-            "server_port": 8443,
-            "uuid": "5c74ed1a-ea18-4c7b-930f-492f387d6f63",
+            "server": "de2.fusetea.ir",
+            "server_port": 5050,
+            "uuid": "09c439fd-489e-4ae3-9264-ee9f08996c53",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "static.241.103.99.91.clients.your-server.de",
+                "server_name": "app.stiga.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hgshDDK6SMiUnehNsuzhP5vQA0kDgCfW2LIw1zLft20",
+                    "short_id": "3a774e5fbeb5d406"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 50",
+            "type": "vless",
+            "server": "SUR.Deev-Guard.ir",
+            "server_port": 3036,
+            "uuid": "d1ec39e3-ad7b-4b65-9f65-813696f9a04e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
+            "type": "vless",
+            "server": "axe.mastopen14.ir",
+            "server_port": 443,
+            "uuid": "737bf975-f7ce-4326-b1cb-cecd39ba7d60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mojito1703.mastopen14.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/f13eb798-4cc9-41b0-a955-88a2fb289821",
+                "headers": {
+                    "Host": "mojito1703.mastopen14.ir"
+                }
             }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50",
-            "type": "vless",
-            "server": "fr.pasmazy1.ir",
-            "server_port": 43433,
-            "uuid": "9c1e88e6-d3b6-416a-91d4-5acdf2f7ef0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "tr.pasmazy1.ir",
-            "server_port": 4537,
-            "uuid": "9c1e88e6-d3b6-416a-91d4-5acdf2f7ef0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "c0ab1e52bc0e3321.ultradns.space",
-            "server_port": 8880,
-            "uuid": "6e3e3312-b3b8-4551-823c-adc3134a4d19",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

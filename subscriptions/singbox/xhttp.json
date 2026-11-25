@@ -89,8 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 46",
-                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 49"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 46",
-                "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 49"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,38 +109,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 46",
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "api.ferrin.uk",
-            "server_port": 443,
-            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
-            "flow": "",
+            "server": "187.54.12.146",
+            "server_port": 10455,
+            "uuid": "d27390ea-4177-4ee3-a3fe-2cf513f33f7d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "7d1a74fd.ferrin.uk",
+                "server_name": "addons.mozilla.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇨 SC | 🟢 | vless | @NamiraConfigs | 49",
-            "type": "vless",
-            "server": "api.ferrin.uk",
-            "server_port": 443,
-            "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "7d1a74fd.ferrin.uk",
-                "insecure": true,
-                "utls": {
+                    "fingerprint": "firefox"
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "public_key": "NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c",
+                    "short_id": "54cd1667f48828f9"
                 }
             }
         }
