@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 52"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 52"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,13 +109,27 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "c0ab1e52bc0e3321.ultradns.space",
+            "server": "host_1.tufqav.ir",
             "server_port": 8880,
-            "uuid": "6e3e3312-b3b8-4551-823c-adc3134a4d19",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "uuid": "63b5bce1-07a2-d76b-1310-a50569d360b8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gtv1.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IUofyoxI7Pf_Wv6t_3deR86qPTBDdmfwKmXGeIhNXmY",
+                    "short_id": "b41b340d"
+                }
+            }
         }
     ],
     "route": {

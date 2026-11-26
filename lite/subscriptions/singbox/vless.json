@@ -89,7 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52"
+                "❔ XX | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +109,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "❔ XX | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "187.54.12.146",
-            "server_port": 10455,
-            "uuid": "d27390ea-4177-4ee3-a3fe-2cf513f33f7d",
+            "server": "host_1.tufqav.ir",
+            "server_port": 8880,
+            "uuid": "63b5bce1-07a2-d76b-1310-a50569d360b8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "addons.mozilla.org",
+                "server_name": "gtv1.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -126,8 +126,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c",
-                    "short_id": "54cd1667f48828f9"
+                    "public_key": "IUofyoxI7Pf_Wv6t_3deR86qPTBDdmfwKmXGeIhNXmY",
+                    "short_id": "b41b340d"
                 }
             }
         }
