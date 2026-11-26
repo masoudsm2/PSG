@@ -89,10 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 45",
-                "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 46",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 45",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 46",
                 "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 47",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,10 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 45",
-                "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 46",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 45",
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 46",
                 "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 47",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -115,62 +115,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 45",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 45",
             "type": "vless",
-            "server": "tpoo.sublinkplas.ir",
-            "server_port": 12190,
-            "uuid": "b28e9267-bb15-4e09-b126-a49aad8a52a2",
+            "server": "panel.jeprost.ir",
+            "server_port": 443,
+            "uuid": "b1cdf3e3-41bc-4726-abe2-ae03fe0c7a3f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM",
-                    "short_id": "3e5cba1bd6eb6221"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 46",
-            "type": "vless",
-            "server": "tpii.sublinkplas.ir",
-            "server_port": 12190,
-            "uuid": "b28e9267-bb15-4e09-b126-a49aad8a52a2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM",
-                    "short_id": "3e5cba1bd6eb6221"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 47",
-            "type": "vless",
-            "server": "fr1oo.sublinkplas.ir",
-            "server_port": 12190,
-            "uuid": "b28e9267-bb15-4e09-b126-a49aad8a52a2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -178,31 +132,77 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM",
-                    "short_id": "3e5cba1bd6eb6221"
+                    "public_key": "OxB8GilVtbKilKbaux4Ps04HYtRBHPUHHVaomrQjECg",
+                    "short_id": "0ef886b5e078"
                 }
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
-            "server": "nl3ww.sublinkplas.ir",
-            "server_port": 12190,
-            "uuid": "b28e9267-bb15-4e09-b126-a49aad8a52a2",
+            "server": "panel.jeprost.ir",
+            "server_port": 443,
+            "uuid": "a0ae0845-d4f5-483c-b321-00ce501bfae4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM",
-                    "short_id": "aa74a7a98e86f2ed"
+                    "public_key": "OxB8GilVtbKilKbaux4Ps04HYtRBHPUHHVaomrQjECg",
+                    "short_id": "abcbd7"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 47",
+            "type": "vless",
+            "server": "panel.jeprost.ir",
+            "server_port": 443,
+            "uuid": "b294d626-139a-4094-b034-293a4e38ae83",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OxB8GilVtbKilKbaux4Ps04HYtRBHPUHHVaomrQjECg",
+                    "short_id": "0ef886b5e078"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "panel.jeprost.ir",
+            "server_port": 443,
+            "uuid": "d8c4241c-7428-46f9-a3d9-38cf6dd22b76",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OxB8GilVtbKilKbaux4Ps04HYtRBHPUHHVaomrQjECg",
+                    "short_id": "3816"
                 }
             }
         }
